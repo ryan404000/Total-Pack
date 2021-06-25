@@ -1,0 +1,328 @@
+﻿capital = 500
+
+
+oob = "BRA_1936"
+
+set_research_slots = 4
+set_stability = 0.3
+set_war_support = 0.15
+add_opinion_modifier = { target = GER modifier = GER_left_league }
+# Starting tech
+set_technology = {
+	################# infantry ###############
+	infantry_uniforms = 1
+	infantry_weapons = 1
+	tech_Garrison = 1
+	tech_Headquarters = 1
+	semi_motorised_infantry = 1
+	trench_warfare = 1
+	################## support ##################
+	tech_recon = 1
+	subtech_recon_cav_1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	jungle_equipment = 1
+	################## artillery ###############
+	gw_artillery = 1
+	################## armor ##############
+	gwtank = 1
+	generic_armor = 1
+	tech_ac_recon = 1
+	tech_Gun_Carriers = 1
+	################## aircraft ##############
+	early_fighter = 1
+	CAS0 = 1
+	generic_fighter = 1
+	generic_bomber = 1
+	tech_transport_plane_equipment_1 = 1
+	############### economy ############
+    construction0 = 1
+	basic_industry = 1
+	electronic_mechanical_engineering = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns"}
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+	set_naval_oob = "BRA_1936_naval_legacy"
+}
+if = {
+	limit = { has_dlc = "Man the Guns"}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_submarine = 1
+		ww1_ship_hull_light = 1
+		ww1_ship_hull_cruiser = 1
+		ww1_ship_hull_heavy_cruiser = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		pdn_ship_hull_heavy = 1
+		early_battery = 1
+		basic_secondary_battery = 1
+		coastal_defense_ships = 1
+		basic_torpedo = 1
+		mtg_transport = 1
+	}
+	set_naval_oob = "BRA_1936_naval"	
+}
+set_country_flag = monroe_doctrine
+add_ideas = {
+    disarmed_nation
+	public_illiteracy_2
+	incompetent_heavy_industry_2
+	#newconstitution
+	BRA_unreliable_army
+	BRA_coffee_exports
+	BRA_unstable_republic
+	great_depression_brazil
+	BRA_military_restrictions
+}
+
+set_politics = {
+	
+	ruling_party = neutrality
+	last_election = "1934.7.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    democratic = 20
+	fascism = 5
+	communism = 10
+	neutrality = 65
+}
+create_country_leader = {
+	name = "Getúlio Vargas"
+	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	picture = "Portrait_Brazil_Getulio_Vargas.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		father_of_the_poor
+	}
+}
+
+create_country_leader = {
+	name = "Plínio Salgado"
+	desc = "POLITICS_PLINIO_SALGADO_DESC"
+	picture = "Portrait_Brazil_Plinio_Salgado.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		devoted_corporatist
+	}
+}
+create_country_leader = {
+	name = "Luís Carlos Prestes"
+	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Armando Sales"
+	desc = "POLITICS_ARMANDO_SALES_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+
+set_convoys = 40
+
+create_field_marshal = {
+	name = "Eurico Gaspar Dutra"
+	portrait_path = "gfx/leaders/BRA/Portrait_Brazil_dutra.dds"
+	traits = { jungle_rat fast_planner }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Isidoro Dias Lopes"
+	portrait_path = "gfx/leaders/BRA/Portrait_Brazil_isidoro.dds"
+	traits = { ranger }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mascarenhas de Morais"
+	portrait_path = "gfx/leaders/BRA/Portrait_Brazil_mascarenha.dds"
+	traits = { cavalry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+
+create_corps_commander = {
+	name = "Adalberto Pereira dos Santos"
+	portrait_path = "gfx/leaders/BRA/Portrait_Brazil_adalberto.dds"
+	traits = { trickster }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Canrobert Pereira da Costa"
+	portrait_path = "gfx/leaders/BRA/Portrait_Brazil_canrobert.dds"
+	traits = { ranger }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}		
+
+create_corps_commander = {
+	name = "Francisco José da Silva Júnior"
+	portrait_path = "gfx/leaders/BRA/Portrait_Brazil_francisco.dds"
+	traits = { commando jungle_rat }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Euclides Zenóbio da Costa"
+	portrait_path = "gfx/leaders/BRA/Portrait_Brazil_zenobio.dds"
+	traits = { offensive_doctrine motorized_officer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Pedro Aurélio de Góis Monteiro"
+	portrait_path = "gfx/leaders/BRA/Portrait_Brazil_gois.dds"
+	traits = { offensive_doctrine jungle_rat }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Miguel Costa"
+	portrait_path = "gfx/leaders/BRA/Portrait_Brazil_miguel.dds"
+	traits = { jungle_rat }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Augusto Rademaker"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+	traits = {   }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	create_equipment_variant = {
+		name = "Minas Geras Class"
+		type = ship_hull_pre_dreadnought
+		name_group = BRA_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_0
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_0
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_0
+		}
+	}
+	create_equipment_variant = {
+		name = "Bahia Class"
+		type = ship_hull_cruiser_0
+		name_group = BRA_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_0
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_0
+			fixed_ship_armor_slot = ship_no_armor_cruiser
+			mid_1_custom_slot = ship_light_battery_0
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Para Class"
+		type = ship_hull_light_0
+		name_group = BRA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_0
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_0
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Humaytá Class"
+		type = ship_hull_submarine_1
+		name_group = BRA_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_mine_layer_sub
+		}
+	}
+}

@@ -1,0 +1,123 @@
+﻿
+### OOB ###
+units = {
+	division = {
+		name = "Di 361 Shi"
+		location = 12705
+		division_template = "Reorganized Corps, 1936"
+		#start_experience_factor = 0.2
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 872 Shi"
+		location = 12705
+		division_template = "Reorganized Corps, 1936"
+		start_experience_factor = 0.0
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 883 Shi"
+		location = 12705
+		division_template = "Reorganized Corps, 1936"
+		#start_experience_factor = 0.2
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 14 Jun"
+		location = 12705
+		division_template = "Reorganized Corps, 1936"
+		#start_experience_factor = 0.2
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 710 Jun"
+		location = 12705
+		division_template = "Zhùjūn"
+		start_experience_factor = 0.0
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 811 Jun"
+		location = 12705
+		division_template = "Type 39 Corps"
+		#start_experience_factor = 0.2
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 912 Jun"
+		location = 12705
+		division_template = "Type 39 Corps"
+		start_experience_factor = 0.0
+		#start_equipment_factor = 0.5
+	}
+	division = {#39.7
+		name = "Di 1013 Jun"
+		location = 12705
+		division_template = "Type 39 Corps"
+		#start_experience_factor = 0.2
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 1114 Jun"
+		location = 12705
+		division_template = "Type 39 Corps"
+		start_experience_factor = 0.0
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 1215 Jun"
+		location = 12705
+		division_template = "Type 39 Corps"
+		start_experience_factor = 0.0
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 1316 Jun"
+		location = 12705
+		division_template = "Type 39 Corps"
+		start_experience_factor = 0.0
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 1317 Jun"
+		location = 12705
+		division_template = "Type 39 Corps"
+		start_experience_factor = 0.0
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 1318 Jun"
+		location = 12705
+		division_template = "Type 39 Corps"
+		start_experience_factor = 0.0
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 1417 Jun"
+		location = 12705
+		division_template = "Zhùjūn"
+		#start_experience_factor = 0.2
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 1619 Jun"
+		location = 12705
+		division_template = "Zhùjūn"
+		#start_experience_factor = 0.2
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 1720 Jun"
+		location = 12705
+		division_template = "Zhùjūn"
+		#start_experience_factor = 0.2
+		#start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Di 1721 Jun"
+		location = 12705
+		division_template = "Zhùjūn"
+		#start_experience_factor = 0.2
+		#start_equipment_factor = 0.5
+	}
+}

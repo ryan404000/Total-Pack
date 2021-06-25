@@ -1,0 +1,552 @@
+ideas = {
+	# MILITARY
+	
+	country = {
+	
+		aass = {
+
+			picture = ast_all_in
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			available = {
+				has_capitulated = no
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		
+		governorate_eth_1 = {
+
+			picture = por_colonial_assimilation
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = -0.2
+				fascism_drift = 0.01
+				compliance_growth = 0.05
+				resistance_decay = 0.1
+			}
+		}
+		
+		governorate_eth_2 = {
+
+			picture = por_colonial_assimilation
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = -0.15
+				fascism_drift = 0.01
+				compliance_growth = 0.01
+				resistance_decay = 0.05	
+			}
+		}
+		
+		education_increase = {
+
+			picture = FRA_market_dynamism
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				has_capitulated = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				research_speed_factor = 0.07
+			}
+		}
+		
+		bank_of_eth = {
+
+			picture = SPR_seize_the_gold_reserves
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				has_capitulated = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		no_national = {
+
+			picture = SPR_seize_the_gold_reserves
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				has_capitulated = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				resistance_target = 0.15
+				compliance_growth = -0.1
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+		
+		german_cas_forces = {
+
+			picture = air_support_focus
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				is_in_faction_with = GER
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				air_cas_present_factor = 0.05
+			}
+		}
+		
+		ETH_threat_navy = {
+
+			picture = FIN_convoy
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+		
+		ETH_year_plan = {
+
+			picture = generic_plan
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		ETH_pacific2 = {
+
+			picture = tora
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			targeted_modifier = {
+				tag = RAJ
+				attack_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = AST
+				attack_bonus_against = 0.15
+			}
+		}
+		
+		ETH_middleeast2 = {
+
+			picture = barbarossa
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			targeted_modifier = {
+				tag = PER
+				attack_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = IRQ
+				attack_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.15
+			}
+		}
+	
+	}
+
+
+	political_advisor = {
+
+		ETH_bedjironde_tekle_hawariate = {
+
+			picture = generic_political_advisor_arab_2
+
+			allowed = {
+				original_tag = ETH
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		ETH_ras_imru_haile_selassie = {
+
+			picture = generic_political_advisor_arab_1
+				
+			allowed = {
+				original_tag = ETH
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		ETH_makonnen_endelkatchew = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	army_chief = {
+
+		ETH_desta_damtew = {
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ETH
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ETH_ras_kassa = {
+
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		ETH_john_robinson = {
+
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ETH_mesfin_sileshi = {
+
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		ETH_ras_seyum = {
+
+			picture = generic_navy_arab_2
+			
+			allowed = {
+				original_tag = ETH
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ETH_lij_johannes = {
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ETH
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		ETH_woldemeskal_tariku = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			ledger = army
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		ETH_haile_abba_mersa = {
+
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			ledger = army
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ETH_lij_abiye_abebe = {
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			ledger = army
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ETH_fitauri_zawde_gobena = {
+
+			picture = generic_air_arab_2
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			ledger = air
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ETH_dedja_zinatch_nadeon = {
+
+			picture = generic_navy_arab_2
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			ledger = navy
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		ETH_ras_kebbede = {
+			
+			picture = generic_army_arab_2
+
+			allowed = {
+				original_tag = ETH
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			ledger = army
+			
+			traits = { military_theorist }
+		}
+		
+		ETH_wondossen_kassa = {
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			ledger = navy
+			
+			traits = { naval_theorist }
+		}	
+
+		ETH_gabriel_zawde_gilaneh = {
+
+			picture = generic_air_arab_2
+			
+			allowed = {
+				original_tag = ETH
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			ledger = air
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}

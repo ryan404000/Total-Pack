@@ -1,0 +1,10 @@
+﻿air_wings = {
+	
+	129 = { 
+		###"121th_Squadron
+		UK_fighther_equipment_2_c= {
+			owner = "ENG" 
+			amount = 100
+		}
+	}
+}

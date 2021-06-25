@@ -1,0 +1,169 @@
+﻿capital = 289
+
+oob = "SIA_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SIA_1936_naval_mtg"
+	else = {
+		set_naval_oob = "SIA_1936_naval_legacy"
+	}
+}
+
+set_research_slots = 4
+
+# Starting tech
+set_technology = {
+	##################### infantry ###############
+	infantry_weapons = 1
+	infantry_uniforms = 1
+	tech_Headquarters = 1
+	semi_motorised_infantry = 1
+	tech_support = 1
+	################ artillery #############	
+	gw_artillery = 1
+	################### armor #############
+	gwtank = 1
+	tech_ac_recon = 1
+	generic_armor = 1
+	tech_Gun_Carriers = 1	
+	############## aircraft ##############	
+	early_fighter = 1
+	early_bomber = 1
+	generic_fighter = 1
+	generic_bomber = 1
+	CAS0 = 1
+	############### economy ############	
+	construction0 = 1
+	basic_industry = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		ww1_ship_hull_light = 1
+		early_battery = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+	}
+}
+set_convoys = 20
+add_ideas = {
+	incompetent_heavy_industry
+	incompetent_industry_fake_navy
+	public_illiteracy_2
+	SIA_extraterritoriality_idea
+}
+set_politics = {
+	
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    democratic = 6
+	fascism = 16
+	communism = 8
+	neutrality = 70
+}
+create_country_leader = {
+	name = "Phraya Phahon"
+	desc = "POLITICS_PHRAYA_PHAHON_DESC"
+	picture = "Portrait_Siam_Phraya_Phahon.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Plaek Phibunsongkhram"
+	desc = "POLITICS_PHIBUN_DESC"
+	picture = "Portrait_Siam_Plaek_Pibulsongkram.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Phin Choonhavan"
+	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Phin_Choonhavan.dds"
+	traits = { ranger }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Adul Adulyadejchrat"
+	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Adul_Adulyadejchrat.dds"
+	traits = { bearer_of_artillery }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Sindhu Kamolnavin"
+	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Sindhu_Kamolnavin.dds"
+	traits = { blockade_runner }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Thawan Thamrongnawasawat"
+	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Thawan_Thamrongnawasawat.dds"
+	traits = { ironside }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+### VARIANTS ###
+# 1936 Start #
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Ship Variants ###
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	# Destroyers #
+	create_equipment_variant = {
+		name = "Phra Ruang Class"		# British R-class		
+		type = ship_hull_light_0
+		name_group = SIA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_0
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+}

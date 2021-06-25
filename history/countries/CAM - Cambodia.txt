@@ -1,0 +1,169 @@
+﻿capital = 286 #Phnom Penh NOT on the map as VP!
+
+oob = "CAM_1936"
+
+set_research_slots = 3
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	add_to_tech_sharing_group = french_research
+}
+add_ideas = {
+     incompetent_heavy_industry
+	incompetent_industry_fake_navy
+	public_illiteracy_2
+}
+add_opinion_modifier = { target = GER modifier = GER_left_league }
+# Starting tech
+set_technology = {
+	################# infantry ###############
+	infantry_uniforms = 1
+	infantry_weapons = 1
+	tech_Garrison = 1
+	tech_Headquarters = 1
+	################## support ##################
+    tech_recon = 1 
+	subtech_recon_cav_1 = 1
+	tech_military_police = 1
+	tech_support = 1
+	jungle_equipment = 1
+	################## artillery ###############
+	gw_artillery = 1
+	################## armor ##############
+	generic_armor = 1
+	tech_Gun_Carriers = 1
+	################## aircraft ##############
+	generic_fighter = 1
+	generic_bomber = 1
+	############### economy ############
+	construction0 = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		 has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		ww1_ship_hull_light = 1
+		ww1_ship_hull_cruiser = 1
+		ww1_ship_hull_heavy_cruiser = 1
+		coastal_defense_ships = 1
+		pdn_ship_hull_heavy = 1
+		early_battery = 1
+	}
+}
+
+set_politics = {
+
+	ruling_party = neutrality
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+    democratic = 35
+	fascism = 2
+	communism = 23
+	neutrality = 40
+}
+
+create_country_leader = {
+	name = "Norodom Sihanouk"
+	desc = "POLITICS_NORODOM_SIHANOUK_DESC"
+	picture = "gfx/leaders/CAM/Portrait_Khmer_Norodom_Sihanouk.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Son Ngoc Thanh"
+	desc = "POLITICS_SON_NGOC_THANH_DESC"
+	picture = "gfx/leaders/CAM/Portrait_Khmer_Son_Ngoc_Thanh.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tou Samouth"
+	desc = "POLITICS_TOU_SAMOUTH_DESC"
+	picture = "gfx/leaders/CAM/Portrait_Khmer_Tou_Samouth.dds"
+	expire = "1962.7.9"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+#non standard english alphabet character
+create_country_leader = {
+	name = "Sisowath Youtévong"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	expire = "1953.3.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Norodom Sihanouk" 
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jules Brévié"
+	desc = ""
+	picture = "gfx/leaders/CAM/Jules_Brevie.tga"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Georges Catroux"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	traits = {  }  
+	skill = 2
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Jean Decoux"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
