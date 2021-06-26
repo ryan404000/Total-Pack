@@ -589,8 +589,8 @@ technologies = {
 	### Level I Concentrated Industry ###
 	concentrated_industry = {
 
-		industrial_capacity_factory = 0.05
-		global_building_slots_factor = 0.1
+		industrial_capacity_factory = 0.07
+		global_building_slots_factor = 0.15
 		conscription = -0.005
 		industry_air_damage_factor = 0.1
 		##
@@ -689,7 +689,7 @@ technologies = {
 	dispersed_industry = {
 
 		industrial_capacity_factory = 0.05
-		industry_air_damage_factor = -0.1
+		industry_air_damage_factor = -0.15
 		global_building_slots_factor = 0.05
 		conscription = -0.005
 		### 
@@ -788,7 +788,7 @@ technologies = {
 	concentrated_industry2 = {
 
 		industrial_capacity_factory = 0.05
-		global_building_slots_factor = 0.1
+		global_building_slots_factor = 0.15
 		conscription = -0.005
 		### Next tech level
 		path = {
@@ -860,7 +860,7 @@ technologies = {
 	### Level III Concentrated Industry ###
 	concentrated_industry3 = {
 
-		industrial_capacity_factory = 0.06
+		industrial_capacity_factory = 0.07
 		global_building_slots_factor = 0.1
 		conscription = -0.005
 		### Next tech level
@@ -949,9 +949,9 @@ technologies = {
 	### Level III Dispersed Industry ###
 	dispersed_industry3 = {
 
-		industrial_capacity_factory = 0.06
+		industrial_capacity_factory = 0.07
 		line_change_production_efficiency_factor = -0.05
-		global_building_slots_factor = 0.05
+		global_building_slots_factor = 0.07
 		conscription = -0.005
 		### Next tech level
 		path = {
@@ -1041,7 +1041,7 @@ technologies = {
 	concentrated_industry4 = {
 
 		industrial_capacity_factory = 0.07
-		global_building_slots_factor = 0.1
+		global_building_slots_factor = 0.15
 		conscription = -0.005
 		production_speed_industrial_complex_factor = -0.05
 		### Next tech level
@@ -1131,7 +1131,7 @@ technologies = {
 	dispersed_industry4 = {
 
 		industrial_capacity_factory = 0.07
-		line_change_production_efficiency_factor = -0.05
+		line_change_production_efficiency_factor = -0.10
 		global_building_slots_factor = 0.05
 		conscription = -0.005
 		production_speed_industrial_complex_factor = -0.05
