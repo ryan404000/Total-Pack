@@ -9767,15 +9767,29 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 				}
 				}
 				
-				116 = { add_claim_by = ROOT }
-				182 = { add_claim_by = ROOT }
-				183 = { add_claim_by = ROOT }
-				164 = { add_core_of = ROOT }
-				185 = { add_claim_by = ROOT }
-				186 = { add_claim_by = ROOT }
-				47 = { add_claim_by = ROOT }
-				187 = { add_claim_by = ROOT }
-				184 = { add_claim_by = ROOT }
+				44 = { add_core_of = ROOT }
+            	105 = { add_core_of = ROOT }
+            	804 = { add_core_of = ROOT }
+            	805 = { add_core_of = ROOT }
+            	185 = { add_core_of = ROOT }
+            	186 = { add_core_of = ROOT }
+            	813 = { add_core_of = ROOT }
+            	802 = { add_core_of = ROOT } #vermont
+            	164 = { add_core_of = ROOT }
+            	183 = { add_core_of = ROOT }
+            	735 = { add_core_of = ROOT }
+            	1 = { add_core_of = ROOT }
+            	177 = { add_core_of = ROOT }
+            	116 = { add_core_of = ROOT }
+            	183 = { add_core_of = ROOT }
+                448 = { add_core_of = ROOT }
+				661 = { add_core_of = ROOT }
+				449 = { add_core_of = ROOT }
+				662 = { add_core_of = ROOT }
+				450 = { add_core_of = ROOT }
+				451 = { add_core_of = ROOT }
+				663 = { add_core_of = ROOT }
+
 		}
 	} # next focus, what to do with king emanuel
 
