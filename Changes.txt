@@ -1,5 +1,3 @@
-Start Spain with Tech - Basic Infantry Trucks
-Change Italy from joining war on joining Axis.
 Imperium Romanum Focus give cores
     --  kodiak notes
         - added the following cores:
@@ -56,9 +54,34 @@ Imperium Romanum Focus give cores
                 Bursa (340)
                 Constantinople (797)
                 Edirne (341)
-            
+Each Triumph will require:
+- Focus to complete
+--- Requires control of each province
+--- Gives 'Unlock Romanization Decisions'
+--- Unlocks 'Exploit Resources' Decisions 
 
+In the Triumph Decision Category, each decision will be PER STATE and be 'Romanize X' in a given region
+- Requires >70% Compliance
+- Requires <20% Resistance
+- Requires 25 PP per decision per state (so Macedonia would be one decision, Thrace another)
+- Probably will include a timer (45-90 days, for example)
+- Adds Core to that state
+- Adds 4% recruitable population to the state, e.g. the state of albania will get 38k manpower in that state
 
+In the Exploit Resources Decisions, it will require:
+- Triumph done for that state (using state flags, so a Triumph flag would exist
+- 3-6 Civs
+- 45-90 days depending on resource, amount, etc.
+
+This would be limited to the state involved; so like, Thrace has Chromium and would it put extra Chromium. and other "historical" examples. Another way to do this is to add steel refineries to the state that might not have any historical data
+
+Libya Ideas:
+	Develop Libya gives cores on coastal libya (Needs compliance %)
+	Oil Field Focus - Increase # of oil it gives, and cores interior Libya (Needs compliance %)        
+
+Change Italy from joining war on joining Axis.
 Unite Iberia (spanish fascist, left side) gives cores
-Iberian Pact - No Faction, Y/N event for Portugal to be puppeted
-amogus
+
+Iberian Pact - No Faction, Y/N event for Portugal to be puppeted - DONE
+Start Spain with Tech - Basic Infantry Trucks - DONE
+
