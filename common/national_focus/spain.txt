@@ -3950,9 +3950,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			custom_effect_tooltip = SPA_the_iberian_pact_tt
-			custom_effect_tooltip = SPA_the_iberian_pact_tt_2
-			POR = { country_event = { id = lar_spain.25 hours = 12 random_hours = 36 } }
+			SPA = { puppet = POR }
 		}
 	}
 
@@ -3989,22 +3987,11 @@ focus_tree = {
 			set_rule = {
 				can_create_factions = yes
 			}
-			create_faction = SPA_latin_bloc
-			every_other_country = {
-				limit = {
-					OR = {
-						original_tag = POR
-						original_tag = CAT
-						original_tag = NAV
-						original_tag = GLC
-						tag = VIC
-						original_tag = ITA
-					}
-					is_in_faction = no
-				}
-				country_event = { id = lar_spain.30 hours = 12 random_hours = 36 }
-			}
-			hidden_effect = { news_event = { id = lar_news.19 hours = 6 } }
+			SPA = { add_state_core = 180 }
+			SPA = { add_state_core = 181 }
+			SPA = { add_state_core = 112 }
+			SPA = { add_state_core = 795 }
+			SPA = { add_state_core = 179 }								
 		}
 	}
 
