@@ -2720,7 +2720,6 @@ focus_tree = {
 					}
 				}
 			}
-			NOT = { has_completed_focus = SPA_the_latin_bloc }
 			NOT = { has_global_flag = POR_iberian_summit_in_progress_flag }
 		}
 		bypass = {
@@ -3958,7 +3957,6 @@ focus_tree = {
 		id = SPA_the_latin_bloc
 		available = {
 			has_global_flag = scw_over
-			NOT = { has_completed_focus = SPA_join_the_axis }
 		}
 		bypass = {
 		}
