@@ -825,10 +825,10 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 5
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 5
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -836,10 +836,10 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 5
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 5
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -847,10 +847,10 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 5
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 5
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -858,10 +858,10 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 5
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 5
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -869,10 +869,10 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 5
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 5
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -880,10 +880,10 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 5
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 5
 			}
 		}
 	}
@@ -4067,7 +4067,6 @@ focus_tree = {
 		icon = GFX_SOV_security_baltic
 		prerequisite = { focus = SOV_improve_stalin_line }
 		prerequisite = { focus = SOV_anti_capitalist_diplomacy }
-		mutually_exclusive = { focus = SOV_afganistan }
 		x = 16
 		y = 4
 		cost = 4.5
@@ -4616,7 +4615,7 @@ focus_tree = {
 			    hidden_effect = {
 					set_building_level = {
 						type = bunker
-						level = 2
+						level = 6
 						province = {
 							all_provinces = yes
 							limit_to_border = no
@@ -4655,20 +4654,20 @@ focus_tree = {
 				hidden_effect = {
 					add_building_construction = {
 						type = bunker
-						level = 2
+						level = 4
 						province = 3529
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
-						level = 2
+						level = 4
 						province = 11474
 						instant_build = yes
 					}
 				}
 				set_building_level = {
 						type = bunker
-						level = 3
+						level = 5
 						province = {
 							all_provinces = yes
 							limit_to_border = no
@@ -5309,7 +5308,6 @@ focus_tree = {
 	focus = {
 		id = SOV_afganistan
 		icon = GFX_focus_attack_afghanistan
-		mutually_exclusive = { focus = SOV_baltic_security }
 		prerequisite = { focus = SOV_anti_capitalist_diplomacy }
 		available = {
             OR = {
