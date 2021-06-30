@@ -54,6 +54,7 @@ Imperium Romanum Focus give cores
                 Bursa (340)
                 Constantinople (797)
                 Edirne (341)
+
 Each Triumph will require:
 - Focus to complete
 --- Requires control of each province
@@ -73,7 +74,82 @@ In the Exploit Resources Decisions, it will require:
 - 3-6 Civs
 - 45-90 days depending on resource, amount, etc.
 
-This would be limited to the state involved; so like, Thrace has Chromium and would it put extra Chromium. and other "historical" examples. Another way to do this is to add steel refineries to the state that might not have any historical data
+New Exploit Resource Decisions by area:
+- Illyria
+    Expand Montenegrin Dockyards
+        Adds 5 Dockyards
+        Adds 5 Building Slots
+        Requires 9 Civs for 45 days
+    Montenegrin Tungsten Mines
+        Adds 24 Tungsten
+    Develop Dalmatian Industries
+        Adds 4 Mils
+        Adds 2 Civs
+        Adds 6 Building Slots
+        Requires 12 Civs for 90 Days
+
+- Albania
+    Expand Iron Mines and Refineries (Two Decisions)
+        Adds 12/24 Steels 
+        Adds 2/2 Steel Refineries
+        Adds 2/2 Building Slots
+        Requires 6 Civs for 45 days
+    Albanian Synthetics
+        Adds 3 Synthetic Oil Refineries
+        Adds 3 Rubber Refineries
+        Adds 3 Fuel Silos
+        Adds 6 Building Slots
+        Requires 12 Civs for 120 Days
+
+- Greece
+    Expand Greek Steel Industry
+        Adds 16 Steel to Epirus, Peloponnese
+        Adds 48 Rare Minerals to Attica
+        Adds 2 Steel Refineries to Epirus, Peloponnese
+        Requires 9 Civs for 60 days
+    Cretan Shipyards
+        Adds 5 Dockyards
+        Adds 5 Building Slots
+        Requires 9 Civs for 45 days
+
+- Egypt
+    Egyptian Synthetics
+        Adds 3 Synthetic Oil Refineries
+        Adds 3 Rubber Refineries
+        Adds 3 Fuel Silos
+        Adds 6 Building Slots
+    Egyptian Grain
+        Adds 6 Civs
+        Adds 6 Building Slots
+        Requires 12 Civs for 90 Days
+
+- Levant
+    Palestinian Aluminum
+        Adds 12/24 Aluminum (Two Decisions)
+        Adds 2/2 Steel Refineries
+        Adds 2/2 Building Slots
+        Requires 6 Civs for 45 days
+    Palestinian Minerals
+        Adds 12/24 Rare Minerals (Two Decisions)
+        Requires 6 Civs for 45 days
+    Syrian Oil
+        Adds 3 Synthetic Oil Refineries
+        Adds 3 Rubber Refineries
+        Adds 3 Fuel Silos
+        Adds 6 Building Slots
+        12 Civs for 90 days
+    Damascus Steel (Two decisions)
+        Adds 24/48 Steels
+        Adds 24/48 Rare Minerals
+        Adds 2/2 Steel Refineries
+        Adds 2/2 Building Slots
+        Requires 8/8 Civs for 60/60 days
+
+- Tunisia
+    Tunisia Dockyards
+        Adds 5 Dockyards
+        Adds 5 Building Slots
+        Requires 9 Civs for 45 days
 
 Libya Ideas:
 	Develop Libya gives cores on coastal libya (Needs compliance %)
