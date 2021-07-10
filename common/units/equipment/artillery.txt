@@ -10,6 +10,7 @@ equipments = {
 			infantry 
 		}
 		group_by = archetype
+		is_convertable = yes
 		
 		interface_category = interface_category_land
 		upgrades = {
@@ -46,6 +47,8 @@ equipments = {
 		visual_level = 0
 		year = 1918
 		reliability = 0.7
+		is_convertable = yes
+		can_convert_from = { artillery_equipment }
 
 		#Defensive Abilities
 		defense = 5		# 16
@@ -73,6 +76,8 @@ equipments = {
 		parent = artillery_equipment_0
 		priority = 50
 		visual_level = 0
+		is_convertable = yes
+		can_convert_from = { artillery_equipment artillery_equipment_0 }
 		
 		#Defensive Abilities
 		defense = 6		# 18
@@ -103,6 +108,8 @@ equipments = {
 		parent = artillery_equipment_1
 		priority = 50
 		visual_level = 1
+		is_convertable = yes
+		can_convert_from = { artillery_equipment artillery_equipment_0 artillery_equipment_1 }
 
 		#Misc Abilities
 		reliability = 0.78 
@@ -134,6 +141,8 @@ equipments = {
 		parent = artillery_equipment_2
 		priority = 50
 		visual_level = 2
+		is_convertable = yes
+		can_convert_from = { artillery_equipment artillery_equipment_0 artillery_equipment_1 artillery_equipment_2 }
 		
 		#Misc Abilities
 		reliability = 0.82
@@ -176,6 +185,7 @@ equipments = {
 		}
 		#Misc Abilities
 		reliability = 0.7
+		is_convertable = yes
 
 		#Defensive Abilities
 		defense = 4			# 12
@@ -202,6 +212,8 @@ equipments = {
 		archetype = mountain_artillery_equipment
 		priority = 50
 		visual_level = 0
+		is_convertable = yes
+		can_convert_from = { mountain_artillery_equipment }
 	}
 	
 	mountain_artillery_equipment_1 = {
@@ -209,6 +221,8 @@ equipments = {
 		parent = mountain_artillery_equipment_0
 		priority = 50
 		visual_level = 0
+		is_convertable = yes
+		can_convert_from = { mountain_artillery_equipment mountain_artillery_equipment_0 }
 		
 		#Misc Abilities
 		reliability = 0.75
@@ -236,6 +250,8 @@ equipments = {
 		parent = mountain_artillery_equipment_1
 		priority = 50
 		visual_level = 0
+		is_convertable = yes
+		can_convert_from = { mountain_artillery_equipment mountain_artillery_equipment_0 mountain_artillery_equipment_1 }
 		
 		#Misc Abilities
 		reliability = 0.8
@@ -267,6 +283,7 @@ equipments = {
 			infantry
 		}
 		group_by = archetype
+		is_convertable = yes
 		
 		interface_category = interface_category_land
 		upgrades = {
@@ -302,6 +319,8 @@ equipments = {
 		archetype = medartillery_equipment
 		priority = 50
 		visual_level = 1
+		is_convertable = yes
+		can_convert_from = { medartillery_equipment }
 
 	}
 	# Mid war
@@ -310,6 +329,8 @@ equipments = {
 		parent = medartillery_equipment_0
 		priority = 50
 		visual_level = 2
+		is_convertable = yes
+		can_convert_from = { medartillery_equipment medartillery_equipment_0 }
 		
 		#Misc Abilities
 		reliability = 0.74
@@ -333,6 +354,8 @@ equipments = {
 		parent = medartillery_equipment_1
 		priority = 50
 		visual_level = 2
+		is_convertable = yes
+		can_convert_from = { medartillery_equipment medartillery_equipment_0 medartillery_equipment_1 }
 		
 		#Misc Abilities
 		reliability = 0.78
@@ -359,6 +382,8 @@ equipments = {
 		parent = medartillery_equipment_2
 		priority = 50
 		visual_level = 2
+		is_convertable = yes
+		can_convert_from = { medartillery_equipment medartillery_equipment_0 medartillery_equipment_1 medartillery_equipment_2 }
 		
 		#Misc Abilities
 		reliability = 0.82
@@ -389,6 +414,7 @@ equipments = {
 			infantry
 		}
 		group_by = archetype
+		is_convertable = yes
 		
 		interface_category = interface_category_land
 		upgrades = {
@@ -423,6 +449,8 @@ equipments = {
 		archetype = Hvartillery_equipment
 		priority = 50
 		visual_level = 0
+		is_convertable = yes
+		can_convert_from = { Hvartillery_equipment }
 		
 		#Defensive Abilities
 		defense = 5
@@ -446,6 +474,8 @@ equipments = {
 		parent = Hvartillery_equipment_0
 		priority = 50
 		visual_level = 0
+		is_convertable = yes
+		can_convert_from = { Hvartillery_equipment Hvartillery_equipment_0 }
 		
 		#Misc Abilities
 		reliability = 0.7
@@ -472,6 +502,8 @@ equipments = {
 		parent = Hvartillery_equipment_1
 		priority = 50
 		visual_level = 1
+		is_convertable = yes
+		can_convert_from = { Hvartillery_equipment Hvartillery_equipment_0 Hvartillery_equipment_1 }
 		
 		#Misc Abilities
 		reliability = 0.74
@@ -496,6 +528,8 @@ equipments = {
 		parent = Hvartillery_equipment_2
 		priority = 50
 		visual_level = 2
+		is_convertable = yes
+		can_convert_from = { Hvartillery_equipment Hvartillery_equipment_0 Hvartillery_equipment_1 Hvartillery_equipment_2 }
 		
 		#Misc Abilities
 		reliability = 0.78
@@ -528,6 +562,7 @@ equipments = {
 		group_by = archetype
   
 		interface_category = interface_category_land
+		is_convertable = yes
 
 		#Misc Abilities
 		reliability = 0.80
@@ -562,7 +597,9 @@ equipments = {
 		archetype = railartillery_equipment
 		priority = 50
 		visual_level = 2
-  
+		is_convertable = yes
+		can_convert_from = { railartillery_equipment }
+
 		#Misc Abilities
 		reliability = 0.85
 
@@ -587,7 +624,9 @@ equipments = {
 		parent = railartillery_equipment_0
 		priority = 50
 		visual_level = 2
-  
+ 		is_convertable = yes
+		can_convert_from = { railartillery_equipment railartillery_equipment_0 }
+ 
 		#Misc Abilities
 		reliability = 0.90
 
@@ -611,6 +650,8 @@ equipments = {
 		parent = railartillery_equipment_1
 		priority = 50
 		visual_level = 2
+ 		is_convertable = yes
+		can_convert_from = { railartillery_equipment railartillery_equipment_0 railartillery_equipment_1 }
   
 		#Misc Abilities
 		reliability = 0.95
@@ -639,6 +680,7 @@ equipments = {
 			rocket
 		}
 		group_by = archetype
+		is_convertable = yes
 		
 		interface_category = interface_category_land
 		upgrades = {
@@ -671,7 +713,9 @@ equipments = {
 		archetype = rocket_artillery_equipment
 		priority = 60
 		visual_level = 0
-		
+		is_convertable = yes
+		can_convert_from = { rocket_artillery_equipment medartiller_equipment_1  }		
+
 		defense = 4
 		breakthrough = 18
 		soft_attack = 16
@@ -685,6 +729,8 @@ equipments = {
 		parent = rocket_artillery_equipment_1
 		priority = 60
 		visual_level = 1
+		is_convertable = yes
+		can_convert_from = { rocket_artillery_equipment rocket_artillery_equipment_1 medartillery_equipment_1 medartillery_equipment_2 }
 		
 		reliability = 0.8
 		
