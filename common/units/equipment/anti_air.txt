@@ -58,7 +58,7 @@ equipments = {
 		priority = 80
 		visual_level = 1
 		is_convertable = yes			
-		can_convert_from = { anti_air_equipment_1 }
+		can_convert_from = { anti_air_equipment_1 anti_air_equipment }
 
 		soft_attack = 8
 		hard_attack = 6
@@ -75,7 +75,7 @@ equipments = {
 		priority = 80
 		visual_level = 2
 		is_convertable = yes			
-		can_convert_from = { anti_air_equipment_2 }
+		can_convert_from = { anti_air_equipment_2 anti_air_equipment_1 anti_air_equipment }
 
 		soft_attack = 9.5
 		hard_attack = 7
@@ -146,7 +146,7 @@ equipments = {
 		priority = 80
 		visual_level = 2
 		is_convertable = yes	
-		can_convert_from = { HVanti_air_equipment_2 }
+		can_convert_from = { HVanti_air_equipment_2 HVanti_air_equipment }
 		
 		hard_attack = 15
 		ap_attack = 90
