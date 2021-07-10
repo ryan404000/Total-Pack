@@ -37,13 +37,13 @@ focus_tree = {
 
 			115 = {				
 
-					add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 5
 
 					add_building_construction = {
 
 						type = dockyard
 
-						level = 3
+						level = 5
 
 						instant_build = yes
 
@@ -2860,8 +2860,8 @@ search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ANNEXATION }
 				}
 			}
 			add_popularity = { ideology = fascism popularity = 0.05 }
-			add_stability = 0.05
-			add_war_support = 0.05
+			add_stability = 0.07
+			add_war_support = 0.07
 			add_timed_idea = {
 					idea = impero_di_argilla
 					days = 365
@@ -3228,10 +3228,10 @@ search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			random_owned_controlled_state = {
 				prioritize = { 2 }
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 5
 					instant_build = yes
 				}
 			}
@@ -3273,7 +3273,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 
-			add_stability = 0.03
+			add_stability = 0.05
             country_event = italy.41
 		}
 
@@ -3427,10 +3427,10 @@ search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 
 				random_owned_controlled_state = {
 				prioritize = { 2 }
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 5
 						add_building_construction = {
 							type = industrial_complex
-							level = 2
+							level = 5
 							instant_build = yes
 						}
 			}
@@ -3821,7 +3821,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 			448 = {
 					add_building_construction = {
 						type = naval_base
-						level = 3
+						level = 4
 						province = 1149
 						instant_build = yes
 					}
@@ -3829,7 +3829,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 				450 = {
 					add_building_construction = {
 						type = naval_base
-						level = 2
+						level = 3
 						province = 11954
 						instant_build = yes
 					}
@@ -3881,7 +3881,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 				}
@@ -3891,7 +3891,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 				}
@@ -3901,7 +3901,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 1
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -3911,7 +3911,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 1
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -3921,7 +3921,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 1
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -3932,7 +3932,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 1
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -5212,7 +5212,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 40
 		y = 1
 search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
-		cost = 10
+		cost = 7
 
 		ai_will_do = {
 			factor = 0
@@ -5295,7 +5295,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 2
 		y = 2
 
-		cost = 8.6
+		cost = 7
 
 		ai_will_do = {
 
@@ -5320,10 +5320,10 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 				prioritize = { 159 }
 					limit = {
 					}
-					add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 5
 					add_building_construction = {
 						type = industrial_complex
-						level = 3
+						level = 5
 						instant_build = yes
 					}
 			}
@@ -5332,10 +5332,10 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 				prioritize = { 158 }
 					limit = {
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = industrial_complex
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 			}			
@@ -5346,10 +5346,10 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					is_coastal = yes
 			    	}
 				prioritize = { 158 }
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard
-						level = 1
+						level = 3
 						instant_build = yes
 					}
 			}
@@ -5721,10 +5721,10 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 			}
 			random_owned_controlled_state = {
 				prioritize = { 157 }
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 3
 						add_building_construction = {
 							type = industrial_complex
-							level = 2
+							level = 3
 							instant_build = yes
 						}
 			}
@@ -5758,17 +5758,17 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_resource = {
 				type = aluminium
-				amount = 9
+				amount = 18
 				state = 161
 			}
 			add_resource = {
 				type = chromium
-				amount = 7
+				amount = 14
 				state = 44
 			}
 			add_resource = {
 				type = tungsten
-				amount = 8
+				amount = 16
 				state = 158
 			}
 		}
@@ -5804,10 +5804,10 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 			}
 			random_owned_controlled_state = {
 				prioritize = { 157 }
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 4
 						add_building_construction = {
 							type = industrial_complex
-							level = 2
+							level = 4
 							instant_build = yes
 						}
 			}
@@ -5836,10 +5836,10 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			random_owned_controlled_state = {
 				prioritize = { 117 156 115 }
-					add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 5
 						add_building_construction = {
 							type = industrial_complex
-							level = 3
+							level = 5
 							instant_build = yes
 						}
 			}
@@ -5868,10 +5868,10 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			random_owned_controlled_state = {
 				prioritize = { 157 }
-					add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 5
 						add_building_construction = {
 							type = industrial_complex
-							level = 3
+							level = 5
 							instant_build = yes
 						}
 			}
@@ -5932,10 +5932,10 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			random_owned_controlled_state = {
 				prioritize = { 157 }
-					add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 5
 						add_building_construction = {
 							type = industrial_complex
-							level = 3
+							level = 5
 							instant_build = yes
 						}
 			}
@@ -6205,7 +6205,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 1
 		y = 1
 search_filters = { FOCUS_FILTER_INDUSTRY }
-		cost = 7
+		cost = 5
 
 		ai_will_do = {
 
@@ -6227,14 +6227,21 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 
 					}
 
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 7
 
 					add_building_construction = {
 
 						type = steel_refinery
 
-						level = 2
+						level = 3
 
+						instant_build = yes
+
+					}
+
+					add_building_construction = {
+						type = industrial_complex
+						level = 4
 						instant_build = yes
 
 					}
@@ -6389,7 +6396,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		relative_position_id = ITA_The_industrial_triangle
 		x = -2
 		y = 0
-		cost = 9
+		cost = 6
 search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 10
@@ -7279,7 +7286,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		relative_position_id = ITA_The_industrial_triangle
 		x = -3
 		y = 1
-		cost = 11
+		cost = 8
 		ai_will_do = {
 			factor = 10
 		}	
@@ -9942,19 +9949,19 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		}	
 		completion_reward = {
 			44 = { 
-			add_extra_state_shared_building_slots = 2
+			add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 				add_compliance = 10
 			}
             185 = { 
-			add_extra_state_shared_building_slots = 2
+			add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 				add_compliance = 10

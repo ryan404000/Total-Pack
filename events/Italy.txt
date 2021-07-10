@@ -1397,7 +1397,7 @@ country_event = {
 	
 	option = {
 		name = italy.40.a 	
-        add_stability = 0.02	
+        add_stability = 0.05	
 	}
 }
 
