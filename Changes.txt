@@ -1,163 +1,184 @@
-Imperium Romanum Focus give cores
-    --  kodiak notes
-        - added the following cores:
-            Albania (44)
-            Montenegro (105)
-            Herzegovina (804)
-            Northern Epirus (805)
-            Epirus (185)
-            Peloponnese (186)
-            Prizren (813)
-            Kosovo (802)
-            Dodecanese (164)
-            Cyprus (183)
-            Savoy (735)
-            Corsica (1)
-            Balaeric Islands (177)
-            Malta (116)
-            Cyprus (183)
-            Tripoli (448)
-            El Aghelia (449)
-            Benghali (450)
-            Derna (451)
-            Tripolitania (661)
-            Sirte (662)
-            Cyrenaica (663)	
+Generic Changes {
+    convertables {
+        infantry equipment (guns) done
+        artillery done
+        anti_air done
+        amtrac done
+        Transport Planes done 
+        basic strat bombers done
+        basic fighters done
+        basic cv fighters done
+        basic CAS done
+    }
+}
 
-        - Did not add:
-            - Due to italianize decision already adding core
-                Dalmatia (103) 
-                Zara (163)
-            - Due to plan for 'Triumph in Greece' (compliance >70%, resistance <20%)
-                Crete (182)
-                Attica (187) 
-                Central Macedonia (731) 
-                Macedonia (106) 
-                Thrace (184)
-            - Due to plan for 'Triumph in Tunisia'
-                Tunisia (458)
-                Gabes (465)
-            - Due to plan for 'Triumph in Egypt'
-                Marsa Mutruh (452)
-                Alexandria (447)
-                Cairo (446)
-                Sinai (453)
-            - Due to plan for 'Triumph in the Levant'
-                Palestine (454)
-                Lebanon (553)
-                Aleppo (677)
-                Hatay (799)
-            - Due to plan for 'Triumph in Turkey'
-                Mersin (345)
-                Antalya (342)
-                Izmir (339)
-                Bursa (340)
-                Constantinople (797)
-                Edirne (341)
+Italy Changes {
 
-Each Triumph will require:
-- Focus to complete
---- Requires control of each province
---- Gives 'Unlock Romanization Decisions'
---- Unlocks 'Exploit Resources' Decisions 
 
-In the Triumph Decision Category, each decision will be PER STATE and be 'Romanize X' in a given region
-- Requires >70% Compliance
-- Requires <20% Resistance
-- Requires 25 PP per decision per state (so Macedonia would be one decision, Thrace another)
-- Probably will include a timer (45-90 days, for example)
-- Adds Core to that state
-- Adds 4% recruitable population to the state, e.g. the state of albania will get 38k manpower in that state
+    Imperium Romanum Focus give cores {
+        --  kodiak notes
+            - added the following cores:
+                Albania (44)
+                Montenegro (105)
+                Herzegovina (804)
+                Northern Epirus (805)
+                Epirus (185)
+                Peloponnese (186)
+                Prizren (813)
+                Kosovo (802)
+                Dodecanese (164)
+                Cyprus (183)
+                Savoy (735)
+                Corsica (1)
+                Balaeric Islands (177)
+                Malta (116)
+                Cyprus (183)
+                Tripoli (448)
+                El Aghelia (449)
+                Benghali (450)
+                Derna (451)
+                Tripolitania (661)
+                Sirte (662)
+                Cyrenaica (663)	
 
-In the Exploit Resources Decisions, it will require:
-- Triumph done for that state (using state flags, so a Triumph flag would exist
-- 3-6 Civs
-- 45-90 days depending on resource, amount, etc.
+            - Did not add:
+                - Due to italianize decision already adding core
+                    Dalmatia (103) 
+                    Zara (163)
+                - Due to plan for 'Triumph in Greece' (compliance >70%, resistance <20%)
+                    Crete (182)
+                    Attica (187) 
+                    Central Macedonia (731) 
+                    Macedonia (106) 
+                    Thrace (184)
+                - Due to plan for 'Triumph in Tunisia'
+                    Tunisia (458)
+                    Gabes (465)
+                - Due to plan for 'Triumph in Egypt'
+                    Marsa Mutruh (452)
+                    Alexandria (447)
+                    Cairo (446)
+                    Sinai (453)
+                - Due to plan for 'Triumph in the Levant'
+                    Palestine (454)
+                    Lebanon (553)
+                    Aleppo (677)
+                    Hatay (799)
+                - Due to plan for 'Triumph in Turkey'
+                    Mersin (345)
+                    Antalya (342)
+                    Izmir (339)
+                    Bursa (340)
+                    Constantinople (797)
+                    Edirne (341)
 
-New Exploit Resource Decisions by area:
-- Illyria
-    Expand Montenegrin Dockyards
-        Adds 5 Dockyards
-        Adds 5 Building Slots
-        Requires 9 Civs for 45 days
-    Montenegrin Tungsten Mines
-        Adds 24 Tungsten
-    Develop Dalmatian Industries
-        Adds 4 Mils
-        Adds 2 Civs
-        Adds 6 Building Slots
-        Requires 12 Civs for 90 Days
+        Each Triumph will require:
+        - Focus to complete
+        --- Requires control of each province
+        --- Gives 'Unlock Romanization Decisions'
+        --- Unlocks 'Exploit Resources' Decisions 
 
-- Albania
-    Expand Iron Mines and Refineries (Two Decisions)
-        Adds 12/24 Steels 
-        Adds 2/2 Steel Refineries
-        Adds 2/2 Building Slots
-        Requires 6 Civs for 45 days
-    Albanian Synthetics
-        Adds 3 Synthetic Oil Refineries
-        Adds 3 Rubber Refineries
-        Adds 3 Fuel Silos
-        Adds 6 Building Slots
-        Requires 12 Civs for 120 Days
+        In the Triumph Decision Category, each decision will be PER STATE and be 'Romanize X' in a given region
+        - Requires >70% Compliance
+        - Requires <20% Resistance
+        - Requires 25 PP per decision per state (so Macedonia would be one decision, Thrace another)
+        - Probably will include a timer (45-90 days, for example)
+        - Adds Core to that state
+        - Adds 4% recruitable population to the state, e.g. the state of albania will get 38k manpower in that state
 
-- Greece
-    Expand Greek Steel Industry
-        Adds 16 Steel to Epirus, Peloponnese
-        Adds 48 Rare Minerals to Attica
-        Adds 2 Steel Refineries to Epirus, Peloponnese
-        Requires 9 Civs for 60 days
-    Cretan Shipyards
-        Adds 5 Dockyards
-        Adds 5 Building Slots
-        Requires 9 Civs for 45 days
+        In the Exploit Resources Decisions, it will require:
+        - Triumph done for that state (using state flags, so a Triumph flag would exist
+        - 3-6 Civs
+        - 45-90 days depending on resource, amount, etc.
 
-- Egypt
-    Egyptian Synthetics
-        Adds 3 Synthetic Oil Refineries
-        Adds 3 Rubber Refineries
-        Adds 3 Fuel Silos
-        Adds 6 Building Slots
-    Egyptian Grain
-        Adds 6 Civs
-        Adds 6 Building Slots
-        Requires 12 Civs for 90 Days
+        New Exploit Resource Decisions by area:
+        - Illyria
+            Expand Montenegrin Dockyards
+                Adds 5 Dockyards
+                Adds 5 Building Slots
+                Requires 9 Civs for 45 days
+            Montenegrin Tungsten Mines
+                Adds 24 Tungsten
+            Develop Dalmatian Industries
+                Adds 4 Mils
+                Adds 2 Civs
+                Adds 6 Building Slots
+                Requires 12 Civs for 90 Days
 
-- Levant
-    Palestinian Aluminum
-        Adds 12/24 Aluminum (Two Decisions)
-        Adds 2/2 Steel Refineries
-        Adds 2/2 Building Slots
-        Requires 6 Civs for 45 days
-    Palestinian Minerals
-        Adds 12/24 Rare Minerals (Two Decisions)
-        Requires 6 Civs for 45 days
-    Syrian Oil
-        Adds 3 Synthetic Oil Refineries
-        Adds 3 Rubber Refineries
-        Adds 3 Fuel Silos
-        Adds 6 Building Slots
-        12 Civs for 90 days
-    Damascus Steel (Two decisions)
-        Adds 24/48 Steels
-        Adds 24/48 Rare Minerals
-        Adds 2/2 Steel Refineries
-        Adds 2/2 Building Slots
-        Requires 8/8 Civs for 60/60 days
+        - Albania
+            Expand Iron Mines and Refineries (Two Decisions)
+                Adds 12/24 Steels 
+                Adds 2/2 Steel Refineries
+                Adds 2/2 Building Slots
+                Requires 6 Civs for 45 days
+            Albanian Synthetics
+                Adds 3 Synthetic Oil Refineries
+                Adds 3 Rubber Refineries
+                Adds 3 Fuel Silos
+                Adds 6 Building Slots
+                Requires 12 Civs for 120 Days
 
-- Tunisia
-    Tunisia Dockyards
-        Adds 5 Dockyards
-        Adds 5 Building Slots
-        Requires 9 Civs for 45 days
+        - Greece
+            Expand Greek Steel Industry
+                Adds 16 Steel to Epirus, Peloponnese
+                Adds 48 Rare Minerals to Attica
+                Adds 2 Steel Refineries to Epirus, Peloponnese
+                Requires 9 Civs for 60 days
+            Cretan Shipyards
+                Adds 5 Dockyards
+                Adds 5 Building Slots
+                Requires 9 Civs for 45 days
 
-Libya Ideas:
-	Develop Libya gives cores on coastal libya (Needs compliance %)
-	Oil Field Focus - Increase # of oil it gives, and cores interior Libya (Needs compliance %)        
+        - Egypt
+            Egyptian Synthetics
+                Adds 3 Synthetic Oil Refineries
+                Adds 3 Rubber Refineries
+                Adds 3 Fuel Silos
+                Adds 6 Building Slots
+            Egyptian Grain
+                Adds 6 Civs
+                Adds 6 Building Slots
+                Requires 12 Civs for 90 Days
 
-Change Italy from joining war on joining Axis.
-Unite Iberia (spanish fascist, left side) gives cores
+        - Levant
+            Palestinian Aluminum
+                Adds 12/24 Aluminum (Two Decisions)
+                Adds 2/2 Steel Refineries
+                Adds 2/2 Building Slots
+                Requires 6 Civs for 45 days
+            Palestinian Minerals
+                Adds 12/24 Rare Minerals (Two Decisions)
+                Requires 6 Civs for 45 days
+            Syrian Oil
+                Adds 3 Synthetic Oil Refineries
+                Adds 3 Rubber Refineries
+                Adds 3 Fuel Silos
+                Adds 6 Building Slots
+                12 Civs for 90 days
+            Damascus Steel (Two decisions)
+                Adds 24/48 Steels
+                Adds 24/48 Rare Minerals
+                Adds 2/2 Steel Refineries
+                Adds 2/2 Building Slots
+                Requires 8/8 Civs for 60/60 days
+
+        - Tunisia
+            Tunisia Dockyards
+                Adds 5 Dockyards
+                Adds 5 Building Slots
+                Requires 9 Civs for 45 days
+
+        Libya Ideas:
+            Develop Libya gives cores on coastal libya (Needs compliance %)
+            Oil Field Focus - Increase # of oil it gives, and cores interior Libya (Needs compliance %)   
+    }
+
+
+    Change Italy from joining war on joining Axis.
+    Unite Iberia (spanish fascist, left side) gives cores
+
+    
+}
 
 Iberian Pact - No Faction, Y/N event for Portugal to be puppeted - DONE
 Start Spain with Tech - Basic Infantry Trucks - DONE
-

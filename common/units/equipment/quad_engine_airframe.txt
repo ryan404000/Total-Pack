@@ -41,6 +41,12 @@ equipments = {
 	
 	transport_plane_equipment_1 = {
 		year = 1936
+		is_convertable = yes
+		can_convert_from = {
+			transport_plane_equipment
+			transport_plane_equipment_1
+
+		}
 		
 		archetype = transport_plane_equipment
 		#active = yes
@@ -54,7 +60,13 @@ equipments = {
 	
 	transport_plane_equipment_2 = {
 		year = 1940
-		
+		is_convertable = yes
+		can_convert_from = {
+			transport_plane_equipment
+			transport_plane_equipment_1
+			transport_plane_equipment_2
+		}
+
 		archetype = transport_plane_equipment
 		parent = transport_plane_equipment_1
 		priority = 130
@@ -67,7 +79,13 @@ equipments = {
 	
 	transport_plane_equipment_3 = {
 		year = 1944
-		
+		is_convertable = yes
+		can_convert_from = {
+			transport_plane_equipment
+			transport_plane_equipment_1
+			transport_plane_equipment_2
+			transport_plane_equipment_3
+		}
 		archetype = transport_plane_equipment
 		parent = transport_plane_equipment_2
 		priority = 130
@@ -132,7 +150,11 @@ equipments = {
 	# Basic strat_bomber
 	strat_bomber_equipment_1 = {
 		year = 1937
-
+		is_convertable = yes
+		can_convert_from = {
+			strat_bomber_equipment
+			strat_bomber_equipment_1
+		}
 		archetype = strat_bomber_equipment
 		priority = 140
 		
@@ -149,7 +171,12 @@ equipments = {
 	# Improved strat_bomber
 	strat_bomber_equipment_2 = {
 		year = 1939
-
+		is_convertable = yes
+		can_convert_from = {
+			strat_bomber_equipment
+			strat_bomber_equipment_1
+			strat_bomber_equipment_2
+		}
 		archetype = strat_bomber_equipment
 		parent = strat_bomber_equipment_1
 		priority = 140
@@ -170,7 +197,13 @@ equipments = {
 	# Advanced strat_bomber
 	strat_bomber_equipment_3 = {
 		year = 1941
-
+		is_convertable = yes
+		can_convert_from = {
+			strat_bomber_equipment
+			strat_bomber_equipment_1
+			strat_bomber_equipment_2
+			strat_bomber_equipment_3
+		}
 		archetype = strat_bomber_equipment
 		parent = strat_bomber_equipment_2
 		priority = 140
@@ -189,7 +222,14 @@ equipments = {
 	
 	strat_bomber_equipment_4 = {
 		year = 1943
-
+		is_convertable = yes
+		can_convert_from = {
+			strat_bomber_equipment
+			strat_bomber_equipment_1
+			strat_bomber_equipment_2
+			strat_bomber_equipment_3
+			strat_bomber_equipment_4
+		}
 		archetype = strat_bomber_equipment
 		parent = strat_bomber_equipment_3
 		priority = 140
@@ -208,7 +248,15 @@ equipments = {
 	
 	strat_bomber_equipment_5 = {
 		year = 1945
-
+		is_convertable = yes
+		can_convert_from = {
+			strat_bomber_equipment
+			strat_bomber_equipment_1
+			strat_bomber_equipment_2
+			strat_bomber_equipment_3
+			strat_bomber_equipment_4
+			strat_bomber_equipment_5
+		}
 		archetype = strat_bomber_equipment
 		parent = strat_bomber_equipment_3
 		priority = 140
@@ -229,7 +277,8 @@ equipments = {
 	
 	jet_strat_bomber_equipment = {
 		year = 1947
-		
+		is convertable = yes
+
 		can_be_produced = {
 			NOT = {
 				has_idea = BUL_army_restrictions
@@ -279,6 +328,7 @@ equipments = {
         year = 1930
 		is_archetype = yes
 		is_buildable = no
+		is_convertable = yes
 		type = naval_bomber
 		group_by = archetype
 		sprite = medium_plane
@@ -328,7 +378,11 @@ equipments = {
 		archetype = flying_boat_equipment
 		priority = 60
 		year = 1933
-
+		is_convertable = yes
+		can_convert_from = {
+			flying_boat_equipment
+			flying_boat_equipment_1
+		}
 		air_range = 1100
 		maximum_speed = 250
 		air_agility = 12
@@ -347,7 +401,12 @@ equipments = {
 		parent = flying_boat_equipment_1
 		priority = 60
 		year = 1936
-
+		is_convertable = yes
+		can_convert_from = {
+			flying_boat_equipment
+			flying_boat_equipment_1
+			flying_boat_equipment_2
+		}
 		air_range = 1400
 		maximum_speed = 330
 		air_agility = 13
@@ -366,7 +425,13 @@ equipments = {
 		parent = flying_boat_equipment_2
 		priority = 60
 		year = 1940
-
+		is_convertable = yes
+		can_convert_from = {
+			flying_boat_equipment
+			flying_boat_equipment_1
+			flying_boat_equipment_2
+			flying_boat_equipment_3
+		}
 		air_range = 1800
 		maximum_speed = 350
 		air_agility = 15

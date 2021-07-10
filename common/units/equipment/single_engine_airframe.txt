@@ -63,7 +63,7 @@ equipments = {
 	# Basic Fighter 1933
 	fighter_equipment_0 = {		#		1933 BASIC
 		year = 1933
-
+		is_convertable = yes
 		archetype = fighter_equipment
 		priority = 5
 		
@@ -79,7 +79,12 @@ equipments = {
 	# Basic Fighter 1936
 	fighter_equipment_1 = {
 		year = 1936
+		is convertable = yes
+		can_convert_from = {
+			fighter_equipment_0
+			fighter_equipment_1
 
+		}
 		archetype = fighter_equipment
 		parent = fighter_equipment_0
 		priority = 15
@@ -96,7 +101,13 @@ equipments = {
 	# Improved Fighter 1938
 	fighter_equipment_2 = {
 	    year = 1938
+		is convertable = yes
+		can_convert_from = {
+			fighter_equipment_0
+			fighter_equipment_1
+			fighter_equipment_2
 		
+		}
 		archetype = fighter_equipment
 		parent = fighter_equipment_1
 		priority = 15
@@ -113,7 +124,13 @@ equipments = {
 	# Advanced Fighter 1940
 	fighter_equipment_3 = {
 	    year = 1940
-		
+		is convertable = yes
+		can_convert_from = {
+			fighter_equipment_0
+			fighter_equipment_1
+			fighter_equipment_2
+			fighter_equipment_3
+		}
 		archetype = fighter_equipment
 		parent = fighter_equipment_2
 		priority = 15
@@ -130,7 +147,14 @@ equipments = {
 	# Advanced Fighter 1942
 	fighter_equipment_4 = {
 	    year = 1942
-		
+		is convertable = yes
+		can_convert_from = {
+			fighter_equipment_0
+			fighter_equipment_1
+			fighter_equipment_2
+			fighter_equipment_3
+			fighter_equipment_4
+		}		
 		archetype = fighter_equipment
 		parent = fighter_equipment_3
 		priority = 15
@@ -147,7 +171,15 @@ equipments = {
 	# Late Fighter 1944
 	fighter_equipment_5 = {
 	    year = 1944
-		
+		is convertable = yes
+		can_convert_from = {
+			fighter_equipment_0
+			fighter_equipment_1
+			fighter_equipment_2
+			fighter_equipment_3
+			fighter_equipment_4
+			fighter_equipment_5
+		}
 		archetype = fighter_equipment
 		parent = fighter_equipment_4
 		priority = 15
@@ -216,7 +248,10 @@ equipments = {
 	# Early Carrier Fighter
 	cv_fighter_equipment_0 = {
 	    year = 1933
-		
+		is convertable = yes
+		can_convert_from = {
+			cv_fighter_equipment_0
+			}
 		archetype = cv_fighter_equipment
 		carrier_capable = yes
 		priority = 10
@@ -233,7 +268,11 @@ equipments = {
 	# Basic Carrier Fighter
 	cv_fighter_equipment_1 = {
 		year = 1936
-		
+		is convertable = yes
+		can_convert_from = {
+			cv_fighter_equipment_0
+			cv_fighter_equipment_1
+			}
 		archetype = cv_fighter_equipment
 		parent = cv_fighter_equipment_0
 		carrier_capable = yes
@@ -251,7 +290,12 @@ equipments = {
 	# Improved Carrier Fighter
 	cv_fighter_equipment_2 = {
 		year = 1938
-		
+		is convertable = yes
+		can_convert_from = {
+			cv_fighter_equipment_0
+			cv_fighter_equipment_1
+			cv_fighter_equipment_2
+			}
 		archetype = cv_fighter_equipment
 		parent = cv_fighter_equipment_1
 		carrier_capable = yes
@@ -269,7 +313,13 @@ equipments = {
 	# Advanced Carrier Fighter
 	cv_fighter_equipment_3 = {
 		year = 1940
-		
+		is convertable = yes
+		can_convert_from = {
+			cv_fighter_equipment_0
+			cv_fighter_equipment_1
+			cv_fighter_equipment_2
+			cv_fighter_equipment_3
+			}
 		archetype = cv_fighter_equipment
 		parent = cv_fighter_equipment_2
 		carrier_capable = yes
@@ -287,7 +337,14 @@ equipments = {
 	#Advanced Carrier Fighter
 	cv_fighter_equipment_4 = {
 		year = 1942
-		
+		is convertable = yes
+		can_convert_from = {
+			cv_fighter_equipment_0
+			cv_fighter_equipment_1
+			cv_fighter_equipment_2
+			cv_fighter_equipment_3
+			cv_fighter_equipment_4
+			}
 		archetype = cv_fighter_equipment
 		parent = cv_fighter_equipment_3
 		carrier_capable = yes
@@ -304,7 +361,15 @@ equipments = {
 	
 	cv_fighter_equipment_5 = {
 		year = 1944 
-		
+		is convertable = yes
+		can_convert_from = {
+			cv_fighter_equipment_0
+			cv_fighter_equipment_1
+			cv_fighter_equipment_2
+			cv_fighter_equipment_3
+			cv_fighter_equipment_4
+			cv_fighter_equipment_5
+			}
 		archetype = cv_fighter_equipment
 		parent = cv_fighter_equipment_4
 		carrier_capable = yes
@@ -322,7 +387,11 @@ equipments = {
 	################## BASIC CAS ####################
 	CAS_equipment = {
 		year = 1933
-		
+		is_convertable = yes
+		can_convert_from = {
+			CAS_equipment
+
+		}
 		can_be_produced = {
 			NOT = {
 				has_idea = BUL_army_restrictions
@@ -374,7 +443,11 @@ equipments = {
     # Basic CAS  1935
 	CAS_equipment_0 = {
 		year = 1935
-		
+		is_convertable = yes
+		can_convert_from = {
+			CAS_equipment
+			CAS_equipment_0
+		}
 		archetype = CAS_equipment
 		priority = 40
 
@@ -393,7 +466,12 @@ equipments = {
 	# Basic CAS  1937
 	CAS_equipment_1 = {
 		year = 1937
-		
+		is_convertable = yes
+		can_convert_from = {
+			CAS_equipment
+			CAS_equipment_0
+			CAS_equipment_1
+		}
 		archetype = CAS_equipment
 		parent = CAS_equipment_0
 		priority = 40
@@ -412,7 +490,13 @@ equipments = {
 	# Improved CAS 1939
 	CAS_equipment_2 = {
 		year= 1939
-		
+		is_convertable = yes
+		can_convert_from = {
+			CAS_equipment
+			CAS_equipment_0
+			CAS_equipment_1
+			CAS_equipment_2
+		}
 		archetype = CAS_equipment
 		parent = CAS_equipment_1
 		priority = 40
@@ -430,7 +514,14 @@ equipments = {
 	# Advanced CAS  1941
 	CAS_equipment_3 = {
 		year = 1941
-		
+		is_convertable = yes
+		can_convert_from = {
+			CAS_equipment
+			CAS_equipment_0
+			CAS_equipment_1
+			CAS_equipment_2
+			CAS_equipment_3
+		}
 		archetype = CAS_equipment
 		parent = CAS_equipment_2
 		priority = 40
@@ -449,7 +540,16 @@ equipments = {
 	# Advanced CAS  1943
 	CAS_equipment_4 = {
 		year = 1943
+		is_convertable = yes
+		can_convert_from = {
+			CAS_equipment
+			CAS_equipment_0
+			CAS_equipment_1
+			CAS_equipment_2
+			CAS_equipment_3
+			CAS_equipment_4
 		
+		}
 		archetype = CAS_equipment
 		parent = CAS_equipment_3
 		priority = 40
@@ -469,7 +569,10 @@ equipments = {
 	
 	cv_CAS_equipment = {
 		year = 1933
-		
+		is_convertable = yes
+		can_convert_from = {
+			cv_CAS_equipment
+		}
 		can_be_produced = {
 			NOT = {
 				has_idea = BUL_army_restrictions

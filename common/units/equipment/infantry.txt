@@ -52,6 +52,8 @@ equipments = {
 		active = yes
 		priority = 11
 		visual_level = 0
+		is_convertable = yes
+
 
 		maximum_speed = 4
 		reliability = 0.62
@@ -81,6 +83,9 @@ equipments = {
 		parent = infantry_equipment_0
 		priority = 11
 		visual_level = 1
+		is_convertable = yes
+		can_convert_from = { infantry_equipment_0 infantry_equipment_1 }
+
 
 		reliability = 0.7
 		maximum_speed = 4
@@ -109,7 +114,14 @@ equipments = {
 		parent = infantry_equipment_1
 		priority = 11
 		visual_level = 2
-		
+		is_convertable = yes
+		can_convert_from = { 
+			infantry_equipment_0 
+			infantry_equipment_1 
+			infantry_equipment_2 
+		}
+
+
 		reliability = 0.72
 		maximum_speed = 4
 
@@ -137,6 +149,13 @@ equipments = {
 		parent = infantry_equipment_2
 		priority = 11
 		visual_level = 3
+		is_convertable = yes
+		can_convert_from = { 
+			infantry_equipment_0 
+			infantry_equipment_1 
+			infantry_equipment_2
+			infantry_equipment_3 
+		}
 		
 		reliability = 0.74
 		maximum_speed = 4
@@ -164,6 +183,14 @@ equipments = {
 		parent = infantry_equipment_3
 		priority = 11
 		visual_level = 3
+		is_convertable = yes
+		can_convert_from = { 
+			infantry_equipment_0 
+			infantry_equipment_1 
+			infantry_equipment_2
+			infantry_equipment_3 
+			infantry_equipment_4
+		}
 		
 		reliability = 0.76
 		maximum_speed = 4
