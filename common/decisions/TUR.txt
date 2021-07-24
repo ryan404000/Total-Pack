@@ -1937,7 +1937,7 @@ economy_decisions = {
 		}
 
 		complete_effect = {
-			add_ideas = GRE_paying_off_debt_large
+			add_ideas = GRE_paying_off_debt_large			
 		}
 
 		remove_effect = {
