@@ -2558,6 +2558,13 @@ focus_tree = {
 				}
 			remove_state_claim = 45
 			add_state_core = 45
+			add_state_core = 76
+			add_state_core = 84
+			add_state_core = 83
+			add_state_core = 82
+			add_state_core = 764
+			add_state_core = 109
+			add_state_core = 104															
 			add_state_claim = 73		
 			add_political_power = -250
 			
