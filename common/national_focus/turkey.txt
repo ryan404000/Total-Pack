@@ -502,13 +502,13 @@ focus_tree = {
 			add_manpower = 200000
 			add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 				
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -1818,6 +1818,10 @@ focus_tree = {
 					has_state_category = rural
 				}
 				add_extra_state_shared_building_slots = 1
+				add_resource = {
+				type = chromium
+				amount = 12
+			}
 			}
 		}
 	}
@@ -5618,6 +5622,36 @@ focus_tree = {
 			hidden_effect = {
 				GER = { set_country_flag = TUR_germany_gets_strait_access }
 			}
+
+			random_owned_controlled_state = {
+				prioritize = { 49 }
+					add_extra_state_shared_building_slots = 5
+						add_building_construction = {
+							type = industrial_complex
+							level = 3
+							instant_build = yes
+						}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 346 }
+					add_extra_state_shared_building_slots = 5
+						add_building_construction = {
+							type = industrial_complex
+							level = 3
+							instant_build = yes
+						}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 343 }
+					add_extra_state_shared_building_slots = 5
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+			}
+
+
 		}
 	}
 
@@ -5661,7 +5695,7 @@ focus_tree = {
 					limit = {
 						has_resources_amount = {
 							resource = chromium
-							amount > 22
+							amount > 11
 						}
 					}
 					add_extra_state_shared_building_slots = 2
@@ -5672,7 +5706,7 @@ focus_tree = {
 					}
 					add_building_construction = {
 						type = arms_factory
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -5721,6 +5755,33 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = TUR_funkplan
 			GER = { add_stability = 0.1 }
+			random_owned_controlled_state = {
+				prioritize = { 381 }
+					add_extra_state_shared_building_slots = 5
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 340 }
+					add_extra_state_shared_building_slots = 5
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 347 }
+					add_extra_state_shared_building_slots = 5
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+			}
 		}
 	}
 
@@ -5752,6 +5813,40 @@ focus_tree = {
 				coordination_skill = 3
 			}
 			add_ideas = TUR_the_antalya_naval_academy
+			342 = {
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+			}
+			345 = {
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+			}
+			ITA = { 
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+
 		}
 	}
 
@@ -6045,7 +6140,7 @@ focus_tree = {
 	focus = {
 		id = TUR_collaborative_civil_works_programme
 		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = TUR_the_mediterranean_entente }
+		prerequisite = { focus = TUR_the_mediterranean_entente focus = TUR_join_the_axis}
 		x = 0
 		y = 1
 		relative_position_id = TUR_the_mediterranean_entente
@@ -6069,14 +6164,14 @@ focus_tree = {
 				limit = {
 					free_building_slots = {
 						building = dockyard
-						size > 0
+						size > 2
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -6084,14 +6179,14 @@ focus_tree = {
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
-						size > 0
+						size > 3
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -6099,14 +6194,14 @@ focus_tree = {
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
-						size > 0
+						size > 3
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -6115,14 +6210,14 @@ focus_tree = {
 					limit = {
 						free_building_slots = {
 							building = dockyard
-							size > 1
+							size > 3
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 				}
@@ -6136,14 +6231,14 @@ focus_tree = {
 						limit = {
 							free_building_slots = {
 								building = arms_factory
-								size > 1
+								size > 3
 								include_locked = yes
 							}
 						}
-						add_extra_state_shared_building_slots = 2
+						add_extra_state_shared_building_slots = 4
 						add_building_construction = {
 							type = arms_factory
-							level = 2
+							level = 4
 							instant_build = yes
 						}
 					}
@@ -6479,14 +6574,14 @@ focus_tree = {
 				limit = {
 					free_building_slots = {
 						building = arms_factory
-						size > 1
+						size > 3
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -6494,14 +6589,14 @@ focus_tree = {
 				limit = {
 					free_building_slots = {
 						building = arms_factory
-						size > 0
+						size > 2
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -6510,14 +6605,14 @@ focus_tree = {
 					limit = {
 						free_building_slots = {
 							building = industrial_complex
-							size > 1
+							size > 3
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = industrial_complex
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 				}
