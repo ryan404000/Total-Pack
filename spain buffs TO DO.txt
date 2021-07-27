@@ -1,0 +1,132 @@
+Spain Buffs:
+	- Reduce Time on Spanish Civil War foci; all 70 day foci to < 40 days
+	- Demand French North Africa
+		- Remove 'French' part of that bullshit
+		- Remove Tunisia and Gabes
+	- Restart Small Shipbuilding
+		- +3 Dockyards
+	- Plan Imperial
+		- +3 Dockyards
+	- National Recovery:
+		- +2 Civs
+		- +10% PP
+		- +5% Repair
+		- Remove Time Limit
+		- Remove Weekly Stability
+	
+	- Post-National Recovery rework
+		- Fascist Aid 
+			Modify National Recovery
+				- +5% Mil Construction Speed 
+				- +5% Dockyard Construction Speed
+			- +2 Dockyards
+			- +3 Mils
+			- +5 Building Slots
+		- Capitlist Aid
+			Modify National Recovery
+				- +5% Civ Construction
+				- +5% Infra Construction
+			- +4 Civs 
+			- +4 Building Slots
+			- 1 Infrastructure in provinces with < 6 infrastructure
+		- Stabilize Economy (Requires Fascist and Capitalist Aid)
+			- Lower Devastation From Civil War 1 stage
+	- Post Stabilize, Fascist Path and Capitalist Paths + volunteer foci for both
+		- Fascist Integration (Path 1)
+			Branch 1 (Civs + Infra + Dockyards // Trade)
+				- Facilitate Pyrenees Freight
+					- Infrastructure as is
+					- +1 Civs in each state 
+					- +2 Building Slots in each state
+				- Improve Cross-Country Railways
+					- +2 Infra in each state
+					- +2 Building slots in each state
+				- Improve Mediterrean Naval Bases
+					- +3 Dockyards
+					- +3 Building Slots
+					- Naval Bases in Catalonia, Valencia, Murcia, and Grenada receive level 10 naval bases
+				- Expand Axis Gold Trade
+					- Regular National Spirit 
+						- Consumer Good -5% on top of
+					- 5 Civs
+					- 5 Building Slots
+					- Reduce Devastation from Civil War 1 stage 
+				- Exploit Natural Resources (Not Required for Spanish Miracle)
+					- Exploit Some resources 
+			Branch 2 (Mils + Buffing National Recovery)
+				- Invite Fascist Advisors
+					- +5% War Support
+					- Modify National Recovery 
+						- +10% Mil construction
+					- +3 Mils
+					- +3 Building Slots
+				- German Engineering
+					- +5% War Support
+					- Modify National Recovery
+						- +5% Factory Output
+						- +5% Dockyard Output
+					- +3 Mils
+					- +3 Building Slots
+				- Italian Shipbuilding
+					- Gain Italian Shipbuilding Expertise
+						- Refit Cost -15%
+					- Modify National Recovery
+						- Dockyard Construction +10%
+					+3 Dockyards
+					+3 Building Slots
+				- Expand War Industry
+					- +10% War Support
+					- Modify National Recovery
+						- +10% Factory Output
+						- +5% Recruitable Population Factor
+					- +6 Mils
+					- +6 Building Slots
+			- Spanish Miracle (Requires both Fascist Branches to be completed(So Expand Axis Gold + Expand War Industry))
+				- +10% Stability
+				- Remove Devastation from Civil War
+				- +3 civs in 4 states
+				- +2 mils in 4 states
+				- +5 Building Slots in each state
+				
+			**NOTE: By end of Spanish Miracle (e.g. National Recovery onward), Fascists should have the following buffs by the end:**
+				National Recovery:	
+					- Consumer Goods Factories: -5%
+					- Political Power Gain: +10%
+					- Repair: +5%
+					- Civ Construction: +5%
+					- Mil Construction: +15%
+					- Dockyard Construction:
+					- Infrastructure Construction: +5%
+					- Factory Output: +15%
+					- Dockyard Output: +5% 
+					- Recruitable Population Factor: +5%
+				Axis Gold Trade
+					- Construction Speed: +15%
+					- Consumer Goods: -5%
+				+10% Stab
+				+20% War Support
+				+31 Civs total
+				+26 Mils total
+				+8 Dockyards
+				+84 Building Slots across several states
+				Bunch of Infrastructure Upgrades
+		- Volunteer Tree
+			- Lionize Foreign Brigades
+				- +10% War Support
+				- Gain Spanish Vanguard National Spirit
+					- +1% Recruitable Population
+					- Lend-lease tension limit: -30%
+					- Send Volunteers tension limit: -30%
+					- Max Volunteer Force Divisions: +12
+					- Justify War Goal Time: -30%
+			- Spanish Eagles
+				- +5% War Support
+				- Modify Spanish Vanguard Nat Spirit
+					- +2% Recruitable Population
+					- Max Volunteer Force Divisions: +18 (so 6 more)
+					- +5% Division Org
+					- -10% Training Time
+			- Our Time In The Sun
+				- Modify Spanish Vanguard Nat Spirit
+					- 
+	
