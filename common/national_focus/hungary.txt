@@ -1529,7 +1529,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		add_popularity = { ideology = fascism popularity = 0.05 }
 		add_ideas = HUN_spanish_intervention 
 		}
 	}
