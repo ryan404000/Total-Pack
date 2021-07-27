@@ -1509,6 +1509,32 @@ focus_tree = {
 	}
 
 	focus = {
+		id = HUN_spanish_intervention
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HUN_break_unions focus = HUN_assassinate_horthy }
+		x = -1
+		y = 1
+		relative_position_id = HUN_pressure_romania
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+			is_subject = no
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_popularity = { ideology = fascism popularity = 0.05 }
+		add_ideas = HUN_spanish_intervention 
+		}
+	}
+
+	focus = {
 		id = HUN_renounce_the_treaty_of_trianon
 		icon = GFX_focus_renounce_the_treaty_of_trianon
 		prerequisite = { focus = HUN_break_unions focus = HUN_elect_a_fascist_king }
@@ -2800,7 +2826,7 @@ focus_tree = {
 		id = HUN_pressure_romania
 		icon = GFX_goal_demand_sudetenland
 		prerequisite = { focus = HUN_join_comintern }
-		x = -1
+		x = 0
 		y = 3
 		relative_position_id = HUN_council_of_peoples_commissars
 
@@ -2849,7 +2875,7 @@ focus_tree = {
 		id = HUN_intervene_in_czechoslovakia
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = HUN_join_comintern }
-		x = 1
+		x = 2.5
 		y = 3
 		relative_position_id = HUN_council_of_peoples_commissars
 
@@ -3585,9 +3611,9 @@ focus_tree = {
 	focus = {
 		id = HUN_barbarossa
 		icon = GFX_Goal_Op_barbarossa
-		prerequisite = { focus = HUN_gersupp }
+		prerequisite = { focus = HUN_gersupp focus = HUN_antiger }
 		relative_position_id = HUN_gersupp
-		x = 0
+		x = -2
 		y = 1
 
 		cost = 6
@@ -3616,7 +3642,10 @@ focus_tree = {
 				category = armor
 				bonus = 0.5
 			}
-			army_experience = 5
+			army_experience = 15
+			add_equipment_to_stockpile = { type = infantry_equipment_1  amount = 2500 producer = GER }
+			add_equipment_to_stockpile = { type = infantry_uniforms  amount = 200 producer = GER }
+			add_equipment_to_stockpile = { type = support_equipment  amount = 500 producer = GER }
 		}
 	}
 	
@@ -3625,7 +3654,7 @@ focus_tree = {
 		icon = GFX_goal_HUN_germany
 		prerequisite = { focus = HUN_gersupp }
 		relative_position_id = HUN_gersupp
-		x = -2
+		x = 0
 		y = 1
 
 		cost = 5.2

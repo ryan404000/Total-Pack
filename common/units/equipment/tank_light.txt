@@ -503,6 +503,7 @@ equipments = {
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
+		can_convert_from = { light_tank_equipment gw_tank_equipment gw_uk_tank_equipment light_soviet_tank_equipment_1 light_soviet_tank_equipment_2 panzer_i_equipment_1 american_light_tank_equipment_1 panzer_ii_equipment_1 light_tank_equipment_2 light_uk_tank_equipment_2 panzer_ii_equipment_2 american_light_tank_equipment_2 }		
 		
 		#Misc Abilities
 		maximum_speed = 6.6
@@ -534,7 +535,8 @@ equipments = {
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
-		
+		can_convert_from = { light_tank_equipment gw_tank_equipment gw_uk_tank_equipment light_soviet_tank_equipment_1 light_soviet_tank_equipment_2 panzer_i_equipment_1 american_light_tank_equipment_1 panzer_ii_equipment_1 light_tank_equipment_2 light_uk_tank_equipment_2 panzer_ii_equipment_2 american_light_tank_equipment_2 bt_tank_equipment_2 }
+
 		#Misc Abilities
 		maximum_speed = 6.4 # lower speed
 		reliability = 0.67
@@ -565,7 +567,8 @@ equipments = {
 		priority = 50
 		visual_level = 1
 		is_convertable = yes
-		
+		can_convert_from = { light_tank_equipment gw_tank_equipment gw_uk_tank_equipment light_soviet_tank_equipment_1 light_soviet_tank_equipment_2 panzer_i_equipment_1 american_light_tank_equipment_1 panzer_ii_equipment_1 light_tank_equipment_2 light_uk_tank_equipment_2 panzer_ii_equipment_2 american_light_tank_equipment_2 bt_tank_equipment_2 light_soviet_tank_equipment_2 }
+
 		#Misc Abilities
 		maximum_speed = 6.6
 		reliability = 0.7 # reliability better
@@ -592,7 +595,8 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
-		
+		can_convert_from = { czech_panzer_equipment_2 light_tank_equipment gw_tank_equipment gw_uk_tank_equipment light_soviet_tank_equipment_1 light_soviet_tank_equipment_2 panzer_i_equipment_1 american_light_tank_equipment_1 panzer_ii_equipment_1 light_tank_equipment_2 light_uk_tank_equipment_2 panzer_ii_equipment_2 american_light_tank_equipment_2 bt_tank_equipment_2 light_soviet_tank_equipment_2 }		
+
 		#Misc Abilities
 		maximum_speed = 6.8
 		reliability = 0.7
@@ -618,6 +622,7 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
+		can_convert_from = { czech_panzer_equipment_2 american_light_tank_equipment_3 light_tank_equipment gw_tank_equipment gw_uk_tank_equipment light_soviet_tank_equipment_1 light_soviet_tank_equipment_2 panzer_i_equipment_1 american_light_tank_equipment_1 panzer_ii_equipment_1 light_tank_equipment_2 light_uk_tank_equipment_2 panzer_ii_equipment_2 american_light_tank_equipment_2 bt_tank_equipment_2 light_soviet_tank_equipment_2 }		
 
 		#Misc Abilities
 		maximum_speed = 6.8
@@ -644,6 +649,7 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
+		can_convert_from = { light_tank_equipment_3 czech_panzer_equipment_2 american_light_tank_equipment_3 light_tank_equipment gw_tank_equipment gw_uk_tank_equipment light_soviet_tank_equipment_1 light_soviet_tank_equipment_2 panzer_i_equipment_1 american_light_tank_equipment_1 panzer_ii_equipment_1 light_tank_equipment_2 light_uk_tank_equipment_2 panzer_ii_equipment_2 american_light_tank_equipment_2 bt_tank_equipment_2 light_soviet_tank_equipment_2 }		
 
 		#Misc Abilities
 		maximum_speed = 7 # higher speed
@@ -671,6 +677,7 @@ equipments = {
 		priority = 50
 		visual_level = 1
 		is_convertable = yes
+		can_convert_from = { light_uk_tank_equipment_3 light_tank_equipment_3 czech_panzer_equipment_2 american_light_tank_equipment_3 light_tank_equipment gw_tank_equipment gw_uk_tank_equipment light_soviet_tank_equipment_1 light_soviet_tank_equipment_2 panzer_i_equipment_1 american_light_tank_equipment_1 panzer_ii_equipment_1 light_tank_equipment_2 light_uk_tank_equipment_2 panzer_ii_equipment_2 american_light_tank_equipment_2 bt_tank_equipment_2 light_soviet_tank_equipment_2 }		
 		
 		#Misc Abilities
 		maximum_speed = 7 # higher speed
@@ -698,6 +705,7 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = no
+		can_convert_from = { light_uk_tank_equipment_3 panzer_ii_equipment_3 light_tank_equipment_3 czech_panzer_equipment_2 american_light_tank_equipment_3 light_tank_equipment gw_tank_equipment gw_uk_tank_equipment light_soviet_tank_equipment_1 light_soviet_tank_equipment_2 panzer_i_equipment_1 american_light_tank_equipment_1 panzer_ii_equipment_1 light_tank_equipment_2 light_uk_tank_equipment_2 panzer_ii_equipment_2 american_light_tank_equipment_2 bt_tank_equipment_2 light_soviet_tank_equipment_2 }		
 		
 		#Misc Abilities
 		maximum_speed = 7
@@ -728,6 +736,7 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
+		can_convert_from = { light_soviet_tank_equipment_4 light_uk_tank_equipment_3 panzer_ii_equipment_3 light_tank_equipment_3 czech_panzer_equipment_2 american_light_tank_equipment_3 light_tank_equipment gw_tank_equipment gw_uk_tank_equipment light_soviet_tank_equipment_1 light_soviet_tank_equipment_2 panzer_i_equipment_1 american_light_tank_equipment_1 panzer_ii_equipment_1 light_tank_equipment_2 light_uk_tank_equipment_2 panzer_ii_equipment_2 american_light_tank_equipment_2 bt_tank_equipment_2 light_soviet_tank_equipment_2 }		
 		
 		
 		#Misc Abilities
@@ -758,6 +767,7 @@ equipments = {
 		priority = 10
 		visual_level = 2
 		is_convertable = yes
+		can_convert_from = { light_soviet_tank_equipment_5 light_soviet_tank_equipment_4 light_uk_tank_equipment_3 panzer_ii_equipment_3 light_tank_equipment_3 czech_panzer_equipment_2 american_light_tank_equipment_3 light_tank_equipment gw_tank_equipment gw_uk_tank_equipment light_soviet_tank_equipment_1 light_soviet_tank_equipment_2 panzer_i_equipment_1 american_light_tank_equipment_1 panzer_ii_equipment_1 light_tank_equipment_2 light_uk_tank_equipment_2 panzer_ii_equipment_2 american_light_tank_equipment_2 bt_tank_equipment_2 light_soviet_tank_equipment_2 }		
 
 		#Misc Abilities
 		maximum_speed = 7.2 # higher speed

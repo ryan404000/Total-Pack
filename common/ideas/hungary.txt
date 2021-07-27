@@ -461,6 +461,18 @@ ideas = {
 				}
 			}
 		}
+
+		HUN_spanish_intervention = {
+			picture = FRA_scw_intervention_nationalists_focus
+
+			allowed_civil_war = {}
+
+			modifier = {
+				send_volunteer_divisions_required = -0.2
+			}
+
+		}
+
 	}
 
 	political_advisor = {
