@@ -3615,7 +3615,7 @@ focus_tree = {
 		x = -2
 		y = 1
 
-		cost = 6
+		cost = 4
 
 		ai_will_do = {
 			factor = 60
@@ -3623,6 +3623,10 @@ focus_tree = {
 
 		available = {
 			is_in_faction_with = GER
+		}
+
+		not = {
+			has_war_with = SOV
 		}
 
 		bypass = {
@@ -3647,7 +3651,66 @@ focus_tree = {
 			add_equipment_to_stockpile = { type = support_equipment  amount = 500 producer = GER }
 		}
 	}
-	
+
+	focus = {
+		id = HUN_mountain_line
+		icon = GFX_Goal_Op_barbarossa
+		prerequisite = { focus = HUN_barbarossa }
+		relative_position_id = HUN_barbarossa
+		x = 0
+		y = 1
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			is_in_faction_with = GER
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 73 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			73 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6571
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9563
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11536
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
 	focus = {
 		id = HUN_germanworkers
 		icon = GFX_goal_HUN_germany
