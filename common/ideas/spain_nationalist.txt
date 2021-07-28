@@ -617,12 +617,13 @@ ideas = {
 			}
 
 			modifier = {
-				stability_weekly = 0.002
+				political_power_gain = 0.05
 				consumer_goods_factor = -0.05
+				industry_repair_factor = 0.05
 			}
 		}
 
-		SPA_national_recovery_2 = {
+		SPA_national_recovery_fascist = {
 
 			name = SPA_national_recovery
 
@@ -637,13 +638,15 @@ ideas = {
 			}
 
 			modifier = {
-				stability_weekly = 0.002
+				political_power_gain = 0.05
 				consumer_goods_factor = -0.05
-				production_speed_infrastructure_factor = 0.1
+				industry_repair_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
 			}
 		}
 
-		SPA_national_recovery_3 = {
+		SPA_national_recovery_capitalist = {
 
 			name = SPA_national_recovery
 
@@ -658,8 +661,36 @@ ideas = {
 			}
 
 			modifier = {
-				consumer_goods_factor = -0.1
-				production_speed_infrastructure_factor = 0.1
+				political_power_gain = 0.05
+				consumer_goods_factor = -0.05
+				industry_repair_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+			}
+		}
+
+		SPA_national_recovery_capitalist_and_fascist = {
+
+			name = SPA_national_recovery
+
+			picture = SPA_national_recovery
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_gain = 0.05
+				consumer_goods_factor = -0.05
+				industry_repair_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
 			}
 		}
 
