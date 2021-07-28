@@ -7,13 +7,13 @@ Spain Buffs:
 		- +3 Dockyards
 	- Plan Imperial
 		- +3 Dockyards
+	
 	- National Recovery:
 		- +2 Civs
 		- +10% PP
 		- +5% Repair
 		- Remove Time Limit
 		- Remove Weekly Stability
-	
 	- Post-National Recovery rework
 		- Fascist Aid 
 			Modify National Recovery
@@ -32,7 +32,7 @@ Spain Buffs:
 		- Stabilize Economy (Requires Fascist and Capitalist Aid)
 			- Lower Devastation From Civil War 1 stage
 	- Post Stabilize, Fascist Path and Capitalist Paths + volunteer foci for both
-		- Fascist Integration (Path 1)
+		- Fascist Integration (Path 1) Mutually Exclusive with Allied Integration
 			Branch 1 (Civs + Infra + Dockyards // Trade)
 				- Facilitate Pyrenees Freight
 					- Infrastructure as is
@@ -110,11 +110,158 @@ Spain Buffs:
 				+8 Dockyards
 				+84 Building Slots across several states
 				Bunch of Infrastructure Upgrades
-		- Volunteer Tree
+		
+		- Allied Concordat
+			Branch 1 (Infrastructure, Dockyards)
+				- Northern Shipyards
+					- +5% War Support
+					- +2 Dockyards in Galicia, Asturias, Basque Country, Navarre
+					- +2 building slots in each state
+					- Level 10 Naval Base in each state
+					- Modify National Recovery
+						- +10% Dockyard Construction
+						- +10% Naval Base Construction
+				- CHOICE OF FOCUS, MUTUALLY EXCLUSIVE
+					- British Shipbuilding
+						- +3 Dockyards in 2 states
+						- +3 building Slots in 2 states
+						- British Navy Advisors Nat Spirit
+							- Dockyard Output: +5%
+							- Screen Attack: +5%
+							- Screen Defense: +5%
+							- Screen Armor: +5%
+							- Capital Ship Attack: +5%
+							- Capital Ship Armor: +5%
+							- Capital Ship Defense: +5%
+					- American Shipbuilding
+						- +4 Dockyards in 2 states
+						- +4 Building Slots in 2 states
+						- American Navy Advisors Nat Spirit
+							- Dockyard Output: +10%
+							- Refit Cost: -15%
+							- Carrier Armor: +5%
+							- Carrier Production: -5%
+				- North-South, West-East Railways Project (Requires British or America Shipbuilding)
+					- +5% Stab
+					- +2 Infrastructure in ALL STATES
+					- +2 Civs in Galicia, Asturias, Leon, Valladoid, Salamanca, Madrid
+					- +2 Building Slots in each state noted above
+					- Modify National Recovery
+						- +10% Infra Construction
+				- Connect Rural Areas
+					- +5% Stab
+					- +1 Infrastructure in ALL STATES
+					- +2 Building Slots in 7 states
+					- +2 Civs in 7 states
+					- Modify National Recovery
+						- +10% Civ Construction
+						- -5% Consumer Goods
+						- +5% Recruitable Population Factor
+				- Attract Western Investment
+					- Western Investment National Spirit
+						- -5% Consumer Goods
+						- +20% Resource Gain
+						- +20% Construction Speed
+					- Modify National Recovery
+						- +10% Infrastructure Construction
+						- +10% Civ Construction Speed
+					- +3 Steel Refineries
+					- +3 Fuel Silos in 2 states
+					- +3 building slots
+					- Unlocks Resource Exploitation Decisions
+					- Reduce Devastation from Civil War by 1 stage
+			Branch 2 (Mils, Civs, AA, Forts)
+				- Rebuild the Nation
+					- +5% Stab
+					- +2 Civs in 5 Andalusian 
+					- +2 Building Slots in 5 states
+					- Gain 'Resolute Iberia' National Spirit
+						- Repair Speed: +5%
+						- Construction Speed: +5%
+				- Western Industrialization
+					- +5% War Support
+					- +2 Mils in 6 states
+					- +2 Building Slots in 6 states
+					- Modify 'Resolute Iberia'
+						- Mil Construction Speed: +5%
+						- Factory Output: +5%
+				- 'Defense Branches'
+					- Prepare Pyrenees Land Defenses (Requires Western Industrialization)
+						- +5 Land Forts on each tile bordering France
+						- Modify 'Resolute Iberia'
+							- +10% Fort Construction Speed
+					- Prepare Mediterrean Coastal Defense
+						- +5 Coastal Forts on each Med tile
+						- Modify 'Resolute Iberia'
+							- +10% Coastal Fort Construction Speed
+				- Spanish Porcupine (Requires Land + Coastal Defense Foci)
+					- +5% War Support
+					- Max AA in states bordering France + Med
+			- Strength in Unity (Requires Spanish Porcupine and Attract Western Investment)
+				- +10% Stability
+				- Remove Devastation from Civil War
+				- +3 civs in 4 states
+				- +2 mils in 4 states
+				- +5 Building Slots in each state
+			
+			**NOTE: By the end of Strength in Unity, Allied Concordat should have the following buffs
+				National Recovery:
+					Political Power Gain: +10%
+					Consumer Goods: -10%
+					Repair Speed: +5%
+					Construction Speed: +20%
+					Civ Construction Speed: +20%
+					Dockyard Construction Speed: +10%
+					Infatructure Speed: +20%
+					Naval Base Construction Speed: +10%
+					Recruitable Population Factor: +5%
+					Resource Gain: +20%
+				
+				Resolute Iberia:
+					Repair Speed: +5%
+					Construction Speed: +5%
+					Mil Construction: +5%
+					Land Fort Construction: +10%
+					Coastal Fort Construction: +10%
+					Factory Output: +5%
+					
+				British Admiralty Advisors
+					- Dockyard Output: +5%
+					- Screen Attack: +5%
+					- Screen Defense: +5%
+					- Screen Armor: +5%
+					- Capital Ship Attack: +5%
+					- Capital Ship Armor: +5%
+					- Capital Ship Defense: +5%
+				
+				OR
+			
+				American Innovators
+					- Dockyard Output: +10%
+					- Refit Cost: -15%
+					- Carrier Armor: +5%
+					- Carrier Production: -5%				
+				
+				Civs: +56
+				Mils: +20
+				Dockyards: +14 OR +16
+				Building Slots: +85 across states
+				Infrastructure: +3 in every state
+				Naval Bases: +4 maxed Naval bases
+				Land Forts: Level 5 on French border
+				Coastal Forts: Level 5 on Med tiles
+				AA: Max (level 5) on all states bordering France/med
+				Stab: +25%
+				War Support: +10%
+				
+		
+		- Volunteer Tree (Capital or Fascist, doesn't matter)
 			- Lionize Foreign Brigades
 				- +10% War Support
 				- Gain Spanish Vanguard National Spirit
 					- +1% Recruitable Population
+					- +3% Recruitable Population Factor
+					- Political Power Gain: +10%
 					- Lend-lease tension limit: -30%
 					- Send Volunteers tension limit: -30%
 					- Max Volunteer Force Divisions: +12
@@ -123,10 +270,49 @@ Spain Buffs:
 				- +5% War Support
 				- Modify Spanish Vanguard Nat Spirit
 					- +2% Recruitable Population
-					- Max Volunteer Force Divisions: +18 (so 6 more)
+					- +3% Recruitable Population Factor
+					- Max Volunteer Force Divisions: +6 
 					- +5% Division Org
 					- -10% Training Time
+					- Attack: +5%
+					- Defense: +5%
+					- Screen Attack: +10%
+					- Screen Defense: +10%
+					- Naval Speed: +5%
 			- Our Time In The Sun
 				- Modify Spanish Vanguard Nat Spirit
-					- 
+					- +1% Recruitable Population
+					- +4% Recruitable Population Factor
+					- Max Volunteer Force Divisions: +18
+					- Experienced Forces Losses: -15%
+					- Attack: +5%
+					- Defense: +5%
+					- Breakthrough: +5%
+					- Capital Ship Attack: +10%
+					- Capital Ship Armor: +10%
+					- Naval Speed: +10%
+					- Political Power Gain: +10%
+		
+		NOTE: By end of Volunteer Tree, should have:
+			+15% War Support
+			Spanish Vanguard
+				- +4% Recruitable Population
+				- +10% Recruitable Population Factor
+				- Political Power gain: +20%
+				- Lend-lease tension limit: -30%
+				- Send Volunteers tension limit: -30%
+				- Max Volunteer Force Divisions: +36
+				- Justify War Goal Time: -30%
+				- Training Time: -10%
+				- Division Org: +5%
+				- Attack: +10%
+				- Defense: +10%
+				- Breakthrough: +5%
+				- Screen Attack: +10%
+				- Screen Defense: +10%
+				- Naval Speed: +15%
+				- Capital Ship Attack: +10%
+				- Capital Ship Armor: +10%
 	
+	- Join the Axis (Requires Our Time In The Sun + Spanish Miracle) Mutually Exclusive with Join the Allies
+	- Join the Allies (Require Out Time In The Sun + Strength in Unity) Mutually Exclusive with Join the Axis
