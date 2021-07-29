@@ -51,6 +51,17 @@ ideas = {
 			}
 		}
 		
+		HUN_barb_prep = {
+			
+			picture = FIN_russia
+
+			modifier = {
+				acclimatization_cold_climate_gain_factor = 0.3
+				acclimatization_hot_climate_gain_factor = -0.3 
+			}
+
+		}
+
 		HUN_milfund = {
 
 			picture = POL_nationaldef
