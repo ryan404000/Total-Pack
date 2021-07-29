@@ -7045,6 +7045,7 @@ HUN_garisons_desc:0 "We can let irregulars form defensive border formations, tha
 HUN_fm_1_tt:0 "Gain a §Y2 Skill§! §GCavalry Officer§! and §GOld Guard§! §CField Marshal§! named §YElemer Gorondy-Novak§!.\n"
 HUN_fm_2_tt:0 "Gain a §Y2 Skill§! §GBearer of Artillery§! and §GCareer Officer§! §CField Marshal§! named §YFerenc Feketehalmy-Czeydner§!.\n"
 HUN_motorized_units_tt:0 "Gain three well trained Motorized Divisions, known as the Carpathian Group, in your capital."
+HUN_fighter_units_tt:0 "Our allies in Germany have sent us the material and know-how to field 300 BF-109fs, and 200 Ju-87bs. These planes will be found in the airfield beside Budapest. "
 HUN_fortify_empire:0 "Fortify the new frontiers"
 HUN_fortify_empire_desc:0 "Rei"
 HUN_antiger:0 "Cut the Dependance on German Economy"

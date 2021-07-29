@@ -3843,6 +3843,10 @@ focus_tree = {
 		y = 1
 
 		cost = 5
+		
+		available = {
+			date > 1941.5.1
+		}
 
 		ai_will_do = {
 			factor = 60
@@ -3853,13 +3857,27 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 50
+		    custom_effect_tooltip = HUN_fighter_units_tt		
+			hidden_effect = {
+		    	load_oob = "HUN_fighter"
+			}			
+			create_production_license = {
+    			target = HUN
+    				equipment = {
+        			type = me_109_late_fighter_equipment_1
+        			version = 0
+    					}
+    				cost_factor = 0
+					}	
+			create_production_license = {
+    			target = HUN
+    				equipment = {
+        			type = ju_87_equipment_2
+        			version = 0
+    					}
+    				cost_factor = 0
+					}						
 		}
-#			add_equipment_to_stockpile = { type = me_109_late_fighter_equipment_1  
-#			amount = 800 
-#			producer = GER }
-#			add_equipment_to_stockpile = { type = ju_87_equipment_2  
-#			amount = 500 
-#			producer = GER }		
 	}
 
 	focus = {

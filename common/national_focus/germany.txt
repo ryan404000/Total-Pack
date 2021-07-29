@@ -3154,7 +3154,30 @@ focus_tree = {
 			}
 		}
 	}
-	
+
+	focus = {
+		id = GER_tank_sharing
+		icon = GFX_goal_medium_panzer
+		prerequisite = { focus = GER_rhineland }
+		prerequisite = { focus = GER_anschluss focus = GER_achtung_panzer }
+		relative_position_id = GER_anschluss		
+		available_if_capitulated = yes	
+		x = -3
+		y = 1
+		cost = 4
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			GER = {
+				unlock_decision_category_tooltip = GER_tank_sharing_category
+			}
+		}
+	}
+
 	focus = {
 		id = GER_soviet_treaty
 		icon = GFX_ger_sov_treaty

@@ -36,7 +36,6 @@ GER_mefo_bills_mission = {
 
 #		days_remove = GER_extend_mefo_bills_days?0
 
-
 #		remove_effect = {
 #			GER_mefo_bills_level_up = yes
 #			if = {
@@ -274,6 +273,57 @@ GER_mefo_bills_mission = {
 		}
 	}
 }
+
+GER_tank_sharing_category = {
+	GER_panzer_2 = {
+		available = {
+			has_tech = panzer_ii_equipment_2
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_ii_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_ii_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_ii_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_ii_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_ii_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	}
 
 GER_offensives = {
 	

@@ -1,0 +1,31 @@
+﻿air_wings = {
+	716 = { 
+		ju_87_equipment_2= {
+			owner = "HUN" 
+			amount = 100
+		}
+	716 = { 
+		ju_87_equipment_2= {
+			owner = "HUN" 
+			amount = 100
+		}		
+	}
+	716 = { 
+		me_109_late_fighter_equipment_1= {
+			owner = "HUN" 
+			amount = 100
+		}
+	}
+	716 = { 
+		me_109_late_fighter_equipment_1= {
+			owner = "HUN" 
+			amount = 100
+		}
+	}		
+	716 = { 
+		me_109_late_fighter_equipment_1= {
+			owner = "HUN" 
+			amount = 100
+		}
+	}			
+}
