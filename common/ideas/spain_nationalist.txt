@@ -460,11 +460,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-			}
-			
-			available = {
-				has_war = yes 
-			}			
+			}		
 
 			allowed_civil_war = {
 				always = yes
@@ -582,6 +578,9 @@ ideas = {
 
 			modifier = {
 				industrial_capacity_dockyard = 0.1
+				refit_ic_cost = -0.2
+				repair_speed_factor = 0.1
+				production_speed_dockyard_factor = 0.1
 			}
 		}
 
@@ -617,7 +616,7 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_gain = 0.05
+				political_power_factor = 0.05
 				consumer_goods_factor = -0.05
 				industry_repair_factor = 0.05
 			}
@@ -638,11 +637,91 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_gain = 0.05
+				political_power_factor = 0.05
 				consumer_goods_factor = -0.05
 				industry_repair_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
 				production_speed_dockyard_factor = 0.05
+			}
+		}
+
+		SPA_national_recovery_fascist_2 = {
+
+			name = SPA_national_recovery
+
+			picture = SPA_national_recovery
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				consumer_goods_factor = -0.05
+				industry_repair_factor = 0.05
+				production_speed_arms_factory_factor = 0.15
+				production_speed_dockyard_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+			}
+		}
+
+		SPA_national_recovery_fascist_3 = {
+
+			name = SPA_national_recovery
+
+			picture = SPA_national_recovery
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				consumer_goods_factor = -0.05
+				industry_repair_factor = 0.05
+				production_speed_arms_factory_factor = 0.15
+				production_speed_dockyard_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+
+		SPA_national_recovery_fascist_4 = {
+
+			name = SPA_national_recovery
+
+			picture = SPA_national_recovery
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				conscription_factor = 0.05
+				consumer_goods_factor = -0.05
+				industry_repair_factor = 0.05
+				production_speed_arms_factory_factor = 0.15
+				production_speed_dockyard_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.05
 			}
 		}
 
@@ -661,7 +740,7 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_gain = 0.05
+				political_power_factor = 0.05
 				consumer_goods_factor = -0.05
 				industry_repair_factor = 0.05
 				production_speed_industrial_complex_factor = 0.05
@@ -684,13 +763,232 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_gain = 0.05
+				political_power_factor = 0.05
 				consumer_goods_factor = -0.05
 				industry_repair_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
 				production_speed_dockyard_factor = 0.05
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_infrastructure_factor = 0.05
+			}
+		}
+
+		SPA_british_naval_advisors = {
+			
+			picture = generic_sea_focused_navy
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.10
+				navy_screen_attack_factor = 0.05
+				navy_screen_defence_factor = 0.05
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+			}
+		}
+
+		SPA_american_innovators = {
+
+			picture = tot_economic_mobilisation
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				industrial_capacity_dockyard = 0.10
+				refit_ic_cost = -0.15
+				navy_carrier_air_agility_factor = 0.1
+				navy_carrier_air_attack_factor = 0.1
+				navy_carrier_air_targetting_factor = 0.1
+			}
+		}
+
+		SPA_national_recovery_capitalist_2 = {
+
+			name = SPA_national_recovery
+
+			picture = SPA_national_recovery
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				consumer_goods_factor = -0.05
+				industry_repair_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.15
+				production_speed_naval_base_factor = 0.10
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+			}
+		}
+
+		SPA_national_recovery_capitalist_3 = {
+
+			name = SPA_national_recovery
+
+			picture = SPA_national_recovery
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				consumer_goods_factor = -0.1
+				industry_repair_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.15
+				production_speed_naval_base_factor = 0.10
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_infrastructure_factor = 0.15
+				conscription_factor = 0.05
+			}
+		}
+
+		SPA_national_recovery_capitalist_4 = {
+
+			name = SPA_national_recovery
+
+			picture = SPA_national_recovery
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				consumer_goods_factor = -0.1
+				industry_repair_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.15
+				production_speed_naval_base_factor = 0.10
+				production_speed_industrial_complex_factor = 0.25
+				production_speed_infrastructure_factor = 0.25
+				conscription_factor = 0.05
+			}
+		}
+
+		SPA_western_investment = {
+			picture = ast_all_in
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				local_resources = 0.2
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		SPA_Resolute_Spain = {
+			
+			picture = FRA_national_mobilization_focus
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				industry_repair_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		SPA_Resolute_Spain_2 = {
+			
+			picture = FRA_national_mobilization_focus
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				industry_repair_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		SPA_Resolute_Spain_3 = {
+			
+			picture = FRA_national_mobilization_focus
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				industry_repair_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_speed_bunker_factor = 0.1
+			}
+		}
+
+		SPA_Resolute_Spain_4 = {
+			picture = FRA_national_mobilization_focus
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				industry_repair_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_speed_bunker_factor = 0.1
+				production_speed_naval_base_factor = 0.1
 			}
 		}
 
@@ -796,6 +1094,7 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = -0.05
 			}
 		}
 
@@ -851,6 +1150,83 @@ ideas = {
 				send_volunteer_size = 3
 				send_volunteer_divisions_required = -0.25
 				send_volunteers_tension = -0.20
+			}
+		}
+
+		SPA_spanish_vanguard_1 = {
+			picture = generic_war_preparation
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_factor = 0.10
+				conscription = 0.01
+				conscription_factor = 0.03
+				send_volunteer_size = 12
+				send_volunteer_divisions_required = -0.25
+				send_volunteers_tension = -0.20
+				lend_lease_tension = -0.3
+			}
+		}
+		SPA_spanish_vanguard_2 = {
+			picture = generic_war_preparation
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_factor = 0.10
+				conscription = 0.02
+				conscription_factor = 0.06
+				send_volunteer_size = 18
+				send_volunteer_divisions_required = -0.25
+				send_volunteers_tension = -0.20
+				lend_lease_tension = -0.3
+				army_org = 5
+				offence = 0.05
+				defence = 0.05
+				navy_screen_attack_factor = 0.10
+				navy_screen_defence_factor = 0.10
+				naval_speed_factor = 0.05
+			}
+		}
+		SPA_spanish_vanguard_3 = {
+			picture = generic_war_preparation
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_factor = 0.10
+				conscription = 0.04
+				conscription_factor = 0.1
+				send_volunteer_size = 36
+				send_volunteer_divisions_required = -0.25
+				send_volunteers_tension = -0.20
+				lend_lease_tension = -0.3
+				training_time_factor = -0.1
+				army_org = 5
+				offence = 0.10
+				defence = 0.10
+				breakthrough_factor = 0.05
+				navy_screen_attack_factor = 0.10
+				navy_screen_defence_factor = 0.10
+				naval_speed_factor = 0.15
+				navy_capital_ship_attack_factor = 0.1
+				navy_capital_ship_defence_factor = 0.1
 			}
 		}
 

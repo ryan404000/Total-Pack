@@ -58,35 +58,37 @@ Spain Buffs:
 					- +5% War Support
 					- Modify National Recovery 
 						- +10% Mil construction
-					- +3 Mils
-					- +3 Building Slots
+					- +5 Mils
+					- +5 Building Slots
 				- German Engineering
 					- +5% War Support
 					- Modify National Recovery
 						- +5% Factory Output
 						- +5% Dockyard Output
-					- +3 Mils
-					- +3 Building Slots
+					- +5 Mils
+					- +5 Building Slots
 				- Italian Shipbuilding
 					- Gain Italian Shipbuilding Expertise
 						- Refit Cost -15%
-					- Modify National Recovery
 						- Dockyard Construction +10%
-					+3 Dockyards
-					+3 Building Slots
+						- Ship Repair Speed +10%
+						- Dockyard Output +10%
+						
+					+5 Dockyards
+					+5 Building Slots
 				- Expand War Industry
 					- +10% War Support
 					- Modify National Recovery
 						- +10% Factory Output
 						- +5% Recruitable Population Factor
-					- +6 Mils
-					- +6 Building Slots
+					- +12 Mils
+					- +12 Building Slots
 			- Spanish Miracle (Requires both Fascist Branches to be completed(So Expand Axis Gold + Expand War Industry))
 				- +10% Stability
 				- Remove Devastation from Civil War
 				- +3 civs in 4 states
-				- +2 mils in 4 states
-				- +5 Building Slots in each state
+				- +5 mils in 4 states
+				- +8 Building Slots in each state
 				
 			**NOTE: By end of Spanish Miracle (e.g. National Recovery onward), Fascists should have the following buffs by the end:**
 				National Recovery:	
@@ -95,7 +97,7 @@ Spain Buffs:
 					- Repair: +5%
 					- Civ Construction: +5%
 					- Mil Construction: +15%
-					- Dockyard Construction:
+					- Dockyard Construction: +5%
 					- Infrastructure Construction: +5%
 					- Factory Output: +15%
 					- Dockyard Output: +5% 
@@ -103,12 +105,17 @@ Spain Buffs:
 				Axis Gold Trade
 					- Construction Speed: +15%
 					- Consumer Goods: -5%
+				Italian Shipbuilding Expertise
+					- Refit Cost: -15%
+					- Dockyard Construction: +10%
+					- Ship Repair Speed: +10%
+					- Dockyard Output: +10%
 				+10% Stab
 				+20% War Support
-				+31 Civs total
-				+26 Mils total
-				+8 Dockyards
-				+84 Building Slots across several states
+				+35 Civs total
+				+48 Mils total
+				+10 Dockyards
+				+96 Building Slots across several states
 				Bunch of Infrastructure Upgrades
 		
 		- Allied Concordat
@@ -136,7 +143,7 @@ Spain Buffs:
 					- American Shipbuilding
 						- +4 Dockyards in 2 states
 						- +4 Building Slots in 2 states
-						- American Navy Advisors Nat Spirit
+						- American Innovators Nat Spirit
 							- Dockyard Output: +10%
 							- Refit Cost: -15%
 							- Carrier Armor: +5%
@@ -154,17 +161,17 @@ Spain Buffs:
 					- +2 Building Slots in 7 states
 					- +2 Civs in 7 states
 					- Modify National Recovery
-						- +10% Civ Construction
-						- -5% Consumer Goods
-						- +5% Recruitable Population Factor
+
 				- Attract Western Investment
 					- Western Investment National Spirit
 						- -5% Consumer Goods
 						- +20% Resource Gain
-						- +20% Construction Speed
+						- +10% Construction Speed
 					- Modify National Recovery
 						- +10% Infrastructure Construction
 						- +10% Civ Construction Speed
+						- -5% Consumer Goods
+						- +5% Recruitable Population Factor
 					- +3 Steel Refineries
 					- +3 Fuel Silos in 2 states
 					- +3 building slots
