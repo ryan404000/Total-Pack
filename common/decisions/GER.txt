@@ -275,7 +275,7 @@ GER_mefo_bills_mission = {
 }
 
 GER_tank_sharing_category = {
-	GER_panzer_2 = {
+	GER_panzer_2_d = {
 		available = {
 			has_tech = panzer_ii_equipment_2
 		}
@@ -317,6 +317,1206 @@ GER_tank_sharing_category = {
     		target = TUR
     			equipment = {
         		type = panzer_ii_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_2_l = {
+		available = {
+			has_tech = panzer_ii_equipment_5
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_ii_equipment_5
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_ii_equipment_5
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_ii_equipment_5
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_ii_equipment_5
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_ii_equipment_5
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_3_a = {
+		available = {
+			has_tech = panzer_iii_equipment_1
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iii_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iii_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iii_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iii_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iii_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_a = {
+		available = {
+			has_tech = panzer_iv_equipment_1
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_3_f = {
+		available = {
+			has_tech = panzer_iii_equipment_3
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iii_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iii_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iii_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iii_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iii_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_f = {
+		available = {
+			has_tech = panzer_iv_equipment_3
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_3_art_1 = {
+		available = {
+			has_tech = panzer_iii_art_equipment_1
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iii_art_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iii_art_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iii_art_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iii_art_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iii_art_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_3_mag_1 = {
+		available = {
+			has_tech = panzer_iii_ag_equipment_1
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iii_ag_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iii_ag_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iii_ag_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iii_ag_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iii_ag_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_3_mag_3 = {
+		available = {
+			has_tech = panzer_iii_ag_equipment_3
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iii_ag_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iii_ag_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iii_ag_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iii_ag_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iii_ag_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_3_td_1 = {
+		available = {
+			has_tech = panzer_iii_td_equipment_2
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iii_td_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iii_td_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iii_td_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iii_td_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iii_td_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_3_aa_1 = {
+		available = {
+			has_tech = panzer_iii_flamm_equipment_0
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iii_flamm_equipment_0
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iii_flamm_equipment_0
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iii_flamm_equipment_0
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iii_flamm_equipment_0
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iii_flamm_equipment_0
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_h = {
+		available = {
+			has_tech = panzer_iv_equipment_5
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_equipment_5
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_equipment_5
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_equipment_5
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_equipment_5
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_equipment_5
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_mag_1 = {
+		available = {
+			has_tech = panzer_iv_ag_equipment_1
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_ag_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_ag_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_ag_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_ag_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_ag_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_art_1 = {
+		available = {
+			has_tech = panzer_iv_art_equipment_2
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_art_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_art_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_art_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_art_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_art_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_art_2 = {
+		available = {
+			has_tech = panzer_iv_art_equipment_3
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_art_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_art_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_art_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_art_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_art_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_td_1 = {
+		available = {
+			has_tech = panzer_iv_td_equipment_0
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_td_equipment_0
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_td_equipment_0
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_td_equipment_0
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_td_equipment_0
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_td_equipment_0
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_td_2 = {
+		available = {
+			has_tech = panzer_iv_td_equipment_1
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_td_3 = {
+		available = {
+			has_tech = panzer_iv_td_equipment_3
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_td_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_td_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_td_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_td_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_td_equipment_3
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_spaa_1 = {
+		available = {
+			has_tech = panzer_iv_spaa_equipment_2
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_spaa_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_spaa_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_spaa_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_spaa_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_spaa_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_4_spaa_2 = {
+		available = {
+			has_tech = panzer_iv_spaa_equipment_4
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_iv_spaa_equipment_4
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_iv_spaa_equipment_4
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_iv_spaa_equipment_4
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_iv_spaa_equipment_4
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_iv_spaa_equipment_4
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_5_panther_1 = {
+		available = {
+			has_tech = panzer_v_equipment_1
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_v_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_v_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_v_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_v_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_v_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_5_panther_2 = {
+		available = {
+			has_tech = panzer_v_equipment_2
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_v_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_v_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_v_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_v_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_v_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_5_panther_td_1 = {
+		available = {
+			has_tech = panzer_v_td_equipment_1
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_v_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_v_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_v_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_v_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_v_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_vi_1 = {
+		available = {
+			has_tech = panzer_vi_equipment_1
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_vi_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_vi_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_vi_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_vi_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_vi_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_vi_2 = {
+		available = {
+			has_tech = panzer_vi_equipment_2
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_vi_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_vi_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_vi_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_vi_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_vi_equipment_2
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+			}
+		}
+	GER_panzer_vi_td_1 = {
+		available = {
+			has_tech = panzer_vi_td_equipment_1
+		}
+		cost = 50	
+		complete_effect = {
+		create_production_license = {
+    		target = HUN
+    			equipment = {
+        		type = panzer_vi_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}	
+		create_production_license = {
+    		target = ITA
+    			equipment = {
+        		type = panzer_vi_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = ROM
+    			equipment = {
+        		type = panzer_vi_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = BUL
+    			equipment = {
+        		type = panzer_vi_td_equipment_1
+        		version = 0
+    			}
+    		cost_factor = 0
+				}
+		create_production_license = {
+    		target = TUR
+    			equipment = {
+        		type = panzer_vi_td_equipment_1
         		version = 0
     			}
     		cost_factor = 0
