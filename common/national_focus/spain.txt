@@ -4542,6 +4542,9 @@ focus_tree = {
 		id = SPA_lionize_foreign_brigades
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = SPA_expand_fascist_aid focus = SPA_expand_capitalist_aid }
+		available = {
+			date > 1939.1.1
+		}
 		relative_position_id = SPA_expand_fascist_aid
 		x = 3
 		y = 1
@@ -4557,6 +4560,9 @@ focus_tree = {
 		id = SPA_Spanish_Eagles
 		icon = GFX_goal_generic_territory_or_war
 		prerequisite = { focus = SPA_lionize_foreign_brigades }
+		available = {
+			date > 1940.1.1
+		}
 		relative_position_id = SPA_lionize_foreign_brigades
 		x = 0
 		y = 2
@@ -4575,6 +4581,9 @@ focus_tree = {
 		id = SPA_Our_Time
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = SPA_Spanish_Eagles }
+		available = {
+			date > 1941.1.1
+		}
 		relative_position_id = SPA_Spanish_Eagles
 		x = 0
 		y = 2
