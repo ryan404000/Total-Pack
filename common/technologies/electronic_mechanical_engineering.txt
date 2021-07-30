@@ -41,9 +41,7 @@ technologies = {
 		
 		land_reinforce_rate = 0.01
 		
-		planning_speed = 0.05
-		
-		
+		planning_speed = 0.05		
 		path = {
 			leads_to_tech = HQ_radio
 			research_cost_coeff = 1
@@ -88,7 +86,7 @@ technologies = {
 		# units with radios can more efficiently join combats when there is room
 		land_reinforce_rate = 0.01
 		planning_speed = 0.05
-		
+
 		path = {
 			leads_to_tech = radio_detection 
 			research_cost_coeff = 1
@@ -253,17 +251,26 @@ technologies = {
 	corps_communications = {
 		land_reinforce_rate = 0.01
 		planning_speed = 0.1
-		enemy_army_bonus_air_superiority_factor = -0.03
-		
+		enemy_army_bonus_air_superiority_factor = -0.03	
+
+		category_all_infantry = {
+			max_strength = 0.5
+		}
+		category_light_infantry = {
+			max_strength = 0.5
+		}
+		category_tanks = {
+			max_strength = 0.3
+		}
+
 		DIV_HQ = {
 			need = {
 			   HQ_equipment = 2
 		    }
 			default_morale = 0.1
+			max_organisation = 15
 		}
-		
-
-		
+	
 		research_cost = 1.5
 		start_year = 1937
 		folder = {
@@ -424,12 +431,21 @@ technologies = {
 			breakthrough = 0.05
 			defense = 0.05
 			max_organisation = 5
+			max_strength = 0.4
 			default_morale = 0.05
 			need = {
 			    HQ_equipment = 4
 			}
 		}
+		DIV_HQ = { max_organisation = 15 }
 		
+		category_all_infantry = {
+			max_strength = 0.5
+		}
+		category_light_infantry = {
+			max_strength = 0.5
+		}
+	
 		start_year = 1939
 		
 		ai_will_do = {

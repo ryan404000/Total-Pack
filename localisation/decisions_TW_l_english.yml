@@ -815,5 +815,35 @@
  
  FRA_order_support_equipment_in_USA:0 "Order Support Equipment"
  FRA_order_uniforms_in_USA:0 "Order Uniforms"
+
+GER_tank_sharing_category:0 "Tank Sharing Program"
+GER_panzer_2_d:0 "Panzer II D"
+GER_panzer_2_l:0 "Panzer II L"
+GER_panzer_3_a:0 "Panzer III Ausf. A"
+GER_panzer_4_a:0 "Panzer IV Ausf.A, 1/BW"
+GER_panzer_3_f:0 "Panzer III Ausf. F"
+GER_panzer_4_f:0 "Panzer Ausf.F, 7/BW"
+GER_panzer_3_art_1:0 "Stuig 33B - Artillery"
+GER_panzer_3_mag_1:0 "StuG III, Ausf. C - Assault Gun"
+GER_panzer_3_mag_3:0 "StuG IIIE, Ausf, M - Assault Gun"
+GER_panzer_3_td_1:0 "StuG III, Ausf, F - Tank Destroyer"
+GER_panzer_3_aa_1:0 "Flakpanzer III"
+GER_panzer_4_h:0 "Panzer Ausf.H, 9/BW "
+GER_panzer_4_mag_1:0 "Brummbar Medium Assault Gun"
+GER_panzer_4_art_1:0 "Grille IV Medium Self Propelled Artillery"
+GER_panzer_4_art_2:0 "Heuschrecke Medium Self Propelled Artillery"
+GER_panzer_4_td_1:0 "Marder IV Medium Tank Destroyer"
+GER_panzer_4_td_2:0 "StuG IV - Tank Destroyer"
+GER_panzer_4_td_3:0 "Nashorn Medium Tank Destroyer"
+GER_panzer_4_spaa_1:0 "Mobelwagen Medium Self-Propelled Anti-Air"
+GER_panzer_4_spaa_2:0 "Wirbelwind Medium Self-Propelled Anti-Air"
+GER_panzer_5_panther_1:0 "Panther Ausf. A"
+GER_panzer_5_panther_2:0 "Panther Ausf. G"
+GER_panzer_5_panther_td_1:0 "Panther Jagdpanzer TD"
+GER_panzer_vi_1:0 "Panzer VI Ausf. A - Tiger"
+GER_panzer_vi_2:0 "Panzer VI Ausf. B Königstiger"
+GER_panzer_vi_td_1:0 "Panzerjäger Tiger - Elefant"
+
+
  
  

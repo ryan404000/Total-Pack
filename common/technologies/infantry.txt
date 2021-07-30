@@ -113,70 +113,70 @@ technologies = {
 			factor = 8
 		}
 	}
-############################ Early War HQ
-	tech_Headquarters2 = {
-
-		path = {
-			leads_to_tech = tech_Headquarters3
-			research_cost_coeff = 1
-		}
-		DIV_HQ = { max_organisation = 15 }	
-
-		category_all_infantry = {
-			max_strength = 0.5
-		}
-		category_light_infantry = {
-			max_strength = 0.5
-		}
-		category_tanks = {
-			max_strength = 0.3
-		}
-
-		research_cost = 1.5
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = @1940 y = 4 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 8
-		}
-	}
-####################### Late war HQ
-	tech_Headquarters3 = {
-		
-		DIV_HQ = { max_organisation = 15 }
-		
-		category_all_infantry = {
-			max_strength = 0.5
-		}
-		category_light_infantry = {
-			max_strength = 0.5
-		}
-		category_tanks = {
-			max_strength = 0.4
-		}
-
-		research_cost = 1.75
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = @1944 y = 4 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 8
-		}
-	}
+############################ Early War HQ - NOW IN corps_communications
+#	tech_Headquarters2 = {
+#
+#		path = {
+#			leads_to_tech = tech_Headquarters3
+#			research_cost_coeff = 1
+#		}
+#		DIV_HQ = { max_organisation = 15 }	
+#
+#		category_all_infantry = {
+#			max_strength = 0.5
+#		}
+#		category_light_infantry = {
+#			max_strength = 0.5
+#		}
+#		category_tanks = {
+#			max_strength = 0.3
+#		}
+#
+#		research_cost = 1.5
+#		start_year = 1940
+#		folder = {
+#			name = infantry_folder
+#			position = { x = @1940 y = 4 }
+#		}
+#		
+#		categories = {
+#			infantry_weapons
+#		}
+#		
+#		ai_will_do = {
+#			factor = 8
+#		}
+#	}
+####################### Late war HQ - MOVED TO TANK_RADIO
+#	tech_Headquarters3 = {
+#		
+#		DIV_HQ = { max_organisation = 15 }
+#		
+#		category_all_infantry = {
+#			max_strength = 0.5
+#		}
+#		category_light_infantry = {
+#			max_strength = 0.5
+#		}
+#		category_tanks = {
+#			max_strength = 0.4
+#		}
+#
+#		research_cost = 1.75
+#		start_year = 1944
+#		folder = {
+#			name = infantry_folder
+#			position = { x = @1944 y = 4 }
+#		}
+#		
+#		categories = {
+#			infantry_weapons
+#		}
+#		
+#		ai_will_do = {
+#			factor = 8
+#		}
+#	}
 ########################## Garrison ########################
 	tech_Garrison = {
 
