@@ -225,6 +225,9 @@ ideas = {
 					has_government = neutrality
 				}
 			}
+			rule = {
+				can_join_factions = no 
+			}
 
 			allowed_civil_war = {
 				always = yes
@@ -251,6 +254,9 @@ ideas = {
 					has_government = neutrality
 				}
 			}
+			rule = {
+				can_join_factions = no 
+			}
 
 			allowed_civil_war = {
 				always = yes
@@ -276,6 +282,9 @@ ideas = {
 					has_government = fascism
 					has_government = neutrality
 				}
+			}
+			rule = {
+				can_join_factions = no 
 			}
 
 			allowed_civil_war = {
@@ -310,6 +319,9 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
+			rule = {
+				can_join_factions = no 
+			}
 
 			modifier = {
 				conscription = 0.01
@@ -330,6 +342,9 @@ ideas = {
 					has_government = fascism
 					has_government = neutrality
 				}
+			}
+			rule = {
+				can_join_factions = no 
 			}
 
 			allowed_civil_war = {

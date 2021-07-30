@@ -1443,7 +1443,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SPA_extol_the_martyrs_of_the_war
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL}
@@ -3043,7 +3043,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SPA_national_recovery
-		cost = 10
+		cost = 7.15
 
 		icon = GFX_focus_generic_treaty
 
@@ -3108,7 +3108,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SPA_national_recovery
-		cost = 10
+		cost = 7.15
 
 		icon = GFX_goal_generic_intelligence_exchange
 
@@ -3164,7 +3164,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SPA_national_recovery
-		cost = 10
+		cost = 7.15
 
 		icon = GFX_goal_state_economy
 
@@ -3215,7 +3215,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SPA_expand_fascist_aid
-		cost = 10
+		cost = 7.15
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -3338,7 +3338,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SPA_facilitate_pyrenees_freight_transports
-		cost = 10
+		cost = 7.15
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -3378,7 +3378,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SPA_improve_cross_country_railways
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			limit = {
@@ -3438,7 +3438,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SPA_Improve_Med_Naval_Bases
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = yes
 
@@ -3523,7 +3523,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			add_war_support = 0.05
@@ -3564,7 +3564,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			add_war_support = 0.05
@@ -3610,7 +3610,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		cost = 10
+		cost = 7.15
 
 		completion_reward = {
 			add_ideas = SPA_italian_shipbuilding_expertise
@@ -3714,7 +3714,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		cost = 10
+		cost = 2
 
 		completion_reward = {
 			add_stability = 0.1
@@ -3797,7 +3797,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 10
+		cost = 7.15
 
 		completion_reward = {
 			add_war_support = 0.05
@@ -3870,7 +3870,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			add_ideas = SPA_british_naval_advisors
@@ -3901,7 +3901,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			add_ideas = SPA_american_innovators
@@ -3931,7 +3931,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 10
+		cost = 7.15
 
 		completion_reward = {
 			add_stability = 0.1
@@ -3962,7 +3962,7 @@ focus_tree = {
 		relative_position_id = SPA_NorthSouthEastWest
 		x = 0
 		y = 2
-		cost = 10
+		cost = 3
 
 		completion_reward = {
 			add_ideas = SPA_western_investment
@@ -4118,7 +4118,7 @@ focus_tree = {
 		relative_position_id = SPA_Rebuilding_The_State
 		x = 0
 		y = 2
-		cost = 10
+		cost = 7.15
 
 		completion_reward = {
 			add_war_support = 0.05
@@ -4226,7 +4226,7 @@ focus_tree = {
 		relative_position_id = SPA_Western_Industrialization
 		x = -1
 		y = 1
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			if = {
@@ -4315,7 +4315,7 @@ focus_tree = {
 		relative_position_id = SPA_Western_Industrialization
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			if = {
@@ -4483,7 +4483,7 @@ focus_tree = {
 		relative_position_id = SPA_Pyrenees_Land_forts
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			172 = {
@@ -4623,7 +4623,7 @@ focus_tree = {
 		relative_position_id = SPA_Our_Time
 		x = -1
 		y = 1
-		cost = 5		
+		cost = 1		
 
 		completion_reward = {
 			add_war_support = 0.05
@@ -4650,7 +4650,7 @@ focus_tree = {
 		relative_position_id = SPA_Our_Time
 		x = 3
 		y = 1
-		cost = 5		
+		cost = 1		
 
 		completion_reward = {
 			add_war_support = 0.05
@@ -4988,7 +4988,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SPA_save_the_alcazar
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY}
@@ -5040,6 +5040,14 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_SPA_CARLIST_UPRISING}
 		completion_reward = {
 			add_war_support = 0.1
+
+			if = {
+				limit = { is_ai = no }
+				add_days_mission_timeout = {
+					mission = SPA_carlist_uprising_mission
+					days = 70
+				}
+			}
 		}
 	}
 
@@ -5061,7 +5069,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SPA_unify_the_nationalist_front
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -5165,7 +5173,7 @@ focus_tree = {
 				limit = { is_ai = no }
 				add_days_mission_timeout = {
 				mission = SPA_carlist_uprising_mission
-				days = 70
+				days = 140
 			}
 		}
 		}
@@ -5184,7 +5192,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SPA_consolidate_the_north
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_SPA_CARLIST_UPRISING}
@@ -5197,10 +5205,10 @@ focus_tree = {
 			if = {
 				limit = { is_ai = no }
 				add_days_mission_timeout = {
-				mission = SPA_carlist_uprising_mission
-				days = 140
-			}
+					mission = SPA_carlist_uprising_mission
+					days = 140
 				}
+			}
 		}
 	}
 
@@ -5457,7 +5465,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SPA_extol_the_martyrs_of_the_war
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_SPA_CARLIST_UPRISING}
@@ -6356,7 +6364,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SPA_stabilize_economy
-		cost = 10
+		cost = 7.15
 
 		available_if_capitulated = yes
 
