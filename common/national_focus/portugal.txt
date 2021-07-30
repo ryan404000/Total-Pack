@@ -4104,6 +4104,7 @@ focus_tree = {
 				any_other_country = {
 					is_in_faction_with = ENG
 					has_war_with = POR
+					is_puppet_of = SPR					
 				}
 			}
 			if = {
@@ -5130,6 +5131,7 @@ focus_tree = {
 				any_other_country = {
 					is_in_faction_with = GER
 					has_war_with = ROOT
+					is_puppet_of = SPR
 				}
 			}	
 		}
