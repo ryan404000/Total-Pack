@@ -1838,7 +1838,7 @@ focus_tree = {
 		icon = GFX_goal_project_riese
 		
 		x = 4
-		y = 8
+		y = 7
 		relative_position_id = GER_Goering_Plan
 		
 		cost = 11 
@@ -2675,9 +2675,9 @@ focus_tree = {
 		prerequisite = { focus = GER_Wehrmacht }
 		prerequisite = { focus = GER_air_innovation }
 		
-		x = -3
-		y = 1
-		relative_position_id = GER_Wehrmacht
+		x = -2
+		y = 0
+		relative_position_id = GER_Legion_Condor
 		
 		cost = 3 
 		ai_will_do = {
@@ -2700,7 +2700,7 @@ focus_tree = {
 		icon = GFX_focus_generic_combined_arms
 		prerequisite = { focus = GER_Wehrmacht }
 		
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = GER_Wehrmacht
 		
@@ -2756,7 +2756,7 @@ focus_tree = {
 		icon = GFX_goal_achtung_panzer
 		prerequisite = { focus = GER_Wehrmacht }
 		
-		x = 2 
+		x = 1
 		y = 1
 		relative_position_id = GER_Wehrmacht
 		
@@ -2881,7 +2881,7 @@ focus_tree = {
 		icon = GFX_goal_leichte_panzer
 		prerequisite = { focus = GER_achtung_panzer }
 	
-		x = 5
+		x = 3
 		y = 2
 		relative_position_id = GER_Wehrmacht
 		
@@ -2950,8 +2950,8 @@ focus_tree = {
 		icon = GFX_goal_liechte_division_advanced
 		prerequisite = { focus = GER_liecht_division }
 		
-		x = 5
-		y = 4
+		x = 6
+		y = 3
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 6
@@ -2976,8 +2976,8 @@ focus_tree = {
 		icon = GFX_goal_TD
 		prerequisite = { focus = GER_liecht_division }
 		
-		x = 4
-		y = 3
+		x = 2
+		y = 4
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 4.5
@@ -3158,7 +3158,6 @@ focus_tree = {
 	focus = {
 		id = GER_tank_sharing
 		icon = GFX_goal_medium_panzer
-		prerequisite = { focus = GER_rhineland }
 		prerequisite = { focus = GER_anschluss focus = GER_achtung_panzer }
 		relative_position_id = GER_anschluss		
 		available_if_capitulated = yes	
@@ -3239,8 +3238,8 @@ focus_tree = {
 		icon = GFX_goal_medium_panzer
 		prerequisite = { focus =  GER_achtung_panzer }
 	
-		x = 3
-		y = 4
+		x = 4
+		y = 3
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 5
@@ -3299,8 +3298,8 @@ focus_tree = {
 		icon = GFX_goal_entwicklungs_projekt
 		prerequisite = { focus = GER_Panzer_division }
 
-		x = 4
-		y = 6
+		x = 3
+		y = 5
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 6
@@ -3324,8 +3323,8 @@ focus_tree = {
 		icon = GFX_goal_TD_2
 		prerequisite = { focus = GER_Panzer_division }
 		
-		x = 3
-		y = 5
+		x = 4
+		y = 4
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 4.8
@@ -3356,8 +3355,8 @@ focus_tree = {
 		icon = GFX_goal_schwere_panzer
 		prerequisite = { focus = GER_Panzer_division }
 		
-		x = 5
-		y = 5
+		x = 6
+		y = 4
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 6.5
@@ -3386,7 +3385,7 @@ focus_tree = {
 		prerequisite = { focus = GER_Heavy_panzer }
 		
 		x = 5
-		y = 7
+		y = 5
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 7.8
@@ -3423,10 +3422,10 @@ focus_tree = {
 		focus = {
 		id = GER_wunderwaffe_panzer_2
 		icon = GFX_goal_wunderwaffe_panzer
-		prerequisite = { focus = GER_wunderwaffe_panzer }
+		prerequisite = { focus = GER_Heavy_panzer }
 		
-		x = 5
-		y = 8
+		x = 7
+		y = 5
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 8.5
@@ -3719,8 +3718,8 @@ focus_tree = {
 		icon = GFX_goal_Volkstrumm
 		prerequisite = { focus = GER_kampfgruppes }
 			
-		x = 1
-		y = 7
+		x = 4
+		y = 6
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 5
@@ -3749,8 +3748,8 @@ focus_tree = {
 		icon = GFX_goal_werwolf
 		prerequisite = { focus = GER_Heer_expansion }
 		
-		x = 1
-		y = 8
+		x = 4
+		y = 7
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 4 
@@ -3994,7 +3993,8 @@ focus_tree = {
 	focus = {
 		id = GER_turkey_puppet_2
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = GER_soviet_ally }
+		prerequisite = { focus = GER_anschluss }
+		mutually_exclusive = { focus = GER_turkey_friend }
 		
 		available = {
 			is_puppet = no
@@ -4010,9 +4010,9 @@ focus_tree = {
 			country_exists = TUR
 		}
 		
-		x = -8
-		y = 8
-		relative_position_id = GER_anschluss
+		x = 2
+		y = 0
+		relative_position_id = GER_turkey_friend
 		
 		cost = 10
 		ai_will_do = {
@@ -4046,9 +4046,9 @@ focus_tree = {
 			country_exists = TUR
 		}
 		
-		x = -8
-		y = 9
-		relative_position_id = GER_anschluss
+		x = 2
+		y = 1
+		relative_position_id = GER_turkey_friend
 		
 		cost = 12
 		ai_will_do = {
@@ -4069,7 +4069,7 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 		
-		x = 4
+		x = 8
 		y = 1
 		relative_position_id = GER_Wehrmacht
 		
@@ -4093,7 +4093,7 @@ focus_tree = {
 		icon = GFX_focus_chi_collaboration_with_the_japanese
 		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		
-		x = 4
+		x = 9
 		y = 1
 		relative_position_id = GER_reform_das_auswaertige_amt
 		
@@ -4298,8 +4298,8 @@ focus_tree = {
 		prerequisite = { focus = GER_military_cooperations_with_japan }
 		prerequisite = { focus = GER_stahlpakt }
 		
-		x = -2
-		y = 2
+		x = -5
+		y = 1
 		relative_position_id = GER_military_cooperations_with_japan
 
 		cost = 2
@@ -4374,8 +4374,8 @@ focus_tree = {
 		icon = GFX_goal_continuous_research
 		prerequisite = { focus = GER_military_cooperations_with_japan }
 		
-		x = 0
-		y = 3
+		x = 1
+		y = 1
 		relative_position_id = GER_military_cooperations_with_japan
 		
 		cost = 2
@@ -4416,7 +4416,7 @@ focus_tree = {
 		icon = GFX_focus_chi_cooperation_with_the_nationalists
 		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		
-		x = 8
+		x = 13
 		y = 1	
 		relative_position_id = GER_reform_das_auswaertige_amt
 		
@@ -4560,11 +4560,11 @@ focus_tree = {
 	focus = {
 		id = GER_sweden_friend
 		icon = GFX_goal_swedenfication
-		prerequisite = { focus = GER_prepare_the_navy_to_be_at_war_with_uk }
+		prerequisite = { focus = GER_naval_secret }
 		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		
-		x = 2
-		y = 4
+		x = 1
+		y = 2
 		relative_position_id = GER_naval_rearmament
 
 		cost = 11.4
@@ -4630,7 +4630,7 @@ focus_tree = {
 		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		mutually_exclusive = { focus = GER_secure_spain }
 		
-		x = 13
+		x = 16
 		y = 1
 		relative_position_id = GER_reform_das_auswaertige_amt
 		
@@ -4931,8 +4931,8 @@ focus_tree = {
 		icon = GFX_befriend_arg
 		prerequisite = { focus = GER_befriend_nationalist_spain }
 		
-		x = 3
-		y = 2
+		x = 2
+		y = 1
 		relative_position_id = GER_befriend_nationalist_spain
 		
 		cost = 5
@@ -5048,7 +5048,7 @@ focus_tree = {
 		icon = GFX_Goal_Roma_Berlino
 		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		mutually_exclusive = { focus = GER_south_tyrol }
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = GER_support_das_aussenpolitische_amt_der_NSDAP
 		
@@ -5117,7 +5117,7 @@ focus_tree = {
 		prerequisite = { focus = GER_achse_berlin_rom }
 		
 		x = 0 
-		y = 3 
+		y = 2
 		relative_position_id = GER_achse_berlin_rom 
 		
 		cost = 2 
@@ -5153,7 +5153,7 @@ focus_tree = {
 		prerequisite = { focus = GER_stahlpakt }
 		
 		x = 1
-		y = 2
+		y = 1
 		relative_position_id = GER_stahlpakt
 		
 		cost = 2
@@ -5633,9 +5633,9 @@ focus_tree = {
 			}
 		}
 		
-		x = -3
-		y = 8
-		relative_position_id = GER_anschluss
+		x = 0
+		y = 1
+		relative_position_id = GER_ussr_war_goal
 		
 		cost = 10
 		ai_will_do = {
@@ -5991,7 +5991,8 @@ focus_tree = {
 	focus = {
 		id = GER_turkey_friend
 		icon = GFX_focus_collaboration_with_turkey
-		prerequisite = { focus = GER_ussr_war_goal }
+		prerequisite = { focus = GER_anschluss }
+		mutually_exclusive = { focus = GER_turkey_puppet_2 }
 		
 		available = { 
 			is_puppet = no 
@@ -6014,8 +6015,8 @@ focus_tree = {
 		#	}
 		#}
 		
-		x = -6
-		y = 8
+		x = 16
+		y = 1
 		relative_position_id = GER_anschluss
 		
 		cost = 13
@@ -6442,12 +6443,11 @@ focus_tree = {
 	focus = {
 		id = GER_plan_atlantikwall 
 		icon = GFX_human_tsunami
-		prerequisite = { focus = GER_around_maginot }
-		prerequisite = { focus = GER_weserubung }
+		prerequisite = { focus = GER_westwall }
 		
-		x = 2
-		y = 9
-		relative_position_id = GER_anschluss
+		x = 0
+		y = 1
+		relative_position_id = GER_westwall
 		
 		cost = 8
 		ai_will_do = {
@@ -6482,9 +6482,9 @@ focus_tree = {
 		icon = GFX_focus_generic_coastal_fort
 		prerequisite = { focus = GER_plan_atlantikwall }
 		
-		x = 2
-		y = 10
-		relative_position_id = GER_anschluss
+		x = 0
+		y = 2
+		relative_position_id = GER_westwall
 		
 		cost = 12
 		ai_will_do = {
@@ -6998,8 +6998,7 @@ focus_tree = {
 	focus = {
 		id = GER_secure_spain
 		icon = GFX_focus_attack_spain
-		prerequisite = { focus = GER_ussr_war_goal }
-		prerequisite = { focus = GER_war_with_france }
+		prerequisite = { focus = GER_anschluss }
 		mutually_exclusive = { focus = GER_befriend_nationalist_spain }
 		available = {
 			SPR = { has_civil_war = no }
@@ -7014,9 +7013,9 @@ focus_tree = {
 			}
 		}
 		
-		x = -4
-		y = 9
-		relative_position_id = GER_anschluss
+		x = 2
+		y = 0
+		relative_position_id = GER_befriend_nationalist_spain
 		
 		cost = 3
 		ai_will_do = {
@@ -7233,8 +7232,8 @@ focus_tree = {
 	focus = {
 		id = GER_operation_tannenbaum
 		icon = GFX_focus_attack_switzerland
-		prerequisite = { focus = GER_war_with_france }
-		
+		prerequisite = { focus = GER_anschluss }
+		mutually_exclusive = { focus = GER_german_swiss_trade_agreement }
 		
 		available = {
 			is_puppet = no
@@ -7255,9 +7254,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		will_lead_to_war_with = SWI
 		
-		x = -1
-		y = 8
-		relative_position_id = GER_anschluss
+		x = 2
+		y = 0
+		relative_position_id = GER_german_swiss_trade_agreement
 		
 		cost = 5
 		ai_will_do = {
@@ -7279,8 +7278,9 @@ focus_tree = {
 	focus = {
 		id = GER_german_swiss_trade_agreement
 		icon = GFX_focus_cooperation_with_Switzerland
-		prerequisite = { focus = GER_war_with_france }
-		
+		prerequisite = { focus = GER_anschluss }
+		mutually_exclusive = { focus = GER_operation_tannenbaum }
+
 		available = { 
 			is_puppet = no
 			SWI = {
@@ -7289,6 +7289,9 @@ focus_tree = {
 				is_puppet = no
 			}
 			is_neighbor_of = SWI
+			GER = {
+				has_war_with = FRA
+			}
 		}
 		ai_will_do = {
 			factor = 3
@@ -7299,9 +7302,9 @@ focus_tree = {
 			}
 		}
 		
-		x = 0
-		y = 9
-		relative_position_id = GER_anschluss
+		x = 4
+		y = 0
+		relative_position_id = GER_befriend_nationalist_spain
 		
 		cost = 3
 		
@@ -7330,8 +7333,8 @@ focus_tree = {
 		}
 
 		x = 0
-		y = 10
-		relative_position_id = GER_anschluss
+		y = 1
+		relative_position_id = GER_german_swiss_trade_agreement
 
 		cost = 2
 		
@@ -7419,11 +7422,11 @@ focus_tree = {
 	focus = {
 		id = GER_bismarck
 		icon = GFX_battleship_ger
-		prerequisite = { focus = GER_naval_secret }
+		prerequisite = { focus = GER_expand_western_docks }
 		
 		x = 1
-		y = 2
-		relative_position_id = GER_naval_rearmament
+		y = 1
+		relative_position_id = GER_expand_western_docks
 		
 		cost = 2
 		ai_will_do = {
@@ -7518,7 +7521,7 @@ focus_tree = {
 		prerequisite = { focus = GER_prepare_the_navy_to_be_at_war_with_uk }
 		
 		x = 0
-		y = 5
+		y = 4
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 5 
@@ -7545,13 +7548,86 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = GER_expand_eastern_docks
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = GER_prepare_the_navy_to_be_at_war_with_uk }
+		x = -2
+		y = 4
+		relative_position_id = GER_naval_rearmament
+		
+		cost = 5 
+		ai_will_do = {
+			factor = 5 
+		}
+		available_if_capitulated = yes	
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 63 }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+			63 = {
+			set_building_level = {
+				type = naval_base
+				province = 6282
+				level = 2
+				}	
+			}
+		}
+	}
+	focus = {
+		id = GER_expand_western_docks
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = GER_prepare_the_navy_to_be_at_war_with_uk }
+		x = 2
+		y = 4
+		relative_position_id = GER_naval_rearmament
+		
+		cost = 5 
+		ai_will_do = {
+			factor = 5 
+		}
+		available_if_capitulated = yes	
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 56 }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+			56 = {
+			set_building_level = {
+				type = naval_base
+				province = 11360
+				level = 2
+				}
+			}	
+			61 = {
+			set_building_level = {
+				type = naval_base
+				province = 11305
+				level = 2
+				}	
+			}		
+		}
+	}
+	focus = {
 		id = GER_plan_z
 		icon = GFX_goal_generic_large_fleet
 		prerequisite = { focus = GER_expand_the_dockyards focus = GER_prepare_the_navy_to_be_at_war_with_uk }
 		mutually_exclusive = { focus = GER_u_boat_effort }
 		
 		x = -1
-		y = 6
+		y = 5
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 10.4
@@ -7646,8 +7722,8 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = GER_plan_z }
 		
-		x = -1
-		y = 7
+		x = 0
+		y = 6
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 5
@@ -7681,7 +7757,7 @@ focus_tree = {
 		}
 		
 		x = -2
-		y = 8
+		y = 6
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 7.5
@@ -7992,8 +8068,8 @@ focus_tree = {
 		prerequisite = { focus = GER_surface_raiders }
 		mutually_exclusive = { focus = GER_operation_paukenschlag }
 		
-		x = -1
-		y = 11
+		x = 0
+		y = 8
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 9
@@ -8073,7 +8149,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_plan_z }
 		
 		x = 1
-		y = 6
+		y = 5
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 6
@@ -8138,8 +8214,8 @@ focus_tree = {
 		icon = GFX_goal_generic_wolf_pack
 		prerequisite = { focus = GER_u_boat_effort }
 		
-		x = 1
-		y = 7
+		x = 3
+		y = 6
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 7
@@ -8168,8 +8244,8 @@ focus_tree = {
 		prerequisite = { focus = GER_trade_interdiction }
 		mutually_exclusive = { focus = GER_modern_battlefleet }
 		
-		x = 1
-		y = 11
+		x = 2
+		y = 8
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 9
@@ -8224,8 +8300,8 @@ focus_tree = {
 		}
 		available_if_capitulated = no
 		
-		x = 0
-		y = 9
+		x = 2
+		y = 7
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 5
@@ -8250,8 +8326,8 @@ focus_tree = {
 		}
 		available_if_capitulated = no
 		
-		x = 1
-		y = 12
+		x = 2
+		y = 9
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 1
@@ -8274,8 +8350,8 @@ focus_tree = {
 			controls_state = 58
 		}
 		
-		x = 2
-		y = 8
+		x = 4
+		y = 7
 		relative_position_id = GER_naval_rearmament
 		
 		cost = 5 
@@ -8571,30 +8647,30 @@ focus_tree = {
 			custom_effect_tooltip = needs_approval
 				effect_tooltip = { 
 					666 = {
-						add_extra_state_shared_building_slots = 2
+						add_extra_state_shared_building_slots = 3
 						add_building_construction = {
 							type = industrial_complex
-							level = 1
+							level = 3
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = infrastructure
-							level = 1
+							level = 3
 							instant_build = yes
 						}
 						add_resource = {
 							type = steel
-							amount = 5
+							amount = 24
 						}
 						add_resource = {
 							type = tungsten
-							amount = 3
+							amount = 36
 						}	
 					}
 					64 = {
 						remove_building = {
 							type = industrial_complex
-							level = 2
+							level = 4
 						}
 					}
 
@@ -9339,7 +9415,7 @@ focus_tree = {
 		is_puppet = no
 	}
 	
-		x = 8
+		x = 4
 		y = 1
 		relative_position_id = GER_Wehrmacht
 
@@ -9393,7 +9469,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		x = 1
-		y = 11
+		y = 9
 		relative_position_id = GER_anschluss
 		
 		cost = 2
@@ -9464,7 +9540,7 @@ focus_tree = {
 		icon = GFX_goal_ger_nord
 		
 		x = 6
-		y = 3
+		y = 2
 		relative_position_id = GER_Wehrmacht
 		
 		cost = 3
@@ -9496,9 +9572,9 @@ focus_tree = {
 		prerequisite = { focus = GER_paratroopers }
 		icon = GFX_advanced_paratroopers
 		
-		x = -3
-		y = 2
-		relative_position_id = GER_Wehrmacht
+		x = 0
+		y = 1
+		relative_position_id = GER_paratroopers
 		
 		cost = 4.6
 		

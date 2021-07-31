@@ -8050,7 +8050,9 @@ BUL_Monarch_Speech:0 "Monarch Speech"
  BRA_us_lend_lease_desc:0 "The American government has offered to provide us with equipment for our army, we would be foolish to say no!"
  father_of_the_poor:0 "Father of the Poor"
  BRA_reduced_protest_chance:0 "Reduces chance of public unrest, less chance of protestors gathering."
- 
+GER_tank_sharing:0 "Tank Sharing"
+GER_tank_sharing_desc:0 "To ensure our allies are prepared for the oncoming war, we must ensure all who align with Germany have access to our advance Panzer technology." 
+
 
  
  
