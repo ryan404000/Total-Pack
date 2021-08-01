@@ -272,10 +272,12 @@ technologies = {
 		start_year = 1940
 		
 		garrison = {
-		        max_strength = 1
-				max_organisation = 5
-			default_morale = 0.05
+		    max_strength = 2
+			max_organisation = 10
+			default_morale = 0.10
 			maximum_speed = 0.05
+			hard_attack = 0.05
+			soft_attack = 0.05
 		}
 		path = {
 			leads_to_tech = tech_Garrison_4
@@ -284,34 +286,6 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = @1940 y = 13 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 14
-			modifier = {
-			    factor = 2
-				tag = JAP
-			}
-		}
-	}
-	tech_Garrison_4 = {	
-		research_cost = 1.4
-		start_year = 1943
-		
-		garrison = {
-		    max_strength = 1
-			default_morale = 0.05
-			max_organisation = 5
-			soft_attack = 0.05
-			hard_attack = 0.05
-		}
-		folder = {
-			name = infantry_folder
-			position = { x = @1943 y = 13 }
 		}
 		
 		categories = {
@@ -1664,10 +1638,10 @@ modifier = {
 	infantry_uniforms2 = {
 		
 		category_all_infantry = {
-			default_morale = 0.05
+			default_morale = 0.10
 		}
 		category_light_infantry = {
-			default_morale = 0.05
+			default_morale = 0.10
 		}
 		
 		path = {
@@ -1690,31 +1664,6 @@ modifier = {
 			factor = 9
 		}
 	}
-	infantry_uniforms3 = {
-		
-		category_all_infantry = {
-			default_morale = 0.05
-		}
-		category_light_infantry = {
-			default_morale = 0.05
-		}
-		
-		research_cost = 1.1
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x=@1944 y=19 }
-		}
-		
-		categories = {
-			infantry_uniforms_
-		}
-		
-		ai_will_do = {
-			factor = 9
-		}
-	}
-	
 	marines = {
 
 		enable_subunits = {
@@ -2410,196 +2359,17 @@ modifier = {
 			}
 		}
 	}
-	
-	hmg = {
-
-		category_all_infantry = {
-			defense = 0.05
-		}
-		category_light_infantry = {
-			defense = 0.05
-		}
-		
-		path = {
-			leads_to_tech = hmg_2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = infantry_folder
-			position = { x = @1918 y = 15 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	hmg_2 = {
-
-		category_all_infantry = {
-			defense = 0.06
-			breakthrough = 0.02
-		}
-		category_light_infantry = {
-			defense = 0.06
-			breakthrough = 0.01
-		}
-		
-		path = {
-			leads_to_tech = hmg_3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1938
-		folder = {
-			name = infantry_folder
-			position = { x = @1938 y = 15 }
-		}
-		
-		on_research_complete = {
-			if = {
-				limit = {
-					NOT = { has_tech = tech_logistics_company }
-					num_of_military_factories < 35
-					is_ai = yes
-					NOT = { has_country_flag = mot_35 }
-					NOT = { 
-					tag = HUN
-					tag = BRA
-					tag = ARG
-					tag = COL
-					tag = MEX
-					tag = RAJ
-					tag = CHL
-					tag = ECU
-					tag = CRO
-					tag = SPR
-					}
-				}
-				hidden_effect = {
-				    set_country_flag = mot_35
-					load_oob = "unlock_motorized_1935"
-					
-				}			
-			}	
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	hmg_3 = {
-
-		category_all_infantry = {
-			defense = 0.08
-			breakthrough = 0.03
-		}
-		category_light_infantry = {
-			defense = 0.06
-			breakthrough = 0.01
-		}
-		
-		path = {
-			leads_to_tech = hmg_4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = @1940 y = 15 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	hmg_4 = {
-
-		category_all_infantry = {
-			defense = 0.1
-			breakthrough = 0.06
-		}
-		
-		category_light_infantry = {
-			defense = 0.07
-			breakthrough = 0.03
-		}
-		
-		path = {
-			leads_to_tech = hmg_5
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = @1942 y = 15 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	hmg_5 = {
-
-		category_all_infantry = {
-			defense = 0.08
-			breakthrough = 0.03
-			#soft_attack = 0.03
-		}
-		category_light_infantry = {
-			defense = 0.06
-			breakthrough = 0.02
-			#soft_attack = 0.03
-		}
-		
-		research_cost = 2.1
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = @1944 y = 15 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
 	mortars = {
 
 		category_all_infantry = {
-			defense = 0.03
+			defense = 0.08
 			breakthrough = 0.05
 		}
 		category_light_infantry = {
-			defense = 0.01
+			defense = 0.06
 			breakthrough = 0.02
 		}
+
 		
 		path = {
 			leads_to_tech = mortars_2
@@ -2639,14 +2409,14 @@ modifier = {
 	mortars_2 = {
 
 		category_all_infantry = {
-			defense = 0.04
-			breakthrough = 0.07
+			defense = 0.10
+			breakthrough = 0.09
 		}
 		category_light_infantry = {
-			defense = 0.04
-			breakthrough = 0.05
+			defense = 0.10
+			breakthrough = 0.06
 		}
-		
+
 		path = {
 			leads_to_tech = mortars_3
 			research_cost_coeff = 1
@@ -2670,18 +2440,17 @@ modifier = {
 	mortars_3 = {
 
 		category_all_infantry = {
-			defense = 0.08
-			breakthrough = 0.06
+			defense = 0.16
+			breakthrough = 0.09
 		}
 		category_light_infantry = {
-			defense = 0.06
-			breakthrough = 0.05
+			defense = 0.12
+			breakthrough = 0.06
 		}
 		path = {
 			leads_to_tech = mortars_4
 			research_cost_coeff = 1
-		}
-		
+		}		
 		research_cost = 1.6
 		start_year = 1940
 		folder = {
@@ -2700,14 +2469,13 @@ modifier = {
 	mortars_4 = {
 
 		category_all_infantry = {
-			defense = 0.08
-			breakthrough = 0.1
+			defense = 0.18
+			breakthrough = 0.16
 		}
 		category_light_infantry = {
-			defense = 0.05
-			breakthrough = 0.07
-		}
-		
+			defense = 0.12
+			breakthrough = 0.10
+		}		
 		path = {
 			leads_to_tech = mortars_5
 			research_cost_coeff = 1
@@ -2731,16 +2499,15 @@ modifier = {
 	mortars_5 = {
 
 		category_all_infantry = {
-			defense = 0.08
-			breakthrough = 0.10
-			#soft_attack = 0.03
+			defense = 0.16
+			breakthrough = 0.13
+			soft_attack = 0.06
 		}
 		category_light_infantry = {
-			defense = 0.05
-			breakthrough = 0.07
-			#soft_attack = 0.03
-		}
-		
+			defense = 0.11
+			breakthrough = 0.10
+			soft_attack = 0.06
+		}	
 		research_cost = 2
 		start_year = 1944
 		folder = {

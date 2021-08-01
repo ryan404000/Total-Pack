@@ -250,7 +250,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		relative_position_id = BUL_expand_sofia_university
 		x = -1
-		y = 2
+		y = 1
 		cost = 10
 
 		available = {
@@ -410,7 +410,7 @@ focus_tree = {
 		icon = GFX_goal_generic_industry_3
 		relative_position_id = BUL_increase_industry_investments
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
 		mutually_exclusive = { focus = BUL_nationalization }
 
@@ -526,7 +526,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		relative_position_id = BUL_steel_plant_in_pernik
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
 
 		available = {
@@ -722,7 +722,7 @@ focus_tree = {
 		icon = GFX_goal_FIN_militarise
 		relative_position_id = BUL_negotiate_bulgarian_rearmament
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
 
 		available = {
@@ -749,7 +749,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter
 		relative_position_id = BUL_pilot_training_program
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
 		mutually_exclusive = { focus = BUL_foreign_aircraft_designers }
 
@@ -1120,7 +1120,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_found_dvf_sopot }
 		icon = GFX_focus_BUL_prussia_of_the_balkans
 		relative_position_id = BUL_vasil_levsky_national_military_university
-		x = 0
+		x = -1
 		y = 1
 		cost = 10
 
@@ -1520,7 +1520,7 @@ focus_tree = {
 		icon = GFX_focus_BUL_supremacy_on_the_bosporus
 		relative_position_id = BUL_defensive_lines
 		x = 1
-		y = 2
+		y = 1
 		cost = 11
 
 		available = {
@@ -1659,7 +1659,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_supremacy_on_the_bosporus }
 		icon = GFX_focus_generic_black_sea_focus
 		relative_position_id = BUL_prussia_of_the_balkans
-		x = 2
+		x = 3
 		y = 1
 		cost = 10
 
@@ -2035,7 +2035,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_a_black_sea_fleet }
 		icon = GFX_goal_generic_navy_submarine
 		relative_position_id = BUL_a_black_sea_fleet
-		x = -1
+		x = -1.5
 		y = 1
 		cost = 10
 
@@ -2061,7 +2061,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_cruiser
 		relative_position_id = BUL_a_black_sea_fleet
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
 
 		available = {
@@ -2130,7 +2130,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_navy
 		relative_position_id = BUL_acquire_modern_tools
 		x = 15
-		y = 2
+		y = 1
 		cost = 10
 
 		available = {
@@ -2201,7 +2201,7 @@ focus_tree = {
 		icon = GFX_goal_generic_cruiser2
 		relative_position_id = BUL_a_black_sea_fleet
 		x = 2
-		y = 2
+		y = 1
 		cost = 10
 
 		available = {
@@ -3106,7 +3106,7 @@ focus_tree = {
 		icon = GFX_focus_fra_loyalty_stalin
 		relative_position_id = BUL_soviet_bulgarian_treaty_of_mutual_assistance
 		x = 0
-		y = 4
+		y = 3
 		cost = 5
 		mutually_exclusive = { focus = BUL_balkan_federation_of_socialist_republics }
 
@@ -3862,8 +3862,8 @@ focus_tree = {
 		prerequisite = { focus = BUL_the_peoples_republic_of_bulgaria }
 		icon = GFX_focus_generic_join_comintern
 		relative_position_id = BUL_the_peoples_republic_of_bulgaria
-		x = -1
-		y = 2
+		x = -4
+		y = 1
 		cost = 10
 
 		available = {
@@ -3929,8 +3929,8 @@ focus_tree = {
 		prerequisite = { focus = BUL_purge_the_elites }
 		icon = GFX_focus_prc_agrarian_socialism
 		relative_position_id = BUL_purge_the_elites
-		x = 0
-		y = 2
+		x = -1
+		y = 1
 		cost = 10
 
 		available = {
@@ -3954,10 +3954,10 @@ focus_tree = {
 	focus = {
 		id = BUL_heavy_industry
 
-		prerequisite = { focus = BUL_collectivization_of_the_countryside }
+		prerequisite = { focus = BUL_purge_the_elites }
 		icon = GFX_goal_generic_soviet_construction
-		relative_position_id = BUL_collectivization_of_the_countryside
-		x = 0
+		relative_position_id = BUL_purge_the_elites
+		x = 1
 		y = 1
 		cost = 10
 
@@ -3996,8 +3996,8 @@ focus_tree = {
 		prerequisite = { focus = BUL_the_peoples_republic_of_bulgaria }
 		icon = GFX_focus_YUG_pan_slavic_congress #GFX_goal_support_communism
 		relative_position_id = BUL_the_peoples_republic_of_bulgaria
-		x = 1
-		y = 2
+		x = 4
+		y = 1
 		cost = 10
 
 		available = {
@@ -4107,7 +4107,7 @@ focus_tree = {
 		icon = GFX_focus_BUL_balkan_federation_of_socialist_republics
 		relative_position_id = BUL_treaty_of_perpetual_friendship
 		x = 0
-		y = 4
+		y = 3
 		cost = 5
 		mutually_exclusive = { focus = BUL_follow_the_stalinist_doctrine }
 
@@ -4498,7 +4498,7 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		relative_position_id = BUL_democratic_principles
 		x = -1
-		y = 2
+		y = 1
 		cost = 10
 		mutually_exclusive = { focus = BUL_seek_cooperation_with_the_tsar }
 
@@ -4735,8 +4735,8 @@ focus_tree = {
 		prerequisite = { focus = BUL_democratic_principles }
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		relative_position_id = BUL_democratic_principles
-		x = 1
-		y = 2
+		x = 2
+		y = 1
 		cost = 10
 		mutually_exclusive = { focus = BUL_legalize_the_agrarian_party }
 
@@ -4820,7 +4820,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_seek_cooperation_with_the_tsar }
 		icon = GFX_goal_tripartite_pact
 		relative_position_id = BUL_seek_cooperation_with_the_tsar
-		x = 4
+		x = 6
 		y = 1
 		cost = 10
 
@@ -4849,7 +4849,7 @@ focus_tree = {
 		icon = GFX_focus_generic_the_giant_wakes
 		relative_position_id = BUL_legislative_elections
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
 
 		available = {
@@ -4877,7 +4877,7 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		relative_position_id = BUL_land_reorganization
 		x = -1
-		y = 2
+		y = 1
 		cost = 10
 		mutually_exclusive = { focus = BUL_modernize_the_industry }
 
@@ -4909,7 +4909,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		relative_position_id = BUL_land_reorganization
 		x = 1
-		y = 2
+		y = 1
 		cost = 10
 		mutually_exclusive = { focus = BUL_agrarian_cooperative_movement }
 
@@ -4939,7 +4939,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_legislative_elections }
 		icon = GFX_focus_generic_befriend_greece
 		relative_position_id = BUL_legislative_elections
-		x = -3
+		x = -2
 		y = 1
 		cost = 10
 
@@ -5320,7 +5320,7 @@ focus_tree = {
 		icon = GFX_focus_BUL_free_balkan_states
 		relative_position_id = BUL_consolidate_the_third_bulgarian_state
 		x = 0
-		y = 3
+		y = 2
 		cost = 10
 		mutually_exclusive = { focus = BUL_the_unification_of_the_balkans }
 
@@ -6540,7 +6540,7 @@ focus_tree = {
 
 		icon = GFX_goal_generic_political_pressure
 		relative_position_id = BUL_illusions_of_a_non_partisan_system
-		x = 0
+		x = 1
 		y = 2
 		cost = 5
 		mutually_exclusive = { focus = BUL_plot_against_boris }
@@ -6675,7 +6675,7 @@ focus_tree = {
 
 		icon = GFX_focus_BUL_plot_against_boris
 		relative_position_id = BUL_liberalization_of_trade_policies
-		x = 0
+		x = 1
 		y = 1
 		cost = 4
 		mutually_exclusive = { focus = BUL_strengthen_the_royal_dictatorship }
@@ -6707,7 +6707,7 @@ focus_tree = {
 		icon = GFX_focus_BUL_the_return_of_ferdinand
 		relative_position_id = BUL_plot_against_boris
 		x = -1
-		y = 2
+		y = 1
 		cost = 5
 		mutually_exclusive = { focus = BUL_form_a_regency_council }
 
@@ -6939,7 +6939,7 @@ focus_tree = {
 		icon = GFX_focus_BUL_form_a_regency_council
 		relative_position_id = BUL_plot_against_boris
 		x = 1
-		y = 2
+		y = 1
 		cost = 6
 		mutually_exclusive = { focus = BUL_the_return_of_ferdinand_i }
 
@@ -6964,7 +6964,7 @@ focus_tree = {
 
 		icon = GFX_focus_BUL_the_fate_of_the_balkans
 		relative_position_id = BUL_form_a_regency_council
-		x = 0
+		x = 1
 		y = 2
 		cost = 5
 		mutually_exclusive = { focus = BUL_join_the_tripartite_pact focus = BUL_join_the_allies focus = BUL_a_balkan_confederation }
@@ -7323,7 +7323,7 @@ focus_tree = {
 
 		icon = GFX_goal_generic_navy_battleship
 		relative_position_id = BUL_guardians_of_the_balkans
-		x = -3
+		x = -5
 		y = 1
 		cost = 6
 
@@ -7635,7 +7635,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		relative_position_id = BUL_depose_the_tsar
 		x = 0
-		y = 3
+		y = 1
 		cost = 5
 
 		available = {
@@ -7668,7 +7668,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_appoint_right_wing_ministers }
 		icon = GFX_focus_intervention_spain_nationalists
 		relative_position_id = BUL_appoint_right_wing_ministers
-		x = -1
+		x = 4
 		y = 1
 		cost = 5
 
@@ -7772,7 +7772,7 @@ focus_tree = {
 		icon = GFX_goal_generic_dangerous_deal
 		relative_position_id = BUL_appoint_right_wing_ministers
 		x = 0
-		y = 2
+		y = 1
 		cost = 5
 
 		available = {
@@ -7832,7 +7832,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_appoint_right_wing_ministers }
 		icon = GFX_focus_generic_self_management
 		relative_position_id = BUL_appoint_right_wing_ministers
-		x = 1
+		x = 2
 		y = 1
 		cost = 6
 
@@ -7878,7 +7878,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_economic_protectionism }
 		icon = GFX_goal_reichsautobahn
 		relative_position_id = BUL_economic_protectionism
-		x = 1
+		x = 0
 		y = 1
 		cost = 6
 
@@ -7943,12 +7943,11 @@ focus_tree = {
 	focus = {
 		id = BUL_corporatism
 
-		prerequisite = { focus = BUL_industrial_autarky }
-		prerequisite = { focus = BUL_cooperation_with_italy }
+		prerequisite = { focus = BUL_industrial_autarky focus = BUL_cooperation_with_italy }
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		relative_position_id = BUL_industrial_autarky
-		x = 0
-		y = 5
+		x = 1
+		y = 4
 		cost = 5
 
 		available = {
@@ -8012,8 +8011,8 @@ focus_tree = {
 
 		icon = GFX_focus_chi_mission_to_germany
 		relative_position_id = BUL_bulgarian_irredentism
-		x = 2
-		y = 2
+		x = 3
+		y = 1
 		cost = 5
 
 		bypass = {
@@ -8183,10 +8182,11 @@ focus_tree = {
 		id = BUL_cooperation_with_italy
 
 		prerequisite = { focus = BUL_approach_germany }
+		prerequisite = { focus = BUL_industrial_autarky }
 
 		icon = GFX_focus_befriend_italy
 		relative_position_id = BUL_approach_germany
-		x = 1
+		x = 2
 		y = 1
 		cost = 5
 
@@ -8293,13 +8293,13 @@ focus_tree = {
 	focus = {
 		id = BUL_join_the_tripartite_pact
 
-		prerequisite = { focus = BUL_approach_germany }
+		prerequisite = { focus = BUL_approach_germany focus = BUL_cooperation_with_italy }
 
 		dynamic = yes
 
 		icon = GFX_goal_support_fascism
 		relative_position_id = BUL_approach_germany
-		x = 0
+		x = 1
 		y = 4
 		cost = 5
 		mutually_exclusive = { focus = BUL_the_fate_of_the_balkans focus = BUL_join_the_allies }
@@ -8508,7 +8508,7 @@ focus_tree = {
 
 		icon = GFX_focus_BUL_bulgarian_administration_of_the_balkans
 		relative_position_id = BUL_join_the_tripartite_pact
-		x = -4
+		x = -1
 		y = 2
 		cost = 12
 
