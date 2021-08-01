@@ -96,16 +96,16 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 11.8
+		cost = 13
 		completion_reward = {
 			add_resource = {
 				type = tungsten
-				amount = 14
+				amount = 32
 				state = 149
 			}
 			add_resource = {
 				type = steel 
-				amount = 12
+				amount = 20
 				state = 150
 			}
 		}
@@ -358,6 +358,14 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 2
 			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					instant_build = yes
+					level = 2
+					type = arms_factory
+				}
+				add_extra_state_shared_building_slots = 2
+			}			
 			air_experience = 15
 		}
 	}
@@ -377,10 +385,10 @@ focus_tree = {
 			random_owned_controlled_state = {
 				add_building_construction = {
 					instant_build = yes
-					level = 1
+					level = 2
 					type = synthetic_refinery
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 			}
 		}
 	}
@@ -602,10 +610,10 @@ focus_tree = {
 					limit = {
 						is_coastal = yes
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard 
-						level = 2
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -975,10 +983,10 @@ focus_tree = {
 			111 = {
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 			}
 			add_ideas = FIN_white_guard_idea
 		}
@@ -1019,10 +1027,10 @@ focus_tree = {
 				prioritize = { 111 }
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 			}
 			random_owned_controlled_state = {
 				prioritize = { 149 }
@@ -1148,7 +1156,7 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = chromium
-				amount = 10
+				amount = 24
 				state = 722
 			}
 			custom_effect_tooltip = FIN_petsamo_crisis
@@ -2107,9 +2115,10 @@ focus_tree = {
 		y = 2
 		cost = 4.8
 		completion_reward = {
-			add_equipment_to_stockpile = { type = infantry_equipment_1  amount = 1000 producer = USA }
-			add_equipment_to_stockpile = { type = infantry_uniforms  amount = 900 producer = GER }
-			add_equipment_to_stockpile = { type = support_equipment  amount = 200 producer = ITA }
+			add_equipment_to_stockpile = { type = infantry_equipment_1  amount = 2000 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment_1  amount = 1500 producer = FRA }		
+			add_equipment_to_stockpile = { type = infantry_uniforms  amount = 1500 producer = GER }
+			add_equipment_to_stockpile = { type = support_equipment  amount = 450 producer = ITA }
 		}
 	}
 	
@@ -2241,11 +2250,19 @@ focus_tree = {
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}			
 		}
 	}
 	
@@ -2299,10 +2316,10 @@ focus_tree = {
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 			}
 		}
 	}
@@ -3026,6 +3043,20 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 2
 			}
+			random_owned_controlled_state = {
+				limit = {
+					NOT = { 
+						state = 147
+						state = 722
+					}
+				}
+				add_building_construction = {
+					instant_build = yes
+					level = 2
+					type = industrial_complex
+				}
+				add_extra_state_shared_building_slots = 2
+			}			
 		}
 	}
 	
@@ -3047,17 +3078,17 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = { # this path doesnt have access to baltic investment path 
 				add_building_construction = {
-					level = 1
+					level = 2
 					type = arms_factory
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
-					level = 1
+					level = 2
 					type = industrial_complex
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 			}
 			add_stability = 0.05
 		}
@@ -3090,7 +3121,7 @@ focus_tree = {
 			146 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 24
 				}
 			}
 		}

@@ -1467,9 +1467,9 @@ custom_effect_tooltip = NOR_military_college_tt
 					add_building_construction = {
 						type = dockyard
 						instant_build = yes
-						level = 1
+						level = 2
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 				}
 			}		
 		}
@@ -1837,17 +1837,17 @@ custom_effect_tooltip = NOR_military_college_tt
 			add_resource = {
 				state = 144
 				type = tungsten
-				amount = 5
+				amount = 20
 			}
 			add_resource = {
 				state = 144
 				type = steel
-				amount = 4
+				amount = 24
 			}
 			add_resource = {
 				state = 144
-				type = chromium
-				amount = 8
+				type = oil
+				amount = 12
 			}
 		}
 	}
@@ -2046,7 +2046,7 @@ custom_effect_tooltip = NOR_military_college_tt
 		completion_reward = {
 			add_resource = {
 				type = aluminium
-				amount = 10
+				amount = 24
 				state = 144
 			}
 			
@@ -2235,10 +2235,10 @@ custom_effect_tooltip = NOR_military_college_tt
 				prioritize = { 110 }
 				add_building_construction = {
 					type = steel_refinery
-					level = 1
+					level = 2
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 			}
 		}
 	}
@@ -2566,19 +2566,19 @@ custom_effect_tooltip = NOR_military_college_tt
 				prioritize = { 144 }
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 			}
 			random_owned_controlled_state = {
 				prioritize = { 142 }
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 4
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -2587,10 +2587,10 @@ custom_effect_tooltip = NOR_military_college_tt
 				prioritize = { 143 }
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 4
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 			}
 			add_tech_bonus = {
 				name = heavy_industry_tech_bonus

@@ -316,7 +316,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_forsvarsbeslutet }	
 		x = 0
 		y = 1
-		cost = 10
+		cost = 6
 		ai_will_do = {
 				factor = 15
 				}
@@ -331,7 +331,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_ransonering }	
 		x = 0
 		y = 2
-		cost = 10
+		cost = 5
 		ai_will_do = {
 				factor = 10
 				}
@@ -366,7 +366,7 @@ focus_tree = {
 		
 		x = 2
 		y = 2
-		cost = 10
+		cost = 6
 		
 		ai_will_do = {
 				factor = 1
@@ -383,7 +383,7 @@ focus_tree = {
 		x = 1
 		y = 3
 
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 1
@@ -408,7 +408,7 @@ focus_tree = {
 						all_provinces = yes
 						limit_to_coastal = yes
 					}
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -417,7 +417,7 @@ focus_tree = {
 						all_provinces = yes							
 						limit_to_naval_base = yes
 					}
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -438,7 +438,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 1
-		cost = 10
+		cost = 6
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 
@@ -458,7 +458,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_saltsjobad }
 		x = 10
 		y = 5
-		cost = 10
+		cost = 9
 	
 	
 		completion_reward = {
@@ -494,10 +494,10 @@ focus_tree = {
 	
 		completion_reward = {
 				140 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 					}
 				}
@@ -536,7 +536,7 @@ focus_tree = {
 			
 			x = 3
 			y = 4
-			cost = 10
+			cost = 13
 			completion_reward = {
 				add_tech_bonus = {
 					name = nuclear_bonus_swe
@@ -567,7 +567,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		x = 3
 		y = 3
-		cost = 14
+		cost = 10
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -611,7 +611,7 @@ focus_tree = {
 		}
 		x = 5
 		y = 3
-		cost = 10
+		cost = 8
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -623,7 +623,7 @@ focus_tree = {
 
 			add_resource = {
 				type = rubber
-				amount = 4
+				amount = 12
 				state = 138
 			}	
 			138 = {
@@ -644,7 +644,7 @@ focus_tree = {
 
 		x = 2
 		y = 1
-		cost = 10
+		cost = 6
 		
 		available = {
 			has_tech = radio_detection
@@ -654,21 +654,21 @@ focus_tree = {
 			140 = {
 				add_building_construction = {
 					type = anti_air_building
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 			138 = {
 				add_building_construction = {
 					type = anti_air_building
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 			141 = {
 				add_building_construction = {
 					type = anti_air_building
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -745,7 +745,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_support_the_industry }
 		x = 8
 		y = 1
-		cost = 13
+		cost = 7
 		completion_reward = {
 			38 = {
 				add_extra_state_shared_building_slots = 2
@@ -763,7 +763,7 @@ focus_tree = {
 		#prerequisite = { focus = SWE_construction_effort_I }
 		x = 8
 		y = 0
-		cost = 10
+		cost = 7
 		ai_will_do = {
 			factor = 10
 		}
@@ -804,7 +804,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_construction_effort_I }
 		x = 8
 		y = 2
-		cost = 10
+		cost = 7
 
 
 		ai_will_do = {
@@ -843,7 +843,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 8
 		y = 3
-		cost = 8.5
+		cost = 6
 
 
 		ai_will_do = {
@@ -854,18 +854,18 @@ focus_tree = {
 
 		completion_reward = {
 			138 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
 			#141 = {
-			#	add_extra_state_shared_building_slots = 1
+			#	add_extra_state_shared_building_slots = 2
 			#	add_building_construction = {
 			#		type = industrial_complex
-			#		level = 1
+			#		level = 2
 			#		instant_build = yes
 			#	}
 			#}
@@ -878,7 +878,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_planned_expansion focus = SWE_planned_expansion_II }
 		x = 10
 		y = 4
-		cost = 10
+		cost = 6
 
 		completion_reward = {
 			add_ideas = saltsjobad
@@ -894,7 +894,7 @@ focus_tree = {
 		
 		x = 10
 		y = 1
-		cost = 11
+		cost = 6
 	
 	
 		ai_will_do = {
@@ -909,10 +909,10 @@ focus_tree = {
 				category = construction_tech
 			}	
 			141 = { # Norrland
-			add_extra_state_shared_building_slots = 1		
+			add_extra_state_shared_building_slots = 3		
 			add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}			
@@ -949,7 +949,7 @@ focus_tree = {
 		
 		x = 8
 		y = 5
-		cost = 12
+		cost = 10
 	
                 ai_will_do = {
 			factor = 1
@@ -961,17 +961,22 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 			type = aluminium
-			amount = 17
+			amount = 18
+			state = 38
+			}
+			add_resource = {
+			type = tungsten
+			amount = 48
 			state = 38
 			}
 			random_owned_controlled_state = {
 				prioritize = { 38 }
 					limit = {
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = steel_refinery
-						level = 1
+						level = 3
 						instant_build = yes
 					}
 			}
@@ -996,17 +1001,17 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 			type = chromium
-			amount = 12
+			amount = 24
 			state = 666
 			}
 			add_resource = {
 			type = tungsten
-			amount = 16
+			amount = 32
 			state = 666
 			}
 			add_resource = {
 			type = steel 
-			amount = 10
+			amount = 24
 			state = 666
 			}
 		}
@@ -1017,7 +1022,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 13
 		y = 0
-		cost = 12
+		cost = 6
 	
 		completion_reward = {
 			navy_experience = 50
@@ -1038,7 +1043,7 @@ focus_tree = {
 		
 		x = 12
 		y = 1
-		cost = 10
+		cost = 6
 
 	
 		completion_reward = {
@@ -1059,7 +1064,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_sea_wolves }
 		x = 13
 		y = 5
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}	
@@ -1081,7 +1086,7 @@ focus_tree = {
 		icon = GFX_goal_generic_oil_refinery
 		x = 12
 		y = 6
-		cost = 12
+		cost = 10
 		available = {
 		
 		}
@@ -1094,10 +1099,10 @@ focus_tree = {
 				prioritize = { 141 }
 					limit = {
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = synthetic_refinery
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 			}
@@ -1111,7 +1116,7 @@ focus_tree = {
 		
 		x = 13
 		y = 4
-		cost = 8.7
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}	
@@ -1132,7 +1137,7 @@ focus_tree = {
 
 		x = 14
 		y = 1
-		cost = 10
+		cost = 5
 
 		
 		completion_reward = {
@@ -1210,7 +1215,7 @@ focus_tree = {
 		
 		x = 14
 		y = 2
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1233,8 +1238,8 @@ focus_tree = {
 		prerequisite = { focus = SWE_large_navy }
 		x = 12
 		y = 2
-		cost = 10
-	
+		cost = 5
+
 		completion_reward = {
 			add_tech_bonus = {
 				name = SWE_destroyer_effort
@@ -1252,7 +1257,7 @@ focus_tree = {
 		icon = GFX_goal_generic_occupy_states_coastal
 		x = 13
 		y = 3
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1273,7 +1278,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SWE_hansson_3 }
 		x = 26
 		y = 1
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			factor = 5
@@ -1302,7 +1307,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_royalist }
 		x = 26
 		y = 2
-		cost = 10
+		cost = 5
 		
 		ai_will_do = {
 			factor = 5
@@ -1359,7 +1364,7 @@ focus_tree = {
 	
 		x = 35
 		y = 1
-		cost = 13
+		cost = 6
 		
 		ai_will_do = {
 			factor = 5
@@ -1466,7 +1471,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SWE_royalist }
 		x = 30
 		y = 1
-		cost = 10
+		cost = 6
 		
 		ai_will_do = {
 			factor = 5
@@ -1515,7 +1520,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_fortify_scania }
 		x = 29
 		y = 3
-		cost = 8
+		cost = 6
 
 		available_if_capitulated = yes
 
@@ -1532,7 +1537,7 @@ focus_tree = {
 
 		x = 31
 		y = 3
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 				factor = 1
@@ -1645,7 +1650,7 @@ focus = {
 			mutually_exclusive = { focus = SWE_abandon_neutrality }
 			x = 31
 			y = 0
-			cost = 12
+			cost = 7
 		
 			
 			ai_will_do = {
@@ -1716,7 +1721,7 @@ focus = {
 		mutually_exclusive = { focus = SWE_neutrality_focus }
 		x = 33
 		y = 0
-		cost = 10
+		cost = 7
 		
 		ai_will_do = {
 			factor = 5
@@ -1756,7 +1761,7 @@ focus = {
 		
 		x = 34
 		y = 3
-		cost = 10
+		cost = 6
 		
 		bypass = {
 			OR = {
@@ -1780,8 +1785,6 @@ focus = {
 		id = SWE_alliance_finland
 		icon = GFX_goal_generic_alliance
 		prerequisite = { focus = SWE_kings_council }
-		
-		
 		cancel_if_invalid = no
 
 		available = {
@@ -1808,7 +1811,7 @@ focus = {
 
 		x = 26
 		y = 3
-		cost = 10
+		cost = 5
 		completion_reward = {
 			set_rule = { can_create_factions = yes }
 			#create_faction = "Nordic Defence Alliance"
@@ -1878,7 +1881,7 @@ focus = {
 		cancel_if_invalid = yes
 		x = 39
 		y = 4
-		cost = 10
+		cost = 5
 		available = {
 			FIN = {
 				exists = yes
@@ -2042,7 +2045,7 @@ focus = {
 		mutually_exclusive = { focus = SWE_deal_soviet }
 		x = 40
 		y = 6
-		cost = 10
+		cost = 4
 		ai_will_do = {
 			factor = 5
 		} 
@@ -2068,7 +2071,7 @@ focus = {
 		}
 		x = 39
 		y = 5
-		cost = 10
+		cost = 4
 		ai_will_do = {
 			factor = 10
 		}	
@@ -2094,7 +2097,7 @@ focus = {
 
 		x = 38
 		y = 6
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -2111,7 +2114,7 @@ focus = {
 				
 		x = 38
 		y = 7
-		cost = 10
+		cost = 6
 
 		available = {
 			is_in_faction_with = SOV
@@ -2138,7 +2141,7 @@ focus = {
 		}
 		x = 40
 		y = 7
-		cost = 10
+		cost = 4
 		icon = GFX_focus_generic_join_comintern
 		ai_will_do = {
 			factor = 10
@@ -2158,7 +2161,7 @@ focus = {
 		icon = GFX_goal_generic_small_arms
 		x = 34
 		y = 4
-		cost = 10
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -2182,7 +2185,7 @@ focus = {
 		icon = GFX_goal_generic_demand_territory
 		x = 34
 		y = 5
-		cost = 10
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -2203,7 +2206,7 @@ focus = {
 		
 		x = 36
 		y = 3
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2227,7 +2230,7 @@ focus = {
 		}
 		x = 36
 		y = 6
-		cost = 10
+		cost = 6
 		icon = GFX_goal_molotov_ribbentrop_pact
 		
 		bypass = {
@@ -2249,7 +2252,7 @@ focus = {
 				
 		x = 36
 		y = 7
-		cost = 10
+		cost = 9
 
 		available = {
 			is_in_faction_with = GER
@@ -2286,7 +2289,7 @@ focus = {
 		prerequisite = { focus = SWE_technology_sharing_axis }
 		x = 36
 		y = 8
-		cost = 15
+		cost = 8
 		ai_will_do = {
 			factor = 10
 		}
@@ -2324,7 +2327,7 @@ focus = {
 		prerequisite = { focus = SWE_axis_leanings_focus }	
 		x = 32
 		y = 8
-		cost = 11
+		cost = 10
 		available = {
 			is_in_faction_with = GER
 		}
@@ -2346,7 +2349,7 @@ focus = {
 		}
 		x = 32
 		y = 9
-		cost = 11
+		cost = 6
 		ai_will_do = {
 			factor = 18
 		}	
@@ -2364,7 +2367,7 @@ focus = {
 		mutually_exclusive = { focus = SWE_axis_leanings_focus }
 		x = 34
 		y = 6
-		cost = 14
+		cost = 6
 		icon = GFX_goal_generic_secret_weapon
 			
 		completion_reward = {
@@ -2377,7 +2380,7 @@ focus = {
 		prerequisite = { focus = SWE_found_own_empire }
 		x = 34
 		y = 7
-		cost = 10
+		cost = 8
 		completion_reward = {
 			if = {
 			limit = { EST = { controls_state = 13 } }
@@ -2445,7 +2448,7 @@ focus = {
 		
 		x = 38
 		y = 3
-		cost = 10
+		cost = 6
 		
 		available = {
 			has_government = communism
@@ -2468,7 +2471,7 @@ focus = {
 		x = 40
 		y = 3
 		
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 1
