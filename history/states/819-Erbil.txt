@@ -1,0 +1,24 @@
+state={
+	id=819
+	name="STATE_819"
+	manpower = 324110
+	
+	state_category = wasteland
+
+	history={
+		owner = IRQ
+		victory_points = {
+			13275 5 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRQ
+        add_core_of = KUR
+	}
+
+
+	provinces={
+		13282 13283 13284 3916 5014 13275 13285
+	}
+}

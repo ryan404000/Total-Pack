@@ -1,0 +1,24 @@
+state={
+	id=820
+	name="STATE_820"
+	manpower = 324110
+	
+	state_category = wasteland
+
+	history={
+		owner = IRQ
+		victory_points = {
+			8123 5 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRQ
+        add_core_of = KUR
+	}
+
+
+	provinces={
+		6826 8123 10793 13286 13287 13288 13289 13290
+	}
+}
