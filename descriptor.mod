@@ -1,4 +1,4 @@
-name="Total War Mod amongus"
+name="Total War PACK"
 tags={
 	"Balance"
 	"Events"
