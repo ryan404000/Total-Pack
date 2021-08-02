@@ -1692,6 +1692,14 @@ country = {
 				army_org_factor = -0.05
 			}
 	}
+	
+	POL_german_monarch = {}
+	POL_austrian_monarch = {}
+	POL_russian_monarch = {}
+	POL_polish_monarch = {}
+	POL_lithuanian_monarch = {}
+	POL_renewed_militarism_idea = {}
+
 	}	
 
 political_advisor = {

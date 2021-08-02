@@ -27,7 +27,7 @@ set_technology = {
 	semi_motorised_infantry = 1
 	motorised_infantry = 1
 	SMG_team = 1
-	hmg = 1
+
 	mortars = 1
 	marines = 1
 	infantry_uniforms = 1

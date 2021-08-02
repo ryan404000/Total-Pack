@@ -2376,4 +2376,329 @@ country_event = {
 			modifier = POL_mad_at_fra
 		}
 	}	
-}	
+}
+
+country_event = {
+	id = poland.95
+	title = poland.95.t
+	desc = poland.95.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.95.a #german choice
+		ai_chance = { 
+			factor = 5
+		}
+		POL = {
+			country_event = {
+			id = poland.96
+			days = 1
+			}	
+		}
+	}
+
+	option = {
+		name = poland.95.b #austrian choice
+		ai_chance = { 
+			factor = 5
+		}
+		POL = {
+			country_event = {
+			id = poland.97
+			days = 1
+			}	
+		}	
+	}
+	option = {
+		name = poland.95.c #romanov choice
+		ai_chance = { 
+			factor = 5
+		}
+		POL = {
+			country_event = {
+			id = poland.98
+			days = 1
+			}	
+		}		
+	}	
+	option = {
+		name = poland.95.e #polish choice
+		ai_chance = { 
+			factor = 5
+		}
+		POL = {
+			country_event = {
+			id = poland.99
+			days = 1
+			}	
+		}		
+	}
+	option = {
+		name = poland.95.f #lithuanian choice
+		ai_chance = { 
+			factor = 5
+		}
+		POL = {
+			country_event = {
+			id = poland.100
+			days = 1
+			}	
+		}		
+	}					
+}
+
+#german monarch choices
+country_event = {
+	id = poland.96
+	title = poland.96.t
+	desc = poland.96.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.96.a #Victoria Louise of Prussia
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Victoria Louise"
+	desc = "POLITICS_VICTORIA_LOUISE_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1980.12.11"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_german_monarch
+	add_ideas = POL_german_monarch
+	}
+}
+	option = {
+		name = poland.96.b #Adalbert son of Wilhelm ii
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Adalbert"
+	desc = "POLITICS_ADALBERT_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1948.11.22"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_german_monarch
+	add_ideas = POL_german_monarch	
+		}	
+	}
+	option = {
+		name = poland.96.c #Eitel son of Wilhelm ii, dies in 1942
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Eitel"
+	desc = "POLITICS_EITEL_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1942.12.8"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_german_monarch
+	add_ideas = POL_german_monarch	
+		}		
+	}
+	option = {
+		name = poland.96.e #Oskar son of Wilhelm ii
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Oskar"
+	desc = "POLITICS_OSKAR_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1958.1.27"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_german_monarch
+	add_ideas = POL_german_monarch	
+		}		
+	}			
+}
+
+#Austrian Monarch
+country_event = {
+	id = poland.97
+	title = poland.97.t
+	desc = poland.97.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.97.a #Archduke Maximilian
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Archduke Maximilian"
+	desc = "POLITICS_ARCHDUKE_MAXIMILIAN_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1952.1.19"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_an_austrian_monarch
+	add_ideas = POL_austrian_monarch
+		}
+}
+	option = {
+		name = poland.97.b #Carl Ludwig of Austria
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Carl Ludwig"
+	desc = "POLITICS_CARL_LUDWIG_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1948.11.22"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_an_austrian_monarch
+	add_ideas = POL_austrian_monarch
+		}
+	}		
+}
+
+#Russian Monarch
+country_event = {
+	id = poland.98
+	title = poland.98.t
+	desc = poland.98.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.98.a #Princess Irina Alexandrovna
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Irina Alexandrovna"
+	desc = "POLITICS_IRINA_ALEXANDROVNA_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1970.2.26"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_romanov
+	add_ideas = POL_russian_monarch
+		}
+}
+	option = {
+		name = poland.98.b #Prince Andrei Alexandrovich
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Andrei Alexandrovich"
+	desc = "POLITICS_ANDREI_ALEXANDROVICH_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1981.5.08"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_romanov
+	add_ideas = POL_russian_monarch
+		}
+	}	
+	option = {
+		name = poland.98.c #Nikita Alexandrovich
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Nikita Alexandrovich"
+	desc = "POLITICS_NIKITA_ALEXANDROVICH_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1974.9.12"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_romanov
+	add_ideas = POL_russian_monarch
+		}
+	}		
+}
+
+#Polish Monarch
+country_event = {
+	id = poland.99
+	title = poland.99.t
+	desc = poland.99.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.99.a #Princess Irina Alexandrovna
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Irina Alexandrovna"
+	desc = "POLITICS_IRINA_ALEXANDROVNA_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1970.2.26"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_polish_monarch
+	add_ideas =  POL_polish_monarch
+		}
+}
+	option = {
+		name = poland.99.b #Prince Andrei Alexandrovich
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Andrei Alexandrovich"
+	desc = "POLITICS_ANDREI_ALEXANDROVICH_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1981.5.08"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_polish_monarch
+	add_ideas =  POL_polish_monarch
+		}
+	}	
+		
+}

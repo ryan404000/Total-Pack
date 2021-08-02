@@ -3915,7 +3915,34 @@
  poland.94.a:0 "We will sell the ships."
  poland.94.b:0 "Poland can think again."
 
+ poland.95.t:0 "Poland Elects a Monarch"
+ poland.95.d:0 "DESCRIPTION WRITTEN HERE"
+ poland.95.a:0 "We shall select from Germanic Royalty"
+ poland.95.b:0 "We will pick a Hapsburg Monarch!."
+ poland.95.c:0 "We shall invite a Romanov to take the crown."
+ poland.95.e:0 "A member of the Polish Aristocracy shall take the crown."
+ poland.95.f:0 "A member of the Lithuanian Aristocracy!"
 
+ poland.96.t:0 "Poland Elects a German Monarch"
+ poland.96.d:0 "DESCRIPTION WRITTEN HERE"
+ poland.96.a:0 "We shall select Victoria, Princess of Prussia"
+ poland.96.b:0 "We will pick Adalbert, son of Wilhelm II."
+ poland.96.c:0 "We shall pick Eitel, son of Wilhelm II."
+ poland.96.e:0 "We shall pick Oskar, son of Wilhelm II"
+
+ poland.97.t:0 "Poland Elects a Austrian Monarch"
+ poland.97.d:0 "DESCRIPTION WRITTEN HERE"
+ poland.97.a:0 "We shall select Archduke Maximilian, son of Otto I."
+ poland.97.b:0 "We will pick Carl Ludwig, son of Charles I"
+
+ poland.98.t:0 "Poland Elects a Russian Monarch"
+ poland.98.d:0 "DESCRIPTION WRITTEN HERE"
+ poland.98.a:0 "We shall select Princess Irina Alexandrovna."
+ poland.98.b:0 "We will pick Prince Andrei Alexandrovich."
+ poland.98.c:0 "We will pick Prince Nikita Alexandrovich."
+
+
+ 
  italy.404.t:0 "[From.GetName] seeks to join the [Root.GetFactionName]"
  italy.404.d:0 "Our plight to overturn the current world order has not escaped the notice of like-minded nations. The [alliance_applicant.GetAdjective] recognize that their best chance to carve out a prosperous future for themselves is to align with us in the coming conflict, and they have therefore offered to formally join us against our enemies."
  italy.404.b:0 "The world belongs to all who are strong!"
