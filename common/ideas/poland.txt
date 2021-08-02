@@ -1225,26 +1225,20 @@ country = {
 		}
 	}
 
-    	university_of_Vilno_focus = {
-			
-			
+    university_of_Vilno_focus = {
 			allowed = {
 				always = no
 			}
-
 			allowed_civil_war = {
 				# always = yes
 			}
-
-			removal_cost = -1|
-
+			removal_cost = -1
                        		picture = generic_production_bonus
 			
 			modifier = {
-				
-                                			production_speed_infrastructure_factor = 0.07
+                production_speed_infrastructure_factor = 0.07
 				production_speed_arms_factory_factor = 0.03
-                               			 production_speed_industrial_complex_factor = 0.03
+                production_speed_industrial_complex_factor = 0.03
 			}
 		}	
 
@@ -1488,6 +1482,7 @@ country = {
 				capital_ship = {
 					build_cost_ic = -0.10 instant = yes
 				}			
+		}
 	}
 
 	POL_lost = {
@@ -1697,8 +1692,7 @@ country = {
 				army_org_factor = -0.05
 			}
 	}
-}
-
+	}	
 
 political_advisor = {
 
@@ -1752,9 +1746,7 @@ political_advisor = {
 			}
 			
 			traits = { head_of_intelligence }
-
 	}
-
 	POL_stanislaw_radkiewicz = {
 	
 		picture = generic_communist_revolutionary_eastern_european_2d
@@ -1773,7 +1765,6 @@ political_advisor = {
 			factor = 0
 		}
 	}
-
 	POL_mieczyslaw_michalowicz = {
 
 		picture = generic_democratic_reformer_eastern_european_2d
@@ -1788,7 +1779,6 @@ political_advisor = {
 			factor = 0
 		}
 	}
-
 	POL_jozef_haller = {
 
 		picture = generic_army_europe_1
@@ -1799,8 +1789,6 @@ political_advisor = {
 		
 		traits = { war_industrialist }
 	}
-
-# trait changed
 	eugeniusz_kwiatkowski = {
 			
 		allowed = {
@@ -1813,9 +1801,6 @@ political_advisor = {
 		
 		traits = { industrial_planner }
 	}
-
-# added: https://en.wikipedia.org/wiki/Leon_Koz%C5%82owski 
-
 	POL_leon_kozlowski = {
 
 		picture = generic_army_europe_4
@@ -1826,8 +1811,6 @@ political_advisor = {
 		
 		traits = { prince_of_terror }
 	}
-
-
 	POL_jozef_beck = {
 
 		picture = generic_army_europe_3
@@ -1843,11 +1826,7 @@ political_advisor = {
 		traits = { POL_beck }
 	}
 }
-
-# 
 theorist = {
-
-# replacing fictional Tomis?aw ?upaszko with https://en.wikipedia.org/wiki/Tadeusz_Kutrzeba 
 
 	tadeusz_kutrzeba = {
 				
@@ -1968,9 +1947,7 @@ theorist = {
 }
 
 	# MILITARY
-	army_chief = {
-				
-		
+	army_chief = {	
 		POL_edward_rydz_smigly = {
 			
 			picture = generic_army_europe_1
@@ -2940,7 +2917,8 @@ theorist = {
 			
 			modifier = {
 			}
-		}
+			}
 		
-	}
+		}
 }
+

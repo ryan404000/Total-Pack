@@ -3304,7 +3304,7 @@ focus_tree = {
 		prerequisite = { focus = POL_develop_polish_ship }
 		relative_position_id = POL_develop_polish_ship
 		
-		x = 1
+		x = 0
 		y = 1
 		cost = 8
 
@@ -3685,12 +3685,11 @@ focus_tree = {
 	focus = {
 		id = POL_subwarfare
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = POL_naval_officer }
-		mutually_exclusive = { focus = POL_cruiser_navy }		
+		prerequisite = { focus = POL_navaldoctrine_2 }	
 
-		x = -2
+		x = 0
 		y = 1
-		relative_position_id = POL_naval_officer
+		relative_position_id = POL_navaldoctrine_2
 		cost = 4.3
 
 		ai_will_do = {
@@ -3712,9 +3711,9 @@ focus_tree = {
 	focus = {
 		id = POL_subwarfare2
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = POL_subwarfare focus = POL_cruiser_navy }
+		prerequisite = { focus = POL_subwarfare }
 
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = POL_subwarfare
 		cost = 6
@@ -3745,9 +3744,9 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_battleship
 		prerequisite = { focus = POL_cruiser_navy }
 		
-		x = 1
-		y = 1
-		relative_position_id = POL_subwarfare
+		x = 0
+		y = 2
+		relative_position_id = POL_navaldoctrine_1
 		cost = 6
 
 		ai_will_do = {
@@ -3771,12 +3770,11 @@ focus_tree = {
 	focus = {
 		id = POL_cruiser_navy
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = POL_naval_officer }
-		mutually_exclusive = { focus = POL_subwarfare }
+		prerequisite = { focus = POL_navaldoctrine_1 }
 
 		x = 0
 		y = 1
-		relative_position_id = POL_naval_officer
+		relative_position_id = POL_navaldoctrine_1
 		cost = 8
 
 		available = {
@@ -3841,7 +3839,7 @@ focus_tree = {
 	focus = {
 		id = POL_buy_destroyers
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = POL_gdynia }
+		prerequisite = { focus = POL_navaldoctrine_1 }
 		available = { 
 			is_subject = no
 			any_owned_state = {
@@ -3849,9 +3847,9 @@ focus_tree = {
 			}
 		}
 		
-		x = -1
+		x = -2
 		y = 1
-		relative_position_id = POL_gdynia
+		relative_position_id = POL_navaldoctrine_1
 		cost = 10
 
 		ai_will_do = {
@@ -3879,9 +3877,9 @@ focus_tree = {
 			}
 		}
 		
-		x = -1
-		y = 2
-		relative_position_id = POL_gdynia
+		x = 0
+		y = 1
+		relative_position_id = POL_buy_destroyers
 		cost = 10
 
 		ai_will_do = {
@@ -4022,7 +4020,10 @@ focus_tree = {
 			763 = {
 			add_manpower = 2000
 			}
-
+			add_named_threat = { 
+    			threat = 1 
+    			name = POL_danzig
+			}
 			GER = {
 				country_event = {
 					id = poland.91

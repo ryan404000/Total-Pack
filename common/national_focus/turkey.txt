@@ -2516,9 +2516,9 @@ focus_tree = {
 			#GER = { has_completed_focus = GER_the_central_powers }
 			HUN = { has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary }
 		}
-		mutually_exclusive = { focus = TUR_press_the_austro_hungarian_claim }
+		mutually_exclusive = { focus = TUR_press_the_austro_hungarian_claim focus = TUR_join_the_axis_ottomans }
 		prerequisite = { focus = TUR_reclaim_macedonia }
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = TUR_reclaim_macedonia
 		cost = 5
@@ -2566,6 +2566,37 @@ focus_tree = {
 			set_rule = { can_create_factions = yes }
 		}
 	}
+	focus = {
+		id = TUR_join_the_axis_ottomans
+		icon = GFX_focus_ger_reichskommisariats
+		available = {
+			#GER = { has_completed_focus = GER_the_central_powers }
+			HUN = { has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary }
+		}
+		mutually_exclusive = { focus = TUR_press_the_austro_hungarian_claim focus = TUR_join_the_central_powers }
+		prerequisite = { focus = TUR_reclaim_macedonia }
+		x = 2
+		y = 1
+		relative_position_id = TUR_reclaim_macedonia
+		cost = 5
+		ai_will_do = {
+			base = 5
+		}
+
+		available = {
+			is_puppet = no
+		}
+		bypass = {
+			is_in_faction = yes
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			effect_tooltip = {
+				GER = { add_to_faction = TUR }
+			}
+		}
+	}
 
 	focus = {
 		id = TUR_press_the_austro_hungarian_claim
@@ -2576,9 +2607,9 @@ focus_tree = {
 			}
 			is_puppet = no
 		}
-		mutually_exclusive = { focus = TUR_join_the_central_powers }
+		mutually_exclusive = { focus = TUR_join_the_central_powers focus = TUR_join_the_axis_ottomans }
 		prerequisite = { focus = TUR_reclaim_macedonia }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = TUR_reclaim_macedonia
 		cost = 5
@@ -2636,7 +2667,7 @@ focus_tree = {
 	focus = {
 		id = TUR_aligning_bulgaria
 		icon = GFX_focus_generic_befriend_bulgaria
-		prerequisite = { focus = TUR_join_the_central_powers focus = TUR_press_the_austro_hungarian_claim }
+		prerequisite = { focus = TUR_join_the_axis_ottomans focus = TUR_join_the_central_powers focus = TUR_press_the_austro_hungarian_claim }
 		x = 0
 		y = 2
 		relative_position_id = TUR_reclaim_macedonia
@@ -8038,7 +8069,7 @@ focus_tree = {
 	focus = {
 		id = TUR_misak_i_milli
 		icon = GFX_focus_TUR_misak_i_milli
-		prerequisite = { focus = TUR_we_must_not_fall focus = TUR_victory_or_death_against_communism focus = TUR_restoring_our_nations_pride focus = TUR_foreign_brigades_for_the_revolution focus = TUR_issue_an_ultimatium_to_the_bulgarians }
+		prerequisite = { focus = TUR_we_must_not_fall focus = TUR_victory_or_death_against_communism focus = TUR_restoring_our_nations_pride focus = TUR_foreign_brigades_for_the_revolution focus = TUR_issue_an_ultimatium_to_the_bulgarians focus = TUR_realize_the_nightmare_of_meiji }
 		x = 1
 		y = 13
 		relative_position_id = TUR_reconfigure_our_foreign_policy
