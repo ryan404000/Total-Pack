@@ -2260,9 +2260,120 @@ country_event = {
 		add_war_support = 0.02
 	}
 }
-	
-	
-	
-	
-	
 
+country_event = {
+	id = poland.90
+	title = poland.90.t
+	desc = poland.90.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.90.a
+		ai_chance = { 
+			factor = 10 
+			modifier = {
+				factor = 0
+				POL = { has_completed_focus = POL_hostility }
+			}
+		}
+		add_to_faction = POL
+	}
+	
+	option = {
+		name = poland.90.b
+		ai_chance = { factor = 1 }
+	}
+}	
+
+country_event = {
+	id = poland.91
+	title = poland.91.t
+	desc = poland.91.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.91.a
+		ai_chance = { 
+			factor = 5
+		}
+	}
+	
+	option = {
+		name = poland.91.b
+		ai_chance = { factor = 5 }
+	}
+}	
+	
+country_event = {
+	id = poland.92
+	title = poland.92.t
+	desc = poland.92.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.92.a
+		ai_chance = { 
+			factor = 10
+		}
+	}
+}	
+
+country_event = {
+	id = poland.93
+	title = poland.93.t
+	desc = poland.93.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.93.a #yes
+		ai_chance = { 
+			factor = 5
+		}
+		load_oob = POL_destroyer_squadron
+	}
+	option = {
+		name = poland.93.b #no
+		ai_chance = { 
+			factor = 5
+		}
+		add_opinion_modifier = {
+			target = POL
+			modifier = POL_mad_at_uk
+		}
+	}	
+}	
+	
+country_event = {
+	id = poland.94
+	title = poland.94.t
+	desc = poland.94.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.94.a #yes
+		ai_chance = { 
+			factor = 5
+		}
+		load_oob = POL_destroyer_squadron
+	}
+	option = {
+		name = poland.94.b #no
+		ai_chance = { 
+			factor = 5
+		}
+		add_opinion_modifier = {
+			target = POL
+			modifier = POL_mad_at_fra
+		}
+	}	
+}	

@@ -5206,6 +5206,12 @@ portugal.30.d:0 "We just got a visit from the Portuguese foreign minister, who t
  POL_demand_zaolzie:0 "Demand Zaolzie"
  POL_demand_zaolzie_desc:0 "We have been demanding Zaolzie for a very long time. It's time to make a final demand. Zaolzie or war!"
  POL_demand_zaolzie_threat:0 "Poland claims Zaolzie"
+ POL_everyone_mad:0 "Major Nations Protest!"
+ POL_demilitarize_danzig:0 "Remilitarize Danzig"
+ POL_demilitarize_danzig_desc:0 "To ensure the security of our naval production, and the entire Polish state, we must remilitarize the Free City of Danzig and remove the League of Nations Mandate from the city."
+ POL_britain_destroyers:0 "Britain must accept this deal for it to go into effect."
+ POL_french_destroyers:0 "France must accept this deal for us to gain these ships."
+
  miedzymorze.3.t:0 "Poland Demands Zaolzie."
  miedzymorze.3.d:0 "Poland has been demanding Zaolzie, due to its large Polish population, for a long time... But now they have sent an ultimatum - Zaolzie or war. "
  miedzymorze.3.a:0 "We are not ready for war."

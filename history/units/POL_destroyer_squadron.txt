@@ -1,0 +1,37 @@
+####### OOB #######
+units = {
+	fleet = {
+		name = "Screen Task Force" 
+		naval_base = 362 #Danzig
+		task_force = {				
+			name = "Blue TF 1"	
+			location = 362 #Danzig
+				
+			ship = { 
+                name = "Gdansk" 
+                definition = destroyer 
+                equipment = { destroyer_1 = { amount = 1 owner = POL } 
+                    } 
+            }
+			ship = { 
+                name = "Hel" 
+                definition = destroyer 
+                equipment = { destroyer_1 = { amount = 1 owner = POL } 
+                    } 
+            }
+			ship = { 
+                name = "Puck" 
+                definition = destroyer 
+                equipment = { destroyer_1 = { amount = 1 owner = POL } 
+                    } 
+            }
+			ship = { 
+                name = "Ustka" 
+                definition = destroyer 
+                equipment = { destroyer_1 = { amount = 1 owner = POL } 
+                    } 
+            }  
+
+		}
+	}
+}

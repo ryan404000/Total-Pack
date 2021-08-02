@@ -36,4 +36,10 @@ opinion_modifiers = {
 	POL_treaty_with_finland = { 
 		value = 30 
 	}
+	POL_mad_at_uk = {
+		value = -50	
+	}
+	POL_mad_at_fra = {
+		value = -50	
+	}
 }
