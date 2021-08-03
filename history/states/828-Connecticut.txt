@@ -1,0 +1,41 @@
+state={
+	id=828
+	name="STATE_828"
+	resources={
+		steel=45.000
+	}
+
+	state_category = metropolis
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 6
+			industrial_complex = 3
+			steel_refinery = 2
+			dockyard = 6
+			air_base = 5
+			9832 = {
+				naval_base = 3
+ 				bunker = 3
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			9847 2 
+		}
+		victory_points = {
+			9850 5
+		}
+
+	}
+
+	provinces={
+		9847 6909 9832 9850 11830
+	}
+	manpower=1672000
+	buildings_max_level_factor=1.000
+}

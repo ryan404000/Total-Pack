@@ -4571,7 +4571,7 @@ focus_tree = {
 		y = 1
 		cost = 6
         available_if_capitulated = no
-		mutually_exclusive = { focus = POL_authoritarianism focus = POL_return_to_the_past }
+		mutually_exclusive = { focus = POL_authoritarianism focus = POL_return_to_the_past focus = POL_strengthen_the_polish_state }
 		prerequisite = {focus = POL_foreign_policy }
 
 		available = {
@@ -5727,7 +5727,7 @@ focus = {
 		y = 1
 		cost = 6
         available_if_capitulated = no
-		mutually_exclusive = { focus = POL_authoritarianism focus = POL_the_between_the_seas_concept }
+		mutually_exclusive = { focus = POL_authoritarianism focus = POL_the_between_the_seas_concept focus = POL_strengthen_the_polish_state }
 		prerequisite = {focus = POL_foreign_policy }
 		ai_will_do = {
 			factor = 0
