@@ -5284,6 +5284,17 @@ portugal.30.d:0 "We just got a visit from the Portuguese foreign minister, who t
  POL_naval_reform:0 "Enact Naval Reforms"
  POL_naval_reform_desc:0 "DESCRIPTION"
 
+ POL_ties_with_england:0 "Ties with England"
+ POL_ties_with_england_desc:0 "DESCRIPTION"
+
+ POL_english_shipbuilding_aid:0 "English Shipbuilding Aid"
+ POL_english_shipbuilding_aid_desc:0 "DESCRIPTION"
+
+ POL_english_fighter_production:0 "Air Technical Aid from England"
+ POL_english_fighter_production_desc:0 "DESCRIPTION"
+
+ POL_english_military_production:0 "English Military Technical Aid"
+ POL_english_military_production_desc:0 "DESCRIPTION"
 
  miedzymorze.3.t:0 "Poland Demands Zaolzie."
  miedzymorze.3.d:0 "Poland has been demanding Zaolzie, due to its large Polish population, for a long time... But now they have sent an ultimatum - Zaolzie or war. "

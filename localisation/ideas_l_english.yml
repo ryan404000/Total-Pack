@@ -259,13 +259,17 @@
  POL_Stefan_Mossor:0 "Stefan Mossor"
  POL_investtank:0 "Armor Production Investment"
  POL_closed:0 "Operation Baltyk"
- 
+
  POL_german_monarch:0 "German Monarch"
  POL_austrian_monarch:0 "Austrian Monarch"
  POL_russian_monarch:0 "Russian Monarch"
  POL_polish_monarch:0 "Polish Monarch"
  POL_lithuanian_monarch:0 "Lithuanian Monarch"
 
+ POL_renewed_militarism_idea:0 "Renewed Polish Militarism"
+ POL_eng_fighter_production:0 "Fighter Production Aid from England"
+ POL_eng_tank_production:0 "Armor Industrial Aid from England"
+ POL_battlecruiser_navy:0 "Battlecruiser Navy"
 
  PHI_usadep:0 "Commonwealth of the Philippines"
  PHI_usadep_desc:0 "The Philippines is in a transitional state in preparation for full independence from the United States. In the process, tariffs and quotas are set up to favour American trade."

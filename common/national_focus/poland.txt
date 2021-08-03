@@ -506,6 +506,7 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 10
+			is_historical_focus_on = yes
 		}
 		completion_reward = {
 			add_political_power = 120
@@ -2909,7 +2910,6 @@ focus_tree = {
 		id = POL_naval_reform
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = { focus = POL_military_reform }
-		prerequisite = { focus = POL_foreign_policy }	
 
 		x = 26
 		y = 1
@@ -5918,7 +5918,6 @@ focus = {
 		icon = GFX_monarchism
 		available = {
 			is_puppet = no
-			is_in_faction = no
 			has_idea = POL_german_monarch
 		}
 		bypass = {
@@ -5948,7 +5947,6 @@ focus = {
 		icon = GFX_HUN_austrian_dominance
 		available = {
 			is_puppet = no
-			is_in_faction = no
 			has_idea = POL_austrian_monarch
 		}
 		bypass = {
@@ -5977,7 +5975,6 @@ focus = {
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		available = {
 			is_puppet = no
-			is_in_faction = no
 			has_idea = POL_russian_monarch
 		}
 		bypass = {
@@ -6006,7 +6003,6 @@ focus = {
 		icon = GFX_focus_generic_polish_deal
 		available = {
 			is_puppet = no
-			is_in_faction = no
 			has_idea = POL_polish_monarch
 		}
 		bypass = {
@@ -6035,7 +6031,6 @@ focus = {
 		icon = GFX_focus_hun_elect_a_king
 		available = {
 			is_puppet = no
-			is_in_faction = no
 			has_idea = POL_lithuanian_monarch
 		}
 		bypass = {
@@ -6114,7 +6109,6 @@ focus = {
 		icon = GFX_focus_ger_revive_kaiserreich
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_a_german_monarch
 		x = 0
@@ -6139,7 +6133,6 @@ focus = {
 		icon = GFX_focus_usa_focus_on_europe
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_stoke_monarchism_in_germany
 		x = 0
@@ -6167,7 +6160,6 @@ focus = {
 		icon = GFX_focus_usa_focus_on_europe
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_stoke_monarchism_in_germany
 		x = -2
@@ -6196,7 +6188,6 @@ focus = {
 		icon = GFX_focus_attack_germany
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_claims_in_prussia
 		x = 0
@@ -6256,12 +6247,11 @@ focus = {
 		icon = GFX_goal_generic_fortify_city
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_prepare_for_war_in_the_west
 		x = -1
 		y = 1
-		cost = 6
+		cost = 4
         available_if_capitulated = no
 		prerequisite = { focus = POL_prepare_for_war_in_the_west }
 		ai_will_do = {
@@ -6308,12 +6298,11 @@ focus = {
 		icon = GFX_goal_generic_construct_military
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_fortify_danzig
 		x = 0
 		y = 1
-		cost = 6
+		cost = 4
         available_if_capitulated = no
 		prerequisite = { focus = POL_fortify_danzig }
 		ai_will_do = {
@@ -6372,12 +6361,11 @@ focus = {
 		icon = GFX_goal_generic_construct_mil_factory
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_fortify_danzig
 		x = 2
 		y = 1
-		cost = 6
+		cost = 3
         available_if_capitulated = no
 		prerequisite = { focus = POL_fortify_danzig }
 		ai_will_do = {
@@ -6414,12 +6402,11 @@ focus = {
 		icon = GFX_goal_generic_construct_mil_factory
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_improve_silesia_industrial_zone
 		x = 0
 		y = 1
-		cost = 6
+		cost = 3
         available_if_capitulated = no
 		prerequisite = { focus = POL_fortify_danzig }
 		ai_will_do = {
@@ -6452,12 +6439,12 @@ focus = {
 		icon = GFX_goal_britishfort
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
+
 		relative_position_id = POL_claims_in_prussia
 		x = -2
 		y = 1
-		cost = 6
+		cost = 3
         available_if_capitulated = no
 		prerequisite = { focus = POL_claims_in_prussia }
 		ai_will_do = {
@@ -6469,20 +6456,21 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			add_opinion_modifier = { target = ENG modifier = very_large_increase }
+			ENG = { 
+				add_opinion_modifier = { target = ROOT modifier = very_large_increase } 
+			}			
 		}
 	}
 	focus = {
 		id = POL_english_shipbuilding_aid
 		icon = GFX_ENG_battleship
 		available = {
-			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_ties_with_england
 		x = -1
 		y = 1
-		cost = 6
+		cost = 8
         available_if_capitulated = no
 		prerequisite = { focus = POL_ties_with_england }
 		ai_will_do = {
@@ -6494,7 +6482,30 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				prioritize = { 85 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 817 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = naval_doc_bonus
+				category = naval_doctrine
+				bonus = 0.7
+				uses = 1
+			}						
 		}
 	}
 	focus = {
@@ -6502,12 +6513,11 @@ focus = {
 		icon = GFX_goal_ENG_fighter
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_ties_with_england
 		x = -3
 		y = 1
-		cost = 6
+		cost = 8
         available_if_capitulated = no
 		prerequisite = { focus = POL_ties_with_england }
 		ai_will_do = {
@@ -6519,7 +6529,31 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_ideas = POL_eng_fighter_production			
 		}
 	}	
 	focus = {
@@ -6527,12 +6561,11 @@ focus = {
 		icon = GFX_ENG_tanks
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_english_fighter_production
 		x = 1
 		y = 1
-		cost = 6
+		cost = 12
         available_if_capitulated = no
 		prerequisite = { focus = POL_english_fighter_production focus = POL_english_shipbuilding_aid }
 		ai_will_do = {
@@ -6544,7 +6577,49 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+			add_ideas = POL_eng_tank_production
+			add_tech_bonus = {
+				name = land_doc_bonus
+				category = land_doctrine
+				bonus = 0.65
+				uses = 2				
+			}	
+			add_tech_bonus = {
+				name = medium_armor_bonus
+				category = cat_medium_armor
+				bonus = 0.45
+				uses = 1				
+			}
+			add_tech_bonus = {
+				name = light_armor_bonus
+				category = cat_light_armor
+				bonus = 0.55
+				uses = 1				
+			}							
 		}
 	}	
 	focus = {
@@ -6552,12 +6627,11 @@ focus = {
 		icon = GFX_focus_attack_germany
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_improve_silesia_fortified_area
 		x = -1.5
 		y = 1
-		cost = 6
+		cost = 3
         available_if_capitulated = no
 		prerequisite = { focus = POL_english_military_production }
 		prerequisite = { focus = POL_improve_silesia_fortified_area }
@@ -6583,7 +6657,6 @@ focus = {
 		icon = GFX_focus_ger_revive_kaiserreich
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_destroy_the_germans
 		x = 0
@@ -6608,7 +6681,6 @@ focus = {
 		icon = GFX_goal_generic_construct_civ_factory
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_the_kaiser_returns
 		x = 0
@@ -6633,7 +6705,6 @@ focus = {
 		icon = GFX_goal_generic_construct_civ_factory
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_the_kaiser_returns
 		x = 2
@@ -6658,7 +6729,6 @@ focus = {
 		icon = GFX_goal_generic_construct_civ_factory
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_the_kaiser_returns
 		x = -2
@@ -6683,7 +6753,6 @@ focus = {
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_the_kaiser_returns
 		x = 0
@@ -6710,7 +6779,6 @@ focus = {
 		icon = GFX_focus_attack_soviet
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_rebuild_berlin
 		x = 0
@@ -6765,7 +6833,6 @@ focus = {
 		icon = GFX_Goal_befriend_Romania
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_a_german_monarch
 		x = -2

@@ -41,5 +41,5 @@ opinion_modifiers = {
 	}
 	POL_mad_at_fra = {
 		value = -50	
-	}
+	}	
 }

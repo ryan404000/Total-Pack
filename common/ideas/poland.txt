@@ -1699,6 +1699,8 @@ country = {
 	POL_polish_monarch = {}
 	POL_lithuanian_monarch = {}
 	POL_renewed_militarism_idea = {}
+	POL_eng_fighter_production = {}
+	POL_eng_tank_production	= {}
 
 	}	
 
