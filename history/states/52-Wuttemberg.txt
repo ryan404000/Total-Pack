@@ -26,7 +26,7 @@ state={
 				bunker = 3
 			}		
 		}
-		add_core_of = GER
+		add_core_of = BAY
 
 		1939.1.1 = {
 			buildings = {
@@ -36,7 +36,7 @@ state={
 	}
 
 	provinces={
-		692 707 708 3688 3705 6540 6693 9652 9666 11620 11638 11653 
+		692 707 3688 3705 6693 9652 11620 11653 13291
 	}
 	buildings_max_level_factor=1.000
 }
