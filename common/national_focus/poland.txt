@@ -300,7 +300,6 @@ focus_tree = {
 		id = POL_expansion_of_industry3
 		icon = GFX_goal_POL_nationaldefense
 		prerequisite = { focus = POL_the_four_year_plan }
-		prerequisite = { focus = POL_prepare_for_the_next_war }
 		
 		relative_position_id = POL_the_four_year_plan
 		x = 1
@@ -378,10 +377,10 @@ focus_tree = {
 	focus = { # Plan West
 		id = POL_plan_west
 		icon = GFX_Goal_poland_defense
-		prerequisite = { focus = POL_expansion_of_industry3 focus = POL_delayplan }
+		prerequisite = { focus = POL_delayplan }
 		
 		relative_position_id = POL_expansion_of_industry3
-		x = 2
+		x = 4
 		y = 1
 		cost = 10
 		
@@ -890,7 +889,7 @@ focus_tree = {
 	focus = {
 		id = POL_military_industry
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = POL_plan_west }
+		prerequisite = { focus = POL_expansion_of_industry3 }
 		relative_position_id = POL_expansion_of_industry3
 		x = 1
 		y = 2
@@ -937,7 +936,7 @@ focus_tree = {
 	focus = {
 		id = POL_research
 		icon = GFX_Goal_POL_research
-		prerequisite = { focus = POL_military_industry focus = POL_organized_command }
+		prerequisite = { focus = POL_organized_command }
 		relative_position_id = POL_organized_command
 		x = -1
 		y = 1
@@ -1927,7 +1926,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_tank
 		prerequisite = {focus = POL_military_reform}
 
-		x = 8
+		x = 10
 		y = 1
 		cost = 4
 
@@ -1969,7 +1968,7 @@ focus_tree = {
 		icon = GFX_goal_POL_armyreform
 		prerequisite = {focus = POL_military_reform}
 
-		x = 11
+		x = 13
 		y = 1
 		cost = 2.9
 
@@ -2940,7 +2939,7 @@ focus_tree = {
 		id = POL_kop
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = {focus = POL_military_reform}		
-		x = 18
+		x = 20
 		y = 1
 		cost = 7
 
@@ -4525,6 +4524,9 @@ focus_tree = {
 			GER = {
 				transfer_state = 85
 				transfer_state = 817
+			}
+			85 = {
+				set_demilitarized_zone = no
 			}
 		}
 	}
@@ -6218,6 +6220,9 @@ focus = {
 				idea = POL_mobilisation
 				days = 180
 					}
+			}
+			85 = {
+				set_demilitarized_zone = no
 			}
 		}
 	}

@@ -5269,6 +5269,20 @@ portugal.30.d:0 "We just got a visit from the Portuguese foreign minister, who t
  POL_buy_destroyers_desc:0 "DESCRIPTION"
  POL_buy_cruisers:0 "Buy ships from France"
  POL_buy_cruisers_desc:0 "DESCRIPTION"
+ POL_renewed_militarism:0 "Renewed Militarism"
+ POL_renewed_militarism_desc:0 "DESCRIPTION"
+
+ POL_economic_recovery:0 "Recover from the Depression"
+ POL_economic_recovery_desc:0 "DESCRIPTION"
+
+ POL_military_reform:0 "Polish Military Reforms"
+ POL_military_reform_desc:0 "DESCRIPTION"
+
+ POL_foreign_policy:0 "Polish Foreign Policy"
+ POL_foreign_policy_desc:0 "DESCRIPTION"
+
+ POL_naval_reform:0 "Enact Naval Reforms"
+ POL_naval_reform_desc:0 "DESCRIPTION"
 
 
  miedzymorze.3.t:0 "Poland Demands Zaolzie."
