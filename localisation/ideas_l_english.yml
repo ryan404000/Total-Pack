@@ -270,6 +270,13 @@
  POL_eng_fighter_production:0 "Fighter Production Aid from England"
  POL_eng_tank_production:0 "Armor Industrial Aid from England"
  POL_battlecruiser_navy:0 "Battlecruiser Navy"
+ POL_stoked_flames_of_monarchism:0 "Stoked Monarchism"
+ POL_kingdom_of_Prussia_Poland:0 "The Kingdom of Poland-Prussia"
+ POL_great_depression_0:0 "The Great Depression"
+ POL_great_depression_1:0 "Begin Economic Recovery"
+ POL_great_depression_2:0 "Minor Economic Recovery"
+ POL_great_depression_3:0 "Major Economic Recovery"
+ POL_recovered_economy:0 "Booming Economy"
 
  PHI_usadep:0 "Commonwealth of the Philippines"
  PHI_usadep_desc:0 "The Philippines is in a transitional state in preparation for full independence from the United States. In the process, tariffs and quotas are set up to favour American trade."

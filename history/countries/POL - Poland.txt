@@ -21,6 +21,7 @@ add_ideas = {
 	POL_ukraine_idea
 	POL_officers
 	POL_danzig1
+	POL_great_depression_0
 }
 
 # Starting tech

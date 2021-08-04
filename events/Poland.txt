@@ -2485,7 +2485,7 @@ country_event = {
 	create_country_leader = {
 	name = "Adalbert"
 	desc = "POLITICS_ADALBERT_DESC"
-	picture = "PORTRAIT HERE.dds"
+	picture = "Portrait_Poland_Adalbert.dds"
 	expire = "1948.11.22"
 	ideology = despotism
 	traits = {
@@ -2504,7 +2504,7 @@ country_event = {
 	create_country_leader = {
 	name = "Eitel"
 	desc = "POLITICS_EITEL_DESC"
-	picture = "PORTRAIT HERE.dds"
+	picture = "Portrait_Poland_Eitel.dds"
 	expire = "1942.12.8"
 	ideology = despotism
 	traits = {
@@ -2523,7 +2523,7 @@ country_event = {
 	create_country_leader = {
 	name = "Oskar"
 	desc = "POLITICS_OSKAR_DESC"
-	picture = "PORTRAIT HERE.dds"
+	picture = "Portrait_Poland_Oskar.dds"
 	expire = "1958.1.27"
 	ideology = despotism
 	traits = {
@@ -2699,6 +2699,343 @@ country_event = {
 	complete_national_focus = POL_a_polish_monarch
 	add_ideas =  POL_polish_monarch
 		}
+	}			
+}
+
+#Lithuanian Monarch
+country_event = {
+	id = poland.100
+	title = poland.100.t
+	desc = poland.100.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.100.a #Princess Irina Alexandrovna
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Irina Alexandrovna"
+	desc = "POLITICS_IRINA_ALEXANDROVNA_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1970.2.26"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_lithuanian_monarch
+	add_ideas =  POL_lithuanian_monarch
+		}
+}
+	option = {
+		name = poland.100.b #Prince Andrei Alexandrovich
+		ai_chance = { 
+			factor = 5
+		}
+	create_country_leader = {
+	name = "Andrei Alexandrovich"
+	desc = "POLITICS_ANDREI_ALEXANDROVICH_DESC"
+	picture = "PORTRAIT HERE.dds"
+	expire = "1981.5.08"
+	ideology = despotism
+	traits = {
+		}
+	}	
+	POL = {
+	complete_national_focus = POL_a_lithuanian_monarch
+	add_ideas =  POL_lithuanian_monarch
+		}
+	}			
+}
+
+#Russian Guarantees
+country_event = {
+	id = poland.101
+	title = poland.101.t
+	desc = poland.101.d
+	picture = GFX_report_event_polish_army
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.101.a #Offer Economic Concessions
+		ai_chance = { 
+			factor = 5
+		}
+		SOV = {
+			country_event = {
+				id = poland.102 #Soviets decision Economic Concession
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = poland.101.b #Offer land concessions
+		ai_chance = { 
+			factor = 5
+		}	
+		SOV = {
+			country_event = {
+				id = poland.103 #Soviets decision Land Concession
+				days = 1
+			}
+		}	
+	}	
+	option = {
+		name = poland.101.c #Offer Demilitarization of the East
+		ai_chance = { 
+			factor = 5
+		}
+		SOV = {
+			country_event = {
+				id = poland.104 #Soviets decision Demilitarization
+				days = 1
+			}
+		}			
+	}		
+}
+
+#Russian Response - Economic Concessions
+country_event = {
+	id = poland.102
+	title = poland.102.t
+	desc = poland.102.d
+	picture = GFX_report_event_polish_army
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.102.a #Russians Demand Land Concessions
+		ai_chance = { 
+			factor = 8
+		}
+		POL = {
+			country_event = {
+				id = poland.105
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = poland.102.b #Russians Accept 
+		ai_chance = { 
+			factor = 6
+		}
+		news_event = {
+			id = poland.106 #Soviets Accept Economic Concessions
+			days = 1
+		}	
+		SOV = {
+			add_offsite_building = { type = arms_factory level = 4 }
+			add_offsite_building = { type = industrial_complex level = 4 }			
+		}
+		SOV = {
+		diplomatic_relation = {
+    		country = POL
+    		relation = non_aggression_pact
+    		active = yes
+			}
+		}	
+		POL = {
+			add_offsite_building = { type = arms_factory level = -4 }
+			add_offsite_building = { type = industrial_complex level = -4 }			
+		}
+	}	
+	option = {
+		name = poland.102.c #Russians Refuse
+		ai_chance = { 
+			factor = 1
+		}
+		news_event = {
+			id = poland.107 #Soviets refuse
+			days = 1
+		}			
+	}		
+}
+
+#Russian Response - Land Concessions
+country_event = {
+	id = poland.103
+	title = poland.103.t
+	desc = poland.103.d
+	picture = GFX_report_event_polish_army
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.103.a #Russians Accept Land Concessions
+		ai_chance = { 
+			factor = 10
+		}
+		news_event = {
+			id = poland.108 #Soviets Accept Land Concessions
+			days = 1
+		}
+		SOV = {
+			transfer_state = 96
+			transfer_state = 95
+			transfer_state = 94
+			transfer_state = 93
+			transfer_state = 91
+			transfer_state = 784
+			diplomatic_relation = {
+    			country = POL
+    			relation = non_aggression_pact
+    			active = yes
+			}		
+		}					
+	}
+	option = {
+		name = poland.103.b #Russians Refuse
+		ai_chance = { 
+			factor = 1
+		}
+		news_event = {
+			id = poland.109 #Soviets Refuse Land Concessions
+			days = 1
+		}			
 	}	
 		
 }
+
+#Russian Response - Demilitarization
+country_event = {
+	id = poland.104
+	title = poland.104.t
+	desc = poland.104.d
+	picture = GFX_report_event_polish_army
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.104.a #Russians Demand Land Concessions
+		ai_chance = { 
+			factor = 7
+		}
+		POL = {
+			country_event = {
+				id = poland.105
+				days = 1
+			}
+		}		
+	}
+	option = {
+		name = poland.104.b #Russians Accept 
+		ai_chance = { 
+			factor = 7
+		}
+		news_event = {
+			id = poland.110 #Soviets Accept Demil
+			days = 1
+		}
+		96 = {
+			set_demilitarized_zone = yes
+		}
+		95 = {
+			set_demilitarized_zone = yes
+		}
+		94 = {
+			set_demilitarized_zone = yes
+		}
+		93 = {
+			set_demilitarized_zone = yes
+		}
+		91 = {
+			set_demilitarized_zone = yes			
+		}		
+		SOV = {
+			diplomatic_relation = {
+    			country = POL
+    			relation = non_aggression_pact
+    			active = yes
+			}
+		}											
+	}	
+	option = {
+		name = poland.104.c #Russians Refuse
+		ai_chance = { 
+			factor = 1
+		}
+		news_event = {
+			id = poland.111 #Soviets Refuse Demil
+			days = 1
+		}			
+	}		
+		
+}
+
+#Russian Sends Counter Offer for Land Concessions - POLE RESPONSE
+country_event = {
+	id = poland.105
+	title = poland.105.t
+	desc = poland.105.d
+	picture = GFX_report_event_polish_army
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.105.a #Poland Accepts Land Concessions
+		ai_chance = { 
+			factor = 7
+		}
+		SOV = {
+			transfer_state = 96
+			transfer_state = 95
+			transfer_state = 94
+			transfer_state = 93
+			transfer_state = 91
+			transfer_state = 784
+			transfer_state = 89
+			give_guarantee = POL			
+		}		
+		news_event = {
+			id = poland.112 #Soviets-Polish Land Deal
+			days = 1
+		}		
+	}
+	option = {
+		name = poland.105.b #Poland Refuses, Talks break down 
+		ai_chance = { 
+			factor = 7
+		}
+		news_event = {
+			id = poland.113 #Soviets-Polish Talks Break Down
+			days = 1				
+		}	
+	}
+		
+}
+
+#Invite Romania to Faction
+country_event = {
+	id = poland.114
+	title = poland.114.t
+	desc = poland.114.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.114.a
+		ai_chance = { 
+			factor = 10 
+			modifier = {
+				factor = 0
+			}
+		}
+		add_to_faction = ROM
+	}
+	
+	option = {
+		name = poland.114.b
+		ai_chance = { factor = 1 }
+	}
+}	
+
+#Return of the Kaiser
+#news_event = {
+#	id = poland.115
+#	title = poland.115.t
+#	desc = poland.115.d 
+#	picture = 
+#
+#	is_triggered_only = yes
+#}	

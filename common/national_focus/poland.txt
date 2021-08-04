@@ -32,6 +32,10 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.03
 			add_political_power = 100
+			swap_ideas = {
+			remove_idea = POL_great_depression_0
+			add_idea = POL_great_depression_1
+			}
 		}
 		
 	}
@@ -51,7 +55,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_stability = 0.03
+			add_stability = 0.08
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = POL_felicjan2
 		}
@@ -74,6 +78,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_stability = 0.05			
 			10 = {
 				add_building_construction = {
 					instant_build = yes
@@ -125,6 +130,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			swap_ideas = {
+			remove_idea = POL_great_depression_1
+			add_idea = POL_great_depression_2
+			}
 			add_tech_bonus = {
 				name = construction_tech_bonus
 				bonus = 0.3
@@ -228,10 +237,10 @@ focus_tree = {
 			10 = {
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 3
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 			}
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = POL_ursus
@@ -382,7 +391,7 @@ focus_tree = {
 		relative_position_id = POL_expansion_of_industry3
 		x = 4
 		y = 1
-		cost = 10
+		cost = 9
 		
 		ai_will_do = {
 			factor = 3
@@ -457,7 +466,7 @@ focus_tree = {
 		relative_position_id = POL_plan_west
 		x = 1
 		y = 1
-		cost = 9.7
+		cost = 8
 		
 		available = {
 			custom_trigger_tooltip = {
@@ -502,7 +511,7 @@ focus_tree = {
 		mutually_exclusive = { focus = POL_authoritarianism focus = POL_the_between_the_seas_concept focus = POL_return_to_the_past }
 		x = 37
 		y = 1
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 10
@@ -513,6 +522,7 @@ focus_tree = {
 			#PP +120
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = POL_jozef_beck
+			add_stability = 0.05			
 		}
 	}
 	
@@ -894,7 +904,7 @@ focus_tree = {
 		relative_position_id = POL_expansion_of_industry3
 		x = 1
 		y = 2
-		cost = 8.6
+		cost = 6
 		
 		ai_will_do = {
 			factor = 12
@@ -941,7 +951,7 @@ focus_tree = {
 		relative_position_id = POL_organized_command
 		x = -1
 		y = 1
-		cost = 5
+		cost = 3
 		
 		ai_will_do = {
 			factor = 30
@@ -981,7 +991,7 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = POL_unemp1
 				add_idea = POL_unemp2
-			}	
+			}				
 		}
 	}
 	
@@ -1016,8 +1026,7 @@ focus_tree = {
 	focus = {
 		id = POL_polandA
 		icon = GFX_goal_POL_polandA
-		prerequisite = { focus = POL_suburban }
-		prerequisite = { focus = POL_lower }
+		prerequisite = { focus = POL_suburban focus = POL_lower }
 		relative_position_id = POL_lower
 		x = -1
 		y = 1
@@ -1041,7 +1050,7 @@ focus_tree = {
 				prioritize = { 86 }
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
-					type = arms_factory
+					type = industrial_complex
 					level = 2
 					instant_build = yes
 				}
@@ -1052,8 +1061,7 @@ focus_tree = {
 	focus = {
 		id = POL_polandB
 		icon = GFX_goal_POL_polandB
-		prerequisite = { focus = POL_suburban }
-		prerequisite = { focus = POL_lower }
+		prerequisite = { focus = POL_suburban focus = POL_lower }
 		relative_position_id = POL_suburban
 		x = 1
 		y = 1
@@ -1073,6 +1081,15 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			random_owned_controlled_state = {
+				prioritize = { 89 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}			
 			93 = {
 				add_compliance = 10
 				add_resistance = -5
@@ -1201,6 +1218,10 @@ focus_tree = {
 				remove_idea = POL_unemp2
 				add_idea = POL_unemp3
 			}
+			add_timed_idea = {
+    			idea = POL_recovered_economy
+    			days = 500
+				}			
 		}
 	}
 	
@@ -1220,7 +1241,7 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = steel
-				amount = 8
+				amount = 20
 				state = 762
 			}
 			add_resource = {
@@ -1234,8 +1255,7 @@ focus_tree = {
 	focus = {
 		id = POL_warsaw2
 		icon = GFX_goal_POL_district
-		prerequisite = { focus = POL_lower }
-		prerequisite = { focus = POL_suburban }
+		prerequisite = { focus = POL_suburban focus = POL_lower }
 		relative_position_id = POL_lower
 		x = 1
 		y = 1
@@ -1246,6 +1266,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = POL_great_depression_2
+				add_idea = POL_great_depression_3
+			}			
 			random_owned_controlled_state = {
 				prioritize = { 10 }
 				add_extra_state_shared_building_slots = 3
@@ -1298,6 +1322,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			remove_ideas = POL_great_depression_3			
 		}
 	}
 	
@@ -1365,7 +1390,29 @@ focus_tree = {
 			}
 		}
 	}
-	
+
+	focus = {
+		id = POL_dishonored
+		icon = GFX_goal_POL_dishonor
+		relative_position_id = POL_the_three_year_plan
+		x = 6
+		y = 1
+		cost = 2
+		
+		available = {
+			has_global_flag = GER_acceptdanzig
+		}
+		
+		ai_will_do = {
+			factor = 80
+		}
+		
+		completion_reward = {
+			add_stability = -0.03
+			add_ideas = POL_anarchy
+		}
+	}
+
 	focus = {
 		id = POL_liberation
 		icon = GFX_goal_POL_liberation
@@ -1392,29 +1439,6 @@ focus_tree = {
 			add_war_support = 0.15
 		}
 	}
-	
-	focus = {
-		id = POL_dishonored
-		icon = GFX_goal_POL_dishonor
-		relative_position_id = POL_the_three_year_plan
-		x = 6
-		y = 1
-		cost = 2
-		
-		available = {
-			has_global_flag = GER_acceptdanzig
-		}
-		
-		ai_will_do = {
-			factor = 80
-		}
-		
-		completion_reward = {
-			add_stability = -0.03
-			add_ideas = POL_anarchy
-		}
-	}
-	
 	focus = {
 		id = POL_sovietland
 		icon = GFX_Goal_Soviet_Defense2
@@ -1952,7 +1976,7 @@ focus_tree = {
 		relative_position_id = POL_prepare_for_the_next_war
 		x = 0
 		y = 1
-		cost = 12.7
+		cost = 10
 
 		ai_will_do = {
 			factor = 20
@@ -1971,7 +1995,7 @@ focus_tree = {
 
 		x = 13
 		y = 1
-		cost = 2.9
+		cost = 3
 
 		ai_will_do = {
 			factor = 5
@@ -1992,7 +2016,7 @@ focus_tree = {
 		
 		x = 14
 		y = 0
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 5
@@ -2040,7 +2064,7 @@ focus_tree = {
 		
 		x = 1
 		y = 1
-		cost = 7.6
+		cost = 7
 		
 		bypass = {
 			NOT = {
@@ -2087,7 +2111,7 @@ focus_tree = {
 		
 		x = 0
 		y = 1
-		cost = 8.7
+		cost = 9
 		
 		bypass = {
 			NOT = {
@@ -2148,7 +2172,7 @@ focus_tree = {
 		
 		x = -1
 		y = 1
-		cost = 3.7
+		cost = 3
 		
 		available = {
 			ROM = { exists = yes }
@@ -2180,7 +2204,7 @@ focus_tree = {
 		relative_position_id = POL_organized_command
 		x = 1
 		y = 1
-		cost = 6
+		cost = 3
 
 		ai_will_do = {
 			factor = 10
@@ -2228,7 +2252,7 @@ focus_tree = {
 		relative_position_id = POL_standardisation_of_equipment
 		x = 0
 		y = 1
-		cost = 7
+		cost = 6
 
 		ai_will_do = {
 			factor = 10
@@ -2911,9 +2935,9 @@ focus_tree = {
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = { focus = POL_military_reform }
 
-		x = 26
+		x = 25
 		y = 1
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -2939,9 +2963,9 @@ focus_tree = {
 		id = POL_kop
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = {focus = POL_military_reform}		
-		x = 20
+		x = 19
 		y = 1
-		cost = 7
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2968,7 +2992,7 @@ focus_tree = {
 		relative_position_id = POL_kop
 		x = -1
 		y = 1
-		cost = 4.5
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -2987,7 +3011,7 @@ focus_tree = {
 		relative_position_id = POL_kop
 		x = 1
 		y = 1
-		cost = 6
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -3056,7 +3080,7 @@ focus_tree = {
 		relative_position_id = POL_air_base_expansion
 		x = 2
 		y = 1
-		cost = 7
+		cost = 6
 
 		ai_will_do = {
 			factor = 10
@@ -3081,7 +3105,7 @@ focus_tree = {
 		relative_position_id = POL_air_base_expansion
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -3105,7 +3129,7 @@ focus_tree = {
 		
 		x = 2
 		y = 1
-		cost = 7.2
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -3135,7 +3159,7 @@ focus_tree = {
 		relative_position_id = POL_air_innovations
 		x = 0
 		y = 2
-		cost = 9.5
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -3160,7 +3184,7 @@ focus_tree = {
 		relative_position_id = POL_air_innovations
 		x = 1
 		y = 1
-		cost = 6.2
+		cost = 6
 
 		ai_will_do = {
 			factor = 10
@@ -3211,7 +3235,7 @@ focus_tree = {
 		relative_position_id = POL_naval_reform
 		prerequisite = { focus = POL_naval_reform }
 		
-		x = 2
+		x = 1
 		y = 1
 		cost = 5
 
@@ -3244,6 +3268,9 @@ focus_tree = {
 			}
 			custom_effect_tooltip = POL_mdf_tt
 			hidden_effect = {	
+				set_technology = {
+    					marine = 1
+					}
 				division_template = {
 					name = "Morska Brygada Obrony Narodowej"
 					priority = 1
@@ -3277,10 +3304,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 				set_state_flag = POL_Gdynia_Universal_Seaport_1
@@ -3296,7 +3323,104 @@ focus_tree = {
 			}
 		}
 	}
-	
+
+	focus = {
+		id = POL_develop_polish_ship
+		icon = GFX_goal_POL_navy3
+		prerequisite = { focus = POL_naval_reform }
+		
+		x = 0
+		y = 2
+		relative_position_id = POL_naval_reform
+		cost = 7.2
+		
+		available = {
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 85 }
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = POL_Develop_Polish_Ship_Building_1
+				if = {
+					limit = { 85 = { is_controlled_by = ROOT } }
+					add_building_construction = {
+						type = naval_base
+						province = 362
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 817 }
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = POL_Develop_Polish_Ship_Building_1
+				if = {
+					limit = { 85 = { is_controlled_by = ROOT } }
+					add_building_construction = {
+						type = naval_base
+						province = 9263
+						level = 1
+						instant_build = yes
+					}
+				}
+			}			
+			random_owned_controlled_state = {
+				prioritize = { 86 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = POL_Develop_Polish_Ship_Building_2
+			}
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = POL_huta_zgoda
+		}
+	}	
+
 	focus = {
 		id = POL_navaldoctrine
 		icon = GFX_goal_POL_navy2
@@ -3305,7 +3429,7 @@ focus_tree = {
 		
 		x = 0
 		y = 1
-		cost = 8
+		cost = 7
 
 		ai_will_do = {
 			factor = 1
@@ -3330,7 +3454,7 @@ focus_tree = {
 		mutually_exclusive = { focus = POL_navaldoctrine_2 }		
 		x = -1
 		y = 1
-		cost = 8
+		cost = 7
 
 		ai_will_do = {
 			factor = 1
@@ -3358,7 +3482,7 @@ focus_tree = {
 		mutually_exclusive = { focus = POL_navaldoctrine_1 }
 		x = 1
 		y = 1
-		cost = 8
+		cost = 7
 
 		ai_will_do = {
 			factor = 1
@@ -3378,76 +3502,7 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = POL_develop_polish_ship
-		icon = GFX_goal_POL_navy3
-		prerequisite = { focus = POL_naval_reform }
-		
-		x = -2
-		y = 1
-		relative_position_id = POL_mdf
-		cost = 7.2
-		
-		available = {
-			any_owned_state = {
-				is_coastal = yes
-			}
-		}
-		
-		ai_will_do = {
-			factor = 5
-		}
 
-		available_if_capitulated = no
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				prioritize = { 85 }
-				limit = {
-					free_building_slots = {
-						building = dockyard
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = dockyard
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = POL_Develop_Polish_Ship_Building_1
-				if = {
-					limit = { 85 = { is_controlled_by = ROOT } }
-					add_building_construction = {
-						type = naval_base
-						province = 9263
-						level = 1
-						instant_build = yes
-					}
-				}
-			}
-			random_owned_controlled_state = {
-				prioritize = { 86 }
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = POL_Develop_Polish_Ship_Building_2
-			}
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = POL_huta_zgoda
-		}
-	}
 	
 	focus = {
 		id = POL_hel_fortified_area
@@ -3462,7 +3517,7 @@ focus_tree = {
 
 		x = 1
 		y = 1
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 10
@@ -3515,10 +3570,10 @@ focus_tree = {
 		icon = GFX_goal_generic_positive_trade_relations
 		prerequisite = { focus = POL_develop_polish_ship focus = POL_hel_fortified_area }
 		
-		x = 4
+		x = 3
 		y = 1
 		relative_position_id = POL_develop_polish_ship
-		cost = 9
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -3540,7 +3595,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = POL_Internationalism
-		cost = 7.8
+		cost = 7
 
 		available = {
 			85 = { 
@@ -3615,7 +3670,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = POL_develop_polish_ship
-		cost = 7.2
+		cost = 7
 
 		available = {
 			any_owned_state = {
@@ -3689,7 +3744,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = POL_navaldoctrine_2
-		cost = 4.3
+		cost = 4
 
 		ai_will_do = {
 			factor = 10
@@ -3715,7 +3770,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = POL_subwarfare
-		cost = 6
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -3774,7 +3829,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = POL_navaldoctrine_1
-		cost = 8
+		cost = 6
 
 		available = {
 			any_owned_state = {
@@ -3820,7 +3875,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = POL_gdynia
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 2
@@ -3849,7 +3904,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = POL_navaldoctrine_1
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 2
@@ -3860,8 +3915,10 @@ focus_tree = {
 		completion_reward = {
 		custom_effect_tooltip = POL_britain_destroyers		
 			ENG = {
-				country_event = poland.93
+				country_event = {
+				id = poland.93
 				days = 2
+				}
 			}
 		}
 	}	
@@ -3879,7 +3936,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = POL_buy_destroyers
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 2
@@ -3890,8 +3947,10 @@ focus_tree = {
 		completion_reward = {
 		custom_effect_tooltip = POL_french_destroyers	
 			FRA = {
-				country_event = poland.94
+				country_event = {
+				id = poland.94
 				days = 2
+				}
 			}
 		}
 	}	
@@ -3909,7 +3968,7 @@ focus_tree = {
 		
 		x = 0
 		y = 1
-		cost = 8
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -3952,7 +4011,7 @@ focus_tree = {
 		
 		x = 0
 		y = 1
-		cost = 8
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -3975,11 +4034,11 @@ focus_tree = {
 	focus = {
 		id = POL_proclaimdanzig
 		icon = GFX_goal_POL_danzig
-		prerequisite = { focus = POL_demilitarize_danzig }
+		prerequisite = { focus = POL_naval_reform }
 		relative_position_id = POL_naval_reform		
-		x = -2
-		y = 2
-		cost = 4.7
+		x = 3
+		y = 1
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -3998,9 +4057,9 @@ focus_tree = {
 		icon = GFX_goal_POL_danzig
 		prerequisite = { focus = POL_naval_reform }
 		relative_position_id = POL_naval_reform		
-		x = -2
+		x = -1
 		y = 1
-		cost = 4.7
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -4165,7 +4224,7 @@ focus_tree = {
 		relative_position_id = POL_romania1
 		x = 1
 		y = 1
-		cost = 10
+		cost = 7
 		
 		available = {
 			has_country_flag = POL_refuseap
@@ -4225,7 +4284,7 @@ focus_tree = {
 		mutually_exclusive = { focus = POL_cossacks }
 		x = 1
 		y = 1
-		cost = 7
+		cost = 6
 
 		ai_will_do = {
 			factor = 10
@@ -4380,7 +4439,7 @@ focus_tree = {
 		mutually_exclusive = { focus = POL_husaria }
 		x = -1
 		y = 1
-		cost = 7
+		cost = 6
 		
 		bypass = {
 			91 = {
@@ -5399,7 +5458,7 @@ focus = {
 
 		x = 1
 		y = 1
-		cost = 10
+		cost = 6
 		relative_position_id = POL_cossacks
 		ai_will_do = {
 			factor = 10
@@ -6125,9 +6184,15 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			GER = {
+			add_timed_idea = {
+				idea = POL_stoked_flames_of_monarchism
+				days = 360
+				}
+			}
 		}
 	}
+
 	focus = {
 		id = POL_claims_in_prussia
 		icon = GFX_focus_usa_focus_on_europe
@@ -6222,7 +6287,6 @@ focus = {
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_prepare_for_war_in_the_west
 		x = 1
@@ -6239,7 +6303,12 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			POL = {
+				country_event = {
+					id = poland.101
+					days = 2
+				}
+			}
 		}
 	}
 	focus = {
@@ -6323,10 +6392,10 @@ focus = {
 				}
 				add_building_construction = {
 					type = anti_air_building
-					province = 9427
 					level = 2
+					province = 9427
 					instant_build = yes
-				}				
+					}				
 			}
 			762 = {
 				add_building_construction = {
@@ -6648,10 +6717,104 @@ focus = {
 		completion_reward = {
 			create_wargoal = {
 				target = GER
-				type = take_claimed_state
+				type = annex_everything
 			}
 		}
 	}
+	focus = {
+		id = POL_the_future_is_ours
+		icon = GFX_focus_generic_polish_deal
+		available = {
+			is_puppet = no
+		}
+		relative_position_id = POL_improve_silesia_fortified_area
+		mutually_exclusive = { focus = POL_join_the_allies }
+		x = -5
+		y = 1
+		cost = 3
+        available_if_capitulated = no
+		prerequisite = { focus = POL_english_military_production }
+		prerequisite = { focus = POL_improve_silesia_fortified_area }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}		
+		completion_reward = {
+			POL = {
+				set_rule = {
+					can_create_factions = yes
+				}
+				create_faction = POLISH_ALLIANCE
+			}
+		}
+	}
+	focus = {
+		id = POL_invite_romania
+		icon = GFX_focus_rom_preserve_romania
+		available = {
+			is_puppet = no
+		}
+		relative_position_id = POL_the_future_is_ours
+		x = 0
+		y = 1
+		cost = 3
+        available_if_capitulated = no
+		prerequisite = { focus = POL_english_military_production }
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}		
+		completion_reward = {
+			ROM = {
+				country_event = {
+					id = poland.114
+					days = 1
+				}
+				custom_effect_tooltip = needs_approval
+			}
+			effect_tooltip = {
+				POL = { add_to_faction = ROM }
+			}
+		}
+	}	
+	focus = {
+		id = POL_join_the_allies
+		icon = GFX_focus_chi_british_cooperation
+		available = {
+			is_puppet = no
+		}
+		relative_position_id = POL_improve_silesia_fortified_area
+		mutually_exclusive = { focus = POL_the_future_is_ours }
+		x = -7
+		y = 1
+		cost = 3
+        available_if_capitulated = no
+		prerequisite = { focus = POL_english_military_production }
+		prerequisite = { focus = POL_improve_silesia_fortified_area }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}		
+		completion_reward = {
+			ENG = {
+				add_to_faction = POL
+			}
+		}
+	}
+
 	focus = {
 		id = POL_the_kaiser_returns
 		icon = GFX_focus_ger_revive_kaiserreich
@@ -6673,7 +6836,14 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			POL = {
+				add_stability = 0.20
+				add_ideas = POL_kingdom_of_Prussia_Poland
+			}
+			news_event = {
+				id = poland.115
+				days = 2
+			}
 		}
 	}
 	focus = {
@@ -6798,7 +6968,23 @@ focus = {
 			create_wargoal = {
 				target = SOV
 				type = annex_everything
-			}
+			}		
+		custom_effect_tooltip = poland.demilitarize.tt
+		96 = {
+			set_demilitarized_zone = no
+		}
+		95 = {
+			set_demilitarized_zone = no
+		}
+		94 = {
+			set_demilitarized_zone = no
+		}
+		93 = {
+			set_demilitarized_zone = no
+		}
+		91 = {
+			set_demilitarized_zone = no
+		}			
 		}
 	}
 	focus = {

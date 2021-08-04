@@ -4760,7 +4760,7 @@ country_event = {
 				limit = { GER = { owns_state = 664 } }
 				transfer_state = 664
 			}
-			GER = { transfer_state = 85 }
+			GER = { transfer_state = 85 transfer_state = 817 }
 			if = {
 			limit = {
 				ENG = {
@@ -4824,7 +4824,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = POL
-					generator = { 85 }
+					generator = { 85 817 }
 				}
 			}
 		}
@@ -5229,6 +5229,7 @@ country_event = {
 		effect_tooltip = {
 			GER = {
 				transfer_state = 85
+				transfer_state = 817
 				remove_state_claim = 86
 			}
 		}

@@ -1701,7 +1701,55 @@ country = {
 	POL_renewed_militarism_idea = {}
 	POL_eng_fighter_production = {}
 	POL_eng_tank_production	= {}
+	POL_stoked_flames_of_monarchism = {}
+	POL_kingdom_of_Prussia_Poland = {}
 
+	POL_great_depression_0 = {
+		picture = usa_great_depression_3
+
+		modifier = {
+			stability_weekly = -0.012
+			consumer_goods_factor = 0.25		
+			communism_drift = 0.05	
+		}
+	}
+	POL_great_depression_1 = {
+		picture = usa_great_depression_3
+
+		modifier = {
+			stability_weekly = -0.009
+			consumer_goods_factor = 0.18		
+			communism_drift = 0.03	
+		}	
+	}
+	POL_great_depression_2 = {
+		picture = usa_great_depression_2
+
+		modifier = {
+			stability_weekly = -0.005
+			consumer_goods_factor = 0.10		
+			communism_drift = 0.01
+			democratic_drift = 0.03
+		}
+	}
+	POL_great_depression_3 = {
+		picture = usa_great_depression
+
+		modifier = {
+			stability_weekly = -0.002
+			consumer_goods_factor = 0.05
+			democratic_drift = 0.03
+		}
+	}
+
+	POL_recovered_economy = {
+		picture = usa_great_depression
+
+		modifier = {
+			stability_weekly = 0.005
+			consumer_goods_factor = -0.05
+		}
+	}
 	}	
 
 political_advisor = {
