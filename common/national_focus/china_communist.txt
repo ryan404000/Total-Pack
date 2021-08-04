@@ -3277,14 +3277,7 @@ random_owned_controlled_state = { limit = { NOT = { state = 810 } NOT = { state 
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-		    add_tech_bonus = {
-				name = infantry_weapons_bonus
-				bonus = 0.5
-				uses = 2
-			    technology = hmg_2
-				technology = hmg_3
-				technology = hmg_4
-			}
+
 		}
 	}
 	
