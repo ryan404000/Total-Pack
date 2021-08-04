@@ -5211,41 +5211,42 @@ portugal.30.d:0 "We just got a visit from the Portuguese foreign minister, who t
  POL_demilitarize_danzig_desc:0 "To ensure the security of our naval production, and the entire Polish state, we must remilitarize the Free City of Danzig and remove the League of Nations Mandate from the city."
  POL_britain_destroyers:0 "Britain must accept this deal for it to go into effect."
  POL_french_destroyers:0 "France must accept this deal for us to gain these ships."
+ 
  POL_return_to_the_past:0 "Return to the Past"
- POL_return_to_the_past_desc:0 "DESCRIPTION"
+ POL_return_to_the_past_desc:0 "We've many pathes going forward, but to truly become a new nation, we in Poland must look to the past. The Kings of Poland once ruled wide swathes of land, and for us to advance into the future, we must look to the past!"
 
  POL_elect_a_monarch:0 "Elect a Monarch"
- POL_elect_a_monarch_desc:0 "DESCRIPTION"
+ POL_elect_a_monarch_desc:0 "Like the kingdom of old we must elect a monarch to take the throne of Poland. We have many choices to choose from, German, Pole, Romanov, Lithuanian, or Austrian, our choices are limitless."
 
  POL_a_german_monarch:0 "Elect a German Monarch"
- POL_a_german_monarch_desc:0 "DESCRIPTION"
+ POL_a_german_monarch_desc:0 "We have decided to elect a member of the old Prussian Royalty to our throne! May they lead us into the future well!"
 
  POL_an_austrian_monarch:0 "Elect an Austrian Monarch"
- POL_an_austrian_monarch_desc:0 "DESCRIPTION"
+ POL_an_austrian_monarch_desc:0 "We've decided to elect a member of the old Austrian aristocracy to our throne. The Hapsburgs of old shall lead us into a new age!"
 
  POL_a_romanov:0 "Elect a Romanov"
- POL_a_romanov_desc:0 "DESCRIPTION"
+ POL_a_romanov_desc:0 "Cast aside by the Russian people, we've decided to elect a Romanov to bring us into the future."
 
  POL_a_polish_monarch:0 "Elect a Polish Monarch"
- POL_a_polish_monarch_desc:0 "DESCRIPTION"
+ POL_a_polish_monarch_desc:0 "We have decided to elect a member of the old Polish aristocracy to lead us into the future! For Poland!"
 
  POL_a_lithuanian_monarch:0 "Elect a Lithuanian Monarch"
- POL_a_lithuanian_monarch_desc:0 "DESCRIPTION"
+ POL_a_lithuanian_monarch_desc:0 "To deepen our ties to Lithuania, we shall elect a member of the Lithuanian aristocracy to our throne!"
 
  POL_improve_lwow_industrial_zone:0 "Improve the Lwow Industrial Zone"
- POL_improve_lwow_industrial_zone_desc:0 "DESCRIPTION"
+ POL_improve_lwow_industrial_zone_desc:0 "To prepare for the war, we must have a military industry ready. As such, we will invest heavily in the Lviv Industrial Zone."
 
  POL_improve_silesia_industrial_zone:0 "Improve the Silesia Industrial Zone"
- POL_improve_silesia_industrial_zone_desc:0 "DESCRIPTION"
+ POL_improve_silesia_industrial_zone_desc:0 "To prepare for the war, we must have a military industry ready. As such, we will invest heavily in the Silesia Industrial Zone."
 
  POL_fortify_danzig:0 "Fortify Danzig"
- POL_fortify_danzig_desc:0 "DESCRIPTION"
+ POL_fortify_danzig_desc:0 "Danzig must be fortified to prepare for any future conflict with Germany, the city shall become a fortress!"
 
  POL_improve_silesia_fortified_area:0 "Fortify Silesia"
- POL_improve_silesia_fortified_area_desc:0 "DESCRIPTION"
+ POL_improve_silesia_fortified_area_desc:0 "The steel mills, coal mines, and industrial sector of Silesia are vital to our nation, as such we must reinforce the region against western aggression from Germany or her allies."
 
  POL_claims_in_prussia:0 "Claims in Prussia"
- POL_claims_in_prussia_desc:0 "DESCRIPTION"
+ POL_claims_in_prussia_desc:0 "Our German Monarch gives us claims in Prussia, and as such we must one day enforce them, this is necessary for our nation to be secure."
 
  POL_claims_in_pomerania:0 "Claims in Pomerania"
  POL_claims_in_pomerania_desc:0 "DESCRIPTION"
@@ -5339,6 +5340,14 @@ portugal.30.d:0 "We just got a visit from the Portuguese foreign minister, who t
  POL_rebuild_berlin:0 "Rebuild Berlin"
  POL_rebuild_berlin_desc:0 "DESCRIPTION"
  
+ POL_the_duchy_of_baden_wurttemburg_rheinland:0 "The Duchy of Baden-Wurttemburg"
+ POL_the_duchy_of_baden_wurttemburg_rheinland_desc:0 "DESCRIPTION"
+
+ POL_the_duchy_of_oldenburg:0 "The Duchy of Oldenburg"
+ POL_the_duchy_of_oldenburg_desc:0 "DESCRIPTION"
+
+ POL_the_duchy_of_bavaria:0 "The Duchy of Bavaria"
+ POL_the_duchy_of_bavaria_desc:0 "DESCRIPTION"
 
  miedzymorze.3.t:0 "Poland Demands Zaolzie."
  miedzymorze.3.d:0 "Poland has been demanding Zaolzie, due to its large Polish population, for a long time... But now they have sent an ultimatum - Zaolzie or war. "
