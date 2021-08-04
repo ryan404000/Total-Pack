@@ -6873,7 +6873,7 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			release_puppet = HAN
 		}
 	}
 	focus = {
@@ -6897,7 +6897,7 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			release_puppet = BAY
 		}
 	}
 	focus = {
@@ -6921,7 +6921,7 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			release_puppet = WUR
 		}
 	}	
 	focus = {

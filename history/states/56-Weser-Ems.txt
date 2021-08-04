@@ -37,6 +37,8 @@ bunker = 4
 			}
 		}
 		add_core_of = GER
+		add_core_of = HAN
+				
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

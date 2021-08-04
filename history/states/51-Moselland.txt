@@ -50,6 +50,7 @@ state={
 			587 = {  bunker = 1 }
 		}
 		add_core_of = GER
+		add_core_of = WUR
 
 		1939.1.1 = {
 			buildings = {
