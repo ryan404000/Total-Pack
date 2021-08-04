@@ -1678,9 +1678,6 @@ ideas = {
 					limit = {
 						NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
 					}
-					NOT = {
-						has_completed_focus = SPA_eliminate_the_carlists
-					}
 				}
 				if = {
 					limit = {
@@ -1717,7 +1714,6 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_the_phalanx_ascendant
 					has_completed_focus = SPA_supremacy_of_the_communion
 					has_completed_focus = SPR_regional_defense_council_of_aragon
 					has_completed_focus = SPR_the_anti_fascist_workers_revolution
@@ -1805,7 +1801,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = SPA_primo_de_rivera_prisoner_exchange
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }
@@ -1936,9 +1931,7 @@ ideas = {
 					limit = {
 						NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
 					}
-					NOT = {
-						has_completed_focus = SPA_eliminate_the_carlists
-					}
+
 				}
 				if = {
 					limit = {
@@ -2120,9 +2113,7 @@ ideas = {
 					limit = {
 						NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
 					}
-					NOT = {
-						has_completed_focus = SPA_eliminate_the_carlists
-					}
+
 				}
 				if = {
 					limit = {
@@ -2166,9 +2157,7 @@ ideas = {
 					limit = {
 						NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
 					}
-					NOT = {
-						has_completed_focus = SPA_eliminate_the_carlists
-					}
+
 				}
 				if = {
 					limit = {
@@ -2323,9 +2312,7 @@ ideas = {
 			}
 
 			available = {
-				NOT = {
-					has_completed_focus = SPA_eliminate_the_carlists
-				}
+
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }
@@ -2680,9 +2667,7 @@ ideas = {
 			}
 
 			available = {
-				NOT = {
-					has_completed_focus = SPA_eliminate_the_carlists
-				}
+
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }

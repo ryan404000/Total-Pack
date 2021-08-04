@@ -61,8 +61,6 @@ SPR_historical_plan = {
 		SPA_integrate_the_requetes
 		SPA_national_recovery
 		SPA_adopt_the_26_points
-		SPA_prepare_the_pyrenees_defenses
-		SPA_autarky
 		SPA_direct_the_universities
 		SPA_dictator_for_life
 		SPA_stamp_out_the_maquis
@@ -72,7 +70,6 @@ SPR_historical_plan = {
 		SPA_the_army_of_africa_model
 		SPA_equipment_modernization
 		SPA_motorization
-		SPA_reduce_reliance_on_foreign_resources
 		SPA_invest_in_naval_infrastructure
 		SPA_expand_the_slipways
 		SPA_restart_small_scale_shipbuilding
@@ -156,13 +153,8 @@ SPR_historical_plan_war_with_allies = {
 	}
 
 	ai_national_focuses = {
-		SPA_join_the_axis
-		SPA_fascist_economic_aid
 		SPA_facilitate_pyrenees_freight_transports
 		SPA_improve_cross_country_railways
-		SPA_support_the_war_industry
-		SPA_expand_the_war_industry
-		SPA_the_duty_to_work
 		SPA_a_great_spain
 		SPA_hand_over_the_ceda_campaign_chest	
 		SPA_negotiate_carlist_support
@@ -187,7 +179,6 @@ SPR_historical_plan_war_with_allies = {
 		SPA_the_iberian_pact
 		SPA_national_recovery
 		SPA_adopt_the_26_points
-		SPA_prepare_the_pyrenees_defenses
 		SPA_direct_the_universities
 		SPA_dictator_for_life
 		SPA_la_division_azul
@@ -282,13 +273,6 @@ SPR_historical_plan_war_with_axis = {
 	}
 
 	ai_national_focuses = {
-		SPA_join_the_allies
-		SPA_the_stabilization_plan
-		SPA_expand_spanish_bases
-		SPA_capitalist_economic_aid
-		SPA_improve_living_standards
-		SPA_domestic_industrial_developments
-		SPA_the_spanish_miracle
 		SPA_a_great_spain
 		SPA_hand_over_the_ceda_campaign_chest	
 		SPA_negotiate_carlist_support
@@ -313,9 +297,9 @@ SPR_historical_plan_war_with_axis = {
 		SPA_the_iberian_pact
 		SPA_national_recovery
 		SPA_adopt_the_26_points
-		SPA_prepare_the_pyrenees_defenses
-		SPA_autarky
-		SPA_spanish_austerity
+		
+		
+		
 		SPA_direct_the_universities
 		SPA_dictator_for_life
 		SPA_la_division_azul
@@ -325,7 +309,7 @@ SPR_historical_plan_war_with_axis = {
 		SPA_the_army_of_africa_model
 		SPA_equipment_modernization
 		SPA_motorization
-		SPA_reduce_reliance_on_foreign_resources
+		
 		SPA_invest_in_naval_infrastructure
 		SPA_expand_the_slipways
 		SPA_restart_small_scale_shipbuilding

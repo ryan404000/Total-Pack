@@ -2000,10 +2000,10 @@ focus_tree = {
 				amount = 10
 				state =	651
 			}
-			custom_effect_tooltip = SOV_ural_oil_tt
+			custom_effect_tooltip = soviet.399_tt
 			hidden_effect = {
 				country_event = {
-					id = sov_ural_oil
+					id = soviet.399
 					days = 420
 				}
 			}

@@ -277,7 +277,7 @@ equipments = {
 	
 	jet_strat_bomber_equipment = {
 		year = 1947
-		is convertable = yes
+		is_convertable = yes
 
 		can_be_produced = {
 			NOT = {

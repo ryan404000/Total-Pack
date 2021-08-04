@@ -4353,30 +4353,12 @@ country_event = {
 						10 = {
 							modifier = {
 								factor = 0
-								ROOT = { has_country_flag = SPA_con_paquito_flag }
-							}
-							unlock_national_focus = SPA_sin_paquito
-						}
-						10 = {
-							modifier = {
-								factor = 0
 								ROOT = { has_country_flag = SPA_sin_paquito_flag }
 							}
 							unlock_national_focus = SPA_con_paquito
 						}
 					}
 					random_list = {
-						10 = {
-							modifier = {
-								factor = 0
-								is_historical_focus_on = yes
-							}
-							modifier = {
-								factor = 0
-								ROOT = { has_country_flag = SPA_con_paquito_flag }
-							}
-							complete_national_focus = SPA_the_phalanx_ascendant
-						}
 						10 = {
 							modifier = {
 								factor = 0
@@ -4496,51 +4478,6 @@ country_event = {
 			kill_ideology_leader = fascism
 		}
 		complete_national_focus = SPA_unify_the_nationalist_front
-	}
-	option = { # Option for Nationalists - Falangism
-		name = lar_spain.2.b
-		trigger = { has_completed_focus = SPA_sin_paquito }
-		ai_chance = {
-			base = 30
-			modifier = {
-				factor = 0
-				OR = {
-					has_country_flag = SPR_AI_RANDOM_CARLIST
-					has_game_rule = {
-						rule = SPR_ai_behavior 
-						option = CARLIST
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					AND = {
-						is_historical_focus_on = yes
-						has_game_rule = {
-							rule = SPR_ai_behavior 
-							option = DEFAULT
-						}
-					}
-					has_country_flag = SPR_AI_RANDOM_NATIONALIST_HISTORICAL
-					has_game_rule = {
-						rule = SPR_ai_behavior 
-						option = NATIONALIST_HISTORICAL
-					}
-				}
-			}
-		}
-		# Remove Spirits that will no longer be relevant
-		custom_effect_tooltip = nationalists_chosen
-		remove_ideas = SPR_military_disloyalty
-		remove_ideas = SPR_political_violence
-		SPR_clr_national_strikes = yes
-		effect_tooltip = {
-			add_timed_idea = { idea = SPA_death_before_surrender days = 900 }
-			SPD = { add_timed_idea = { idea = SPR_death_before_surrender days = 900 } }
-			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
-		}
-		complete_national_focus = SPA_the_phalanx_ascendant
 	}
 	option = { # Option for Nationalists - Carlism
 		name = lar_spain.2.c
@@ -6076,12 +6013,6 @@ country_event = {
 				unlock_national_focus = SPA_secure_the_northern_garrisons
 				if = {
 					limit = {
-						SPA = { has_completed_focus = SPA_sin_paquito }
-					}
-					unlock_national_focus = SPA_sin_paquito
-				}
-				if = {
-					limit = {
 						SPA = { has_completed_focus = SPA_con_paquito }
 					}
 					unlock_national_focus = SPA_con_paquito
@@ -6493,8 +6424,6 @@ country_event = {
 				unlock_national_focus = SPA_negotiate_carlist_support
 				unlock_national_focus = SPA_the_army_of_africa
 				unlock_national_focus = SPA_secure_the_northern_garrisons
-				unlock_national_focus = SPA_sin_paquito
-				complete_national_focus = SPA_the_phalanx_ascendant
 				complete_national_focus = SPA_secure_the_national_defense_council
 				complete_national_focus = SPA_suspend_the_constitution
 				unlock_national_focus = SPA_eliminate_the_carlists
@@ -10743,7 +10672,6 @@ country_event = {
 			is_ai = no
 		}
 		has_completed_focus = SPA_a_great_spain
-		NOT = { has_completed_focus = SPA_the_phalanx_ascendant }
 		NOT = { has_global_flag = SPB_alfonso_xiii_dead }
 		date > 1940.2.28
 	}

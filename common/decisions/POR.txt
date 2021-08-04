@@ -1958,7 +1958,6 @@ POR_iberian_summit = {
 			SPA = { 
 				is_in_faction = no
 				OR = {
-					has_completed_focus = SPA_the_phalanx_ascendant
 					AND = {
 						has_completed_focus = SPA_unify_the_nationalist_front
 						NOT = { has_completed_focus = SPA_the_iberian_pact }

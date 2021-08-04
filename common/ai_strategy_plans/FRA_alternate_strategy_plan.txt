@@ -34,9 +34,7 @@ FRA_alternate_plan_1 = {
 		FRA_improved_screen_ships #February 20 1938	
 								#July 10 1938	
 		FRA_extra_research_slot 					#November 30 1938
-		FRA_naval_doctrine 							#February 10 1939	
-		FRA_alpine_forts 							#April 20 1939	
-		FRA_extend_the_maginot_line 				#June 30 1939
+		FRA_naval_doctrine 							#February 10 1939		
 		FRA_army_reform								#September 10 1939	
 		FRA_extra_research_slot_2					#November 20 1939	
 		FRA_air_focus 								#January 30 1940
@@ -120,8 +118,8 @@ FRA_alternate_plan_2 = {
 		FRA_colonial_industry
 		FRA_military_factories 						#June 30 1939
 		FRA_naval_doctrine 							#November 20 1939	
-		FRA_alpine_forts 							#January 30 1940
-		FRA_extend_the_maginot_line 				#April 10 1940
+		 							#January 30 1940
+		 				#April 10 1940
 		FRA_army_reform								#June 20 1940	
 		FRA_air_focus 								#August 30 1940
 		FRA_fighter_focus 							#November 10 1940
@@ -196,8 +194,8 @@ FRA_alternate_plan_3_regular = {
 		#FRA_colonial_industry 						#September 10 1939	
 		FRA_extra_research_slot 					#January 30 1940
 		FRA_naval_doctrine 							#April 10 1940
-		FRA_alpine_forts 							#June 20 1940	
-		FRA_extend_the_maginot_line 				#August 30 1940
+		 							#June 20 1940	
+		 				#August 30 1940
 		FRA_army_reform								#November 10 1940
 		FRA_air_focus 								#January 20 1941	
 		FRA_fighter_focus 							#March 30 1941	
@@ -278,8 +276,8 @@ FRA_alternate_plan_3_lar = {
 		FRA_military_factories 						#February 10 1939	
 		FRA_extra_research_slot 					#January 30 1940
 		FRA_naval_doctrine 							#April 10 1940
-		FRA_alpine_forts 							#June 20 1940	
-		FRA_extend_the_maginot_line 				#August 30 1940
+		 							#June 20 1940	
+		 				#August 30 1940
 		FRA_army_reform								#November 10 1940
 		FRA_air_focus 								#January 20 1941	
 		FRA_fighter_focus 							#March 30 1941	
@@ -404,8 +402,8 @@ FRA_alternate_plan_4_lar = {
 		FRA_military_factories 						#February 10 1939	
 		FRA_extra_research_slot 					#January 30 1940
 		FRA_naval_doctrine 							#April 10 1940
-		FRA_alpine_forts 							#June 20 1940	
-		FRA_extend_the_maginot_line 				#August 30 1940
+		 							#June 20 1940	
+		 				#August 30 1940
 		FRA_army_reform								#November 10 1940
 		FRA_air_focus 								#January 20 1941	
 		FRA_fighter_focus 							#March 30 1941	
@@ -489,7 +487,7 @@ FRA_alternate_plan_little_entente = {
 		FRA_invite_romania
 		#1939
 		FRA_fortification_focus
-		FRA_alpine_forts
+		
 		FRA_infantry_focus
 		FRA_artillery_focus
 		FRA_heavy_armor_focus
@@ -772,9 +770,9 @@ FRA_alternate_plan_communist_lar = {
 		FRA_methodical_battle
 		FRA_fortification_focus
 		#1939
-		FRA_alpine_forts
+		
 		FRA_form_the_state_arsenals
-		FRA_extend_the_maginot_line
+		
 		FRA_army_reform
 		FRA_strengthen_the_unions
 		#1940
@@ -857,9 +855,9 @@ FRA_alternate_plan_monarchist_orleans = {
 		#1939
 		FRA_methodical_battle
 		FRA_fortification_focus
-		FRA_alpine_forts
+		
 		FRA_promote_entrepeneurship
-		FRA_extend_the_maginot_line
+		
 		#1940
 		FRA_army_reform
 		FRA_repeal_the_law_of_exile
@@ -941,9 +939,9 @@ FRA_alternate_plan_monarchist_legitimate = {
 		#1939
 		FRA_methodical_battle
 		FRA_fortification_focus
-		FRA_alpine_forts
+		
 		FRA_promote_entrepeneurship
-		FRA_extend_the_maginot_line
+		
 		#1940
 		FRA_army_reform
 		FRA_repeal_the_law_of_exile

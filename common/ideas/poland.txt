@@ -1735,7 +1735,7 @@ country = {
 			}
 			equipment_bonus = {
 				heavy_tank_equipment = {
-					build_cost_ic = -0.03
+					build_cost_ic = -0.03	
 				}
 			}
 	}
@@ -1803,10 +1803,9 @@ country = {
 			political_power_cost = 0.45
 		}
 		on_remove = {
-			add_idea = POL_berlin_rebuilt
+			add_ideas = POL_berlin_rebuilt
 			}
-		}			
-	}
+	}			
 
 	POL_berlin_rebuilt = {
 		modifier = {
@@ -1815,10 +1814,9 @@ country = {
 			global_building_slots = 1
 			monthly_population = 0.3
 			political_power_gain = 0.3
-			}			
-		}		
-
-	}	
+		}			
+	}		
+}	
 
 political_advisor = {
 
@@ -3043,8 +3041,7 @@ theorist = {
 			
 			modifier = {
 			}
-			}
-		
 		}
+	}
 }
 

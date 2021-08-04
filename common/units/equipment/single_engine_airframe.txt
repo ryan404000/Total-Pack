@@ -79,7 +79,7 @@ equipments = {
 	# Basic Fighter 1936
 	fighter_equipment_1 = {
 		year = 1936
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			fighter_equipment_0
 			fighter_equipment_1
@@ -101,7 +101,7 @@ equipments = {
 	# Improved Fighter 1938
 	fighter_equipment_2 = {
 	    year = 1938
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			fighter_equipment_0
 			fighter_equipment_1
@@ -124,7 +124,7 @@ equipments = {
 	# Advanced Fighter 1940
 	fighter_equipment_3 = {
 	    year = 1940
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			fighter_equipment_0
 			fighter_equipment_1
@@ -147,7 +147,7 @@ equipments = {
 	# Advanced Fighter 1942
 	fighter_equipment_4 = {
 	    year = 1942
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			fighter_equipment_0
 			fighter_equipment_1
@@ -171,7 +171,7 @@ equipments = {
 	# Late Fighter 1944
 	fighter_equipment_5 = {
 	    year = 1944
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			fighter_equipment_0
 			fighter_equipment_1
@@ -248,7 +248,7 @@ equipments = {
 	# Early Carrier Fighter
 	cv_fighter_equipment_0 = {
 	    year = 1933
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			cv_fighter_equipment_0
 			}
@@ -268,7 +268,7 @@ equipments = {
 	# Basic Carrier Fighter
 	cv_fighter_equipment_1 = {
 		year = 1936
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			cv_fighter_equipment_0
 			cv_fighter_equipment_1
@@ -290,7 +290,7 @@ equipments = {
 	# Improved Carrier Fighter
 	cv_fighter_equipment_2 = {
 		year = 1938
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			cv_fighter_equipment_0
 			cv_fighter_equipment_1
@@ -313,7 +313,7 @@ equipments = {
 	# Advanced Carrier Fighter
 	cv_fighter_equipment_3 = {
 		year = 1940
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			cv_fighter_equipment_0
 			cv_fighter_equipment_1
@@ -337,7 +337,7 @@ equipments = {
 	#Advanced Carrier Fighter
 	cv_fighter_equipment_4 = {
 		year = 1942
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			cv_fighter_equipment_0
 			cv_fighter_equipment_1
@@ -361,7 +361,7 @@ equipments = {
 	
 	cv_fighter_equipment_5 = {
 		year = 1944 
-		is convertable = yes
+		is_convertable = yes
 		can_convert_from = {
 			cv_fighter_equipment_0
 			cv_fighter_equipment_1

@@ -10,6 +10,8 @@ tags={
 	"National Focuses"
 	"Technologies"
 }
+replace_path="common/ai_strategy_plans"
+replace_path="common/ai_strategy"
 picture="FrontTotalWar.jpg"
 version="1.10.1"
 supported_version="1.10.7"

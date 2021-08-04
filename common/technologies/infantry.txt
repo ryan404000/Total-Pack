@@ -92,11 +92,6 @@ technologies = {
 			DIV_HQ
 		}
 		
-		path = {
-			leads_to_tech = tech_Headquarters2
-			research_cost_coeff = 1
-		}
-		
 		research_cost = 1.5
 		start_year = 1934
 		folder = {

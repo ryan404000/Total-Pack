@@ -1508,30 +1508,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = HUN_spanish_intervention
-		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = HUN_break_unions focus = HUN_assassinate_horthy }
-		x = -1
-		y = 1
-		relative_position_id = HUN_pressure_romania
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 3
-		}
-
-		available = {
-			is_subject = no
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		add_ideas = HUN_spanish_intervention 
-		}
-	}
+	
 
 	focus = {
 		id = HUN_renounce_the_treaty_of_trianon
@@ -2896,6 +2873,31 @@ focus_tree = {
 	}
 
 	focus = {
+		id = HUN_spanish_intervention
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HUN_break_unions focus = HUN_assassinate_horthy }
+		x = -1
+		y = 1
+		relative_position_id = HUN_pressure_romania
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+			is_subject = no
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_ideas = HUN_spanish_intervention 
+		}
+	}
+
+	focus = {
 		id = HUN_intervene_in_czechoslovakia
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = HUN_join_comintern }
@@ -3648,10 +3650,6 @@ focus_tree = {
 
 		available = {
 			is_in_faction_with = GER
-		}
-
-		not = {
-			has_war_with = SOV
 		}
 
 		bypass = {

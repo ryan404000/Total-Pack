@@ -3990,75 +3990,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = GER_turkey_puppet_2
-		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = GER_anschluss }
-		mutually_exclusive = { focus = GER_turkey_friend }
-		
-		available = {
-			is_puppet = no
-			OR = {
-				GRE = {
-					is_in_faction_with = GER
-					all_owned_state = {
-						controller = { is_in_faction_with = GER }
-					}
-				}
-			}
-			NOT = { has_war_with = SOV }
-			country_exists = TUR
-		}
-		
-		x = 2
-		y = 0
-		relative_position_id = GER_turkey_friend
-		
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-		    effect_tooltip = {
-		         TUR = {
-		              add_opinion_modifier = { target = GER modifier = pact_of_steel_opinion }
-		         }
-		    }
-		}
-	}
-	
-	focus = {
-		id = GER_turkey_puppet
-		icon = GFX_Goal_puppet_turkey
-		prerequisite = { focus = GER_turkey_puppet_2 }
-		
-		available = {
-			is_puppet = no
-			OR = {
-				GRE = {
-					is_in_faction_with = GER
-					all_owned_state = {
-						controller = { is_in_faction_with = GER }
-					}
-				}
-			}
-			country_exists = TUR
-		}
-		
-		x = 2
-		y = 1
-		relative_position_id = GER_turkey_friend
-		
-		cost = 12
-		ai_will_do = {
-			factor = 1
-		}	
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			TUR = { country_event = { id = germany.79 days = 1 } }
-		}
-	}
+
 
 	
 	focus = {
@@ -4659,7 +4591,6 @@ focus_tree = {
 					has_civil_war = no
 					NOT = { has_war_with = GER }
 					NOT = { is_in_faction_with = GER }
-					NOT = { has_completed_focus = SPA_join_the_allies }
 				}
 			}
 			FRA = {
@@ -4857,7 +4788,6 @@ focus_tree = {
 					has_civil_war = no
 					NOT = { has_war_with = GER }
 					NOT = { is_in_faction_with = GER }
-					NOT = { has_completed_focus = SPA_join_the_allies }
 					NOT = { has_idea = SPA_recovering_from_civil_war }
 		    		NOT = { has_idea = SPA_recovering_from_civil_war_2 }
 				}
@@ -6090,6 +6020,76 @@ focus_tree = {
 		}
 	}
 
+		focus = {
+		id = GER_turkey_puppet_2
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = GER_anschluss }
+		mutually_exclusive = { focus = GER_turkey_friend }
+		
+		available = {
+			is_puppet = no
+			OR = {
+				GRE = {
+					is_in_faction_with = GER
+					all_owned_state = {
+						controller = { is_in_faction_with = GER }
+					}
+				}
+			}
+			NOT = { has_war_with = SOV }
+			country_exists = TUR
+		}
+		
+		x = 2
+		y = 0
+		relative_position_id = GER_turkey_friend
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		    effect_tooltip = {
+		         TUR = {
+		              add_opinion_modifier = { target = GER modifier = pact_of_steel_opinion }
+		         }
+		    }
+		}
+	}
+	
+	focus = {
+		id = GER_turkey_puppet
+		icon = GFX_Goal_puppet_turkey
+		prerequisite = { focus = GER_turkey_puppet_2 }
+		
+		available = {
+			is_puppet = no
+			OR = {
+				GRE = {
+					is_in_faction_with = GER
+					all_owned_state = {
+						controller = { is_in_faction_with = GER }
+					}
+				}
+			}
+			country_exists = TUR
+		}
+		
+		x = 2
+		y = 1
+		relative_position_id = GER_turkey_friend
+		
+		cost = 12
+		ai_will_do = {
+			factor = 1
+		}	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			TUR = { country_event = { id = germany.79 days = 1 } }
+		}
+	}
+
 
 	focus = {
 		id = GER_demand_memel
@@ -7229,6 +7229,51 @@ focus_tree = {
 		}
 	}
 	
+	
+		
+	focus = {
+		id = GER_german_swiss_trade_agreement
+		icon = GFX_focus_cooperation_with_Switzerland
+		prerequisite = { focus = GER_anschluss }
+		mutually_exclusive = { focus = GER_operation_tannenbaum }
+
+		available = { 
+			is_puppet = no
+			SWI = {
+				has_war = no
+				NOT = { has_war_with = GER }
+				is_puppet = no
+			}
+			is_neighbor_of = SWI
+			GER = {
+				has_war_with = FRA
+			}
+		}
+		ai_will_do = {
+			factor = 3
+		}
+		bypass = { 
+			GER = {
+				has_war_with = SWI
+			}
+		}
+		
+		x = 4
+		y = 0
+		relative_position_id = GER_befriend_nationalist_spain
+		
+		cost = 3
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			SWI = { 
+				country_event = { id = switzerland.10 } 
+				custom_effect_tooltip = needs_approval
+			}
+			custom_effect_tooltip = GER_german_swiss_trade_agreement_bonus
+		}
+	}
+
 	focus = {
 		id = GER_operation_tannenbaum
 		icon = GFX_focus_attack_switzerland
@@ -7272,49 +7317,6 @@ focus_tree = {
 				type = annex_everything
 				target = SWI
 			}
-		}
-	}
-		
-	focus = {
-		id = GER_german_swiss_trade_agreement
-		icon = GFX_focus_cooperation_with_Switzerland
-		prerequisite = { focus = GER_anschluss }
-		mutually_exclusive = { focus = GER_operation_tannenbaum }
-
-		available = { 
-			is_puppet = no
-			SWI = {
-				has_war = no
-				NOT = { has_war_with = GER }
-				is_puppet = no
-			}
-			is_neighbor_of = SWI
-			GER = {
-				has_war_with = FRA
-			}
-		}
-		ai_will_do = {
-			factor = 3
-		}
-		bypass = { 
-			GER = {
-				has_war_with = SWI
-			}
-		}
-		
-		x = 4
-		y = 0
-		relative_position_id = GER_befriend_nationalist_spain
-		
-		cost = 3
-		
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			SWI = { 
-				country_event = { id = switzerland.10 } 
-				custom_effect_tooltip = needs_approval
-			}
-			custom_effect_tooltip = GER_german_swiss_trade_agreement_bonus
 		}
 	}
 	
@@ -7419,100 +7421,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = GER_bismarck
-		icon = GFX_battleship_ger
-		prerequisite = { focus = GER_expand_western_docks }
-		
-		x = 1
-		y = 1
-		relative_position_id = GER_expand_western_docks
-		
-		cost = 2
-		ai_will_do = {
-			factor = 8
-		}
-		available = {
-		     has_tech = improved_ship_hull_heavy
-			 has_tech = basic_heavy_armor_scheme
-			 has_tech = basic_fire_control_system
-			 is_puppet = no 
-		}
-
-		cancel_if_invalid = yes
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-		if = { limit = { has_tech = improved_heavy_battery }
-		   create_equipment_variant = {
-					name = "Bismarck Class"
-					type 	= ship_hull_heavy_3
-					name_group = GER_BB_HISTORICAL
-					parent_version = 0
-					modules = {
-						fixed_ship_battery_slot = ship_heavy_battery_3
-						fixed_ship_anti_air_slot = ship_anti_air_2
-						fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = heavy_ship_engine_3
-						fixed_ship_secondaries_slot = ship_secondaries_2
-						fixed_ship_armor_slot = ship_armor_bb_2
-						front_1_custom_slot = ship_heavy_battery_3
-						mid_1_custom_slot = ship_airplane_launcher_1
-						mid_2_custom_slot = ship_secondaries_2
-						rear_1_custom_slot = ship_heavy_battery_3
-					}
-				}
-				}
-				if = { limit = { NOT = { has_tech = improved_heavy_battery } }
-				create_equipment_variant = {
-					name = "Bismarck Class"
-					type = ship_hull_heavy_3
-					name_group = GER_BB_HISTORICAL
-					parent_version = 0
-					modules = {
-						fixed_ship_battery_slot = ship_heavy_battery_2
-						fixed_ship_anti_air_slot = ship_anti_air_2
-						fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = heavy_ship_engine_3
-						fixed_ship_secondaries_slot = ship_secondaries_2
-						fixed_ship_armor_slot = ship_armor_bb_2
-						front_1_custom_slot = ship_heavy_battery_2
-						mid_1_custom_slot = ship_airplane_launcher_1
-						mid_2_custom_slot = ship_secondaries_2
-						rear_1_custom_slot = ship_heavy_battery_2
-					}
-				}
-				}
-				custom_effect_tooltip = GER_bismarck_tt
-				custom_effect_tooltip = ITA_roma_tt2
-				hidden_effect = {
-					add_equipment_production = {
-						equipment = {
-							type = ship_hull_heavy_3
-							creator = "GER" 
-							version_name = "Bismarck Class"
-						}
-						name = "Bismarck" 
-						requested_factories = 1
-						progress = 0.2
-						amount = 1
-					}
-					add_equipment_production = {
-						equipment = {
-							type = ship_hull_heavy_3
-							creator = "GER" 
-							version_name = "Bismarck Class"
-						}
-						name = "Tirpitz" 
-						requested_factories = 1
-						progress = 0.1
-						amount = 1
-					}
-				}
-
-		}
-	}
+	
 	
 	
 	focus = {
@@ -7620,6 +7529,102 @@ focus_tree = {
 			}		
 		}
 	}
+
+	focus = {
+		id = GER_bismarck
+		icon = GFX_battleship_ger
+		prerequisite = { focus = GER_expand_western_docks }
+		
+		x = 1
+		y = 1
+		relative_position_id = GER_expand_western_docks
+		
+		cost = 2
+		ai_will_do = {
+			factor = 8
+		}
+		available = {
+		     has_tech = improved_ship_hull_heavy
+			 has_tech = basic_heavy_armor_scheme
+			 has_tech = basic_fire_control_system
+			 is_puppet = no 
+		}
+
+		cancel_if_invalid = yes
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+		if = { limit = { has_tech = improved_heavy_battery }
+		   create_equipment_variant = {
+					name = "Bismarck Class"
+					type 	= ship_hull_heavy_3
+					name_group = GER_BB_HISTORICAL
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = ship_heavy_battery_3
+						fixed_ship_anti_air_slot = ship_anti_air_2
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = heavy_ship_engine_3
+						fixed_ship_secondaries_slot = ship_secondaries_2
+						fixed_ship_armor_slot = ship_armor_bb_2
+						front_1_custom_slot = ship_heavy_battery_3
+						mid_1_custom_slot = ship_airplane_launcher_1
+						mid_2_custom_slot = ship_secondaries_2
+						rear_1_custom_slot = ship_heavy_battery_3
+					}
+				}
+				}
+				if = { limit = { NOT = { has_tech = improved_heavy_battery } }
+				create_equipment_variant = {
+					name = "Bismarck Class"
+					type = ship_hull_heavy_3
+					name_group = GER_BB_HISTORICAL
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = ship_heavy_battery_2
+						fixed_ship_anti_air_slot = ship_anti_air_2
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = heavy_ship_engine_3
+						fixed_ship_secondaries_slot = ship_secondaries_2
+						fixed_ship_armor_slot = ship_armor_bb_2
+						front_1_custom_slot = ship_heavy_battery_2
+						mid_1_custom_slot = ship_airplane_launcher_1
+						mid_2_custom_slot = ship_secondaries_2
+						rear_1_custom_slot = ship_heavy_battery_2
+					}
+				}
+				}
+				custom_effect_tooltip = GER_bismarck_tt
+				custom_effect_tooltip = ITA_roma_tt2
+				hidden_effect = {
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_heavy_3
+							creator = "GER" 
+							version_name = "Bismarck Class"
+						}
+						name = "Bismarck" 
+						requested_factories = 1
+						progress = 0.2
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_heavy_3
+							creator = "GER" 
+							version_name = "Bismarck Class"
+						}
+						name = "Tirpitz" 
+						requested_factories = 1
+						progress = 0.1
+						amount = 1
+					}
+				}
+
+		}
+	}
+
 	focus = {
 		id = GER_plan_z
 		icon = GFX_goal_generic_large_fleet

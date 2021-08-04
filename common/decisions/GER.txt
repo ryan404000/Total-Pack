@@ -898,55 +898,55 @@ GER_tank_sharing_category = {
 		}
 		cost = 50	
 		complete_effect = {
-		create_production_license = {
-    		target = HUN
-    			equipment = {
-        		type = panzer_iii_flamm_equipment_0
-        		version = 0
-    			}
-    		cost_factor = 0
+			create_production_license = {
+    			target = HUN
+    				equipment = {
+        				type = panzer_iii_flamm_equipment_0
+        				version = 0
+    				}
+    			cost_factor = 0
 				}	
-		create_production_license = {
-    		target = ITA
-    			equipment = {
-        		type = panzer_iii_flamm_equipment_0
-        		version = 0
-    			}
-    		cost_factor = 0
+			create_production_license = {
+    			target = ITA
+    				equipment = {
+        			type = panzer_iii_flamm_equipment_0
+        			version = 0
+    				}
+    			cost_factor = 0
+					}
+					create_production_license = {
+    			target = SPR
+    				equipment = {
+        			type = panzer_iii_flamm_equipment_0
+        			version = 0
+    				}
+    			cost_factor = 0
+					}		
+			create_production_license = {
+    			target = ROM
+    				equipment = {
+        			type = panzer_iii_flamm_equipment_0
+        			version = 0
+    				}
+    			cost_factor = 0
+					}
+			create_production_license = {
+    			target = BUL
+    				equipment = {
+        			type = panzer_iii_flamm_equipment_0
+        			version = 0
+    				}
+    			cost_factor = 0
+					}
+			create_production_license = {
+    			target = TUR
+    				equipment = {
+        			type = panzer_iii_flamm_equipment_0
+        			version = 0
+    				}
+    			cost_factor = 0
+					}
 				}
-				create_production_license = {
-    		target = SPR
-    			equipment = {
-        		type = panzer_iii_flamm_equipment_0
-        		version = 0
-    			}
-    		cost_factor = 0
-				}		
-		create_production_license = {
-    		target = ROM
-    			equipment = {
-        		type = panzer_iii_flamm_equipment_0
-        		version = 0
-    			}
-    		cost_factor = 0
-				}
-		create_production_license = {
-    		target = BUL
-    			equipment = {
-        		type = panzer_iii_flamm_equipment_0
-        		version = 0
-    			}
-    		cost_factor = 0
-				}
-		create_production_license = {
-    		target = TUR
-    			equipment = {
-        		type = panzer_iii_flamm_equipment_0
-        		version = 0
-    			}
-    		cost_factor = 0
-				}
-			}
 		}
 	GER_panzer_4_h = {
 		available = {
@@ -1016,18 +1016,18 @@ GER_tank_sharing_category = {
 		}
 		visible = {
 			tag = GER
-			GER = { has_tech = tech_panzer_iv_ag_equipment_1 }
+			GER = { has_tech = subtech_panzer_iv_ag_equipment_1 }
 		}
 		cost = 50	
 		complete_effect = {
 		create_production_license = {
     		target = HUN
     			equipment = {
-        		type = panzer_iv_ag_equipment_1
-        		version = 0
+        			type = panzer_iv_ag_equipment_1
+        			version = 0
     			}
     		cost_factor = 0
-				}	
+			}	
 		create_production_license = {
     		target = ITA
     			equipment = {
