@@ -5336,7 +5336,9 @@ portugal.30.d:0 "We just got a visit from the Portuguese foreign minister, who t
  POL_the_kaiser_returns:0 "The Kaiser Returns"
  POL_the_kaiser_returns_desc:0 "DESCRIPTION"
 
-
+ POL_rebuild_berlin:0 "Rebuild Berlin"
+ POL_rebuild_berlin_desc:0 "DESCRIPTION"
+ 
 
  miedzymorze.3.t:0 "Poland Demands Zaolzie."
  miedzymorze.3.d:0 "Poland has been demanding Zaolzie, due to its large Polish population, for a long time... But now they have sent an ultimatum - Zaolzie or war. "

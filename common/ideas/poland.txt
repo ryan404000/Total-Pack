@@ -1698,10 +1698,56 @@ country = {
 	POL_russian_monarch = {}
 	POL_polish_monarch = {}
 	POL_lithuanian_monarch = {}
-	POL_renewed_militarism_idea = {}
-	POL_eng_fighter_production = {}
-	POL_eng_tank_production	= {}
-	POL_stoked_flames_of_monarchism = {}
+
+	POL_renewed_militarism_idea = {
+		modifier = {
+			monthly_population = 0.10
+			research_speed_factor = 0.10
+			war_support_factor = 0.25
+			drift_defence_factor = 0.10
+			conscription = 0.015
+		}
+	}
+
+	POL_eng_fighter_production = {
+		equipment_bonus = {
+			fighter_equipment = {
+				build_cost_ic = -0.05
+			}
+		}
+		equipment_bonus = {	
+			CAS_equipment = {
+				build_cost_ic = -0.075
+			}
+		}
+	}
+
+	POL_eng_tank_production	= {
+			equipment_bonus = {
+				light_tank_equipment = {
+					build_cost_ic = -0.03
+				}
+			}
+			equipment_bonus = {
+				medium_tank_equipment = {
+					build_cost_ic = -0.03
+				}
+			}
+			equipment_bonus = {
+				heavy_tank_equipment = {
+					build_cost_ic = -0.03
+				}
+			}
+	}
+
+	POL_stoked_flames_of_monarchism = {
+		modifier = {
+			political_power_gain = -0.25
+			stability_weekly_factor = -0.001
+			neutrality_drift = 0.03
+		}
+	}
+
 	POL_kingdom_of_Prussia_Poland = {}
 
 	POL_great_depression_0 = {
@@ -1750,6 +1796,28 @@ country = {
 			consumer_goods_factor = -0.05
 		}
 	}
+	POL_rebuild_berlin_idea = {
+		modifier = {
+			consumer_goods_factor = 0.15
+			stability_weekly = 0.005
+			political_power_cost = 0.45
+		}
+		on_remove = {
+			add_idea = POL_berlin_rebuilt
+			}
+		}			
+	}
+
+	POL_berlin_rebuilt = {
+		modifier = {
+			consumer_goods_factor = -0.05
+			stability_factor = 0.1
+			global_building_slots = 1
+			monthly_population = 0.3
+			political_power_gain = 0.3
+			}			
+		}		
+
 	}	
 
 political_advisor = {

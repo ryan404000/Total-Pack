@@ -277,6 +277,9 @@
  POL_great_depression_2:0 "Minor Economic Recovery"
  POL_great_depression_3:0 "Major Economic Recovery"
  POL_recovered_economy:0 "Booming Economy"
+ POL_berlin_rebuilt:0 "Berlin Triumphant!"
+ POL_rebuild_berlin_idea:0 "Rebuilding Berlin"
+ 
 
  PHI_usadep:0 "Commonwealth of the Philippines"
  PHI_usadep_desc:0 "The Philippines is in a transitional state in preparation for full independence from the United States. In the process, tariffs and quotas are set up to favour American trade."
