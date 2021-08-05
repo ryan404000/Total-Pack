@@ -4619,8 +4619,8 @@ create_field_marshal = {
 				uses = 3
 			    technology = HQ_radio
 				technology = corps_communications
-				technology = tech_Headquarters2
-				technology = tech_Headquarters3
+				
+				
 				technology = infantry_radio
 				technology = artillery_radio
 			}

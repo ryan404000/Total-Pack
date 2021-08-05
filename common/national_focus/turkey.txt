@@ -2932,7 +2932,6 @@ focus_tree = {
 
 		completion_reward = {
 			#custom_effect_tooltip = TUR_unlock_camelry_effect_tt
-			#hidden_effect = { set_technology = { camelry = 1 } } 
 			add_ideas = JAP_bicycles_idea		# todo, localisation for turkey
 		}
 	}
@@ -6686,7 +6685,6 @@ focus_tree = {
 			add_ideas = TUR_tuz_golu_training_facility
 			add_ideas = JAP_bicycles_idea		
 			#custom_effect_tooltip = TUR_unlock_camelry_effect_tt
-			#hidden_effect = { set_technology = { camelry = 1 } } 
 		}
 	}
 

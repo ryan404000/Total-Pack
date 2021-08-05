@@ -1336,7 +1336,7 @@ country_event = {
 				technology = infantry_radio
 				technology = artillery_radio
 				technology = corps_communications
-				technology = tech_Headquarters2
+				technology = 
 			}
 			
 			add_tech_bonus = {

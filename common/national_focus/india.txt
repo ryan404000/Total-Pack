@@ -2780,7 +2780,6 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 				uses = 2
 			    technology = HQ_radio
 				technology = corps_communications
-				technology = tech_Headquarters2
 			}
 		}
 	}
