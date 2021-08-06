@@ -1055,4 +1055,17 @@
  SIA_THAI_GREAT_neutrality_DEF: "Greater Thailand"
  SIA_THAI_GREAT_neutrality_ADJ: "Thai"
  
+ POL_prussia_neutrality:0 "Kingdom of Poland-Prussia"
+ POL_prussia_neutrality_DEF:0 "Poland-Prussia"
+ POL_prussia_neutrality_ADJ:0 "Polish"
+ POL_prussia_fascism:0 "Greater Poland-Prussia"
+ POL_prussia_fascism_DEF:0 "Poland Prussia"
+ POL_prussia_fascism_ADJ:0 "Polish"
+ POL_prussia_democratic:0 "Republic of Poland-Prussia"
+ POL_prussia_democratic_DEF:0 "Poland-Prussia"
+ POL_prussia_democratic_ADJ:0 "Polish"
+ POL_prussia_communism:0 "The People's Republic of Poland-Prussia"
+ POL_prussia_communism_DEF:0 "PR Poland-Prussia"
+ POL_prussia_communism_ADJ:0 "Polish"
+
 #

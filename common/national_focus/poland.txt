@@ -6844,13 +6844,14 @@ focus = {
 		}
 		completion_reward = {
 			POL = {
-				add_stability = 0.20
+				add_stability = 0.15
 				add_ideas = POL_kingdom_of_Prussia_Poland
 			}
 			news_event = {
 				id = poland.115
 				days = 2
 			}
+			set_cosmetic_tag = POL_prussia
 		}
 	}
 	focus = {
@@ -6875,6 +6876,55 @@ focus = {
 		}
 		completion_reward = {
 			release_puppet = HAN
+			57 = {
+				add_extra_state_shared_building_slots = 3	
+				add_building_construction = {
+    			type = arms_factory
+    			level = 3
+    			instant_build = yes
+				}
+			}
+			56 = {
+				add_extra_state_shared_building_slots = 6	
+				add_building_construction = {
+    			type = arms_factory
+    			level = 3
+    			instant_build = yes
+				}
+				add_building_construction = {
+    			type = industrial_complex
+    			level = 3
+    			instant_build = yes
+				}				
+			}	
+			59 = {				
+				add_extra_state_shared_building_slots = 11	
+				add_building_construction = {
+    			type = arms_factory
+    			level = 5
+    			instant_build = yes
+				}
+				add_building_construction = {
+    			type = industrial_complex
+    			level = 2
+    			instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}				
+			}
+			add_resource = {
+    			type = oil
+    			amount = 36
+				state = 59
+				}
+			add_resource = {
+    			type = steel
+    			amount = 30
+				state = 56
+				}				
 		}
 	}
 	focus = {
@@ -6899,6 +6949,50 @@ focus = {
 		}
 		completion_reward = {
 			release_puppet = BAY
+			824 = {
+				add_extra_state_shared_building_slots = 3	
+				add_building_construction = {
+    			type = arms_factory
+    			level = 3
+    			instant_build = yes
+				}
+			}
+			52 = {
+				add_extra_state_shared_building_slots = 6	
+				add_building_construction = {
+    			type = arms_factory
+    			level = 3
+    			instant_build = yes
+				}
+				add_building_construction = {
+    			type = industrial_complex
+    			level = 3
+    			instant_build = yes
+				}				
+			}	
+			53 = {				
+				add_extra_state_shared_building_slots = 11	
+				add_building_construction = {
+    			type = arms_factory
+    			level = 5
+    			instant_build = yes
+				}
+				add_building_construction = {
+    			type = industrial_complex
+    			level = 6
+    			instant_build = yes
+				}				
+			}
+			add_resource = {
+    			type = chromium
+    			amount = 36
+				state = 54
+				}
+			add_resource = {
+    			type = steel
+    			amount = 30
+				state = 53
+				}			
 		}
 	}
 	focus = {
@@ -6923,6 +7017,58 @@ focus = {
 		}
 		completion_reward = {
 			release_puppet = WUR
+			50 = {
+				add_extra_state_shared_building_slots = 3	
+				add_building_construction = {
+    			type = arms_factory
+    			level = 3
+    			instant_build = yes
+				}
+			}
+			821 = {
+				add_extra_state_shared_building_slots = 6	
+				add_building_construction = {
+    			type = arms_factory
+    			level = 3
+    			instant_build = yes
+				}
+				add_building_construction = {
+    			type = industrial_complex
+    			level = 3
+    			instant_build = yes
+				}				
+			}	
+			42 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+    			type = industrial_complex
+    			level = 3
+    			instant_build = yes
+				}				
+			}
+			51 = {				
+				add_extra_state_shared_building_slots = 7	
+				add_building_construction = {
+    			type = arms_factory
+    			level = 5
+    			instant_build = yes
+				}
+				add_building_construction = {
+    			type = industrial_complex
+    			level = 2
+    			instant_build = yes
+				}				
+			}
+			add_resource = {
+    			type = chromium
+    			amount = 24
+				state = 51
+				}
+			add_resource = {
+    			type = steel
+    			amount = 45
+				state = 51
+				}															
 		}
 	}	
 	focus = {
