@@ -105,7 +105,7 @@
  STATE_104:0 "Bihac"
  STATE_105:0 "Montenegro"
  STATE_106:0 "Macedonia"
- STATE_107:0 "Serbia"
+ STATE_107:0 "Beograd"
  STATE_108:0 "Morava"
  STATE_109:0 "Zagreb"
  STATE_110:1 "Østlandet"
@@ -834,3 +834,4 @@
  STATE_833:0 "Syrmia"
  STATE_834:0 "Slavonia"
  STATE_835:0 "Vrbas"
+ STATE_836:0 "Raška"
