@@ -12,6 +12,11 @@ tags={
 }
 replace_path="common/ai_strategy_plans"
 replace_path="common/ai_strategy"
+replace_path="history/states"
+replace_path="map"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
+replace_path="map/terrain"
 picture="FrontTotalWar.jpg"
 version="1.10.1"
 supported_version="1.10.7"
