@@ -4094,14 +4094,14 @@ focus_tree = {
 				prioritize = { 105 }
 				add_resource = {
 					type = tungsten
-					amount = 8
+					amount = 32
 				}
 			}
 			random_owned_controlled_state = {
 				prioritize = { 109 }
 				add_resource = {
 					type = chromium
-					amount = 8
+					amount = 32
 				}
 			}
 		}
@@ -4683,6 +4683,17 @@ focus_tree = {
 					}
 				}
 			}
+			if = {
+				limit = { has_full_control_of_state = 836 }
+				836 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 
@@ -4718,7 +4729,7 @@ focus_tree = {
 			108 = {
 				add_resource = {
 					type = steel
-					amount = 16
+					amount = 32
 				}
 			}
 		}

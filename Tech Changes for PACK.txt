@@ -1,5 +1,9 @@
 Special forces gets its own tab
 	Make spec forces tech not mutually exclusive
+	Arctic Warfare Techs
+	Jaeger Special Forces
+	Shock Troops Special Forces
+	
 
 Radar Tech change spacing
 	1937
@@ -39,5 +43,3 @@ Industry Techs
 Addition of Light/Medium/Heavy Armored Support Companies
 	Improved by later tank techs
 	Unlocked by 1st light/medium/heavy tech for each
-
-Arctic Warfare Techs
