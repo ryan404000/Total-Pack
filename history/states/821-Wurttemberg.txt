@@ -5,7 +5,7 @@ state={
 		aluminium=12
 	}
 
-	state_category = large_city
+	state_category = metropolis
 	history={
 		owner = GER
 		victory_points = {
@@ -13,8 +13,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 8
-			arms_factory = 10
-			industrial_complex = 6
+			arms_factory = 5
+			industrial_complex = 3
 			air_base = 3
 			9517 = {
 				bunker = 2
@@ -39,6 +39,6 @@ state={
 		519 694 3690 6555 6934 9517 9545 9655 11486 11499 13126
 		     
 	}
-	manpower=5086854
+	manpower=2580235
 	buildings_max_level_factor=1.000
 }
