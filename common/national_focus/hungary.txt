@@ -2517,13 +2517,20 @@ focus_tree = {
 		available = {
 			has_political_power > 250
 			OR = {
-				owns_state = 664
-				owns_state = 73
+				owns_state = 45
 				owns_state = 76
 				owns_state = 84
 				owns_state = 83
 				owns_state = 82
-				owns_state = 45
+				owns_state = 109
+				owns_state = 104
+				owns_state = 764
+				owns_state = 831
+				owns_state = 833
+				owns_state = 834
+				owns_state = 835
+				owns_state = 842
+				owns_state = 843
 			}
 			NOT = { has_global_flag = GER_reformed_austro_hungarian_empire }
 		}
@@ -2553,9 +2560,15 @@ focus_tree = {
 			add_state_core = 84
 			add_state_core = 83
 			add_state_core = 82
-			add_state_core = 764
 			add_state_core = 109
-			add_state_core = 104															
+			add_state_core = 104
+			add_state_core = 764
+			add_state_core = 831
+			add_state_core = 833
+			add_state_core = 834
+			add_state_core = 835
+			add_state_core = 842
+			add_state_core = 843															
 			add_state_claim = 73		
 			add_political_power = -250
 			
@@ -3333,9 +3346,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_equipment_to_stockpile = { type = infantry_equipment_1  amount = 1000 producer = GER }
-			add_equipment_to_stockpile = { type = infantry_uniforms  amount = 600 producer = GER }
-			add_equipment_to_stockpile = { type = support_equipment  amount = 200 producer = GER }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1000 producer = GER }
+			add_equipment_to_stockpile = { type = infantry_uniforms amount = 600 producer = GER }
+			add_equipment_to_stockpile = { type = support_equipment amount = 200 producer = GER }
 		}
 	}
 	
@@ -3669,9 +3682,9 @@ focus_tree = {
 				bonus = 0.5
 			}
 			army_experience = 15
-			add_equipment_to_stockpile = { type = infantry_equipment_1  amount = 2500 producer = GER }
-			add_equipment_to_stockpile = { type = infantry_uniforms  amount = 200 producer = GER }
-			add_equipment_to_stockpile = { type = support_equipment  amount = 500 producer = GER }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2500 producer = GER }
+			add_equipment_to_stockpile = { type = infantry_uniforms amount = 200 producer = GER }
+			add_equipment_to_stockpile = { type = support_equipment amount = 500 producer = GER }
 		}
 	}
 
@@ -3826,8 +3839,8 @@ focus_tree = {
 		    	load_oob = "HUN_motorized"
 			}
 			army_experience = 25
-			add_equipment_to_stockpile = { type = infantry_equipment_1  amount = 3000 producer = GER }
-			add_equipment_to_stockpile = { type = motorized_equipment_1  amount = 1200 producer = GER }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 3000 producer = GER }
+			add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 1200 producer = GER }
 		}
 	}	
 

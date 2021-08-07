@@ -17,7 +17,7 @@ focus_tree = {
 		icon = GFX_ITA_navy
 		x = 1
 		y = 0
-		cost = 6
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}	
@@ -76,7 +76,7 @@ focus_tree = {
 		x = 2
 		y = 5
 
-		cost = 5.5
+		cost = 5
         search_filters = {FOCUS_FILTER_RESEARCH}
 		ai_will_do = {
 			factor = 10
@@ -101,7 +101,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5.5
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -142,7 +142,7 @@ focus_tree = {
 		x = -2
 		y = 7
 
-		cost = 5
+		cost = 4
         search_filters = {FOCUS_FILTER_RESEARCH}
 		ai_will_do = {
 			factor = 13
@@ -177,7 +177,7 @@ focus_tree = {
 		x = -2
 		y = 8
 
-		cost = 7
+		cost = 4
 
 		ai_will_do = {
 
@@ -266,7 +266,7 @@ focus_tree = {
 	focus = {
 		id = ITA_cavagnari_plan
 		icon = GFX_GEA_status_of_the_Admirality 
-		cost = 5.5
+		cost = 5
 		prerequisite = { focus = ITA_modernisation_attempt focus = ITA_anti_air_effort }
 		mutually_exclusive = {	focus = ITA_campioni_plan }
 		
@@ -301,7 +301,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		
-		cost = 5.5
+		cost = 5
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 		    unlock_decision_tooltip = ITA_navy_reform
@@ -329,7 +329,7 @@ focus_tree = {
 		x = 0
 		y = 6
 
-		cost = 5.5
+		cost = 5
 		available = {
 		     custom_trigger_tooltip = {
 					tooltip = ita_navy_reformed_tt
@@ -373,7 +373,7 @@ focus_tree = {
 		relative_position_id = ITA_regia_marina
 		x = 2
 		y = 7
-		cost = 7
+		cost = 4
 
 		ai_will_do = {
 
@@ -434,7 +434,7 @@ focus_tree = {
 		relative_position_id = ITA_regia_marina
 		x = -1
 		y = 3
-		cost = 7.5
+		cost = 6
 		ai_will_do = {
 			factor = 3
 		}	
@@ -575,7 +575,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_sea_warfare focus = ITA_ciclone focus = ITA_landing_craft_focus }
 
 		
-		cost = 5
+		cost = 4
 
 		ai_will_do = {
 			factor = 3
@@ -603,7 +603,7 @@ focus_tree = {
 		x = 1
 		y = 3
 
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 7
 		}
@@ -680,7 +680,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 1
 		y = 4
 search_filters = { FOCUS_FILTER_RESEARCH }
-		cost = 7.5
+		cost = 8
 
 		ai_will_do = {
 			factor = 7
@@ -710,7 +710,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 3
 		y = 6 
 
-		cost = 4.2
+		cost = 5
 		ai_will_do = {
 			factor = 7
 		}
@@ -977,7 +977,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		relative_position_id = ITA_regia_marina
 		x = 2
 		y = 8
-		cost = 5
+		cost = 4
 		ai_will_do = {
 			factor = 5
 		}
@@ -1014,7 +1014,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 			factor = 5
 		}
-		cost = 6
+		cost = 4
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			add_tech_bonus = {
@@ -1036,7 +1036,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 0
 		y = 10
 
-		cost = 7
+		cost = 4
 
 		ai_will_do = {
 			factor = 4
@@ -1116,7 +1116,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 3
 		y = 3
 
-		cost = 6
+		cost = 3
 
 		ai_will_do = {
 			factor = 8
@@ -1239,7 +1239,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		relative_position_id = ITA_Regia_Aeronautica
 		x = -1
 		y = 2
-		cost = 6
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1329,7 +1329,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = -3
 		y = 4
 
-		cost = 8
+		cost = 5
 
 		ai_will_do = {
 
@@ -1373,7 +1373,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		relative_position_id = ITA_Regia_Aeronautica
 		x = -1
 		y = 4
-		cost = 6.8
+		cost = 3
 
 		ai_will_do = {
 
@@ -1410,7 +1410,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = -2
 		y = 6
 
-		cost = 6
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -1480,7 +1480,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		relative_position_id = ITA_Regia_Aeronautica
 		x = 2
 		y = 6
-		cost = 6
+		cost = 4
 
 		ai_will_do = {
 
@@ -1567,7 +1567,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = -1
 		y = 7
 
-		cost = 4.5
+		cost = 4
 
 		ai_will_do = {
 			factor = 10
@@ -1605,7 +1605,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 1
 		y = 7
 
-		cost = 5.2
+		cost = 4
 
 		ai_will_do = {
 			factor = 10
@@ -1635,7 +1635,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 0
 		y = 9
 
-		cost = 5.2
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -1663,7 +1663,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		prerequisite = { focus = ITA_Convert_WW1_Weapons_and_equipment focus = ITA_Artillery_Modernisation focus = ITA_Alpini }
 		x = 15
 		y = 2
-		cost = 4.2
+		cost = 2
 		ai_will_do = {
 			factor = 2
 		}
@@ -1685,7 +1685,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		prerequisite = { focus = ITA_san_marco focus = ITA_Armor_Effort }
 		x = 14
 		y = 4
-		cost = 4
+		cost = 3
 		ai_will_do = {
 			factor = 2
 		}
@@ -1708,7 +1708,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 15
 		y = 0
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 
@@ -1719,23 +1719,14 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		available_if_capitulated = yes
 
 		completion_reward = {
-
 			random_owned_controlled_state = {
-
 				prioritize = { 161 }
-
 					add_extra_state_shared_building_slots = 3 
-
 						add_building_construction = {
-
 							type = arms_factory
-
-							level = 2 
-
+							level = 5 
 							instant_build = yes
-
 						}
-
 			}
 
 			add_tech_bonus = {
@@ -1759,7 +1750,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 17
 		y = 1
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 
@@ -1797,7 +1788,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 15
 		y = 1
 
-		cost = 6
+		cost = 3
 
 		ai_will_do = {
 
@@ -1834,7 +1825,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 13
 		y = 1
 
-		cost = 4.5
+		cost = 3
 
 		ai_will_do = {
 
@@ -1883,7 +1874,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		prerequisite = { focus = ITA_fanteria }
 		x = 16
 		y = 3
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 
@@ -2072,7 +2063,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		y = 5
 		relative_position_id = ITA_Regio_Esercito
 search_filters = { FOCUS_FILTER_RESEARCH }
-		cost = 6.2
+		cost = 5
 
 		ai_will_do = {
 
@@ -2150,7 +2141,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		mutually_exclusive = { focus = ITA_Innovative_theories }
 		x = 19
 		y = 3
-		cost = 5
+		cost = 4
 search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 
@@ -2200,7 +2191,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		prerequisite = { focus = ITA_The_Old_guard }
 		x = 19
 		y = 4
-		cost = 5
+		cost = 4
 search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 
@@ -2233,7 +2224,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		prerequisite = { focus = ITA_AVANTI }		
 		x = 19
 		y = 5
-		cost = 6
+		cost = 3
 search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 			factor = 10
@@ -2584,7 +2575,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 1
 		y = 2
 
-		cost = 5.5
+		cost = 5
 search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 			factor = 12
@@ -2613,7 +2604,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = -1
 		y = 2
 search_filters = { FOCUS_FILTER_RESEARCH }
-		cost = 5.5
+		cost = 5
 
 		ai_will_do = {
 			factor = 5
@@ -3688,7 +3679,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		relative_position_id = ITA_expand_the_industries
 		x = -2
 		y = 1
-		cost = 7.2
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			115= {
@@ -3819,21 +3810,30 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		}
 		completion_reward = {
 			448 = {
-					add_building_construction = {
-						type = naval_base
-						level = 4
-						province = 1149
-						instant_build = yes
-					}
-				}	
-				450 = {
-					add_building_construction = {
-						type = naval_base
-						level = 3
-						province = 11954
-						instant_build = yes
-					}
-				}					
+				add_building_construction = {
+					type = naval_base
+					level = 4
+					province = 1149
+					instant_build = yes
+				}
+			}	
+			450 = {
+				add_building_construction = {
+					type = naval_base
+					level = 4
+					province = 11954
+					instant_build = yes
+				}
+			}
+			451 = {
+				add_building_construction = {
+					type = naval_base
+					level = 4
+					province = 1130
+					instant_build = yes
+				}
+			}	
+
 		}
 	}
 	focus = {
@@ -3844,7 +3844,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 2
 		y = 1
 search_filters = { FOCUS_FILTER_INDUSTRY }
-		cost = 7
+		cost = 5
 		available = {
 		    450 = {			
 				infrastructure < 6
@@ -3881,7 +3881,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 4
+						level = 5
 						instant_build = yes
 					}
 				}
@@ -3891,7 +3891,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 4
+						level = 5
 						instant_build = yes
 					}
 				}
@@ -3901,7 +3901,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 5
 						instant_build = yes
 					}
 				}
@@ -3911,7 +3911,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 5
 						instant_build = yes
 					}
 				}
@@ -3921,7 +3921,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 5
 						instant_build = yes
 					}
 				}
@@ -3932,7 +3932,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 5
 						instant_build = yes
 					}
 				}
@@ -4091,7 +4091,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_resource = {
 				type = rubber
-				amount = 12
+				amount = 36
 				state = 713
 			}
 		}
@@ -4985,15 +4985,10 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		    unlock_decision_category_tooltip = prospect_for_resources
 
 			450 = {
-
 				add_extra_state_shared_building_slots = 1
-
 				add_building_construction = {
-
 					type = synthetic_refinery
-
-					level = 1
-
+					level = 2
 					instant_build = yes
 				}
 			}				
@@ -5042,7 +5037,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 2
+						level = 3
 						instant_build = yes
 					}
 			}			
@@ -5053,7 +5048,29 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 3
+						instant_build = yes
+					}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 450 }
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 449 }
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
 						instant_build = yes
 					}
 			}				
@@ -5212,7 +5229,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 40
 		y = 1
 search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
-		cost = 7
+		cost = 5
 
 		ai_will_do = {
 			factor = 0
@@ -5240,7 +5257,7 @@ search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 		relative_position_id = ITA_capitalism
         x = 4
 		y = 0
-		cost = 6
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -5264,7 +5281,7 @@ search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 		x = 3
 		y = 1
 search_filters = { FOCUS_FILTER_INDUSTRY }
-		cost = 5.8
+		cost = 5
 
 		ai_will_do = {
 
@@ -5295,7 +5312,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 2
 		y = 2
 
-		cost = 7
+		cost = 5
 
 		ai_will_do = {
 
@@ -5392,7 +5409,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = -1
 		y = 5
         search_filters = { FOCUS_FILTER_INDUSTRY }
-		cost = 5.5
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -5511,7 +5528,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 1
 		y = 5
         search_filters = { FOCUS_FILTER_INDUSTRY }
-		cost = 5.5
+		cost = 5
 
 		ai_will_do = {
 			factor = 17
@@ -5652,7 +5669,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 0
 		y = 4
 
-		cost = 7.9
+		cost = 5
 
 		ai_will_do = {
 			factor = 20
@@ -6061,7 +6078,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 2
 		y = 3
 search_filters = { FOCUS_FILTER_INDUSTRY }
-		cost = 8
+		cost = 5
 
 		ai_will_do = {
 
@@ -6102,7 +6119,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 14
 		y = 3
 search_filters = { FOCUS_FILTER_RESEARCH }
-		cost = 6
+		cost = 4
 
 		ai_will_do = {
 			factor = 8
@@ -6148,7 +6165,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		relative_position_id = ITA_Regio_Esercito
         mutually_exclusive = { focus = ITA_ags}
 		mutually_exclusive = { focus = ITA_X_Flottiglia_MAS }
-		cost = 4.1
+		cost = 5
 
 		ai_will_do = {
 			factor = 11
@@ -6180,7 +6197,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		x = 0
 		y = 5
 		relative_position_id = ITA_Regio_Esercito
-		cost = 5.8
+		cost = 5
 		ai_will_do = {
 			factor = 0
 		}
@@ -6284,7 +6301,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 5
 		y = 1
 
-		cost = 6
+		cost = 5
 
 		ai_will_do = {
 			factor = 7
@@ -6343,7 +6360,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 4
 		y = 3
 
-		cost = 5.7
+		cost = 5
 search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 
@@ -6396,7 +6413,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		relative_position_id = ITA_The_industrial_triangle
 		x = -2
 		y = 0
-		cost = 6
+		cost = 4
 search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 10
@@ -6485,7 +6502,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		icon = GFX_goal_government_centralised_icon
 		x = 50
 		y = 0
-		cost = 5
+		cost = 4
 		ai_will_do = {
 			factor = 8
 		}	
@@ -6503,7 +6520,7 @@ search_filters = { FOCUS_FILTER_INDUSTRY }
 		relative_position_id = ITA_modernization 
 		x = 0
 		y = 4
-		cost = 5
+		cost = 3
 search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = {
 			factor = 10
@@ -6535,7 +6552,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		mutually_exclusive = { focus = ITA_birthplace_fascism }
 		x = -1
 		y = 1
-		cost = 5
+		cost = 2
 		ai_will_do = {
 			factor = 8
 		}	
@@ -6615,7 +6632,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		relative_position_id = ITA_modernization
 		x = 0
 		y = 2
-		cost = 6
+		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = {
 			factor = 10
@@ -6633,7 +6650,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		relative_position_id = ITA_modernization
 		x = 0
 		y = 3
-		cost = 4.3
+		cost = 3
 		ai_will_do = {
 			factor = 8
 		}	
@@ -7121,7 +7138,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		id = ITA_operations_focus
 		icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain 
 		prerequisite = { focus = ITA_new_fascist_man focus = ITA_birthplace_fascism focus = ITA_joint_naval_exercises  focus = ITA_guarantee_austria  }
-		cost = 4.5
+		cost = 4
 		relative_position_id = ITA_modernization
 		x = 5
 		y = 2
@@ -7286,13 +7303,13 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		relative_position_id = ITA_The_industrial_triangle
 		x = -3
 		y = 1
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}	
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-		    add_popularity = { ideology = fascism popularity = -0.04 }
+		    add_popularity = { ideology = fascism popularity = 0.04 }
 		    swap_ideas = { 
 				remove_idea = ITA_quota_75_idea
 				add_idea = ITA_riforma_bancaria_idea
@@ -7306,7 +7323,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
         relative_position_id = ITA_modernization
 		x = 2
 		y = 5
-		cost = 7
+		cost = 3
 
 		ai_will_do = {
 			factor = 10
@@ -7332,7 +7349,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 0
 		y = 5
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 10
@@ -7363,7 +7380,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		relative_position_id = ITA_modernization
 		x = -2
 		y = 5
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 8
 		}	
@@ -7839,7 +7856,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		relative_position_id = ITA_The_industrial_triangle
 		x = 3
 		y = 6
-		cost = 10
+		cost = 5
 		
 		ai_will_do = { 
 			factor = 20
@@ -7906,7 +7923,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 1
 		y = 8
 
-		cost = 7.4 
+		cost = 8
 
 		ai_will_do = {
 			factor = 8
@@ -8470,7 +8487,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 
 		x = 20
 		y = 7
-		cost = 7.15
+		cost = 6
 		ai_will_do = {
 			factor = 10
 		}
@@ -8663,7 +8680,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 	focus = {
 		id = ITA_marines_2
 		icon = GFX_goal_generic_amphibious_assault
-		cost = 6.3
+		cost = 5
 		prerequisite = { focus = ITA_anti_tank_nests }
 		relative_position_id = ITA_mobile		
 		x = -2
@@ -8723,7 +8740,7 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		relative_position_id = ITA_mobile		
 		x = -1
 		y = 8
-		cost = 5.4
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -9466,7 +9483,7 @@ search_filters = { FOCUS_FILTER_POLITICAL }
 		relative_position_id = ITA_victoryinETH
 		x = 1
 		y = 3
-		cost = 7.7
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}	
