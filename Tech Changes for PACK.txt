@@ -1,0 +1,43 @@
+Special forces gets its own tab
+	Make spec forces tech not mutually exclusive
+
+Radar Tech change spacing
+	1937
+	1939
+	1940
+	1941
+	1943	
+Light + Heavy AA upgrade techs get combined into one
+
+Industry Techs
+	2 Airs become 1 air tech
+	3 ships become 1 ship tech
+	Small Arms + Uniforms become 1 tech (LIGHT EQUIPMENT)
+		Horse Equipment added to Light Equipment
+	Concentrated
+		Up output + easier to bomb
+	Dispersed
+		Not easier to bomb, but less % of mills
+	Equipment Conversion Changes
+		Tech 1 - Add 10% refit speed
+		Tech 2 - Add 15% refit speed
+ 	Railway Network + Road Networks combined into 1 tech each (-7 techs)
+	Combine Prefab and Defense Works into 1 tech (-6 techs)
+	Civilian Works gives small % boost to civ construction
+	Education Works removes public illiteracy ideas (decrease over time)
+		Adds decisions to reduce illiteracy over time
+	Concentrated/Dispersed Industries removes industry incomptentcy over time 
+		Adds decisions like in above
+	Every tech after Heavy Industry/Oil Refinery/Rubber Processing gives -5% construction cost
+	Large Steel Mill gives +1 steel
+	Advanced Metallurgy gives +1 steel
+	Construction 2 and 3 remove military construction debuffs
+		Add mil construction speed buff at late end
+	Machine tools remove mil/civ debuffs
+	Foreign Labor - Increase output
+
+Addition of Light/Medium/Heavy Armored Support Companies
+	Improved by later tank techs
+	Unlocked by 1st light/medium/heavy tech for each
+
+Arctic Warfare Techs
