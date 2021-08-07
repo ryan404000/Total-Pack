@@ -298,7 +298,6 @@ focus_tree = {
 		add_stability = 0.05
 		}
 	}
-	
 	focus = {
 		id = GER_rhineland
 		icon = GFX_Goal_rhineland2
