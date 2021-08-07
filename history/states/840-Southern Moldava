@@ -1,7 +1,7 @@
 state=
 {
-	id=79
-	name="STATE_79"
+	id=840
+	name="STATE_840"
 	manpower = 935467
 	
 	state_category = rural
@@ -13,20 +13,18 @@ state=
 			infrastructure = 5
 			industrial_complex = 2
 			air_base = 2
-			9716 = {
-				bunker = 1
-			}
-			723 = {
+			6729 = {
 				bunker = 1
 			}
 		}
 		victory_points = {
-			9716 1 
+			6706 10 
 		}
 		add_core_of = ROM
 		add_core_of = MOL
 	}
-	provinces={
-		723 3741 6747 9716 11672
+	provinces=
+	{
+    	6706 6729 9701 11652 11655
 	}
 }

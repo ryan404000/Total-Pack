@@ -1,0 +1,29 @@
+state={
+	id=838
+	name="STATE_838"
+	manpower = 991422
+	resources={
+		oil=16
+	}
+
+	state_category = town
+
+	history={
+		owner = ROM
+		victory_points = { 11636 3 }
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+			11603 = {
+				bunker = 1
+			}
+		}
+		add_core_of = ROM
+	}
+
+	provinces={
+		674 6677 9651 11603 11636   
+	}
+}

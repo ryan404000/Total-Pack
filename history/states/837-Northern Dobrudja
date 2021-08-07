@@ -1,0 +1,32 @@
+state={
+	id=837
+	name="STATE_837"
+	manpower = 1487133
+
+	state_category = city
+
+	history={
+		owner = ROM
+		victory_points = { 657 3 }
+        victory_points = { 3076 3 }
+		buildings = {
+			infrastructure = 6
+			arms_factory = 8
+			industrial_complex = 8
+			air_base = 3
+			657 = {
+				naval_base = 8
+				bunker = 2
+			}
+			687 = {
+				naval_base = 1
+			}
+			dockyard = 1
+		}
+		add_core_of = ROM
+	}
+
+	provinces={
+		657 687 3076 9635 
+	}
+}

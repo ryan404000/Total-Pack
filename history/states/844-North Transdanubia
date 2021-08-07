@@ -1,8 +1,7 @@
-
 state={
-	id=155
-	name="STATE_155" # South Transdanubia
-	manpower = 900868
+	id=844
+	name="STATE_844" # South Transdanubia
+	manpower = 1296737
 	
 	state_category = city
 	resources={
@@ -11,7 +10,7 @@ state={
 	history={
 		owner = HUN
 		victory_points = {
-			11610 5 
+			6703 5 
 		}
 		buildings = {
 			infrastructure = 6
@@ -23,6 +22,6 @@ state={
 	}
 
 	provinces={
-		682 3680 6685 9624 9643 11610
+		686 701 3670 3683 6703 6720 9676 11627 11663 13125
 	}
 }

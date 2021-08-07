@@ -1,8 +1,8 @@
 
 state = {
 	id=154
-	name="STATE_154"
-	manpower = 2735383
+	name="STATE_154" #Bihar
+	manpower = 1367691
 
 	state_category = city
 
@@ -15,12 +15,12 @@ state = {
 			air_base = 2
 		}
 		victory_points = {
-			11659 1 
+			11659 5 #Debrecen
 		}
 		add_core_of = HUN
 	}
 
 	provinces={
-		679 699 730 3730 6670 6700 6735 9656 9706 11625 11644 11646 11659 
+		730 3730 6735 9706 11659 
 	}
 }

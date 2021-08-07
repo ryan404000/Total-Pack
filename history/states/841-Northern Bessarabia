@@ -1,32 +1,28 @@
 state=
 {
-	id=78
-	name="STATE_78"
-	manpower = 2296800
+	id=841
+	name="STATE_841"
+	manpower = 757944
 	
-	state_category = town
+	state_category = rural
 	
 	history= {
 		add_core_of = MOL
         add_core_of = ROM
 		owner = ROM
 		victory_points = {
-			3707 1
+			3577 1
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
 			arms_factory=3
 			air_base = 2
-			
-			11686 = {
-				bunker = 1
-			}
 		}
 		add_claim_by = UKR
 		add_claim_by = ROM
 	}
 	provinces={
-		3707 3724 9683 11686 11705 
+		414 565 3407 3577 6600  
 	}
 }
