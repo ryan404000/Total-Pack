@@ -1,7 +1,7 @@
 state={
 	id=833
 	name="STATE_833" # Croatia
-	manpower = 2224400
+	manpower = 504400
 	
 	state_category = large_town
 

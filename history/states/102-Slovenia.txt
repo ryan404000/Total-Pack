@@ -2,7 +2,7 @@ state=
 {
 	id=102
 	name="STATE_102"
-	manpower = 1144300
+	manpower = 1386082 #upped from 1.14 mil
 	
 	state_category = large_town
 	
