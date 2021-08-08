@@ -522,10 +522,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 120
-			#PP +120
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = POL_jozef_beck
-			add_stability = 0.05			
+			add_stability = 0.10			
 		}
 	}
 	
@@ -543,6 +542,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = POL_defensive
+			add_stability = 0.05
 			#Grants Deterrence modifier
 		}
 	}
@@ -567,6 +567,7 @@ focus_tree = {
 				}
 				custom_effect_tooltip = needs_approval
 			}
+			add_stability = 0.05
 			effect_tooltip = {
 				POL = { 
 					add_timed_idea = {
@@ -612,6 +613,7 @@ focus_tree = {
 			custom_effect_tooltip = POL_betreyal5
 			remove_ideas = POL_defensive
 			add_ideas = POL_protected
+			add_stability = 0.15
 			hidden_effect = {
 				set_country_flag = POL_protected2
 			}
@@ -663,7 +665,7 @@ focus_tree = {
 				idea = POL_mobilisation
 				days = 180
 			}
-			add_war_support = 0.07
+			add_war_support = 0.12
 			ENG = {
 				country_event = {
 					id = poland.61

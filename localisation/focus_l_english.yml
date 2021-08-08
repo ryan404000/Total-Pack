@@ -5349,6 +5349,12 @@ portugal.30.d:0 "We just got a visit from the Portuguese foreign minister, who t
  POL_the_duchy_of_bavaria:0 "The Duchy of Bavaria"
  POL_the_duchy_of_bavaria_desc:0 "DESCRIPTION"
 
+ POL_give_up_danzig:0 "Give up Danzig"
+ POL_give_up_danzig_desc:0 "DESCRIPTION"
+
+ POL_axis:0 "Join the Axis"
+ POL_axis_desc:0 "DESCRIPTION"
+
  miedzymorze.3.t:0 "Poland Demands Zaolzie."
  miedzymorze.3.d:0 "Poland has been demanding Zaolzie, due to its large Polish population, for a long time... But now they have sent an ultimatum - Zaolzie or war. "
  miedzymorze.3.a:0 "We are not ready for war."
