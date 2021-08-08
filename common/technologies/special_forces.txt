@@ -160,6 +160,100 @@ technologies = {
 			}
 		}
 	}
+	amphibious_mechanized_infantry = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		enable_subunits = {
+			amphibious_mechanized
+		}
+		dependencies = {
+			mechanised_infantry = 1
+		}	
+
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = special_forces_folder
+			position = { x = @1941 y = 2 }
+		}
+		
+		categories = {
+			marine_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				tag = USA
+				factor = 2
+			}
+		}
+	}
+
+	amphibious_mechanized_infantry_2 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_2
+		}
+
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = special_forces_folder
+			position = { x = @1943 y = 2 }
+		}
+		
+		categories = {
+			marine_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	amphibious_mechanized_infantry_3 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_3
+		}
+
+		
+
+		research_cost = 2
+		start_year = 1945
+		folder = {
+			name = special_forces_folder
+			position = { x = @1945 y = 2 }
+		}
+		
+		categories = {
+			marine_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
 	amphibious_equipment2 = {
 
 		marine = {
@@ -382,10 +476,10 @@ tech_mountaineers = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1937
 		folder = {
 			name = special_forces_folder
-			position = { x = @1939 y = 3 }
+			position = { x = @1937 y = 3 }
 		}
 		
 		categories = {
@@ -443,10 +537,10 @@ tech_mountaineers = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1939
 		folder = {
 			name = special_forces_folder
-			position = { x = @1942 y = 3 }
+			position = { x = @1939 y = 3 }
 		}
 		
 		categories = {
@@ -466,10 +560,10 @@ tech_mountaineers = {
 		}
 		
 		research_cost = 1.6
-		start_year = 1944
+		start_year = 1940
 		folder = {
 			name = special_forces_folder
-			position = { x = @1944 y = 3 }
+			position = { x = @1940 y = 3 }
 		}
 		
 		categories = {
@@ -660,14 +754,8 @@ tech_mountaineers = {
 			leads_to_tech = improved_special_forces
 			research_cost_coeff = 1
 		}		
-		path = {
-			leads_to_tech = jungle_equipment
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = desert_equipment
-			research_cost_coeff = 1
-		}
+
+		
 
 		research_cost = 1
 		start_year = 1938
@@ -684,49 +772,6 @@ tech_mountaineers = {
 		
 		ai_will_do = {
 			factor = 0.7
-		}
-	}
-    jungle_equipment = {
-		
-		enable_subunits = {
-			jungle_support
-		}
-		research_cost = 1
-		start_year = 1939
-		folder = {
-			name = special_forces_folder
-			position = { x = 9 y = @1939 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-    desert_equipment = {
-
-		enable_subunits = {
-			desert_support
-		}
-		
-	
-		research_cost = 1
-		start_year = 1938
-		folder = {
-			name = special_forces_folder
-			position = { x = 15 y = @1939 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 0
 		}
 	}
 

@@ -3839,8 +3839,16 @@ focus_tree = {
 		    	load_oob = "HUN_motorized"
 			}
 			army_experience = 25
-			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 3000 producer = GER }
-			add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 1200 producer = GER }
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = 3000 
+				producer = GER 
+			}
+			add_equipment_to_stockpile = { 
+				type = motorized_equipment_1 
+				amount = 1200 
+				producer = GER 
+			}
 		}
 	}	
 

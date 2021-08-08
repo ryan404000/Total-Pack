@@ -378,11 +378,6 @@ focus_tree = {
 				amount = 150
 				producer = CZE
 			}
-			add_equipment_to_stockpile = {
-				type = HQ_equipment_0
-				amount = 100
-				producer = CZE
-			}
 		}
 	}
 	

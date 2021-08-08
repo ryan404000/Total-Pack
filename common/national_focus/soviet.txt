@@ -3240,18 +3240,18 @@ focus_tree = {
 						OR = { has_government = communism has_government = democratic }
 					}
 					add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3000 producer = SOV }
-				add_equipment_to_stockpile = { type = support_equipment_1 amount = 750 producer = SOV }
-				add_equipment_to_stockpile = { type = horse_equipment_0 amount = 1000 producer = SOV }
-				add_equipment_to_stockpile = { type = infantry_uniforms_0 amount = 1000 producer = SOV }
-				add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 250 producer = SOV }
-				add_equipment_to_stockpile = { type = motorized_lia_equipment_01 amount = 250 producer = SOV }
-				add_equipment_to_stockpile = { type = artillery_equipment_0 amount = 400 producer = SOV }
-				country_event = spain.11
-				add_opinion_modifier = { target = SOV modifier = SOV_SPR_help }
-				add_popularity = {
-					ideology = communism
-					popularity = 0.04
-				}
+					add_equipment_to_stockpile = { type = support_equipment_1 amount = 750 producer = SOV }
+					add_equipment_to_stockpile = { type = horse_equipment_0 amount = 1000 producer = SOV }
+					add_equipment_to_stockpile = { type = infantry_uniforms_0 amount = 1000 producer = SOV }
+					add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 250 producer = SOV }
+					add_equipment_to_stockpile = { type = motorized_lia_equipment_01 amount = 250 producer = SOV }
+					add_equipment_to_stockpile = { type = artillery_equipment_0 amount = 400 producer = SOV }
+					country_event = spain.11
+					add_opinion_modifier = { target = SOV modifier = SOV_SPR_help }
+					add_popularity = {
+						ideology = communism
+						popularity = 0.04
+					}
 				}
 			}
 		}

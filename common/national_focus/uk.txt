@@ -5071,13 +5071,12 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 					}
 				}
 				SPD = {
-				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 400 producer = ENG }
+					add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 400 producer = ENG }
 				}
-				else =
-				{
-				SPD = {
-				add_equipment_to_stockpile = { type = artillery_equipment_0 amount = 400 producer = ENG }
-				}
+				else = {
+					SPD = {
+						add_equipment_to_stockpile = { type = artillery_equipment_0 amount = 400 producer = ENG }
+					}
 				}
 			}
 			SPD = { 

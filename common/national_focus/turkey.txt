@@ -4984,7 +4984,9 @@ focus_tree = {
 				hidden_effect = { set_technology = { basic_medium_tank = 1 } }
 				custom_effect_tooltip = TUR_add_medium_tank_technology_tt
 			}
-			add_equipment_to_stockpile = { type = medium_tank_equipment_1 amount = 25 }
+			add_equipment_to_stockpile = { 
+				type = medium_tank_equipment_1 
+				amount = 25 }
 		}
 	}
 
@@ -5136,7 +5138,10 @@ focus_tree = {
 					}
 				}
 			}
-			add_equipment_to_stockpile = { type = motorized_equipment amount = 275 }
+			add_equipment_to_stockpile = { 
+				type = motorized_equipment 
+				amount = 275 
+			}
 		}
 	}
 

@@ -1658,11 +1658,6 @@ ENG_commonwealth_military_develop_decision = {
 			radio = 1
 			tech_field_hospital = 1
 			}
-			add_equipment_to_stockpile = {
-		type = HQ_equipment_0
-			amount = 1250
-			producer = ENG
-		}
 		add_equipment_to_stockpile = {
 			type = anti_tank_equipment_1
 			amount = 250
@@ -1812,11 +1807,6 @@ country_event = wtt_britain.203
 			radio = 1
 			tech_field_hospital = 1
 			}
-			add_equipment_to_stockpile = {
-		type = HQ_equipment_0
-			amount = 500
-			producer = ENG
-		}
 		add_equipment_to_stockpile = {
 			type = anti_tank_equipment_1
 			amount = 150
@@ -2036,11 +2026,6 @@ country_event = wtt_britain.2011
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_india_focus_2IC
-				}
-				add_equipment_to_stockpile = {
-					type = HQ_equipment_0
-					amount = 1000
-					producer = ENG
 				}
 				add_equipment_to_stockpile = {
 					type = anti_tank_equipment_1

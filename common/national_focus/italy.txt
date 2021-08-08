@@ -989,9 +989,13 @@ search_filters = { FOCUS_FILTER_RESEARCH }
 		}
 		
 		completion_reward = {
-		ITA = {
-        add_equipment_to_stockpile = { type = convoy amount = 80 producer = ITA }          
-          		}
+			ITA = {
+        		add_equipment_to_stockpile = { 
+					type = convoy 
+					amount = 80 
+					producer = ITA 
+				}          
+        	}
 			add_tech_bonus = {
 				name = tp_bonus
 				bonus = 0.6

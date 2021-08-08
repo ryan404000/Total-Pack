@@ -3673,16 +3673,17 @@
 				limit = {
 					NOT = { has_dlc = "La Resistance" }
 				}
-			random_other_country = {
-				limit = {
-					original_tag = SPR
-					OR = {
-					has_government = fascism
-					has_government = neutrality
+				random_other_country = {
+					limit = {
+						original_tag = SPR
+						OR = {
+						has_government = fascism
+						has_government = neutrality
+						}
 					}
+					add_opinion_modifier = { target = ROM modifier = ROM_spain_help }      
 				}
-				add_opinion_modifier = { target = ROM modifier = ROM_spain_help }      
-			}
+			 }
 			if = {
 				limit = {
 					SPR = {
@@ -3697,12 +3698,12 @@
 					has_government = neutrality
 					}
 				}
-				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 500 producer = ROM }    
+				add_equipment_to_stockpile = { 
+					type = infantry_equipment_1 
+					amount = 500 
+					producer = ROM }    
 		    	}
 			}
-			}
-			
-			
 			if = {
 				limit = {
 					has_dlc = "La Resistance"
