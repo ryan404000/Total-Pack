@@ -10036,7 +10036,7 @@ guiTypes = {
 			buttonType = {
 				name = "special_forces_folder_tab"
 				position = { x = 111 y = 0 }
-				quadTextureSprite = "GFX_infantry_folder_tab"
+				quadTextureSprite = "GFX_special_forces_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
