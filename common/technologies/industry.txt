@@ -629,19 +629,6 @@ technologies = {
 			leads_to_tech = Ltaircraft_industry
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = Hvaircraft_industry
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ship_industry
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = sub_industry
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 		start_year = 1936
 		folder = {
@@ -728,19 +715,6 @@ technologies = {
 			leads_to_tech = Ltaircraft_industry
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = Hvaircraft_industry
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ship_industry
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = sub_industry
-			research_cost_coeff = 1
-		}
-		
 		research_cost = 2
 		start_year = 1936
 		folder = {
@@ -897,18 +871,6 @@ technologies = {
 			leads_to_tech = Ltaircraft_industry2
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = Hvaircraft_industry2
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ship_industry2
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = sub_industry2
-			research_cost_coeff = 1
-		}
 		
 		research_cost = 2
 		start_year = 1939
@@ -985,18 +947,6 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = Ltaircraft_industry2
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = Hvaircraft_industry2
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ship_industry2
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = sub_industry2
 			research_cost_coeff = 1
 		}
 		
@@ -1078,18 +1028,6 @@ technologies = {
 			leads_to_tech = Ltaircraft_industry3
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = Hvaircraft_industry3
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ship_industry3
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = sub_industry3
-			research_cost_coeff = 1
-		}
 				
 		research_cost = 2
 		start_year = 1941
@@ -1167,18 +1105,6 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = Ltaircraft_industry3
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = Hvaircraft_industry3
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ship_industry3
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = sub_industry3
 			research_cost_coeff = 1
 		}
 		
@@ -1261,18 +1187,6 @@ technologies = {
 			leads_to_tech = Ltaircraft_industry4
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = Hvaircraft_industry4
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ship_industry4
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = sub_industry4
-			research_cost_coeff = 1
-		}
 		ai_will_do = {
 			factor = 5
 			modifier = {
@@ -1333,18 +1247,6 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = Ltaircraft_industry4
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = Hvaircraft_industry4
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ship_industry4
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = sub_industry4
 			research_cost_coeff = 1
 		}
 		folder = {
@@ -1647,7 +1549,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6.5 y = 1 }
+			position = { x = 6 y = 1 }
 		}
 		
 		ai_will_do = {
@@ -1832,7 +1734,7 @@ technologies = {
 		dependencies = {
 			infra_works0 = 1
 			vehicle_industry0 = 1
-			road_infra0 = 1
+			rail_infra0 = 1
 		}
 		
 		#
@@ -1963,7 +1865,7 @@ technologies = {
 		dependencies = {
 			infra_works0 = 1
 			uniform_industry0 = 1
-			road_infra0 = 1
+			rail_infra0 = 1
 		}
 		
 		research_cost = 1.54
@@ -2011,13 +1913,12 @@ technologies = {
 			infra_works0 = 1
 			Ltaircraft_industry0 = 1
 			rail_infra0 = 1
-			road_infra0 = 1
 		}
 		research_cost = 1.54
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6.5 y = 6 }
+			position = { x = 6 y = 6 }
 		}
 		ai_will_do = {
 			factor = 4		
@@ -2156,7 +2057,7 @@ technologies = {
 		#
 		dependencies = {
 			vehicle_industry = 1
-			road_infra = 1
+			rail_infra = 1
 		}
 		
 		research_cost = 1.7
@@ -2315,13 +2216,12 @@ technologies = {
 		dependencies = {
 			Ltaircraft_industry = 1
 			rail_infra = 1
-			road_infra = 1
 		}
 	
 		research_cost = 1.7
 		folder = {
 			name = industry_folder
-			position = { x = 6.5 y = 16 }
+			position = { x = 6 y = 16 }
 		}
 		air_superiority_efficiency = 0.01
 		air_superiority_detect_factor = 0.01
@@ -2459,7 +2359,7 @@ technologies = {
 		industrial_capacity_factory = 0.01
 		dependencies = {
 			vehicle_industry2 = 1
-			road_infra2 = 1
+			rail_infra2 = 1
 		}
 		army_speed_factor = 0.02
 		
@@ -2617,13 +2517,12 @@ technologies = {
 		dependencies = {
 			Ltaircraft_industry2 = 1
 			rail_infra2 = 1
-			road_infra2 = 1
 		}
 	
 		research_cost = 1.8
 		folder = {
 			name = industry_folder
-			position = { x = 6.5 y = 22 }
+			position = { x = 6 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -2762,7 +2661,7 @@ technologies = {
 		industrial_capacity_factory = 0.01
 		dependencies = {
 			vehicle_industry3 = 1
-			road_infra3 = 1
+			rail_infra3 = 1
 		}
 		#army_speed_factor = 0.02
 		start_year = 1944
@@ -2920,13 +2819,12 @@ technologies = {
 		dependencies = {
 			Ltaircraft_industry3 = 1
 			rail_infra3 = 1
-			road_infra3 = 1
 		}
 	        start_year = 1944
 		research_cost = 1.87
 		folder = {
 			name = industry_folder
-			position = { x = 6.5 y = 28 }
+			position = { x = 6 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -3129,10 +3027,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = road_infra0
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = air_infra0
 			research_cost_coeff = 1
 		}
@@ -3182,7 +3076,9 @@ technologies = {
 		
 		industrial_capacity_factory = 0.03
 		industrial_capacity_dockyard = 0.01
-		
+		line_change_production_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = 0.05
+		org_loss_when_moving = -0.04		
 		
 		research_cost = 1.6
 		start_year = 1900
@@ -3212,41 +3108,7 @@ technologies = {
 			}
 		}
 	}
-	road_infra0 = {
-		
-		line_change_production_efficiency_factor = 0.05
-		production_factory_efficiency_gain_factor = 0.05
-		org_loss_when_moving = -0.04
-		
-		
-		research_cost = 1.6
-		start_year = 1900
-		categories = {
-			industry
-			construction_tech
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 25 y = 0 }
-		}
-		
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 2
-				num_of_military_factories > 60
-			}
-			modifier = {
-				factor = 2
-				num_of_military_factories > 80
-			}
-			modifier = {
-				factor = 2
-				num_of_military_factories > 140
-			}
-		}
-	}
+
 	#Air Fields 1915
 	air_infra0 = {
 		
@@ -3262,7 +3124,7 @@ technologies = {
 		start_year = 1900
 		folder = {
 			name = industry_folder
-			position = { x = 26 y = 0 }
+			position = { x = 25 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -3284,7 +3146,7 @@ technologies = {
 		start_year = 1900
 		folder = {
 			name = industry_folder
-			position = { x = 27 y = 0 }
+			position = { x = 26 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -3483,10 +3345,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = road_infra
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = air_infra
 			research_cost_coeff = 1
 		}
@@ -3527,8 +3385,11 @@ technologies = {
 		industrial_capacity_factory = 0.03
 		industrial_capacity_dockyard = 0.01
 		supply_consumption_factor = -0.01
-		production_speed_infrastructure_factor = -0.02
-		
+		production_speed_infrastructure_factor = -0.04
+		industry_repair_factor = 0.05
+		line_change_production_efficiency_factor = 0.05
+		local_resources_factor = 0.02
+		org_loss_when_moving = -0.04		
 		
 		dependencies = {
 			rail_infra0 = 1
@@ -3571,55 +3432,7 @@ technologies = {
 			}
 		}
 	}
-	# Road Network 1936
-	road_infra = {
-		
-		industry_repair_factor = 0.05
-		line_change_production_efficiency_factor = 0.05
-		local_resources_factor = 0.02
-		org_loss_when_moving = -0.04
-		production_speed_infrastructure_factor = -0.02
-		
-		dependencies = {
-			road_infra0 = 1
-		}
-		
-		research_cost = 1.6
-		start_year = 1936
-		categories = {
-			industry
-			construction_tech
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 25 y = 5 }
-		}
-		
-		ai_will_do = {
-			factor = 3 # important!!!
-			modifier = {
-				factor = 2
-				or = {
-				   tag = SOV
-				   tag = USA
-				   tag = GER
-				}
-			}
-			modifier = {
-				factor = 3
-				num_of_military_factories > 40
-			}
-			modifier = {
-				factor = 3
-				num_of_military_factories > 80
-			}
-			modifier = {
-				factor = 2
-				num_of_military_factories > 140
-			}
-		}
-	}
+
 	#Air Fields 1936
 	air_infra = {
 		
@@ -3635,7 +3448,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = industry_folder
-			position = { x = 26 y = 5 }
+			position = { x = 25 y = 5 }
 		}
 		
 		dependencies = {
@@ -3664,7 +3477,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = industry_folder
-			position = { x = 27 y = 5 }
+			position = { x = 26 y = 5 }
 		}
 		
 		dependencies = {
@@ -4012,10 +3825,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = road_infra2
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = air_infra2
 			research_cost_coeff = 1
 		}
@@ -4059,8 +3868,12 @@ technologies = {
 		industrial_capacity_factory = 0.03
 		industrial_capacity_dockyard = 0.01
 		supply_consumption_factor = -0.01
-		production_speed_infrastructure_factor = -0.02
-		
+		production_speed_infrastructure_factor = -0.04
+		production_factory_efficiency_gain_factor = 0.05
+		land_reinforce_rate = 0.01
+		production_factory_start_efficiency_factor = 0.03
+		org_loss_when_moving = -0.04
+
 		dependencies = {
 			rail_infra = 1
 		}
@@ -4104,59 +3917,7 @@ technologies = {
 			construction_tech
 		}
 	}
-	# Road Network 1937
-	road_infra2 = {
-		
-		production_factory_efficiency_gain_factor = 0.05
-		land_reinforce_rate = 0.01
-		production_factory_start_efficiency_factor = 0.03
-		org_loss_when_moving = -0.04
-		production_speed_infrastructure_factor = -0.02
-		
-		
-		dependencies = {
-			road_infra = 1
-		}
-		
-		research_cost = 1.6
-		start_year = 1937
-		folder = {
-			name = industry_folder
-			position = { x = 25 y = 9 }
-		}
-		
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 3
-				or = {
-				   tag = CAN
-				   tag = USA
-				   tag = ENG
-				   tag = JAP
-				   tag = GER
-                   tag = SOV
-				}
-			}
-			modifier = {
-				factor = 3
-				num_of_military_factories > 40
-			}
-			modifier = {
-				factor = 2
-				num_of_military_factories > 80
-			}
-			modifier = {
-				factor = 2
-				num_of_military_factories > 140
-			}
-		}
-		
-		categories = {
-			industry
-			construction_tech
-		}
-	}
+
 	#Air Fields 1937
 	air_infra2 = {
 		
@@ -4178,7 +3939,7 @@ technologies = {
 		start_year = 1937
 		folder = {
 			name = industry_folder
-			position = { x = 26 y = 9 }
+			position = { x = 25 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -4210,7 +3971,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 27 y = 9 }
+			position = { x = 26 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -4530,10 +4291,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = road_infra3
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = air_infra3
 			research_cost_coeff = 1
 		}
@@ -4584,8 +4341,13 @@ technologies = {
 		industrial_capacity_factory = 0.03
 		industrial_capacity_dockyard = 0.01
 		supply_consumption_factor = -0.01
-		production_speed_infrastructure_factor = -0.02
-		
+		production_speed_infrastructure_factor = -0.04
+		out_of_supply_factor = -0.02
+		industry_repair_factor = 0.05
+		production_factory_start_efficiency_factor = 0.03
+		org_loss_when_moving = -0.04
+
+
 		dependencies = {
 			rail_infra2 = 1
 		}
@@ -4623,52 +4385,7 @@ technologies = {
 			construction_tech
 		}
 	}
-	#Road Network 1939
-	road_infra3 = {
-		
-		out_of_supply_factor = -0.02
-		industry_repair_factor = 0.05
-		production_factory_start_efficiency_factor = 0.03
-		org_loss_when_moving = -0.04
-		production_speed_infrastructure_factor = -0.02
-		
-		dependencies = {
-			road_infra2 = 1
-		}
-		
-		research_cost = 1.6
-		start_year = 1939
-		folder = {
-			name = industry_folder
-			position = { x = 25 y = 15 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 3
-				tag = USA
-				date > 1940.2.1
-			}
-			modifier = {
-				factor = 3
-				num_of_military_factories > 60
-			}
-			modifier = {
-				factor = 2
-				num_of_military_factories > 80
-			}
-			modifier = {
-				factor = 2
-				num_of_military_factories > 140
-			}
-		}
-		
-		categories = {
-			industry
-			construction_tech
-		}
-	}
+
 	#Air Fields 1939
 	air_infra3 = {
 		
@@ -4689,7 +4406,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = industry_folder
-			position = { x = 26 y = 15 }
+			position = { x = 25 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -4718,7 +4435,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = industry_folder
-			position = { x = 27 y = 15 }
+			position = { x = 26 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -5011,10 +4728,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = road_infra4
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = air_infra4
 			research_cost_coeff = 1
 		}
@@ -5047,8 +4760,12 @@ technologies = {
 		industrial_capacity_factory = 0.04
 		industrial_capacity_dockyard = 0.01
 		supply_consumption_factor = -0.01
-		production_speed_infrastructure_factor = -0.02
-		
+		production_speed_infrastructure_factor = -0.04
+		production_factory_efficiency_gain_factor = 0.05
+		line_change_production_efficiency_factor = 0.05
+		land_reinforce_rate = 0.01
+		org_loss_when_moving = -0.05
+
 		dependencies = {
 			rail_infra3 = 1
 		}
@@ -5069,35 +4786,7 @@ technologies = {
 			construction_tech
 		}
 	}
-	#Road Network 1941
-	road_infra4 = {
-		
-		production_factory_efficiency_gain_factor = 0.05
-		line_change_production_efficiency_factor = 0.05
-		land_reinforce_rate = 0.01
-		org_loss_when_moving = -0.05
-		production_speed_infrastructure_factor = -0.02
-		
-		dependencies = {
-			road_infra3 = 1
-		}
-		
-		research_cost = 1.6
-		start_year = 1941
-		folder = {
-			name = industry_folder
-			position = { x = 25 y = @1942 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-		
-		categories = {
-			industry
-			construction_tech
-		}
-	}
+
 	#Air Fields 1941
 	air_infra4 = {
 		
@@ -5113,7 +4802,7 @@ technologies = {
 		start_year = 1941
 		folder = {
 			name = industry_folder
-			position = { x = 26 y = @1942 }
+			position = { x = 25 y = @1942 }
 		}
 		
 		ai_will_do = {
@@ -5141,7 +4830,7 @@ technologies = {
 		start_year = 1941
 		folder = {
 			name = industry_folder
-			position = { x = 27 y = @1942 }
+			position = { x = 26 y = @1942 }
 		}
 		
 		ai_will_do = {
@@ -5420,10 +5109,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = road_infra5
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = air_infra5
 			research_cost_coeff = 1
 		}
@@ -5457,8 +5142,12 @@ technologies = {
 		industrial_capacity_factory = 0.04
 		industrial_capacity_dockyard = 0.01
 		supply_consumption_factor = -0.01
-		production_speed_infrastructure_factor = -0.02
-		
+		production_speed_infrastructure_factor = -0.04
+		production_factory_efficiency_gain_factor = 0.05
+		line_change_production_efficiency_factor = 0.05
+		industry_repair_factor = 0.05
+		org_loss_when_moving = -0.05
+
 		dependencies = {
 			rail_infra4 = 1
 		}
@@ -5479,35 +5168,7 @@ technologies = {
 			construction_tech
 		}
 	}
-	#Road Network 1943
-	road_infra5 = {
-		
-		production_factory_efficiency_gain_factor = 0.05
-		line_change_production_efficiency_factor = 0.05
-		industry_repair_factor = 0.05
-		org_loss_when_moving = -0.05
-		production_speed_infrastructure_factor = -0.02
-		
-		dependencies = {
-			road_infra4 = 1
-		}
-		
-		research_cost = 1.6
-		start_year = 1943
-		folder = {
-			name = industry_folder
-			position = { x = 25 y = @1944 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-		
-		categories = {
-			industry
-			construction_tech
-		}
-	}
+
 	#Air Fields 1943
 	air_infra5 = {
 		
@@ -5524,7 +5185,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = industry_folder
-			position = { x = 26 y = @1944 }
+			position = { x = 25 y = @1944 }
 		}
 		
 		ai_will_do = {
@@ -5552,7 +5213,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = industry_folder
-			position = { x = 27 y = @1944 }
+			position = { x = 26 y = @1944 }
 		}
 		
 		ai_will_do = {
@@ -5816,10 +5477,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = road_infra6
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = air_infra6
 			research_cost_coeff = 1
 		}
@@ -5853,8 +5510,12 @@ technologies = {
 		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.01
 		supply_consumption_factor = -0.01
-		production_speed_infrastructure_factor = -0.02
-		
+		production_speed_infrastructure_factor = -0.04
+		industry_repair_factor = 0.05
+		army_core_attack_factor = 0.02
+		global_building_slots_factor = 0.03
+		org_loss_when_moving = -0.05
+
 		dependencies = {
 			rail_infra5 = 1
 		}
@@ -5875,35 +5536,7 @@ technologies = {
 			construction_tech
 		}
 	}
-	#Road Network 1945
-	road_infra6 = {
-		
-		industry_repair_factor = 0.05
-		army_core_attack_factor = 0.02
-		global_building_slots_factor = 0.03
-		org_loss_when_moving = -0.05
-		production_speed_infrastructure_factor = -0.02
-		
-		dependencies = {
-			road_infra5 = 1
-		}
-		
-		research_cost = 1.6
-		start_year = 1945
-		folder = {
-			name = industry_folder
-			position = { x = 25 y = @1946 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-		
-		categories = {
-			industry
-			construction_tech
-		}
-	}
+
 	#Air Fields 1945
 	air_infra6 = {
 		
@@ -5920,7 +5553,7 @@ technologies = {
 		start_year = 1945
 		folder = {
 			name = industry_folder
-			position = { x = 26 y = @1946 }
+			position = { x = 25 y = @1946 }
 		}
 		
 		ai_will_do = {
@@ -5948,7 +5581,7 @@ technologies = {
 		start_year = 1945
 		folder = {
 			name = industry_folder
-			position = { x = 27 y = @1946 }
+			position = { x = 26 y = @1946 }
 		}
 		
 		ai_will_do = {
@@ -6256,7 +5889,7 @@ technologies = {
 			excavation_tech
 			construction_tech
 		}
-	}	
+	}			
 ###########################################################	
 	heavy_industry = {
 
