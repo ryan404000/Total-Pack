@@ -1781,7 +1781,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "artillery_subtitle_artillery"
-						position = { x = -85 y = 15 }
+						position = { x = -85 y = 0 }
 						textureFile = ""
 						font = "hoi_33"
 						borderSize = {x = 0 y = 4}
@@ -1791,6 +1791,45 @@ guiTypes = {
 						format = center
 						Orientation = "UPPER_LEFT"
 					}
+
+					instantTextBoxType = {
+						name = "light_artillery_subtitle_artillery"
+						position = { x = -345 y = 45 }
+						textureFile = ""
+						font = "hoi_30"
+						borderSize = {x = 0 y = 4}
+						text = "LIGHT_ARTILLERY_TITLE"
+						maxWidth = 400
+						maxHeight = 62
+						format = center
+						Orientation = "UPPER_LEFT"
+					}		
+					
+					instantTextBoxType = {
+						name = "medium_artillery_subtitle_artillery"
+						position = { x = -85 y = 45 }
+						textureFile = ""
+						font = "hoi_30"
+						borderSize = {x = 0 y = 4}
+						text = "MEDIUM_ARTILLERY_TITLE"
+						maxWidth = 400
+						maxHeight = 62
+						format = center
+						Orientation = "UPPER_LEFT"
+					}						
+
+					instantTextBoxType = {
+						name = "heavy_artillery_subtitle_artillery"
+						position = { x = 210 y = 45 }
+						textureFile = ""
+						font = "hoi_30"
+						borderSize = {x = 0 y = 4}
+						text = "HEAVY_ARTILLERY_TITLE"
+						maxWidth = 400
+						maxHeight = 62
+						format = center
+						Orientation = "UPPER_LEFT"
+					}	
 
 					instantTextBoxType = {
 						name = "artillery_subtitle_anti_air"
