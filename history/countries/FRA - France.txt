@@ -94,9 +94,6 @@ set_technology = {
 	artillery_industry0 = 1
 	smallarms_industry0 = 1
 	uniform_industry0 = 1
-	Hvaircraft_industry0 = 1
-	ship_industry0 = 1
-	sub_industry0 = 1
 	fuel_silos = 1
 	fuel_refining = 1
 }

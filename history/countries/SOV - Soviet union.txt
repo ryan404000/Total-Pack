@@ -115,7 +115,6 @@ set_technology = {
 	smallarms_industry0 = 1
 	uniform_industry0 = 1
 	Ltaircraft_industry0 = 1
-	Hvaircraft_industry0 = 1
     fuel_silos = 1
 }
 if = {
