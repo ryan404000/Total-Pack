@@ -17,10 +17,14 @@ Possibly look at Light/Med/Heavy/Railway Arty
 	- Could possibly be a simple localization change to make it distinctly refer to Light Artillery and Medium artillery
 
 Industry Techs
-	2 Airs become 1 air tech		-- DONE
-	3 ships become 1 ship tech		-- DONE
-	Small Arms + Uniforms become 1 tech (LIGHT EQUIPMENT)
-		Horse Equipment added to Light Equipment
+	{
+		2 Airs become 1 air tech		-- DONE
+		3 ships become 1 ship tech		-- DONE
+		Small Arms + Uniforms become 1 tech (LIGHT EQUIPMENT)
+			Horse Equipment added to Light Equipment
+		Kodi: change artwork for Light Equipment by combining Helmet + Guns
+	}	
+		
 	Concentrated
 		Up output + easier to bomb
 	Dispersed

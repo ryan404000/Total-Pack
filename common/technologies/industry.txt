@@ -1454,54 +1454,12 @@ technologies = {
 			industry
 		}
 	}
-	smallarms_industry0 = {
-		
-		on_research_complete = {
-		add_ideas = small_smallarms_factories
-		}
-		
-		dependencies = {
-			infra_works0 = 1
-		}
-		research_cost = 1.4
-		folder = {
-			name = industry_folder
-			position = { x = 9 y = 0 }
-		}
-		ai_will_do = {
-			factor = 6
-			modifier = {
-				factor = 2
-				num_of_military_factories > 30
-			}
-			modifier = {
-				factor = 2
-				num_of_military_factories > 48
-			}
-			modifier = {
-				factor = 2
-				num_of_military_factories > 70
-			}
-			modifier = {
-				factor = 0.1
-				OR = {
-				has_idea = public_illiteracy
-				has_idea = public_illiteracy_2
-				has_idea = incompetent_heavy_industry
-				has_idea = incompetent_industry_real
-				}
-			}
-		}
-		
-		categories = {
-            heavy_industry		
-			industry
-		}
-	}
+
 	uniform_industry0 = {
 
 		on_research_complete = {
 		add_ideas = small_uniform_factories
+		add_ideas = small_smallarms_factories
 		}
 		
 		dependencies = {
@@ -1510,7 +1468,7 @@ technologies = {
 		research_cost = 1.4
 		folder = {
 			name = industry_folder
-			position = { x = 10 y = 0 }
+			position = { x = 9 y = 0 }
 		}		
 		ai_will_do = {
 			factor = 5
@@ -1551,7 +1509,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 1 }
+			position = { x = 7 y = 1 }
 		}
 		
 		ai_will_do = {
@@ -1816,52 +1774,12 @@ technologies = {
 			industry
 		}
 	}
-	smallarms_industry = {
-		
-		on_research_complete = {
-		add_ideas = medium_smallarms_factories
-		}
-		
-		dependencies = {
-			infra_works0 = 1
-			smallarms_industry0 = 1
-			rail_infra0 = 1
-		}
-		research_cost = 1.54
-		folder = {
-			name = industry_folder
-			position = { x = 9 y = 5 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			modifier = {
-				factor = 2
-				num_of_military_factories > 50
-			}
-			modifier = {
-				factor = 3
-				num_of_military_factories > 100
-			}
-			modifier = {
-				factor = 0.1
-				OR = {
-				has_idea = public_illiteracy
-				has_idea = public_illiteracy_2
-				has_idea = incompetent_heavy_industry
-				has_idea = incompetent_industry_real
-				}
-			}
-		}		
-		categories = {
-            heavy_industry		
-			industry
-		}
-	}
+
 	uniform_industry = {
 
 		on_research_complete = {
 		add_ideas = medium_uniform_factories
+		add_ideas = medium_smallarms_factories
 		}
 		
 		dependencies = {
@@ -1873,7 +1791,7 @@ technologies = {
 		research_cost = 1.54
 		folder = {
 			name = industry_folder
-			position = { x = 10 y = 5 }
+			position = { x = 9 y = 5 }
 		}		
 		ai_will_do = {
 			factor = 5
@@ -1920,7 +1838,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 6 }
+			position = { x = 7 y = 6 }
 		}
 		ai_will_do = {
 			factor = 4		
@@ -2127,49 +2045,12 @@ technologies = {
 			industry
 		}
 	}
-	smallarms_industry2 = {
 
-	
-		on_research_complete = {
-		add_ideas = big_smallarms_factories
-		}
-		army_org_factor = 0.01
-		industrial_capacity_factory = 0.01
-		#
-		dependencies = {
-			smallarms_industry = 1
-			rail_infra = 1
-		}
-		
-		research_cost = 1.7
-		folder = {
-			name = industry_folder
-			position = { x = 9 y = 15 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-
-			modifier = {
-				factor = 2
-				num_of_military_factories > 50
-			}
-			modifier = {
-				factor = 3
-				num_of_military_factories > 100
-			}
-
-		}
-		
-		categories = {
-			heavy_industry
-			industry
-		}
-	}
 	uniform_industry2 = {
 
 		on_research_complete = {
 		add_ideas = big_uniform_factories
+		add_ideas = big_smallarms_factories
 		}
 		land_reinforce_rate = 0.01
 		industrial_capacity_factory = 0.01
@@ -2181,7 +2062,7 @@ technologies = {
 		research_cost = 1.7
 		folder = {
 			name = industry_folder
-			position = { x = 10 y = 15 }
+			position = { x = 9 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -2223,7 +2104,7 @@ technologies = {
 		research_cost = 1.7
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 16 }
+			position = { x = 7 y = 16 }
 		}
 		air_superiority_efficiency = 0.01
 		air_superiority_detect_factor = 0.01
@@ -2427,47 +2308,12 @@ technologies = {
 			industry
 		}
 	}
-	smallarms_industry3 = {
 
-		on_research_complete = {
-		add_ideas = huge_smallarms_factories
-		}
-		
-		industrial_capacity_factory = 0.01
-		dependencies = {
-			smallarms_industry2 = 1
-			rail_infra2 = 1
-		}
-		army_org_factor = 0.02
-	
-		research_cost = 1.8
-		folder = {
-			name = industry_folder
-			position = { x = 9 y = 21 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			modifier = {
-				factor = 2
-				num_of_military_factories > 50
-			}
-			modifier = {
-				factor = 3
-				num_of_military_factories > 100
-			}
-
-		}
-		
-		categories = {
-			heavy_industry
-			industry
-		}
-	}
 	uniform_industry3 = {
 
 		on_research_complete = {
 		add_ideas = huge_uniform_factories
+		add_ideas = huge_smallarms_factories
 		}
 		
 		industrial_capacity_factory = 0.02
@@ -2480,7 +2326,7 @@ technologies = {
 		research_cost = 1.8
 		folder = {
 			name = industry_folder
-			position = { x = 10 y = 21 }
+			position = { x = 9 y = 21 }
 		}
 		
 		ai_will_do = {
@@ -2524,7 +2370,7 @@ technologies = {
 		research_cost = 1.8
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 22 }
+			position = { x = 7 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -2729,47 +2575,12 @@ technologies = {
 			industry
 		}
 	}
-	smallarms_industry4 = {
 
-		on_research_complete = {
-		add_ideas = modern_smallarms_factories
-		}
-		
-		industrial_capacity_factory = 0.01
-		dependencies = {
-			smallarms_industry3 = 1
-			rail_infra3 = 1
-		}
-		army_org_factor = 0.02
-	        start_year = 1944
-		research_cost = 1.87
-		folder = {
-			name = industry_folder
-			position = { x = 9 y = 27 }
-		}
-		
-		ai_will_do = {
-			factor = 6
-			modifier = {
-				factor = 2
-				num_of_military_factories > 50
-			}
-			modifier = {
-				factor = 3
-				num_of_military_factories > 100
-			}
-
-		}
-		
-		categories = {
-			heavy_industry
-			industry
-		}
-	}
 	uniform_industry4 = {
 
 		on_research_complete = {
 		add_ideas = modern_uniform_factories
+		add_ideas = modern_smallarms_factories
 		}
 		
 		industrial_capacity_factory = 0.02
@@ -2782,7 +2593,7 @@ technologies = {
 		research_cost = 1.87
 		folder = {
 			name = industry_folder
-			position = { x = 10 y = 27 }
+			position = { x = 9 y = 27 }
 		}
 		
 		ai_will_do = {
@@ -2826,7 +2637,7 @@ technologies = {
 		research_cost = 1.87
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 28 }
+			position = { x = 7 y = 28 }
 		}
 		
 		ai_will_do = {
