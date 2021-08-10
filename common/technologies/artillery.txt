@@ -153,7 +153,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -10.5 y = @1936 }
+			position = { x = -11 y = @1936 }
 		}
 		
 		ai_will_do = {
@@ -252,7 +252,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -10.5 y = @1938 }
+			position = { x = -11 y = @1938 }
 		}
 		
 		ai_will_do = {
@@ -403,7 +403,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -12 y = @1940 }
+			position = { x = -13 y = @1940 }
 		}
 		
 		ai_will_do = {
@@ -464,7 +464,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -10.5 y = @1941 }
+			position = { x = -11 y = @1941 }
 		}
 		
 		ai_will_do = {
@@ -522,7 +522,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -10.5 y = @1942 }
+			position = { x = -11 y = @1942 }
 		}
 		
 		ai_will_do = {
@@ -574,7 +574,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -12 y = @1943 }
+			position = { x = -13 y = @1943 }
 		}
 		
 		ai_will_do = {
@@ -620,7 +620,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -10.5 y = @1944 }
+			position = { x = -11 y = @1944 }
 		}
 		
 		ai_will_do = {

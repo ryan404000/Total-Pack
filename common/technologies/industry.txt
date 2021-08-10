@@ -566,7 +566,7 @@ technologies = {
 	### Level I Concentrated Industry ###
 	concentrated_industry = {
 
-		industrial_capacity_factory = 0.07
+		industrial_capacity_factory = 0.05
 		global_building_slots_factor = 0.15
 		conscription = -0.005
 		industry_air_damage_factor = 0.1
@@ -649,7 +649,7 @@ technologies = {
 	dispersed_industry = {
 
 		industrial_capacity_factory = 0.05
-		industry_air_damage_factor = -0.15
+		industry_air_damage_factor = -0.05
 		global_building_slots_factor = 0.05
 		conscription = -0.005
 		### 
@@ -730,9 +730,11 @@ technologies = {
 	### Level II Concentrated Industry ###
 	concentrated_industry2 = {
 
-		industrial_capacity_factory = 0.05
+		industrial_capacity_factory = 0.08
 		global_building_slots_factor = 0.15
 		conscription = -0.005
+		industry_air_damage_factor = 0.05
+
 		### Next tech level
 		path = {
 			leads_to_tech = concentrated_industry3
@@ -767,6 +769,7 @@ technologies = {
 	dispersed_industry2 = {
 
 		industrial_capacity_factory = 0.05
+		industry_air_damage_factor = -0.08		
 		line_change_production_efficiency_factor = -0.05
 		global_building_slots_factor = 0.05
 		conscription = -0.005
@@ -803,9 +806,10 @@ technologies = {
 	### Level III Concentrated Industry ###
 	concentrated_industry3 = {
 
-		industrial_capacity_factory = 0.07
+		industrial_capacity_factory = 0.09
 		global_building_slots_factor = 0.1
 		conscription = -0.005
+		industry_air_damage_factor = 0.03		
 		### Next tech level
 		path = {
 			leads_to_tech = concentrated_industry4
@@ -876,8 +880,9 @@ technologies = {
 	### Level III Dispersed Industry ###
 	dispersed_industry3 = {
 
-		industrial_capacity_factory = 0.07
+		industrial_capacity_factory = 0.05
 		line_change_production_efficiency_factor = -0.05
+		industry_air_damage_factor = -0.10		
 		global_building_slots_factor = 0.07
 		conscription = -0.005
 		### Next tech level
@@ -952,10 +957,11 @@ technologies = {
 	### Level IV Concentrated Industry ###
 	concentrated_industry4 = {
 
-		industrial_capacity_factory = 0.07
+		industrial_capacity_factory = 0.10
 		global_building_slots_factor = 0.15
 		conscription = -0.005
-		production_speed_industrial_complex_factor = -0.05
+		industry_air_damage_factor = 0.02		
+
 		### Next tech level
 		path = {
 			leads_to_tech = concentrated_industry5
@@ -1030,6 +1036,7 @@ technologies = {
 		industrial_capacity_factory = 0.07
 		line_change_production_efficiency_factor = -0.10
 		global_building_slots_factor = 0.05
+		industry_air_damage_factor = -0.05		
 		conscription = -0.005
 		production_speed_industrial_complex_factor = -0.05
 		### Next tech level
@@ -1104,10 +1111,10 @@ technologies = {
 	### Level V Concentrated Industry ###
 	concentrated_industry5 = {
 
-		industrial_capacity_factory = 0.08
+		industrial_capacity_factory = 0.12
 		conscription = -0.005
-		production_speed_arms_factory_factor = -0.05
         global_building_slots_factor = 0.1
+		industry_air_damage_factor = 0.03		
 		research_cost = 2
 		start_year = 1943
 		
@@ -1170,6 +1177,7 @@ technologies = {
 		line_change_production_efficiency_factor = -0.05
 		global_building_slots_factor = 0.05
 		conscription = -0.005
+		industry_air_damage_factor = -0.09		
 		production_speed_arms_factory_factor = -0.05
 		
 		research_cost = 2
@@ -1242,7 +1250,7 @@ technologies = {
 		research_cost = 1.4
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 0 }
+			position = { x = 7 y = 1 }
 		}
 		
 		ai_will_do = {
@@ -1457,7 +1465,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 7 y = 1 }
+			position = { x = 8 y = 1 }
 		}
 		
 		ai_will_do = {
@@ -1512,7 +1520,7 @@ technologies = {
 		research_cost = 1.6
 		folder = {
 			name = industry_folder
-			position = { x = 8 y = 1 }
+			position = { x = 9 y = 1 }
 		}
 		
 		on_research_complete = {
@@ -1590,7 +1598,7 @@ technologies = {
 		research_cost = 1.54
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 5 }
+			position = { x = 7 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -1786,7 +1794,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 7 y = 6 }
+			position = { x = 8 y = 6 }
 		}
 		ai_will_do = {
 			factor = 4		
@@ -1824,7 +1832,7 @@ technologies = {
 		research_cost = 1.8
 		folder = {
 			name = industry_folder
-			position = { x = 8 y = 6 }
+			position = { x = 9 y = 6 }
 		}
         on_research_complete = {
 			hidden_effect = { london_naval_treaty_level_up = yes }
@@ -1889,7 +1897,7 @@ technologies = {
 		research_cost = 1.9
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 15 }
+			position = { x = 7 y = 16 }
 		}
 		
 		ai_will_do = {
@@ -2052,7 +2060,7 @@ technologies = {
 		research_cost = 1.7
 		folder = {
 			name = industry_folder
-			position = { x = 7 y = 16 }
+			position = { x = 8 y = 16 }
 		}
 		air_superiority_efficiency = 0.01
 		air_superiority_detect_factor = 0.01
@@ -2100,7 +2108,7 @@ technologies = {
 		research_cost = 2
 		folder = {
 			name = industry_folder
-			position = { x = 8 y = 16 }
+			position = { x = 9 y = 16 }
 		}
 		on_research_complete = {
 			hidden_effect = { london_naval_treaty_level_up = yes }
@@ -2160,7 +2168,7 @@ technologies = {
 		research_cost = 2
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 21 }
+			position = { x = 7 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -2318,7 +2326,7 @@ technologies = {
 		research_cost = 1.8
 		folder = {
 			name = industry_folder
-			position = { x = 7 y = 22 }
+			position = { x = 8 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -2366,7 +2374,7 @@ technologies = {
 		research_cost = 2
 		folder = {
 			name = industry_folder
-			position = { x = 8 y = 22 }
+			position = { x = 9 y = 22 }
 		}
 		on_research_complete = {
 			hidden_effect = { london_naval_treaty_level_up = yes }
@@ -2427,7 +2435,7 @@ technologies = {
 		research_cost = 2.1
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 27 }
+			position = { x = 7 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -2585,7 +2593,7 @@ technologies = {
 		research_cost = 1.87
 		folder = {
 			name = industry_folder
-			position = { x = 7 y = 28 }
+			position = { x = 8 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -2629,7 +2637,7 @@ technologies = {
 		research_cost = 2.1
 		folder = {
 			name = industry_folder
-			position = { x = 8 y = 28 }
+			position = { x = 9 y = 28 }
 		}
 		on_research_complete = {
 			hidden_effect = { london_naval_treaty_level_up = yes }

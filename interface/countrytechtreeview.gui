@@ -1781,7 +1781,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "artillery_subtitle_artillery"
-						position = { x = -85 y = 0 }
+						position = { x = -85 y = -30 }
 						textureFile = ""
 						font = "hoi_33"
 						borderSize = {x = 0 y = 4}
@@ -1796,7 +1796,7 @@ guiTypes = {
 						name = "light_artillery_subtitle_artillery"
 						position = { x = -345 y = 45 }
 						textureFile = ""
-						font = "hoi_30"
+						font = "hoi_30header"
 						borderSize = {x = 0 y = 4}
 						text = "LIGHT_ARTILLERY_TITLE"
 						maxWidth = 400
@@ -1809,7 +1809,7 @@ guiTypes = {
 						name = "medium_artillery_subtitle_artillery"
 						position = { x = -85 y = 45 }
 						textureFile = ""
-						font = "hoi_30"
+						font = "hoi_30header"
 						borderSize = {x = 0 y = 4}
 						text = "MEDIUM_ARTILLERY_TITLE"
 						maxWidth = 400
@@ -1822,7 +1822,7 @@ guiTypes = {
 						name = "heavy_artillery_subtitle_artillery"
 						position = { x = 210 y = 45 }
 						textureFile = ""
-						font = "hoi_30"
+						font = "hoi_30header"
 						borderSize = {x = 0 y = 4}
 						text = "HEAVY_ARTILLERY_TITLE"
 						maxWidth = 400
@@ -1833,10 +1833,10 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "artillery_subtitle_anti_air"
-						position = { x = -760 y = 150  }
+						position = { x = -670 y = 150  }
 						textureFile = ""
 						font = "hoi_33"
-						borderSize = {x = 120 y = 4}
+						borderSize = {x = 0 y = 4}
 						text = "ARTILLERT_TITLE_AA"
 						maxWidth = 200
 						maxHeight = 62
