@@ -4453,8 +4453,6 @@ focus_tree = {
 				bonus = 0.75
 				uses = 2
 				technology = HVantiair2
-				technology = HVantiair3
-				technology = HVantiair4
 				technology = HVantiair5
 			}
 		}

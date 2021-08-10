@@ -72,7 +72,7 @@ country_event = {
 	    tag = GER
 		is_ai = yes 
 		has_tech = HVantiair5
-		NOT = { has_country_flag = HVantiair3_u }
+		NOT = { has_country_flag = antiair3_u }
 		has_army_experience > 40
 	}
 	
@@ -88,7 +88,7 @@ country_event = {
 			}
 			army_experience = -45
 		}
-		set_country_flag = HVantiair3_u
+		set_country_flag = antiair3_u
 	}
 	option = { name = "YES" }
 }
@@ -103,8 +103,8 @@ country_event = {
 	    tag = GER
 		is_ai = yes 
 		has_tech = HVantiair5
-		has_country_flag = HVantiair3_u
-		NOT = { has_country_flag = HVantiair3_u2 }
+		has_country_flag = antiair3_u
+		NOT = { has_country_flag = antiair3_u2 }
 		has_army_experience > 68
 	}
 	
@@ -121,7 +121,7 @@ country_event = {
 			}
 			army_experience = -65
 		}
-		set_country_flag = HVantiair3_u2
+		set_country_flag = antiair3_u2
 	}
 	option = { name = "YES" }
 }

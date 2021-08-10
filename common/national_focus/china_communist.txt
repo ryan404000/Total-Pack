@@ -3301,8 +3301,6 @@ random_owned_controlled_state = { limit = { NOT = { state = 810 } NOT = { state 
 				bonus = 0.6
 				uses = 2
 				technology = HVantiair2
-				technology = HVantiair3
-				technology = HVantiair4
 				technology = HVantiair5
 			}
 		}
