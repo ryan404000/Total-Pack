@@ -74,6 +74,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_mechanized_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_mechanized_bice_icon.tga" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_medium_armor_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_medium_tank_bice_icon.tga" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_light_armor_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_light_tank_bice_icon.tga" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_armor_brigade_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_light_tank_bice_icon.tga" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_artillery_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_art_tw_icon.tga" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_artillery_brigade_mot_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_art_mot_tw_icon.tga" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mountain_artillery_brigade_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/unit_mntart_icon.tga" noOfFrames = 2 }
@@ -173,6 +174,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_mechanized_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mechanized_bice_icon.tga" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_medium_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_medium_tank_tw_icon.tga" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_light_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_light_tank_tw_icon.tga" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_light_armor_brigade_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_light_tank_tw_icon.tga" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_artillery_brigade_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_art_tw_icon.tga" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_artillery_brigade_mot_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_art_tw_icon.tga" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_mountain_artillery_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_art_tw_icon.tga" noOfFrames = 2}
