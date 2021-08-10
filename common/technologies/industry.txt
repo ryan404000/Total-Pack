@@ -492,10 +492,10 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1941
+		start_year = 1940
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = @1941 }
+			position = { x = 0 y = @1940 }
 		}
 		
 		ai_will_do = {
@@ -514,10 +514,10 @@ technologies = {
 		industry_repair_factor = -0.35
 		
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 1942
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = @1943 }
+			position = { x = 0 y = @1942 }
 		}
 		
 		ai_will_do = {
@@ -3274,9 +3274,10 @@ technologies = {
 	}
 	# Civilian works I
 	civ_works = {
-		
+
+		production_speed_industrial_complex_factor = 0.02
 		on_research_complete = {
-            add_stability = 0.03
+            add_stability = 0.03		
 			custom_effect_tooltip = reduced_protests_tooltip
         }
 		show_effect_as_desc = yes
@@ -3758,9 +3759,10 @@ technologies = {
 	}
 	# Civilian works II
 	civ_works2 = {
-		
+
+		production_speed_industrial_complex_factor = 0.02		
 		on_research_complete = {
-            add_stability = 0.03
+            add_stability = 0.03			
 			custom_effect_tooltip = reduced_protests_tooltip
         }
 		show_effect_as_desc = yes
@@ -4227,8 +4229,9 @@ technologies = {
 	# Civilian works III
 	civ_works3 = {
 		
+		production_speed_industrial_complex_factor = 0.02		
 		on_research_complete = {
-            add_stability = 0.03
+            add_stability = 0.03			
 			custom_effect_tooltip = reduced_protests_tooltip
         }
 		show_effect_as_desc = yes
@@ -4612,8 +4615,9 @@ technologies = {
 	# Civilian works IV
 	civ_works4 = {
 		
+		production_speed_industrial_complex_factor = 0.02		
 		on_research_complete = {
-            add_stability = 0.03
+            add_stability = 0.03		
 			custom_effect_tooltip = reduced_protests_tooltip
         }
 		show_effect_as_desc = yes
@@ -4996,8 +5000,9 @@ technologies = {
 	# Civilian works V
 	civ_works5 = {
 		
+		production_speed_industrial_complex_factor = 0.02		
 		on_research_complete = {
-            add_stability = 0.03
+            add_stability = 0.03			
 			custom_effect_tooltip = reduced_protests_tooltip
         }
 		show_effect_as_desc = yes
@@ -5365,8 +5370,9 @@ technologies = {
 	# Civilian works V
 	civ_works6 = {
 		
+		production_speed_industrial_complex_factor = 0.02		
 		on_research_complete = {
-            add_stability = 0.03
+            add_stability = 0.03			
 			custom_effect_tooltip = reduced_protests_tooltip
         }
 		show_effect_as_desc = yes
