@@ -1,5 +1,5 @@
-Special forces gets its own tab
-	Make spec forces tech not mutually exclusive
+Special forces gets its own tab		-- DONE
+	Make spec forces tech not mutually exclusive	-- DONE
 	Arctic Warfare Techs
 	Jaeger Special Forces
 	Shock Troops Special Forces
@@ -13,20 +13,23 @@ Radar Tech change spacing
 	1943	
 Light + Heavy AA upgrade techs get combined into one
 
+Possibly look at Light/Med/Heavy/Railway Arty
+	- Could possibly be a simple localization change to make it distinctly refer to Light Artillery and Medium artillery
+
 Industry Techs
-	2 Airs become 1 air tech
-	3 ships become 1 ship tech
+	2 Airs become 1 air tech		-- DONE
+	3 ships become 1 ship tech		-- DONE
 	Small Arms + Uniforms become 1 tech (LIGHT EQUIPMENT)
 		Horse Equipment added to Light Equipment
 	Concentrated
 		Up output + easier to bomb
 	Dispersed
 		Not easier to bomb, but less % of mills
-	Equipment Conversion Changes
-		Tech 1 - Add 10% refit speed
-		Tech 2 - Add 15% refit speed
- 	Railway Network + Road Networks combined into 1 tech each (-7 techs)
-	Combine Prefab and Defense Works into 1 tech (-6 techs)
+	Equipment Conversion Changes	-- DONE		
+		Tech 1 - Add 10% refit speed	-- DONE
+		Tech 2 - Add 15% refit speed	-- DONE
+ 	Railway Network + Road Networks combined into 1 tech each (-7 techs)	-- DONE
+	Combine Prefab and Defense Works into 1 tech (-6 techs)	
 	Civilian Works gives small % boost to civ construction
 	Education Works removes public illiteracy ideas (decrease over time)
 		Adds decisions to reduce illiteracy over time

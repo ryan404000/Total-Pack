@@ -170,6 +170,7 @@ technologies = {
 	
 		equipment_conversion_speed = 0.5
 		conversion_cost_civ_to_mil_factor = -0.05
+		refit_ic_cost = -0.10
 		maintenance_company = {
 				equipment_capture_factor = 0.01
 		}
@@ -204,6 +205,7 @@ technologies = {
 		
 		equipment_conversion_speed = 0.5
 		conversion_cost_civ_to_mil_factor = -0.05
+		refit_ic_cost = -0.15
 		maintenance_company = {
 				equipment_capture_factor = 0.01
 		}
