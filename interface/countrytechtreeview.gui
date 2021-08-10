@@ -1836,7 +1836,7 @@ guiTypes = {
 						position = { x = -760 y = 150  }
 						textureFile = ""
 						font = "hoi_33"
-						borderSize = {x = 0 y = 4}
+						borderSize = {x = 120 y = 4}
 						text = "ARTILLERT_TITLE_AA"
 						maxWidth = 200
 						maxHeight = 62
