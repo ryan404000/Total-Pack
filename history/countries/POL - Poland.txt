@@ -72,7 +72,6 @@ set_technology = {
 	rail_infra0 = 1
 	air_infra0 = 1
 	basic_industry = 1
-	smallarms_industry0 = 1
 	uniform_industry0 = 1
 	### electronics ###
 	electronic_mechanical_engineering = 1

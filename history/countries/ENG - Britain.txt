@@ -102,7 +102,6 @@ set_technology = {
 	armor_industry0 = 1
 	vehicle_industry0 = 1
 	artillery_industry0 = 1
-	smallarms_industry0 = 1
 	uniform_industry0 = 1
 	ammo_industry0 = 1
 	Ltaircraft_industry0 = 1
@@ -208,8 +207,6 @@ add_ideas = {
 }
 
 set_convoys = 500
-
-if = {
 
 set_politics = {
 	

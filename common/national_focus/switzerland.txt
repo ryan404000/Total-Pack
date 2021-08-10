@@ -569,11 +569,8 @@ focus_tree = {
 				bonus = 0.3
 				uses = 1
 				technology = Ltaircraft_industry
-				technology = Hvaircraft_industry
 				technology = Ltaircraft_industry2
-				technology = Hvaircraft_industry2
 				technology = Ltaircraft_industry3
-				technology = Hvaircraft_industry3
 			}
 			random_owned_controlled_state = {
 				prioritize = { 3 }

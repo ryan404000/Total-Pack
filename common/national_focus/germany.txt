@@ -130,11 +130,8 @@ focus_tree = {
 				bonus = 0.4
 				uses = 2
 				technology = Ltaircraft_industry
-				technology = Hvaircraft_industry
 				technology = Ltaircraft_industry2
-				technology = Hvaircraft_industry2
 				technology = Ltaircraft_industry3
-				technology = Hvaircraft_industry3
 			}
 		}
 	}

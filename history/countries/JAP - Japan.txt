@@ -127,7 +127,6 @@ set_technology = {
 	civ_works = 1
 	
 	basic_industry = 1
-	smallarms_industry0 = 1
 	ammo_industry0 = 1
 	Ltaircraft_industry0 = 1
 

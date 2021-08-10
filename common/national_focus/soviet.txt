@@ -6923,24 +6923,24 @@ focus_tree = {
 		}
 		completion_reward = {
 		    custom_effect_tooltip = level_up_heavy_aicraft_factory_tt
-			if = { limit = { has_tech = Hvaircraft_industry3 } 
+			if = { limit = { has_tech = Ltaircraft_industry3 } 
 			    set_technology = { 
-				    Hvaircraft_industry4 = 1
+				    Ltaircraft_industry4 = 1
 				}
 			}
-			if = { limit = { has_tech = Hvaircraft_industry2 } 
+			if = { limit = { has_tech = Ltaircraft_industry2 } 
 			    set_technology = { 
-				    Hvaircraft_industry3 = 1
+				    Ltaircraft_industry3 = 1
 				}
 			}
-			if = { limit = { has_tech = Hvaircraft_industry } 
+			if = { limit = { has_tech = Ltaircraft_industry } 
 			    set_technology = { 
-				    Hvaircraft_industry2 = 1
+				    Ltaircraft_industry2 = 1
 				}
 			}
-			if = { limit = { has_tech = Hvaircraft_industry0 } 
+			if = { limit = { has_tech = Ltaircraft_industry0 } 
 			    set_technology = { 
-				    Hvaircraft_industry = 1
+				    Ltaircraft_industry = 1
 				}
 			}
 			custom_effect_tooltip = available_designer
@@ -7063,8 +7063,6 @@ focus_tree = {
 				uses = 2
 				technology = uniform_industry2
 				technology = uniform_industry3
-				technology = smallarms_industry2
-				technology = smallarms_industry3
 				technology = artillery_industry2
 				technology = artillery_industry3
 			}

@@ -1782,7 +1782,7 @@
 		}
 
 		available = {
-		   has_tech = ship_industry
+		   has_tech = ammo_industry
 		}
 		
 		bypass = {
@@ -1899,8 +1899,6 @@
 				name = AST_pacific_area_navy
 				bonus = 0.5
 				uses = 1
-				technology = ship_industry
-				technology = ship_industry2
 				technology = ammo_industry
 				technology = ammo_industry2
 			}

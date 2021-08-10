@@ -517,7 +517,7 @@ country_event = {
 	        }		
 		}
 		every_country = { 
-			limit = { has_tech = smallarms_industry0 }
+			limit = { has_tech = uniform_industry0 }
             add_ideas = {
 	             small_smallarms_factories
 	        }		
@@ -535,7 +535,7 @@ country_event = {
 	        }		
 		}
 		every_country = { 
-			limit = { has_tech = Hvaircraft_industry0 }
+			limit = { has_tech = Ltaircraft_industry0 }
             add_ideas = {
 	             small_hvaircraftfactory
 	        }		
@@ -547,13 +547,13 @@ country_event = {
 	        }		
 		}
 		every_country = { 
-			limit = { has_tech = ship_industry0 }
+			limit = { has_tech = ammo_industry0 }
             add_ideas = {
 	             small_screen_shipyards
 	        }		
 		}
 		every_country = { 
-			limit = { has_tech = sub_industry0 }
+			limit = { has_tech = ammo_industry0 }
             add_ideas = {
 	             small_submarine_yards
 	        }		
@@ -565,7 +565,7 @@ country_event = {
 	        }		
 		}
 		every_country = { 
-			limit = { has_tech = smallarms_industry }
+			limit = { has_tech = uniform_industry }
             add_ideas = {
 	             medium_smallarms_factories
 	        }		
@@ -577,13 +577,13 @@ country_event = {
 	        }		
 		}
 		every_country = { 
-			limit = { has_tech = Hvaircraft_industry }
+			limit = { has_tech = Ltaircraft_industry }
             add_ideas = {
 	             medium_hvaircraftfactory
 	        }		
 		}
 		every_country = { 
-			limit = { has_tech = ship_industry }
+			limit = { has_tech = ammo_industry }
             add_ideas = {
 	             medium_screen_shipyards
 	        }		

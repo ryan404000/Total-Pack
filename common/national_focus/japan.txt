@@ -2714,8 +2714,8 @@ focus_tree = {
 				name = heavy_industry_tech_bonus
 				bonus = 0.6
 				uses = 1
-				technology = ship_industry2
-				technology = ship_industry3
+				technology = ammo_industry2
+				technology = ammo_industry3
 				}
 			random_owned_controlled_state = {
 				prioritize = { 528 }
