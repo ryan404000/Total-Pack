@@ -1827,8 +1827,6 @@ random_owned_controlled_state = { limit = { NOT = { state = 810 } NOT = { state 
 				technology = defence_works0
 				technology = defence_works
 				technology = defence_works2
-				technology = pre_fab
-				technology = pre_fab2
 			}
 		}
 	}

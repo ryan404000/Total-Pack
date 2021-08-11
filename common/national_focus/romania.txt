@@ -5761,7 +5761,7 @@ create_corps_commander = {
 		}
 
 		available = {
-            has_tech = pre_fab
+            has_tech = defence_works0
 		}
 
 		bypass = {
