@@ -29,7 +29,7 @@ NDiplomacy = {
 	MAX_TRUST_VALUE = 100,							-- Max trust value cap.
 	MIN_TRUST_VALUE = -100,							-- Min trust value cap.
 	BASE_TRUST_FACTOR = 100,						-- Base trust factor in % for opinion.
-	MAX_OPINION_VALUE = 100,						-- Max opinion value cap.
+	MAX_OPINION_VALUE = 200,						-- Max opinion value cap.
 	MIN_OPINION_VALUE = -150,						-- Min opinion value cap.
 	BASE_TRUCE_PERIOD = 30,							-- Base truce period in days.
 	TRUCE_PERIOD_AFTER_KICKING_FROM_FACTION = 30,				-- Truce period after kicking someone from faction in days.
@@ -46,7 +46,7 @@ NDiplomacy = {
 	BASE_IMPROVE_RELATION_COST = 10,                -- Political power cost to initiate relation improvement
 	BASE_IMPROVE_RELATION_SAME_IDEOLOGY_GROUP_MAINTAIN_COST = 0.2, -- Political power cost each update when boosting relations with nation of same ideology
 	BASE_IMPROVE_RELATION_DIFFERENT_IDEOLOGY_GROUP_MAINTAIN_COST = 0.4,    -- Political power cost each update when boosting relations with nation of different ideology
-	BASE_SEND_ATTACHE_COST = 75,					-- Political power cost to send attache
+	BASE_SEND_ATTACHE_COST = 50,					-- Political power cost to send attache
 	BASE_SEND_ATTACHE_CP_COST = 10.0,				-- Command Power sent attache usage cost
 	BASE_GENERATE_WARGOAL_DAILY_PP = 0.8,	-- Daily pp cost for generation of wargoals # was 0.2
 	WARGOAL_VERSUS_MAJOR_AT_WAR_REDUCTION = -0.4, 	-- reduction of pp cost for wargoal vs major at war. # was -0.75
@@ -242,7 +242,7 @@ NCountry = {
 	RESOURCE_IMPORTANCE_FACTOR = 0.1,				-- State resource importance factor for AI and calculations
 	INTERPOLATED_FRONT_STEPS_SHORT = 4,				-- Performance optimization - The amount of steps for interpolated fronts. Non-AI countries got full interpolated fronts, the rest has optimized version of it.
 	MIN_AIR_RESERVE_RATIO = 0.33,					-- Min manpower ratio to show air reserves alert
-	POLITICAL_POWER_CAP = 2000.0,					-- Max amount of political power country should have
+	POLITICAL_POWER_CAP = 2500.0,					-- Max amount of political power country should have
 	RESISTANCE_IMPORTANT_LEVEL = 0.25,				-- Level when resistance becomes dangerous
 	RESISTANCE_IMPORTANT_COUNTRY_LEVEL = 0.25,		-- Level when average resistance in a country becomes dangerous
 	MIN_MAJOR_COUNTRIES	= 25,						-- MIN_MAJOR_COUNTRIES countries with most factories will be considered as major countries
@@ -593,7 +593,7 @@ NMilitary = {
 	CORPS_COMMANDER_DIVISIONS_CAP = 24,			-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
 	DIVISION_SIZE_FOR_XP = 8,                   -- how many battalions should a division have to count as a full divisions when calculating XP stuff
 	CORPS_COMMANDER_ARMIES_CAP = -1,			-- how many armies a corps commander is limited to. 0 = inf, < 0 = blocked
-	FIELD_MARSHAL_DIVISIONS_CAP = 24,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
+	FIELD_MARSHAL_DIVISIONS_CAP = 50,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
 	FIELD_MARSHAL_ARMIES_CAP = 5,				-- how many armies a field marshall is limited to. 0 = inf, < 0 = blocked
 
 	UNIT_LEADER_GENERATION_CAPITAL_CONTINENT_FACTOR = 100, --Integer factor to multiply manpower.
@@ -610,9 +610,9 @@ NMilitary = {
 	BASE_DIVISION_BRIGADE_CHANGE_COST = 2,	--Base cost to change a regiment column.
 	BASE_DIVISION_SUPPORT_SLOT_COST = 3, 	--Base cost to unlock a support slot
 	
-	MAX_ARMY_EXPERIENCE = 750,			--Max army experience a country can store
-	MAX_NAVY_EXPERIENCE = 750,			--Max navy experience a country can store
-	MAX_AIR_EXPERIENCE = 750,			--Max air experience a country can store
+	MAX_ARMY_EXPERIENCE = 1500,			--Max army experience a country can store
+	MAX_NAVY_EXPERIENCE = 1500,			--Max navy experience a country can store
+	MAX_AIR_EXPERIENCE = 1500,			--Max air experience a country can store
 	
 	COMBAT_MINIMUM_TIME = 4,			-- Shortest time possible for a combat in hours
 	SPOTTING_QUALITY_DROP_HOURS = 5, 	-- Each X hours the intel quality drops after unit was spotted.
@@ -1095,7 +1095,7 @@ NAir = {
 		1.0, -- PARADROP		
 		0.75, -- NAVAL_KAMIKAZE	
 		1.2, -- PORT_STRIKE		
-		1.0, -- AIR_SUPPLY		
+		1.5, -- AIR_SUPPLY		
 		0.8, -- TRAINING
 		1.0, -- NAVAL_MINES_PLANTING
 		1.0, -- NAVAL_MINES_SWEEPING
