@@ -624,8 +624,8 @@ icon = generic_industry
         available = {
 			num_of_factories > 120
 			OR = {
-			has_tech = concentrated_industry3
-			has_tech = dispersed_industry3
+			has_tech = concentrated_industry2
+			has_tech = dispersed_industry2
 			}			
 		}
         cost = 100
@@ -644,13 +644,12 @@ icon = generic_industry
 			swap_ideas = {
 				remove_idea = incompetent_industry_real
 				add_idea = incompetent_heavy_industry_2
-			}
+				}
 			}
 		}
 		ai_will_do = {
 			base = 100
-			
-		}
+			}
         }
 
 MEX_remove_lesser_incompetent_industry  = {

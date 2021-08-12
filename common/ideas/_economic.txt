@@ -100,16 +100,22 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.30
 				production_speed_arms_factory_factor = -0.35
-				production_factory_max_efficiency_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05			
 				industrial_capacity_dockyard = -0.08
 				max_fuel_factor = -0.25
 				fuel_gain_factor = -0.25
+				stability_weekly_factor = 0.05
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_infrastructure_factor = 0.20									
 			}
 			research_bonus = {
 				armor = -0.25
 				land_doctrine = -0.1
 				air_doctrine = -0.1
 				naval_doctrine = -0.1
+				industry = 0.1
+				electronics = 0.1
+				support_tech = 0.1
 			}
 			
 			ai_will_do = {
@@ -156,9 +162,15 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.05
 				production_speed_arms_factory_factor = -0.2
 				industrial_capacity_dockyard = -0.05
+				stability_weekly_factor = 0.01
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_infrastructure_factor = 0.15				
 			}
 			research_bonus = {
 				armor = -0.2
+				industry = 0.05
+				electronics = 0.03
+				support_tech = 0.05				
 			}
 			
 			ai_will_do = {
@@ -207,6 +219,9 @@ ideas = {
 			
 			research_bonus = {
 				armor = -0.1
+				industry = 0.02
+				electronics = 0.01
+				support_tech = 0.03					
 			}
 
 			cost = 150
@@ -215,6 +230,8 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.2
 				industrial_capacity_dockyard = -0.03
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.10				
 			}
 			
 			ai_will_do = {
