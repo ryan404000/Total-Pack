@@ -104,7 +104,6 @@ ideas = {
 				industrial_capacity_dockyard = -0.08
 				max_fuel_factor = -0.25
 				fuel_gain_factor = -0.25
-				stability_weekly_factor = 0.05
 				production_speed_industrial_complex_factor = 0.15
 				production_speed_infrastructure_factor = 0.20									
 			}
@@ -162,7 +161,6 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.05
 				production_speed_arms_factory_factor = -0.2
 				industrial_capacity_dockyard = -0.05
-				stability_weekly_factor = 0.01
 				production_speed_industrial_complex_factor = 0.10
 				production_speed_infrastructure_factor = 0.15				
 			}
