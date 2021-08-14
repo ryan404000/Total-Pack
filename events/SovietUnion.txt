@@ -150,6 +150,7 @@ country_event = {
 			transfer_state = 78
 			transfer_state = 80
 			transfer_state = 766
+			transfer_state = 841
 		}
 		hidden_effect = {
 			SOV = {
