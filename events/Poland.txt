@@ -3008,7 +3008,7 @@ news_event = {
 	desc = poland.106.d 
 	picture = GFX_report_event_polish_army
 
-	fire_only_once = yes
+	major = yes
 
 	is_triggered_only = yes
 
@@ -3024,7 +3024,7 @@ news_event = {
 	desc = poland.107.d 
 	picture = GFX_report_event_polish_army
 
-	fire_only_once = yes
+	major = yes
 
 	is_triggered_only = yes
 
@@ -3042,8 +3042,6 @@ news_event = {
 
 	major = yes
 
-	fire_only_once = yes
-
 	is_triggered_only = yes
 
 	option = {
@@ -3057,8 +3055,6 @@ news_event = {
 	title = poland.109.t
 	desc = poland.109.d 
 	picture = GFX_report_event_polish_army
-
-	fire_only_once = yes
 
 	is_triggered_only = yes
 
@@ -3074,7 +3070,7 @@ news_event = {
 	desc = poland.110.d 
 	picture = GFX_report_event_polish_army
 
-	fire_only_once = yes
+	major = yes
 
 	is_triggered_only = yes
 
@@ -3090,7 +3086,7 @@ news_event = {
 	desc = poland.111.d 
 	picture = GFX_report_event_polish_army
 
-	fire_only_once = yes
+	major = yes
 
 	is_triggered_only = yes
 
@@ -3105,8 +3101,6 @@ news_event = {
 	title = poland.112.t
 	desc = poland.112.d 
 	picture = GFX_report_event_polish_army
-
-	fire_only_once = yes
 
 	major = yes
 
@@ -3124,8 +3118,6 @@ news_event = {
 	desc = poland.113.d 
 	picture = GFX_report_event_polish_army
 
-	fire_only_once = yes
-
 	major = yes
 
 	is_triggered_only = yes
@@ -3141,7 +3133,7 @@ country_event = {
 	title = poland.114.t
 	desc = poland.114.d
 	picture = GFX_report_event_polish_army
-	
+
 	is_triggered_only = yes
 	
 	option = { #yes
