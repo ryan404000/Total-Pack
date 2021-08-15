@@ -509,7 +509,7 @@ focus_tree = {
 		icon = GFX_goal_POL_april
 		prerequisite = {focus = POL_foreign_policy }
 		mutually_exclusive = { focus = POL_authoritarianism focus = POL_the_between_the_seas_concept focus = POL_return_to_the_past }
-		x = 37
+		x = 35
 		y = 1
 		cost = 6
 
@@ -4637,7 +4637,7 @@ focus_tree = {
 			is_puppet = no
 			is_in_faction = no
 		}
-		x = 53
+		x = 51
 		y = 1
 		cost = 6
         available_if_capitulated = no
@@ -4849,7 +4849,7 @@ focus_tree = {
 	focus = {
 		id = POL_authoritarianism
 		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 44
+		x = 42
 		y = 1
 		cost = 6
 		mutually_exclusive = { focus = POL_strengthen_the_polish_state focus = POL_the_between_the_seas_concept focus = POL_return_to_the_past }		
@@ -5848,7 +5848,7 @@ focus = {
 	focus = {
 		id = POL_indust5
 		icon = GFX_goal_FIN_agriculture
-		prerequisite = { focus = POL_a_german_monarch focus = POL_an_austrian_monarch focus = POL_a_romanov focus = POL_a_polish_monarch focus = POL_a_lithuanian_monarch }
+		prerequisite = { focus = POL_elect_a_monarch }
 
 		available = {
 			date > 1939.1.1
@@ -5857,8 +5857,8 @@ focus = {
 		bypass = {
 		}
 
-		x = 13
-		y = 2
+		x = 9
+		y = 1
 		cost = 4
 		relative_position_id = POL_elect_a_monarch
 		ai_will_do = {
@@ -5978,7 +5978,7 @@ focus = {
 			add_resource = {
 				type = tungsten
 				amount = 24
-				state = 92
+				state = 762
 			}
 		}
 	}
@@ -6132,11 +6132,11 @@ focus = {
 			is_in_faction = no
 		}
 		relative_position_id = POL_a_polish_monarch
-		x = 2
+		x = 0
 		y = 1
 		cost = 6
         available_if_capitulated = no
-		prerequisite = { focus = POL_a_polish_monarch focus = POL_a_lithuanian_monarch focus = POL_a_german_monarch focus = POL_an_austrian_monarch focus = POL_a_romanov}
+		prerequisite = { focus = POL_a_polish_monarch focus = POL_a_lithuanian_monarch focus = POL_a_romanov}
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -6146,7 +6146,7 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			add_stability = 0.10
 		}
 	}
 	focus = {
@@ -6171,7 +6171,8 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			add_stability = 0.05
+			add_ideas = POL_protected_minorities
 		}
 	}
 	focus = {
@@ -6743,7 +6744,6 @@ focus = {
 		cost = 3
         available_if_capitulated = no
 		prerequisite = { focus = POL_english_military_production }
-		prerequisite = { focus = POL_improve_silesia_fortified_area }
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -6808,7 +6808,6 @@ focus = {
 		cost = 3
         available_if_capitulated = no
 		prerequisite = { focus = POL_english_military_production }
-		prerequisite = { focus = POL_improve_silesia_fortified_area }
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -6844,6 +6843,9 @@ focus = {
 				date < 1936.7.1
 			}
 		}
+		available = {
+			owns_state = 64
+		}
 		completion_reward = {
 			POL = {
 				add_stability = 0.15
@@ -6867,6 +6869,11 @@ focus = {
 		y = 1
 		cost = 6
         available_if_capitulated = no
+		available = {
+			owns_state = 56
+			owns_state = 57
+			owns_state = 59
+		}		
 		prerequisite = { focus = POL_the_kaiser_returns }
 		ai_will_do = {
 			factor = 0
@@ -6940,6 +6947,13 @@ focus = {
 		y = 1
 		cost = 6
         available_if_capitulated = no
+		available = {
+			owns_state = 52
+			owns_state = 53
+			owns_state = 824
+			owns_state = 54
+			owns_state = 823
+		}		
 		prerequisite = { focus = POL_the_kaiser_returns }
 		ai_will_do = {
 			factor = 0
@@ -7008,6 +7022,13 @@ focus = {
 		y = 1
 		cost = 6
         available_if_capitulated = no
+		available = {
+			owns_state = 50
+			owns_state = 821
+			owns_state = 42
+			owns_state = 51
+			owns_state = 829
+		}
 		prerequisite = { focus = POL_the_kaiser_returns }
 		ai_will_do = {
 			factor = 0
@@ -7264,7 +7285,7 @@ focus = {
 			is_in_faction = no
 		}
 		relative_position_id = POL_enact_minority_protections
-		x = 4
+		x = 2
 		y = 1
 		cost = 6
         available_if_capitulated = no
@@ -7290,7 +7311,7 @@ focus = {
 			is_in_faction = no
 		}
 		relative_position_id = POL_reunite_lithuania
-		x = 6
+		x = 5
 		y = 1
 		cost = 6
         available_if_capitulated = no
@@ -7691,8 +7712,8 @@ focus = {
 			is_in_faction = no
 		}
 		relative_position_id = POL_enact_minority_protections
-		x = -3
-		y = 2
+		x = -2
+		y = 1
 		cost = 6
         available_if_capitulated = no
 		prerequisite = { focus = POL_enact_minority_protections }
@@ -7716,12 +7737,11 @@ focus = {
 			is_in_faction = no
 		}
 		relative_position_id = POL_enact_minority_protections
-		x = -5
-		y = 3
+		x = -2
+		y = 2
 		cost = 6
         available_if_capitulated = no
 		prerequisite = { focus = POL_ukranian_protection_act }
-		prerequisite = { focus = POL_a_romanov }
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -7742,8 +7762,8 @@ focus = {
 			is_in_faction = no
 		}
 		relative_position_id = POL_enact_minority_protections
-		x = -1
-		y = 2
+		x = 0
+		y = 1
 		cost = 6
         available_if_capitulated = no
 		prerequisite = { focus = POL_enact_minority_protections }
@@ -7772,7 +7792,6 @@ focus = {
 		cost = 6
         available_if_capitulated = no
 		prerequisite = { focus = POL_belarusian_protection_act }
-		prerequisite = { focus = POL_a_romanov }
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -7793,11 +7812,11 @@ focus = {
 			is_in_faction = no
 		}
 		relative_position_id = POL_stoke_belarusian_nationalism_in_russia
-		x = -1.5
+		x = 0
 		y = 1
 		cost = 6
         available_if_capitulated = no
-		prerequisite = { focus = POL_stoke_belarusian_nationalism_in_russia focus = POL_stoke_ukranian_nationalism_in_russia }
+		prerequisite = { focus = POL_stoke_belarusian_nationalism_in_russia focus = POL_stoke_ukranian_nationalism_in_russia focus = POL_outward_expansion }
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -7971,7 +7990,7 @@ focus = {
 			is_in_faction = no
 		}
 		relative_position_id = POL_kaunas_fortifications
-		x = 0
+		x = -1
 		y = 3
 		cost = 6
         available_if_capitulated = no
@@ -7987,5 +8006,30 @@ focus = {
 		completion_reward = {
 
 		}
-	}																										
+	}
+	focus = {
+		id = POL_a_new_commonwealth
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_kaunas_fortifications
+		x = 1
+		y = 3
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_destroy_the_soviets }		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}																											
 }		

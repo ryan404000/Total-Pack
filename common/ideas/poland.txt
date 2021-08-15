@@ -1841,7 +1841,7 @@ country = {
 	}
 	POL_rebuild_berlin_idea = {
 		modifier = {
-			consumer_goods_factor = 0.15
+			consumer_goods_factor = 0.20
 			stability_weekly = 0.005
 			political_power_cost = 0.45
 		}
@@ -1858,6 +1858,14 @@ country = {
 			monthly_population = 0.3
 			political_power_gain = 0.3
 		}			
+	}
+
+	POL_protected_minorities = {
+		modifier = {
+			conscription_factor = 0.03
+			stability_factor = 0.05
+			war_support_factor = 0.05
+		}
 	}		
 }	
 
