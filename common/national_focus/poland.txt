@@ -1208,7 +1208,7 @@ focus_tree = {
 		prerequisite = { focus = POL_central }
 		prerequisite = { focus = POL_infraeast }
 		relative_position_id = POL_central
-		x = 1
+		x = 2
 		y = 1
 		cost = 4
 		
@@ -1370,11 +1370,10 @@ focus_tree = {
 	focus = {
 		id = POL_the_three_year_plan
 		icon = GFX_goal_POL_three
-		prerequisite = { focus = POL_central }
-		prerequisite = { focus = POL_infraeast }
-		relative_position_id = POL_revive
+		prerequisite = { focus = POL_equalize }
+		relative_position_id = POL_equalize
 		x = 0
-		y = 3
+		y = 1
 		cost = 1
 		
 		available = {
@@ -4053,6 +4052,7 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 1
+			is_historical_focus_on = yes
 		}
 
 		completion_reward = {
@@ -4073,7 +4073,8 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			is_historical_focus_on = no
 		}
 
 		completion_reward = {
@@ -5848,7 +5849,7 @@ focus = {
 	focus = {
 		id = POL_indust5
 		icon = GFX_goal_FIN_agriculture
-		prerequisite = { focus = POL_elect_a_monarch }
+		prerequisite = { focus = POL_central }
 
 		available = {
 			date > 1939.1.1
@@ -5857,10 +5858,10 @@ focus = {
 		bypass = {
 		}
 
-		x = 9
+		x = -2
 		y = 1
 		cost = 4
-		relative_position_id = POL_elect_a_monarch
+		relative_position_id = POL_central
 		ai_will_do = {
 			factor = 10
 		}
@@ -6125,43 +6126,17 @@ focus = {
 		}
 	}
 	focus = {
-		id = POL_a_reunited_poland
-		icon = GFX_focus_generic_polish_deal
+		id = POL_enact_minority_protections
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_a_polish_monarch
 		x = 0
 		y = 1
 		cost = 6
         available_if_capitulated = no
-		prerequisite = { focus = POL_a_polish_monarch focus = POL_a_lithuanian_monarch focus = POL_a_romanov}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 4
-				is_historical_focus_on = no
-				date < 1936.7.1
-			}
-		}
-		completion_reward = {
-			add_stability = 0.10
-		}
-	}
-	focus = {
-		id = POL_enact_minority_protections
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		available = {
-			is_puppet = no
-			is_in_faction = no
-		}
-		relative_position_id = POL_a_reunited_poland
-		x = 0
-		y = 1
-		cost = 6
-        available_if_capitulated = no
-		prerequisite = { focus = POL_a_reunited_poland }
+		prerequisite = { focus = POL_a_lithuanian_monarch focus = POL_a_polish_monarch focus = POL_a_romanov }
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -7285,12 +7260,12 @@ focus = {
 			is_in_faction = no
 		}
 		relative_position_id = POL_enact_minority_protections
-		x = 2
-		y = 1
+		x = 3
+		y = 2
 		cost = 6
         available_if_capitulated = no
 		prerequisite = { focus = POL_a_lithuanian_monarch focus = POL_a_polish_monarch }
-		prerequisite = { focus = POL_enact_minority_protections }
+		prerequisite = { focus = POL_lithuanian_protection_act }
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -7706,10 +7681,8 @@ focus = {
 	}								
 	focus = {
 		id = POL_ukranian_protection_act
-		icon = GFX_focus_TUR_ratify_the_six_arrows
+		icon = GFX_focus_hol_the_foundations_of_defense
 		available = {
-			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_enact_minority_protections
 		x = -2
@@ -7726,7 +7699,7 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			add_idea = POL_ukranian_protection
 		}
 	}
 	focus = {
@@ -7751,15 +7724,18 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			SOV = {
+			add_timed_idea = {
+				idea = POL_stoked_flames_of_nationalism
+				days = 360
+				}
+			}
 		}
 	}
 	focus = {
 		id = POL_belarusian_protection_act
 		icon = GFX_focus_hol_the_foundations_of_defense
 		available = {
-			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_enact_minority_protections
 		x = 0
@@ -7776,9 +7752,32 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			add_idea = POL_belarusian_protection
 		}
 	}
+	focus = {
+		id = POL_lithuanian_protection_act
+		icon = GFX_focus_hol_the_foundations_of_defense
+		available = {
+		}
+		relative_position_id = POL_enact_minority_protections
+		x = 2
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_enact_minority_protections }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+			add_idea = POL_lithuanian_protection
+		}
+	}	
 	focus = {
 		id = POL_stoke_belarusian_nationalism_in_russia
 		icon = GFX_goal_POL_intersea
@@ -7801,19 +7800,24 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			SOV = {
+			add_timed_idea = {
+				idea = POL_stoked_flames_of_nationalism
+				days = 360
+				}
+			}
 		}
 	}
 	focus = {
 		id = POL_prepare_for_war_in_the_east
-		icon = GFX_goal_POL_intersea
+		icon = GFX_focus_attack_soviet
 		available = {
 			is_puppet = no
 			is_in_faction = no
 		}
 		relative_position_id = POL_stoke_belarusian_nationalism_in_russia
 		x = 0
-		y = 1
+		y = 2
 		cost = 6
         available_if_capitulated = no
 		prerequisite = { focus = POL_stoke_belarusian_nationalism_in_russia focus = POL_stoke_ukranian_nationalism_in_russia focus = POL_outward_expansion }
@@ -7826,7 +7830,17 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			POL = {
+			add_ideas = extensive_conscription
+			add_ideas = war_economy	
+			add_timed_idea = {
+				idea = POL_mobilisation
+				days = 250
+					}
+			}
+			85 = {
+				set_demilitarized_zone = no
+			}
 		}
 	}
 	focus = {
@@ -7986,8 +8000,7 @@ focus = {
 		id = POL_return_of_the_tsar
 		icon = GFX_goal_POL_intersea
 		available = {
-			is_puppet = no
-			is_in_faction = no
+			has_idea = POL_russian_monarch
 		}
 		relative_position_id = POL_kaunas_fortifications
 		x = -1
@@ -8012,7 +8025,8 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
+			has_idea = POL_polish_monarch
+			has_idea = POL_lithuanian_monarch
 		}
 		relative_position_id = POL_kaunas_fortifications
 		x = 1

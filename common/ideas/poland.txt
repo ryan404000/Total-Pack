@@ -1784,6 +1784,14 @@ country = {
 		}
 	}
 
+	POL_stoked_flames_of_nationalism = {
+		modifier = {
+			political_power_gain = -0.25
+			stability_weekly_factor = -0.001
+			neutrality_drift = 0.03
+		}
+	}
+
 	POL_kingdom_of_Prussia_Poland = {
 		modifier = {
 			stability_weekly_factor  = 0.005
@@ -1866,7 +1874,23 @@ country = {
 			stability_factor = 0.05
 			war_support_factor = 0.05
 		}
-	}		
+	}
+
+	POL_ukranian_protection	= {
+		modifier = {
+			conscription_factor = 0.01
+		}
+	}
+	POL_belarusian_protection = {
+		modifier = {
+			conscription_factor = 0.01
+		}
+	}
+	POL_lithuanian_protection = {
+		modifier = {
+			conscription_factor = 0.01
+		}
+	}	
 }	
 
 political_advisor = {
