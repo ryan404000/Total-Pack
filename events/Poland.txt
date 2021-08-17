@@ -3161,11 +3161,74 @@ news_event = {
 	picture = GFX_report_event_polish_army
 
 	major = yes
-	fire_only_once = yes
 
 	is_triggered_only = yes
 
 	option = {
 		name = poland.115.a
 	}
-}	
+}
+
+#Stoked Monarchism in Germany
+news_event = {
+	id = poland.116
+	title = poland.116.t
+	desc = poland.116.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.116.a
+	}
+}
+
+#Stoked Nationalism in Ukraine
+news_event = {
+	id = poland.117
+	title = poland.117.t
+	desc = poland.117.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.117.a
+	}
+}
+
+#Stoked Nationalism in Belarus
+news_event = {
+	id = poland.118
+	title = poland.118.t
+	desc = poland.118.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.118.a
+	}
+}
+
+#Polish Lithuanian Union
+news_event = {
+	id = poland.119
+	title = poland.119.t
+	desc = poland.119.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.119.a
+	}
+}

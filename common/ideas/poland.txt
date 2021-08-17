@@ -1879,18 +1879,36 @@ country = {
 	POL_ukranian_protection	= {
 		modifier = {
 			conscription_factor = 0.01
+			stability_factor = 0.02		
 		}
 	}
+	
 	POL_belarusian_protection = {
 		modifier = {
 			conscription_factor = 0.01
+			stability_factor = 0.02			
 		}
 	}
+
 	POL_lithuanian_protection = {
 		modifier = {
 			conscription_factor = 0.01
+			stability_factor = 0.02
 		}
-	}	
+	}
+
+	POL_investment_focus = {
+		modifier = {
+			consumer_goods_factor = 0.02
+		}
+	}
+
+	POL_heavy_investment_focus = {
+		modifier = {
+			consumer_goods_factor = 0.12
+		}
+	}
+
 }	
 
 political_advisor = {
