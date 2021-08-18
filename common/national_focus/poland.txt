@@ -4052,7 +4052,9 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
 			is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -4074,7 +4076,9 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 10
+			modifier = {
 			is_historical_focus_on = no
+			}
 		}
 
 		completion_reward = {
@@ -6132,7 +6136,7 @@ focus = {
 			is_puppet = no
 		}
 		relative_position_id = POL_a_polish_monarch
-		x = 0
+		x = 2
 		y = 1
 		cost = 6
         available_if_capitulated = no
@@ -7298,7 +7302,7 @@ focus = {
 	}	
 	focus = {
 		id = POL_reunite_lithuania
-		icon = GFX_goal_POL_intersea
+		icon = GFX_Goal_treaty_with_lithuania
 		available = {
 			is_puppet = no
 		}
@@ -7328,14 +7332,99 @@ focus = {
 			
 		}
 	}
+	focus = {
+		id = POL_unity_with_lithuania
+		icon = GFX_Goal_treaty_with_lithuania
+		available = {
+			is_puppet = no
+		}
+		relative_position_id = POL_ukranian_protection_act
+		x = -1
+		y = 2
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_a_romanov }
+		prerequisite = { focus = POL_enact_minority_protections }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+			add_opinion_modifier = { target = LIT modifier = POL_treaty_with_lithuania }
+			LIT = { 
+				add_opinion_modifier = { target = ROOT modifier = POL_treaty_with_lithuania } 
+			}
+			POL = {
+				puppet = LIT
+			}
+		}
+	}	
+	focus = {
+		id = POL_unity_with_estonia
+		icon = GFX_flag_estonia
+		available = {
+			is_puppet = no
+		}
+		relative_position_id = POL_unity_with_lithuania
+		x = 1
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_unity_with_lithuania }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+			add_opinion_modifier = { target = EST modifier = POL_treaty_with_lithuania }
+			EST = { 
+				add_opinion_modifier = { target = ROOT modifier = POL_treaty_with_lithuania } 
+			}
+		}
+	}
+	focus = {
+		id = POL_unity_with_latvia
+		icon = GFX_flag_latvia
+		available = {
+			is_puppet = no
+		}
+		relative_position_id = POL_unity_with_lithuania
+		x = -1
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_unity_with_lithuania }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+			add_opinion_modifier = { target = LAT modifier = POL_treaty_with_lithuania }
+			LAT = { 
+				add_opinion_modifier = { target = ROOT modifier = POL_treaty_with_lithuania } 
+			}
+		}
+	}		
 	focus = { #integrate Lithuania
 		id = POL_develop_lithuania
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_FIN_countryside
 		available = {
 			is_puppet = no
 		}
 		relative_position_id = POL_reunite_lithuania
-		x = 5
+		x = 6
 		y = 1
 		cost = 9
         available_if_capitulated = no
@@ -7360,7 +7449,7 @@ focus = {
 	}
 	focus = {
 		id = POL_outward_expansion
-		icon = GFX_goal_POL_intersea
+		icon = GFX_focus_eng_global_defense
 		available = {
 			is_puppet = no
 		}
@@ -7385,7 +7474,7 @@ focus = {
 
 	focus = {
 		id = POL_kaunas_warsaw_railway
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_construct_infrastructure
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -7505,7 +7594,7 @@ focus = {
 	}				
 	focus = {
 		id = POL_krakow_warsaw_railway
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_construct_infrastructure
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -7550,7 +7639,7 @@ focus = {
 	}
 	focus = {
 		id = POL_krakow_lwow_railway
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_construct_infrastructure
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -7638,7 +7727,7 @@ focus = {
 	}			
 	focus = {
 		id = POL_kaunas_memel_palanga_railway
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_construct_infrastructure
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -7832,7 +7921,7 @@ focus = {
 	}
 	focus = {
 		id = POL_stoke_ukranian_nationalism_in_russia
-		icon = GFX_goal_POL_intersea
+		icon = GFX_focus_spr_anarchism_knows_no_borders
 		available = {
 			is_puppet = no
 			has_idea = POL_russian_monarch
@@ -7911,7 +8000,7 @@ focus = {
 	}	
 	focus = {
 		id = POL_stoke_belarusian_nationalism_in_russia
-		icon = GFX_goal_POL_intersea
+		icon = GFX_focus_spr_anarchism_knows_no_borders
 		available = {
 			is_puppet = no
 			has_idea = POL_russian_monarch
@@ -7947,11 +8036,12 @@ focus = {
 			is_puppet = no
 		}
 		relative_position_id = POL_stoke_belarusian_nationalism_in_russia
-		x = 0
+		x = 2
 		y = 2
 		cost = 2
         available_if_capitulated = no
-		prerequisite = { focus = POL_stoke_belarusian_nationalism_in_russia focus = POL_stoke_ukranian_nationalism_in_russia focus = POL_outward_expansion }
+		prerequisite = { focus = POL_outward_expansion focus = POL_unity_with_lithuania }
+		prerequisite = { focus = POL_stoke_belarusian_nationalism_in_russia focus = POL_stoke_ukranian_nationalism_in_russia }
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -8001,14 +8091,14 @@ focus = {
 	}
 	focus = {
 		id = POL_kaunas_fortifications
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_construction2
 		available = {
 			is_puppet = no
 		}
 		relative_position_id = POL_prepare_for_war_in_the_east
 		x = 0
 		y = 1
-		cost = 2
+		cost = 3
         available_if_capitulated = no
 		prerequisite = { focus = POL_prepare_for_war_in_the_east }
 		ai_will_do = {
@@ -8020,12 +8110,36 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			11 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 9374
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 9246
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 11226
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}												
+			}
 		}
 	}
 	focus = {
 		id = POL_wilejka_fortifications
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_defence
 		available = {
 			is_puppet = no
 		}
@@ -8044,19 +8158,49 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			96 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 358
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 9341
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 406
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 277
+					instant_build = yes
+				}				
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}												
+			}
 		}
 	}
 	focus = {
 		id = POL_the_marsh_line
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_fortify_city
 		available = {
 			is_puppet = no
 		}
 		relative_position_id = POL_wilejka_fortifications
 		x = -1
 		y = 1
-		cost = 2
+		cost = 5
         available_if_capitulated = no
 		prerequisite = { focus = POL_prepare_for_war_in_the_east }
 		ai_will_do = {
@@ -8068,7 +8212,63 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			95 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 3556
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}																
+			}
+			94 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 6579
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 535
+					instant_build = yes
+				}				
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}												
+			}
+			93 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 6520
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 11543
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 6557
+					instant_build = yes
+				}				
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}																
+			}
 		}
 	}
 	focus = {
@@ -8101,13 +8301,13 @@ focus = {
 	}	
 	focus = {
 		id = POL_destroy_the_soviets
-		icon = GFX_goal_POL_intersea
+		icon = GFX_focus_attack_soviet
 		available = {
 		}
 		relative_position_id = POL_kaunas_fortifications
 		x = 0
 		y = 2
-		cost = 3
+		cost = 1
         available_if_capitulated = no
 		prerequisite = { focus = POL_kaunas_fortifications focus = POL_the_marsh_line focus = POL_german_guarantees focus = POL_wilejka_fortifications }		
 		ai_will_do = {
@@ -8119,9 +8319,11 @@ focus = {
 			}
 		}
 		completion_reward = {
-			create_wargoal = {
-				target = SOV
-				type = annex_everything
+			POL = {
+				create_wargoal = {
+					target = SOV
+					type = annex_everything
+				}
 			}
 		}
 	}	
