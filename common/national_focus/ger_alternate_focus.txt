@@ -11,7 +11,7 @@ focus_tree = {
 ##work begins here
 
 	focus = {
-		id = GER_Goering_Plan
+		id = GER_new_development
 		icon = GFX_focus_generic_self_management
 
 		x = 0
