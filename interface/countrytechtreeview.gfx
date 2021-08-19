@@ -737,6 +737,12 @@ spriteTypes = {
 		name = "GFX_technology_special_forces_folder_small_branch_item_bg"
 		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
 	}
+
+	#-> Shock troops <><>
+	SpriteType = { name = "GFX_shocktroops_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_01.dds" }
+	SpriteType = { name = "GFX_shocktroops2_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_02.dds" }
+	SpriteType = { name = "GFX_shocktroops3_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_03.dds" }
+	SpriteType = { name = "GFX_shocktroops4_medium" texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_04.dds" }
 	
 	# support
 	spriteType = {

@@ -711,12 +711,26 @@ spriteTypes = {
 	
 	
 	spriteType = {
-		name = "GFX_unit_mountaineers_icon_small"
-		texturefile = "gfx/texticons/unit_mountaineers_icon_tw_small.tga"
+		name = "GFX_unit_shocktroop_icon_small"
+		texturefile = "gfx/texticons/unit_shocktroop_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}		
 	
+	spriteType = {
+		name = "GFX_unit_mot_shocktroop_icon_small"
+		texturefile = "gfx/texticons/unit_motorized_shock_trooper_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}	
+
+	spriteType = {
+		name = "GFX_unit_mountaineers_icon_small"
+		texturefile = "gfx/texticons/unit_mountaineers_icon_tw_small.tga"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}	
+
 	spriteType = {
 		name = "GFX_unit_marine_icon_small"
 		texturefile = "gfx/texticons/unit_marine_small_tw.tga"
