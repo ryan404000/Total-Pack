@@ -7338,9 +7338,9 @@ focus = {
 		available = {
 			is_puppet = no
 		}
-		relative_position_id = POL_ukranian_protection_act
-		x = -1
-		y = 2
+		relative_position_id = POL_a_romanov
+		x = 1
+		y = 4
 		cost = 6
         available_if_capitulated = no
 		prerequisite = { focus = POL_a_romanov }
@@ -7365,7 +7365,7 @@ focus = {
 	}	
 	focus = {
 		id = POL_unity_with_estonia
-		icon = GFX_flag_estonia
+		icon = GFX_goal_flag_estonia
 		available = {
 			is_puppet = no
 		}
@@ -7392,7 +7392,7 @@ focus = {
 	}
 	focus = {
 		id = POL_unity_with_latvia
-		icon = GFX_flag_latvia
+		icon = GFX_goal_flag_latvia
 		available = {
 			is_puppet = no
 		}
@@ -7519,7 +7519,7 @@ focus = {
 	}
 	focus = {
 		id = POL_kaunas_textile_mills
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_construct_civ_factory
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -7539,12 +7539,27 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			11 = {
+				add_extra_state_shared_building_slots = 3				
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}																				
+			}
+			189 = {
+				add_extra_state_shared_building_slots = 2			
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}																				
+			}			
 		}
 	}	
 	focus = {
 		id = POL_kaunas_arms_factories
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_IRQ_mechanized
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -7564,12 +7579,19 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			11 = {
+				add_extra_state_shared_building_slots = 4				
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}																				
+			}
 		}
 	}
 	focus = {
 		id = POL_warsaw_civilian_industries
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_IRQ_grain
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -7589,7 +7611,22 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			88 = {
+				add_extra_state_shared_building_slots = 3				
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}																				
+			}
+			762 = {
+				add_extra_state_shared_building_slots = 3				
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}																				
+			}			
 		}
 	}				
 	focus = {
@@ -7677,7 +7714,7 @@ focus = {
 	}
 	focus = {
 		id = POL_krakow_armory
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_state_economy
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -7697,12 +7734,24 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			88 = {
+				add_extra_state_shared_building_slots = 4				
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}																				
+			}
 		}
 	}	
 	focus = {
 		id = POL_lwow_steelworks
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_FIN_heavyindust2
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -7722,7 +7771,19 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			91 = {
+				add_extra_state_shared_building_slots = 3				
+				add_building_construction = {
+					type = steel_refinery
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}																				
+			}
 		}
 	}			
 	focus = {
@@ -8091,7 +8152,7 @@ focus = {
 	}
 	focus = {
 		id = POL_kaunas_fortifications
-		icon = GFX_goal_generic_construction2
+		icon = GFX_goal_CZE_aaguns
 		available = {
 			is_puppet = no
 		}
@@ -8273,7 +8334,7 @@ focus = {
 	}
 	focus = {
 		id = POL_industrial_buildup
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_construct_mil_factory
 		available = {
 			is_puppet = no
 			not = {
@@ -8296,7 +8357,30 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes					
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes					
+				}
+			}	
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes					
+				}
+			}					
 		}
 	}	
 	focus = {
