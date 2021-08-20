@@ -7365,7 +7365,7 @@ focus = {
 	}	
 	focus = {
 		id = POL_unity_with_estonia
-		icon = GFX_goal_flag_estonia
+		icon = GFX_focus_flag_estonia
 		available = {
 			is_puppet = no
 		}
@@ -7392,7 +7392,7 @@ focus = {
 	}
 	focus = {
 		id = POL_unity_with_latvia
-		icon = GFX_goal_flag_latvia
+		icon = GFX_focus_flag_latvia
 		available = {
 			is_puppet = no
 		}
@@ -7419,7 +7419,7 @@ focus = {
 	}
 	focus = {
 		id = POL_integrate_latvia
-		icon = GFX_goal_flag_latvia
+		icon = GFX_focus_flag_latvia
 		available = {
 			is_puppet = no
 		}
@@ -7502,7 +7502,7 @@ focus = {
 	}	
 	focus = {
 		id = POL_integrate_estonia
-		icon = GFX_goal_flag_latvia
+		icon = GFX_focus_flag_estonia
 		available = {
 			is_puppet = no
 		}
@@ -7528,7 +7528,7 @@ focus = {
 	}
 	focus = {
 		id = POL_estonian_economic_integration
-		icon = GFX_goal_flag_latvia
+		icon = GFX_focus_flag_estonia
 		available = {
 			is_puppet = no
 		}
