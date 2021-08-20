@@ -7416,7 +7416,173 @@ focus = {
 				add_opinion_modifier = { target = ROOT modifier = POL_treaty_with_lithuania } 
 			}
 		}
-	}		
+	}
+	focus = {
+		id = POL_integrate_latvia
+		icon = GFX_goal_flag_latvia
+		available = {
+			is_puppet = no
+		}
+		relative_position_id = POL_unity_with_latvia
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_unity_with_latvia}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+			POL = {
+				puppet = LAT
+			}
+		}
+	}	
+	focus = {
+		id = POL_latvian_economic_integration
+		icon = GFX_focus_flag_latvia
+		available = {
+			is_puppet = no
+		}
+		relative_position_id = POL_integrate_latvia
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_integrate_latvia}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+			POL = {
+				annex_country = {
+					target = LAT
+					transfer_troops = yes
+				}
+				12 = { add_core_of = ROOT }
+				190 = { add_core_of = ROOT }				
+			}
+			12 = {
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes					
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes					
+				}				
+			}
+			190 = {
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes					
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes					
+				}				
+			}
+		}
+	}	
+	focus = {
+		id = POL_integrate_estonia
+		icon = GFX_goal_flag_latvia
+		available = {
+			is_puppet = no
+		}
+		relative_position_id = POL_unity_with_estonia
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_unity_with_estonia}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+			POL = {
+				puppet = EST
+			}
+		}
+	}
+	focus = {
+		id = POL_estonian_economic_integration
+		icon = GFX_goal_flag_latvia
+		available = {
+			is_puppet = no
+		}
+		relative_position_id = POL_integrate_estonia
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_integrate_estonia}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+			POL = {
+				annex_country = {
+					target = EST
+					transfer_troops = yes
+				}
+				13 = { add_core_of = ROOT }
+				191 = { add_core_of = ROOT }			
+			}
+			191 = {
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes					
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes					
+				}				
+			}
+			13 = {
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes					
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes					
+				}				
+			}			
+		}
+	}							
 	focus = { #integrate Lithuania
 		id = POL_develop_lithuania
 		icon = GFX_goal_FIN_countryside
@@ -8358,7 +8524,7 @@ focus = {
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
 					level = 3
@@ -8366,7 +8532,7 @@ focus = {
 				}
 			}
 			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
 					level = 3
@@ -8374,7 +8540,7 @@ focus = {
 				}
 			}	
 			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
 					level = 3
@@ -8432,7 +8598,9 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			POL = {
+				add_ideas = POL_poland_russia
+			}
 		}
 	}
 	focus = {
@@ -8442,6 +8610,7 @@ focus = {
 			is_puppet = no
 			has_idea = POL_polish_monarch
 			has_idea = POL_lithuanian_monarch
+			has_completed_focus = POL_develop_lithuania
 		}
 		relative_position_id = POL_kaunas_fortifications
 		x = 1
@@ -8458,7 +8627,59 @@ focus = {
 			}
 		}
 		completion_reward = {
+			POL = {
+			add_ideas = POL_plc_reborn
+			set_cosmetic_tag = PLC_UNIFIED
+			# Lithuania
+			custom_effect_tooltip = form_country_lithuania_coring_states_tt
+			hidden_effect = {
+				11 = { add_core_of = ROOT }
+				189 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				784 = { add_core_of = ROOT }
+			}
+			# Poland
+			custom_effect_tooltip = form_country_poland_coring_states_tt
+			hidden_effect = {
+				85 = { add_core_of = ROOT }
+				86 = { add_core_of = ROOT }
+				87 = { add_core_of = ROOT }
+				88 = { add_core_of = ROOT }
+				90 = { add_core_of = ROOT }
+				98 = { add_core_of = ROOT }
+				10 = { add_core_of = ROOT }
+				97 = { add_core_of = ROOT }
+				92 = { add_core_of = ROOT }
+				91 = { add_core_of = ROOT }
+				89 = { add_core_of = ROOT }
+				93 = { add_core_of = ROOT }
+				94 = { add_core_of = ROOT }
+				95 = { add_core_of = ROOT }
+				96 = { add_core_of = ROOT }
+			}
+			190 = { add_core_of = ROOT }
+			12 = { add_core_of = ROOT }
+			5 = { add_core_of = ROOT }
+			207 = { add_core_of = ROOT }
+			242 = { add_core_of = ROOT }
+			206 = { add_core_of = ROOT }
+			241 = { add_core_of = ROOT }
+			243 = { add_core_of = ROOT }
+			204 = { add_core_of = ROOT }
+			194 = { add_core_of = ROOT }
+			201 = { add_core_of = ROOT }
+			199 = { add_core_of = ROOT }
+			198 = { add_core_of = ROOT }
+			202 = { add_core_of = ROOT }
+			203 = { add_core_of = ROOT }
+			193 = { add_core_of = ROOT }
+			259 = { add_core_of = ROOT }
 
+			hidden_effect = {
+				news_event = { id = wtt_news.57 hours = 6 }
+				set_global_flag = form_commonwealth_flag
+				}
+			}
 		}
 	}																											
 }		

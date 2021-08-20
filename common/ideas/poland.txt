@@ -1908,7 +1908,9 @@ country = {
 			consumer_goods_factor = 0.12
 		}
 	}
-
+	
+	POL_plc_reborn = {}
+	POL_poland_russia = {}
 }	
 
 political_advisor = {
