@@ -7216,19 +7216,19 @@ focus = {
 		custom_effect_tooltip = poland.demilitarize.tt
 		96 = {
 			set_demilitarized_zone = no
-		}
+			}
 		95 = {
 			set_demilitarized_zone = no
-		}
+			}
 		94 = {
 			set_demilitarized_zone = no
-		}
+			}
 		93 = {
 			set_demilitarized_zone = no
-		}
+			}
 		91 = {
 			set_demilitarized_zone = no
-		}			
+			}			
 		}
 	}
 	focus = {
@@ -7295,7 +7295,7 @@ focus = {
 		relative_position_id = POL_a_german_monarch
 		x = 2
 		y = 9
-		cost = 6
+		cost = 7
         available_if_capitulated = no
 		prerequisite = { focus = POL_an_austrian_monarch }
 		ai_will_do = {
@@ -7307,7 +7307,27 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			HUN = {
+			add_timed_idea = {
+				idea = POL_stoked_flames_of_monarchism
+				days = 360
+				}
+			#news_event =#
+			}
+			AUS = {
+			add_timed_idea = {
+				idea = POL_stoked_flames_of_monarchism
+				days = 360
+				}
+			#news_event =#
+			}
+			CZE = {
+			add_timed_idea = {
+				idea = POL_stoked_flames_of_monarchism
+				days = 360
+				}
+			#news_event =#
+			}						
 		}
 	}
 	focus = {
@@ -7332,7 +7352,12 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			154 = { add_claim_by = ROOT }
+			43 = { add_claim_by = ROOT }
+			846 = { add_claim_by = ROOT }
+			845 = { add_claim_by = ROOT }
+			844 = { add_claim_by = ROOT }
+			155 = { add_claim_by = ROOT }		
 		}
 	}
 	focus = {
@@ -7340,7 +7365,7 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
+			has_completed_focus = POL_demand_integration_of_czechoslovakia
 		}
 		relative_position_id = POL_claims_in_hungary
 		x = 0
@@ -7357,7 +7382,16 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			create_wargoal = {
+				target = HUN
+				type = annex_everything
+			}
+			HUN = {
+				country_event = {
+					id = poland.new.needs2bemade
+					days = 1
+				}
+			}			
 		}
 	}	
 	focus = {
@@ -7382,7 +7416,12 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			4 = { add_claim_by = ROOT }
+			827 = { add_claim_by = ROOT }
+			152 = { add_claim_by = ROOT }
+			825 = { add_claim_by = ROOT }
+			826 = { add_claim_by = ROOT }
+			153 = { add_claim_by = ROOT }
 		}
 	}
 	focus = {
@@ -7407,7 +7446,16 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			create_wargoal = {
+				target = AUS
+				type = annex_everything
+			}
+			AUS = {
+				country_event = {
+					id = poland.new.needs2bemade
+					days = 1
+				}
+			}
 		}
 	}
 	focus = {
@@ -7433,7 +7481,16 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			YUG = {
+				country_event = {
+					id = poland.new.needs2bemade
+					days = 1
+				}
+			}
+			create_wargoal = {
+				target = YUG
+				type = annex_everything
+			}
 		}
 	}
 	focus = {
@@ -7584,7 +7641,10 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			74 = { add_claim_by = ROOT }
+			75 = { add_claim_by = ROOT }
+			69 = { add_claim_by = ROOT }
+			9 = { add_claim_by = ROOT }
 		}
 	}
 	focus = {
@@ -7609,7 +7669,11 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			73 = { add_claim_by = ROOT }
+			71 = { add_claim_by = ROOT }
+			664 = { add_claim_by = ROOT }
+			70 = { add_claim_by = ROOT }
+			72 = { add_claim_by = ROOT }
 		}
 	}
 	focus = {
@@ -7635,7 +7699,16 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			CZE = {
+				country_event = {
+					id = poland.new.needs2bemade
+					days = 1
+				}
+			}
+			create_wargoal = {
+				target = CZE
+				type = annex_everything
+			}			
 		}
 	}
 	focus = {
