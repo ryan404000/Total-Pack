@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_industry5
 		icon = GFX_goal_IRQ_industry
-		x = 11
+		x = 13
 		y = 0
 		cost = 7
 		available_if_capitulated = no
@@ -27,10 +27,10 @@ focus_tree = {
 				prioritize = { 291 }
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 3
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 			}
 		}
 	}
@@ -39,7 +39,7 @@ focus_tree = {
 		id = IRQ_limited
 		icon = GFX_ENG_conscription
 		mutually_exclusive = { focus = IRQ_britishsupport }
-		x = 14
+		x = 18
 		y = 0
 		cost = 5
 		available_if_capitulated = no
@@ -141,7 +141,7 @@ focus_tree = {
 		id = IRQ_britishsupport
 		icon = GFX_focus_chi_british_cooperation
 		mutually_exclusive = { focus = IRQ_limited }
-		x = 16
+		x = 20
 		y = 0
 		cost = 5
 		available_if_capitulated = no
@@ -253,12 +253,11 @@ focus_tree = {
 	focus = {
 		id = IRQ_grainprotect
 		icon = GFX_goal_IRQ_grain
-		prerequisite = { focus = IRQ_legacy }
 		prerequisite = { focus = IRQ_1937 }
 		mutually_exclusive = { focus = IRQ_tradeeffort }
-		relative_position_id = IRQ_legacy
-		x = -1
-		y = 1
+		relative_position_id = IRQ_2year
+		x = 2
+		y = 0
 		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
@@ -272,12 +271,11 @@ focus_tree = {
 	focus = {
 		id = IRQ_tradeeffort
 		icon = GFX_goal_IRQ_trade
-		prerequisite = { focus = IRQ_legacy }
 		prerequisite = { focus = IRQ_1937 }
 		mutually_exclusive = { focus = IRQ_grainprotect }
-		relative_position_id = IRQ_legacy
-		x = 1
-		y = 1
+		relative_position_id = IRQ_grainprotect
+		x = 1.5
+		y = 0
 		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
@@ -343,11 +341,10 @@ focus_tree = {
 	focus = {
 		id = IRQ_college
 		icon = GFX_goal_IRQ_literacy
-		prerequisite = { focus = IRQ_revisit }
 		prerequisite = { focus = IRQ_child2 }
-		relative_position_id = IRQ_revisit
-		x = -2
-		y = 1
+		relative_position_id = IRQ_1937
+		x = 2
+		y = 0
 		cost = 12.2
 		available_if_capitulated = no
 		ai_will_do = {
@@ -408,10 +405,10 @@ focus_tree = {
 				prioritize = { 291 }
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 			}
 		}
 	}
@@ -442,9 +439,9 @@ focus_tree = {
 				add_building_construction = {
 					instant_build = yes
 					type = industrial_complex
-					level = 2
+					level = 3
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 			}
 		}
 	}
@@ -452,7 +449,6 @@ focus_tree = {
 	focus = {
 		id = IRQ_bank
 		icon = GFX_banks
-		prerequisite = { focus = IRQ_iraqunrest focus = IRQ_iraqunrest2 }
 		prerequisite = { focus = IRQ_industry5 }
 		relative_position_id = IRQ_industry5
 		x = -3
@@ -478,10 +474,9 @@ focus_tree = {
 	focus = {
 		id = IRQ_minimum
 		icon = GFX_goal_IRQ_cut
-		prerequisite = { focus = IRQ_bank }
-		relative_position_id = IRQ_bank
-		x = 0
-		y = 1
+		relative_position_id = IRQ_britishsupport
+		x = 3
+		y = 0
 		cost = 8
 		available_if_capitulated = no
 		ai_will_do = {
@@ -509,7 +504,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			IRQ_ind_decrease = yes
-			add_stability = 0.03
+			add_stability = 0.05
 			
 			add_tech_bonus = {
 				bonus = 0.75
@@ -523,9 +518,9 @@ focus_tree = {
 		id = IRQ_infra
 		icon = GFX_goal_IRQ_infra
 		prerequisite = { focus = IRQ_child2 }
-		prerequisite = { focus = IRQ_minimum }
+		prerequisite = { focus = IRQ_bank }
 		relative_position_id = IRQ_child2
-		x = -2
+		x = -3
 		y = 1
 		cost = 6
 		available_if_capitulated = no
@@ -542,14 +537,14 @@ focus_tree = {
 				add_building_construction = {
 					instant_build = yes
 					type = infrastructure
-					level = 2
+					level = 3
 				}
 			}
 			291 = {
 				add_building_construction = {
 					instant_build = yes
 					type = infrastructure
-					level = 1
+					level = 2	
 				}
 			}
 		}
@@ -561,7 +556,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_infra }
 		prerequisite = { focus = IRQ_1937 }
 		relative_position_id = IRQ_infra
-		x = 1
+		x = 0
 		y = 1
 		cost = 11
 		available_if_capitulated = no
@@ -602,7 +597,7 @@ focus_tree = {
 		icon = GFX_goal_POL_defense
 		prerequisite = { focus = IRQ_1937 }
 		relative_position_id = IRQ_1937
-		x = 1
+		x = -1.5
 		y = 1
 		cost = 7.5
 		available_if_capitulated = no
@@ -626,7 +621,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_2year }
 		prerequisite = { focus = IRQ_logistical }
 		relative_position_id = IRQ_2year
-		x = -1
+		x = -1.5
 		y = 1
 		cost = 6
 		available_if_capitulated = no
@@ -643,17 +638,17 @@ focus_tree = {
 				add_building_construction = {
 					instant_build = yes
 					type = arms_factory
-					level = 2
+					level = 3
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 			}
 			676 = {
 				add_building_construction = {
 					instant_build = yes
 					type = arms_factory
-					level = 2
+					level = 3
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 			}
 		}
 	}
@@ -664,7 +659,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_2year }
 		prerequisite = { focus = IRQ_logistical }
 		relative_position_id = IRQ_2year
-		x = 1
+		x = 0
 		y = 1
 		cost = 5.2
 		available_if_capitulated = no
@@ -686,7 +681,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_milexpand }
 		prerequisite = { focus = IRQ_rationing }
 		relative_position_id = IRQ_milexpand
-		x = 1
+		x = 2
 		y = 1
 		cost = 8.2
 		available_if_capitulated = no
@@ -711,7 +706,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_mobilisation }
 		prerequisite = { focus = IRQ_rallytheforces }
 		relative_position_id = IRQ_rallytheforces
-		x = 2
+		x = 1.5
 		y = 1
 		cost = 10
 		available_if_capitulated = no
@@ -1002,17 +997,17 @@ focus_tree = {
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 1500
+				amount = 3000
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_uniforms
-				amount = 1600
+				amount = 2600
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {
 				type = support_equipment
-				amount = 120
+				amount = 500
 				producer = ENG
 			}
 		}
@@ -1150,10 +1145,9 @@ focus_tree = {
 	focus = {
 		id = IRQ_conquerpersian
 		icon = GFX_goal_POL_navalfund
-		prerequisite = { focus = IRQ_remilitarise }
-		prerequisite = { focus = IRQ_reform }
-		relative_position_id = IRQ_remilitarise
-		x = 1
+        prerequisite = { focus = IRQ_ships }
+		relative_position_id = IRQ_ships
+		x = 0
 		y = 1
 		cost = 11
 		available_if_capitulated = no
@@ -1188,10 +1182,8 @@ focus_tree = {
 	focus = {
 		id = IRQ_dockyard
 		icon = GFX_goal_POL_gdynia
-		prerequisite = { focus = IRQ_conquerpersian }
-		prerequisite = { focus = IRQ_milexpand }
-		prerequisite = { focus = IRQ_navalbase }
-		relative_position_id = IRQ_conquerpersian
+		prerequisite = { focus = IRQ_minimum }
+		relative_position_id = IRQ_minimum
 		x = 1
 		y = 1
 		cost = 6.8
@@ -1228,8 +1220,8 @@ focus_tree = {
 	focus = {
 		id = IRQ_navalbase
 		icon = GFX_goal_Naval_Operations
-		prerequisite = { focus = IRQ_logistical }
-		relative_position_id = IRQ_logistical
+		prerequisite = { focus = IRQ_minimum }
+		relative_position_id = IRQ_minimum
 		x = -1
 		y = 1
 		cost = 5
@@ -1263,7 +1255,7 @@ focus_tree = {
 		id = IRQ_ships
 		icon = GFX_goal_generic_destroyer2
 		prerequisite = { focus = IRQ_navalbase }
-		prerequisite = { focus = IRQ_conquerpersian }
+		prerequisite = { focus = IRQ_dockyard }
 		relative_position_id = IRQ_navalbase
 		x = 1
 		y = 1
@@ -1306,17 +1298,17 @@ focus_tree = {
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 500
+				amount = 900
 				producer = IRQ
 			}
 			add_equipment_to_stockpile = {
 				type = horse_equipment
-				amount = 1000
+				amount = 1200
 				producer = IRQ
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_uniforms
-				amount = 600
+				amount = 800
 				producer = IRQ
 			}			
 		}

@@ -532,7 +532,7 @@ ideas = {
 			modifier = {
 				production_oil_factor = 0.2
 				local_resources_factor = 0.2
-				min_export = -0.2
+				min_export = -0.15
 				consumer_goods_factor = -0.02
 			}
 		}
@@ -607,8 +607,8 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.02
 				production_speed_buildings_factor = -0.1
-				MONTHLY_POPULATION = 0.25
-				industry_air_damage_factor = -0.1
+				MONTHLY_POPULATION = 0.30
+				industry_air_damage_factor = -0.05
 			}
 		}
 		
