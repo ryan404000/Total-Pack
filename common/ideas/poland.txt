@@ -1695,14 +1695,14 @@ country = {
 	
 	POL_german_monarch = {
 		modifier = {
-			stability_weekly_factor  = 0.005
+			stability_weekly = 0.005
 			consumer_goods_factor = -0.01
 			research_speed_factor = 0.05
 		}
 	}
 	POL_austrian_monarch = {
 		modifier = {
-			stability_weekly_factor  = 0.005
+			stability_weekly = 0.005
 			consumer_goods_factor = -0.01
 			research_speed_factor = 0.02
 			conscription_factor = 0.01
@@ -1710,7 +1710,7 @@ country = {
 	}
 	POL_russian_monarch = {
 		modifier = {
-			stability_weekly_factor  = 0.002
+			stability_weekly = 0.002
 			war_support_weekly = 0.005
 			consumer_goods_factor = -0.03
 			research_speed_factor = 0.01
@@ -1719,7 +1719,7 @@ country = {
 	}
 	POL_polish_monarch = {
 		modifier = {
-			stability_weekly_factor  = 0.01
+			stability_weekly = 0.001
 			war_support_weekly = 0.002
 			consumer_goods_factor = -0.05
 			research_speed_factor = 0.01
@@ -1728,7 +1728,7 @@ country = {
 	}
 	POL_lithuanian_monarch = {
 		modifier = {
-			stability_weekly_factor  = 0.005
+			stability_weekly = 0.005
 			consumer_goods_factor = -0.05
 			research_speed_factor = 0.01
 			conscription = 0.02
@@ -1777,6 +1777,14 @@ country = {
 	}
 
 	POL_stoked_flames_of_monarchism = {
+		modifier = {
+			political_power_gain = -0.25
+			stability_weekly_factor = -0.001
+			neutrality_drift = 0.03
+		}
+	}
+
+	POL_stoked_flames_of_nationalism = {
 		modifier = {
 			political_power_gain = -0.25
 			stability_weekly_factor = -0.001
@@ -1841,7 +1849,7 @@ country = {
 	}
 	POL_rebuild_berlin_idea = {
 		modifier = {
-			consumer_goods_factor = 0.15
+			consumer_goods_factor = 0.20
 			stability_weekly = 0.005
 			political_power_cost = 0.45
 		}
@@ -1858,7 +1866,64 @@ country = {
 			monthly_population = 0.3
 			political_power_gain = 0.3
 		}			
-	}		
+	}
+
+	POL_protected_minorities = {
+		modifier = {
+			conscription_factor = 0.03
+			stability_factor = 0.05
+			war_support_factor = 0.05
+		}
+	}
+
+	POL_ukranian_protection	= {
+		modifier = {
+			conscription_factor = 0.01
+			stability_factor = 0.02		
+		}
+	}
+	
+	POL_belarusian_protection = {
+		modifier = {
+			conscription_factor = 0.01
+			stability_factor = 0.02			
+		}
+	}
+
+	POL_lithuanian_protection = {
+		modifier = {
+			conscription_factor = 0.01
+			stability_factor = 0.02
+		}
+	}
+
+	POL_investment_focus = {
+		modifier = {
+			consumer_goods_factor = 0.02
+		}
+	}
+
+	POL_heavy_investment_focus = {
+		modifier = {
+			consumer_goods_factor = 0.12
+		}
+	}
+	
+	POL_plc_reborn = {
+		modifier = {
+
+		}
+	}
+	POL_poland_russia = {
+		modifier = {
+			
+		}
+	}
+	POL_underdeveloped_lithuania = {
+		modifier = {
+			
+		}
+	}
 }	
 
 political_advisor = {

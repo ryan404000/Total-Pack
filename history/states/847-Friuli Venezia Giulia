@@ -1,0 +1,50 @@
+state={
+	id=847
+	name="STATE_847"
+	resources={
+	}
+	manpower=1356307
+    # Trieste 1936 pop = 248307
+    # Fruili 1936 pop = 1108000
+
+	buildings_max_level_factor=1.000
+	state_category = city
+
+	history={
+		owner = ITA
+        victory_points = {
+			6626 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			dockyard = 3
+			air_base = 3
+			6626 = {
+				naval_base = 7
+				bunker = 2
+			}
+			628 = {
+				bunker = 1
+			}
+			9613 = {
+				bunker = 1
+			}
+		}
+		add_core_of = ITA
+		1939.1.1 = {
+			buildings = {
+				dockyard = 2
+				industrial_complex = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={ 
+        628 6626 9613
+	}
+	
+}

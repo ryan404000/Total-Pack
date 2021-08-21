@@ -759,5 +759,9 @@
  signal_company_desc:0 "Responsible for local communications working in the division. By reporting successful combat tactics and observing the enemy the experience of the divisions grows, even if the men directly involved may not survive."
  maintenance_company:0 "Maintenance Company"
  maintenance_company_desc:0 "Under combat conditions every piece of equipment will fail at some point, maintaining and repairing it as quickly as possible ensures that the division can rely on its weapons."
+ shocktroop:0 "Shock Troopers"
+ shocktroop_desc:0 "this is of adding shock troops test"
+ mot_shocktroop:0 "Motorized Shock Troopers"
+ mot_shocktroop_desc:0 "this is a test of adding motorized shock troops"
  
  

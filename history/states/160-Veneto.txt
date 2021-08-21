@@ -11,9 +11,6 @@ state={
 	history={
 		owner = ITA
 		victory_points = {
-			6626 1 
-		}
-		victory_points = {
 			11584 10 
 		}
 		victory_points = {
@@ -29,14 +26,7 @@ state={
 				naval_base = 7
 				bunker = 2
 			}
-			628 = {
-				bunker = 1
-			}
 			3657 = {
-				bunker = 1
-
-			}
-			9613 = {
 				bunker = 1
 
 			}
@@ -54,7 +44,7 @@ state={
 	}
 
 	provinces={
-		603 628 3604 3657 6656 9582 9613 11584 13246
+		603 3604 3657 6656 9582 11584 13246
 	}
 	manpower=3963151
 	buildings_max_level_factor=1.000

@@ -3001,16 +3001,142 @@ country_event = {
 		
 }
 
+#Soviets Accept Economic Concessions
+news_event = {
+	id = poland.106
+	title = poland.106.t
+	desc = poland.106.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.106.a
+	}
+}
+
+#Soviets Refuse Economic Concessions
+news_event = {
+	id = poland.107
+	title = poland.107.t
+	desc = poland.107.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.107.a
+	}
+}
+
+#Soviets Accept Land Concessions
+news_event = {
+	id = poland.108
+	title = poland.108.t
+	desc = poland.108.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.108.a
+	}
+}
+
+#Soviets Refuse Land Concessions
+news_event = {
+	id = poland.109
+	title = poland.109.t
+	desc = poland.109.d 
+	picture = GFX_report_event_polish_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.109.a
+	}
+}
+
+#Soviets Accept Demilitarization
+news_event = {
+	id = poland.110
+	title = poland.110.t
+	desc = poland.110.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.110.a
+	}
+}
+
+#Soviets Refuse Demilitarization
+news_event = {
+	id = poland.111
+	title = poland.111.t
+	desc = poland.111.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.111.a
+	}
+}
+
+##### Soviet-Polish Land Concessions COPY OF EVENT POLAND.108!!!! #####
+news_event = {
+	id = poland.112
+	title = poland.112.t
+	desc = poland.112.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.112.a
+	}
+}
+
+##### Soviet-Polish Talks Break Down #####
+news_event = {
+	id = poland.113
+	title = poland.113.t
+	desc = poland.113.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.113.a
+	}
+}
+
 #Invite Romania to Faction
 country_event = {
 	id = poland.114
 	title = poland.114.t
 	desc = poland.114.d
 	picture = GFX_report_event_polish_army
-	
+
 	is_triggered_only = yes
 	
-	option = {
+	option = { #yes
 		name = poland.114.a
 		ai_chance = { 
 			factor = 10 
@@ -3021,18 +3147,88 @@ country_event = {
 		add_to_faction = ROM
 	}
 	
-	option = {
+	option = { #no
 		name = poland.114.b
 		ai_chance = { factor = 1 }
 	}
 }	
 
 #Return of the Kaiser
-#news_event = {
-#	id = poland.115
-#	title = poland.115.t
-#	desc = poland.115.d 
-#	picture = 
-#
-#	is_triggered_only = yes
-#}	
+news_event = {
+	id = poland.115
+	title = poland.115.t
+	desc = poland.115.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.115.a
+	}
+}
+
+#Stoked Monarchism in Germany
+news_event = {
+	id = poland.116
+	title = poland.116.t
+	desc = poland.116.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.116.a
+	}
+}
+
+#Stoked Nationalism in Ukraine
+news_event = {
+	id = poland.117
+	title = poland.117.t
+	desc = poland.117.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.117.a
+	}
+}
+
+#Stoked Nationalism in Belarus
+news_event = {
+	id = poland.118
+	title = poland.118.t
+	desc = poland.118.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.118.a
+	}
+}
+
+#Polish Lithuanian Union
+news_event = {
+	id = poland.119
+	title = poland.119.t
+	desc = poland.119.d 
+	picture = GFX_report_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = poland.119.a
+	}
+}

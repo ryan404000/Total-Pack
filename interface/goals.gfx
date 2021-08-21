@@ -7654,5 +7654,25 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_SIA_officer"
 		texturefile = "gfx/interface/goals/SIA_officer.dds"
-	}	
+	}
+	SpriteType = { 
+		name = "GFX_focus_flag_estonia"
+		texturefile = "gfx/interface/goals/flag_estonia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_EST_Estonian_Eagle_Focus"
+		texturefile = "gfx/interface/goals/EST_Estonian_Eagle_Focus.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_flag_latvia"
+		texturefile = "gfx/interface/goals/flag_latvia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_generic_naval_academy"
+		texturefile = "gfx/interface/goals/generic_naval_academy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_generic_naval_industry"
+		texturefile = "gfx/interface/goals/generic_naval_industry.dds"
+	}									
 }
