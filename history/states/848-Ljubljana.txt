@@ -1,0 +1,28 @@
+state={
+	id=848
+	name="STATE_848"
+	manpower = 462027
+	
+	state_category = large_town
+	
+	history = {
+		owner = YUG
+		buildings = {
+			infrastructure = 5
+            industrial_complex = 3	
+            arms_factory = 2
+
+            9627 = {
+				bunker = 2
+			}	
+        }
+		victory_points = {
+			9627 3 
+		}
+		add_core_of = YUG
+		add_core_of = SLV
+	}
+	provinces={
+		6650 9627 
+    }
+}

@@ -1,22 +1,16 @@
-state=
-{
+state={
 	id=102
 	name="STATE_102"
-	manpower = 1386082 #upped from 1.14 mil
+	manpower = 730415
 	
-	state_category = large_town
+	state_category = city
 	
-	history =
-	{
+	history ={
 		owner = YUG
 		buildings = {
 			infrastructure = 5
-industrial_complex = 3	
-arms_factory = 2
-
-9627 = {
-				bunker = 2
-			}
+			industrial_complex = 3	
+			arms_factory = 2
 			3631 = {
 				bunker = 2
 			}
@@ -26,14 +20,11 @@ arms_factory = 2
 			665 = {
 				bunker = 2
 			}
-			
-}
-		victory_points = {
-			9627 3 
 		}
+
 		add_core_of = YUG
 		add_core_of = SLV
 	}
 	provinces={
-		596 665 3631 3654 6650 6672 9596 9627 }
-	}
+		596 665 3631 3654 9596 }
+}
