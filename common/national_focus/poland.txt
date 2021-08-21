@@ -30,12 +30,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_stability = 0.03
-			add_political_power = 100
-			swap_ideas = {
-			remove_idea = POL_great_depression_0
-			add_idea = POL_great_depression_1
-			}
+			add_stability = 0.03			
 		}
 		
 	}
@@ -111,6 +106,12 @@ focus_tree = {
 			}
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = eugeniusz_kwiatkowski
+			add_stability = 0.03
+			add_political_power = 100
+			swap_ideas = {
+			remove_idea = POL_great_depression_0
+			add_idea = POL_great_depression_1
+			}			
 		}
 		
 	}
@@ -161,7 +162,7 @@ focus_tree = {
 		relative_position_id = POL_class
 		x = 0
 		y = 1
-		cost = 5
+		cost = 3
 		
 		ai_will_do = {
 			factor = 6
@@ -182,7 +183,7 @@ focus_tree = {
 		relative_position_id = POL_expansion_of_industry
 		x = 0
 		y = 1
-		cost = 7
+		cost = 6
 		
 		ai_will_do = {
 			factor = 9
@@ -227,7 +228,7 @@ focus_tree = {
 		relative_position_id = POL_civilian
 		x = -1
 		y = 1
-		cost = 6
+		cost = 4
 		
 		ai_will_do = {
 			factor = 6
@@ -280,7 +281,7 @@ focus_tree = {
 		relative_position_id = POL_the_four_year_plan
 		x = -1
 		y = 1
-		cost = 7
+		cost = 5
 		
 		ai_will_do = {
 			factor = 8
@@ -836,7 +837,7 @@ focus_tree = {
 		relative_position_id = POL_expansion_of_industry2
 		x = 0
 		y = 1
-		cost = 7
+		cost = 5
 		
 		ai_will_do = {
 			factor = 20
@@ -909,7 +910,7 @@ focus_tree = {
 		relative_position_id = POL_expansion_of_industry3
 		x = 1
 		y = 2
-		cost = 6
+		cost = 5
 		
 		ai_will_do = {
 			factor = 12
@@ -975,7 +976,7 @@ focus_tree = {
 		relative_position_id = POL_coal
 		x = -1
 		y = 1
-		cost = 5
+		cost = 3
 		
 		ai_will_do = {
 			factor = 15
@@ -1007,7 +1008,7 @@ focus_tree = {
 		relative_position_id = POL_coal
 		x = 1
 		y = 1
-		cost = 7
+		cost = 5
 		
 		ai_will_do = {
 			factor = 10
@@ -1036,7 +1037,7 @@ focus_tree = {
 		relative_position_id = POL_lower
 		x = -1
 		y = 1
-		cost = 6
+		cost = 4
 		
 		ai_will_do = {
 			factor = 15
@@ -1072,7 +1073,7 @@ focus_tree = {
 		relative_position_id = POL_suburban
 		x = 1
 		y = 1
-		cost = 6
+		cost = 4
 		
 		ai_will_do = {
 			factor = 15
@@ -1116,7 +1117,7 @@ focus_tree = {
 		relative_position_id = POL_polandB
 		x = -1
 		y = 2
-		cost = 5
+		cost = 4
 		
 		ai_will_do = {
 			factor = 15
@@ -1174,7 +1175,7 @@ focus_tree = {
 		relative_position_id = POL_polandA
 		x = 1
 		y = 2
-		cost = 5
+		cost = 3
 		
 		ai_will_do = {
 			factor = 15
@@ -1267,7 +1268,7 @@ focus_tree = {
 		relative_position_id = POL_lower
 		x = 1
 		y = 1
-		cost = 5
+		cost = 4
 		
 		ai_will_do = {
 			factor = 15
@@ -1305,7 +1306,7 @@ focus_tree = {
 		relative_position_id = POL_warsaw2
 		x = 0
 		y = 1
-		cost = 5
+		cost = 3
 		
 		ai_will_do = {
 			factor = 15
@@ -4379,7 +4380,7 @@ focus_tree = {
 		relative_position_id = POL_polandB
 		x = 0
 		y = 1
-		cost = 4
+		cost = 3
 		
 		available = {
 			93 = {
@@ -5834,7 +5835,7 @@ focus = {
 		}
 		x = 63
 		y = 1
-		cost = 6
+		cost = 3
         available_if_capitulated = no
 		mutually_exclusive = { focus = POL_authoritarianism focus = POL_the_between_the_seas_concept focus = POL_strengthen_the_polish_state }
 		prerequisite = {focus = POL_foreign_policy }
@@ -5863,7 +5864,7 @@ focus = {
 		}
 		x = 0
 		y = 1
-		cost = 3
+		cost = 2
         available_if_capitulated = no
 		prerequisite = { focus = POL_return_to_the_past }
 		ai_will_do = {
@@ -6198,7 +6199,7 @@ focus = {
 		relative_position_id = POL_a_german_monarch
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
         available_if_capitulated = no
 		prerequisite = { focus = POL_a_german_monarch }
 		ai_will_do = {
@@ -6229,7 +6230,7 @@ focus = {
 		relative_position_id = POL_stoke_monarchism_in_germany
 		x = 0
 		y = 1
-		cost = 6
+		cost = 4
         available_if_capitulated = no
 		prerequisite = { focus = POL_stoke_monarchism_in_germany }
 		ai_will_do = {
@@ -6256,7 +6257,7 @@ focus = {
 		relative_position_id = POL_stoke_monarchism_in_germany
 		x = -2
 		y = 1
-		cost = 6
+		cost = 4
         available_if_capitulated = no
 		prerequisite = { focus = POL_stoke_monarchism_in_germany }
 		ai_will_do = {
@@ -6554,7 +6555,7 @@ focus = {
 		relative_position_id = POL_claims_in_prussia
 		x = -2
 		y = 1
-		cost = 3
+		cost = 2
         available_if_capitulated = no
 		prerequisite = { focus = POL_claims_in_prussia }
 		ai_will_do = {
@@ -6627,7 +6628,7 @@ focus = {
 		relative_position_id = POL_ties_with_england
 		x = -3
 		y = 1
-		cost = 8
+		cost = 5
         available_if_capitulated = no
 		prerequisite = { focus = POL_ties_with_england }
 		ai_will_do = {
@@ -6675,7 +6676,7 @@ focus = {
 		relative_position_id = POL_english_fighter_production
 		x = 1
 		y = 1
-		cost = 12
+		cost = 10
         available_if_capitulated = no
 		prerequisite = { focus = POL_english_fighter_production focus = POL_english_shipbuilding_aid }
 		ai_will_do = {
@@ -7267,7 +7268,7 @@ focus = {
 		relative_position_id = POL_a_german_monarch
 		x = -2
 		y = 1
-		cost = 6
+		cost = 3
         available_if_capitulated = no
 		prerequisite = { focus = POL_a_german_monarch }
 		ai_will_do = {
@@ -7290,11 +7291,10 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_a_german_monarch
 		x = 2
-		y = 9
+		y = 11
 		cost = 7
         available_if_capitulated = no
 		prerequisite = { focus = POL_an_austrian_monarch }
@@ -7335,10 +7335,9 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_stoke_monarchism_in_austria_hungary
-		x = 4
+		x = 3
 		y = 1
 		cost = 6
         available_if_capitulated = no
@@ -7399,7 +7398,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_claims_in_hungary
 		x = 2
@@ -7429,7 +7427,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_claims_in_austria
 		x = 0
@@ -7463,7 +7460,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_demand_austrian_integration
 		x = -1
@@ -7498,7 +7494,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_look_south_to_yugo
 		x = 2
@@ -7523,7 +7518,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_demand_austrian_integration
 		x = 1
@@ -7548,7 +7542,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_prepare_for_war_with_hungary
 		x = -1
@@ -7573,7 +7566,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_look_south_to_yugo
 		x = 0
@@ -7598,7 +7590,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_reclaim_romanian_lands
 		x = -3
@@ -7624,10 +7615,9 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_stoke_monarchism_in_austria_hungary
-		x = -2
+		x = -3
 		y = 1
 		cost = 6
         available_if_capitulated = no
@@ -7652,7 +7642,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_stoke_monarchism_in_austria_hungary
 		x = 0
@@ -7708,7 +7697,8 @@ focus = {
 			create_wargoal = {
 				target = CZE
 				type = annex_everything
-			}			
+			}
+
 		}
 	}
 	focus = {
@@ -7716,7 +7706,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_demand_integration_of_czechoslovakia
 		x = 0
@@ -7741,7 +7730,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_reinforce_czech_forts
 		x = 0
@@ -7766,7 +7754,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_demand_integration_of_czechoslovakia
 		x = -2
@@ -7791,7 +7778,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_czech_war_industry
 		x = 0
@@ -7816,7 +7802,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_demand_integration_of_czechoslovakia
 		x = 2
@@ -7841,7 +7826,6 @@ focus = {
 		icon = GFX_goal_POL_intersea
 		available = {
 			is_puppet = no
-			is_in_faction = no
 		}
 		relative_position_id = POL_czech_civilian_industry
 		x = 0
