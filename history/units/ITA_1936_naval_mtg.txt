@@ -77,7 +77,7 @@ units= {
 		
 		task_force = {				
 			name = "II Squadra Navale" # Dipartimento Militare Marittimo 'Alto Tirreno' / II Squadra
-			location = 6973 # La Spezia, Italy
+			location = 13298 # La Spezia, Italy
 			# Comando di Squadra
 			ship = { name = "RI Pola" definition = heavy_cruiser equipment = { ship_hull_heavy_cruiser_2 = { amount = 1 owner = ITA version_name = "Zara Class" } } } 
 			# II Divisione Incrociatori
@@ -109,7 +109,7 @@ units= {
 		} 
 		task_force = { 
 			name = "I Gruppo Sommergibili" 
-			location = 6973 # La Spezia, Italy
+			location = 13298 # La Spezia, Italy
 			# XI Squadriglia Sommergibili
 			ship = { name = "RSmg Pietro Calvi" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Calvi Class" } } } 
 			ship = { name = "RSmg Giuseppe Finzi" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Calvi Class" } } } 

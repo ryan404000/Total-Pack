@@ -1,0 +1,40 @@
+
+state={
+	id=851
+	name="STATE_851"
+	manpower = 83455
+    #1936 pop: 83455
+	
+	state_category = rural
+	resources={
+		steel=14
+		tungsten = 7
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			611 1 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			611 = {
+				bunker = 2
+			}		
+        }
+		add_core_of = ITA
+        add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 3
+			}
+		}
+	}
+
+	provinces={
+		611 13299 13300
+	}
+}
