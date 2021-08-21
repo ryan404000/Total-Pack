@@ -48,7 +48,7 @@ focus_tree = {
 
 		x = 0
 		y = 1
-		cost = 5
+		cost = 3
 		
 		ai_will_do = {
 			factor = 10
@@ -71,7 +71,7 @@ focus_tree = {
 		
 		x = 0
 		y = 1
-		cost = 5
+		cost = 3
 		
 		ai_will_do = {
 			factor = 10
@@ -123,7 +123,7 @@ focus_tree = {
 		relative_position_id = POL_the_four_year_plan
 		x = -3
 		y = 1
-		cost = 5
+		cost = 3
 		
 		ai_will_do = {
 			factor = 6
@@ -161,7 +161,7 @@ focus_tree = {
 		relative_position_id = POL_class
 		x = 0
 		y = 1
-		cost = 6.7
+		cost = 5
 		
 		ai_will_do = {
 			factor = 6
@@ -182,7 +182,7 @@ focus_tree = {
 		relative_position_id = POL_expansion_of_industry
 		x = 0
 		y = 1
-		cost = 10
+		cost = 7
 		
 		ai_will_do = {
 			factor = 9
@@ -227,7 +227,7 @@ focus_tree = {
 		relative_position_id = POL_civilian
 		x = -1
 		y = 1
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			factor = 6
@@ -256,7 +256,7 @@ focus_tree = {
 		relative_position_id = POL_ursus2
 		x = -1
 		y = 1
-		cost = 9
+		cost = 3
 		
 		ai_will_do = {
 			factor = 6
@@ -313,7 +313,7 @@ focus_tree = {
 		relative_position_id = POL_the_four_year_plan
 		x = 1
 		y = 1
-		cost = 12
+		cost = 8
 		
 		ai_will_do = {
 			factor = 15
@@ -359,7 +359,7 @@ focus_tree = {
 		relative_position_id = POL_expansion_of_industry3
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 		
 		ai_will_do = {
 			factor = 20
@@ -391,7 +391,7 @@ focus_tree = {
 		relative_position_id = POL_expansion_of_industry3
 		x = 4
 		y = 1
-		cost = 9
+		cost = 6
 		
 		ai_will_do = {
 			factor = 3
@@ -466,7 +466,7 @@ focus_tree = {
 		relative_position_id = POL_plan_west
 		x = 1
 		y = 1
-		cost = 8
+		cost = 6
 		
 		available = {
 			custom_trigger_tooltip = {
@@ -836,7 +836,7 @@ focus_tree = {
 		relative_position_id = POL_expansion_of_industry2
 		x = 0
 		y = 1
-		cost = 7.5
+		cost = 7
 		
 		ai_will_do = {
 			factor = 20
@@ -975,7 +975,7 @@ focus_tree = {
 		relative_position_id = POL_coal
 		x = -1
 		y = 1
-		cost = 7
+		cost = 5
 		
 		ai_will_do = {
 			factor = 15
@@ -1007,7 +1007,7 @@ focus_tree = {
 		relative_position_id = POL_coal
 		x = 1
 		y = 1
-		cost = 10
+		cost = 7
 		
 		ai_will_do = {
 			factor = 10
@@ -1036,7 +1036,7 @@ focus_tree = {
 		relative_position_id = POL_lower
 		x = -1
 		y = 1
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			factor = 15
@@ -1072,7 +1072,7 @@ focus_tree = {
 		relative_position_id = POL_suburban
 		x = 1
 		y = 1
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			factor = 15
@@ -1116,7 +1116,7 @@ focus_tree = {
 		relative_position_id = POL_polandB
 		x = -1
 		y = 2
-		cost = 6
+		cost = 5
 		
 		ai_will_do = {
 			factor = 15
@@ -1174,7 +1174,7 @@ focus_tree = {
 		relative_position_id = POL_polandA
 		x = 1
 		y = 2
-		cost = 6
+		cost = 5
 		
 		ai_will_do = {
 			factor = 15
@@ -1239,7 +1239,7 @@ focus_tree = {
 		relative_position_id = POL_polandA
 		x = 0
 		y = 1
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			factor = 15
@@ -1267,7 +1267,7 @@ focus_tree = {
 		relative_position_id = POL_lower
 		x = 1
 		y = 1
-		cost = 6.2
+		cost = 5
 		
 		ai_will_do = {
 			factor = 15
@@ -1305,7 +1305,7 @@ focus_tree = {
 		relative_position_id = POL_warsaw2
 		x = 0
 		y = 1
-		cost = 7
+		cost = 5
 		
 		ai_will_do = {
 			factor = 15
@@ -1960,7 +1960,7 @@ focus_tree = {
 
 		x = 10
 		y = 1
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 5
@@ -1983,7 +1983,7 @@ focus_tree = {
 		relative_position_id = POL_prepare_for_the_next_war
 		x = 0
 		y = 1
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 20
@@ -2071,7 +2071,7 @@ focus_tree = {
 		
 		x = 1
 		y = 1
-		cost = 7
+		cost = 5
 		
 		bypass = {
 			NOT = {
@@ -2179,7 +2179,7 @@ focus_tree = {
 		
 		x = -1
 		y = 1
-		cost = 3
+		cost = 2
 		
 		available = {
 			ROM = { exists = yes }
@@ -2259,7 +2259,7 @@ focus_tree = {
 		relative_position_id = POL_standardisation_of_equipment
 		x = 0
 		y = 1
-		cost = 6
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -2972,7 +2972,7 @@ focus_tree = {
 		prerequisite = {focus = POL_military_reform}		
 		x = 19
 		y = 1
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -2999,7 +2999,7 @@ focus_tree = {
 		relative_position_id = POL_kop
 		x = -1
 		y = 1
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -3018,7 +3018,7 @@ focus_tree = {
 		relative_position_id = POL_kop
 		x = 1
 		y = 1
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -3037,7 +3037,7 @@ focus_tree = {
 		
 		x = -1
 		y = 1
-		cost = 6
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -3087,7 +3087,7 @@ focus_tree = {
 		relative_position_id = POL_air_base_expansion
 		x = 2
 		y = 1
-		cost = 6
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -3166,7 +3166,7 @@ focus_tree = {
 		relative_position_id = POL_air_innovations
 		x = 0
 		y = 2
-		cost = 8
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -3191,7 +3191,7 @@ focus_tree = {
 		relative_position_id = POL_air_innovations
 		x = 1
 		y = 1
-		cost = 6
+		cost = 4
 
 		ai_will_do = {
 			factor = 10
@@ -3214,7 +3214,7 @@ focus_tree = {
 		relative_position_id = POL_fighter_modernisation
 		x = -1
 		y = 1
-		cost = 9
+		cost = 6
 
 		ai_will_do = {
 			factor = 10
@@ -3439,7 +3439,7 @@ focus_tree = {
 		
 		x = 0
 		y = 1
-		cost = 7
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -3680,7 +3680,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = POL_develop_polish_ship
-		cost = 7
+		cost = 4
 
 		available = {
 			any_owned_state = {
@@ -3885,7 +3885,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = POL_gdynia
-		cost = 6
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -3965,6 +3965,39 @@ focus_tree = {
 		}
 	}	
 	focus = {
+		id = POL_buy_battleship
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = POL_buy_cruisers }
+		prerequisite = { focus = POL_battlecruiser }
+		available = { 
+			is_subject = no
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+		
+		x = 1
+		y = 1
+		relative_position_id = POL_buy_cruisers
+		cost = 6
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = POL_english_battleship	
+			ENG = {
+				country_event = {
+				id = poland.94
+				days = 2
+				}
+			}
+		}
+	}	
+	focus = {
 		id = POL_proposefrance
 		icon = GFX_goal_POL_madagascar
 		prerequisite = { focus = POL_colonial }
@@ -3978,7 +4011,7 @@ focus_tree = {
 		
 		x = 0
 		y = 1
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -4021,7 +4054,7 @@ focus_tree = {
 		
 		x = 0
 		y = 1
-		cost = 5
+		cost = 6
 
 		ai_will_do = {
 			factor = 1
@@ -4030,12 +4063,12 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = rubber
-				amount = 24
+				amount = 36
 				state = 543
 			}
 			add_resource = {
 				type = oil
-				amount = 12
+				amount = 24
 				state = 543
 			}
 		}
@@ -4240,7 +4273,7 @@ focus_tree = {
 		relative_position_id = POL_romania1
 		x = 1
 		y = 1
-		cost = 7
+		cost = 6
 		
 		available = {
 			has_country_flag = POL_refuseap
@@ -4300,7 +4333,7 @@ focus_tree = {
 		mutually_exclusive = { focus = POL_cossacks }
 		x = 1
 		y = 1
-		cost = 6
+		cost = 4
 
 		ai_will_do = {
 			factor = 10
@@ -4346,7 +4379,7 @@ focus_tree = {
 		relative_position_id = POL_polandB
 		x = 0
 		y = 1
-		cost = 6.7
+		cost = 4
 		
 		available = {
 			93 = {
@@ -4455,7 +4488,7 @@ focus_tree = {
 		mutually_exclusive = { focus = POL_husaria }
 		x = -1
 		y = 1
-		cost = 6
+		cost = 4
 		
 		bypass = {
 			91 = {
@@ -5474,7 +5507,8 @@ focus = {
 
 		x = 1
 		y = 1
-		cost = 6
+		cost = 4
+
 		relative_position_id = POL_cossacks
 		ai_will_do = {
 			factor = 10
@@ -5865,6 +5899,7 @@ focus = {
 		x = -2
 		y = 1
 		cost = 4
+
 		relative_position_id = POL_central
 		ai_will_do = {
 			factor = 10
@@ -7283,7 +7318,7 @@ focus = {
 			is_in_faction = no
 		}
 		relative_position_id = POL_stoke_monarchism_in_austria_hungary
-		x = 0
+		x = 4
 		y = 1
 		cost = 6
         available_if_capitulated = no
@@ -7299,7 +7334,460 @@ focus = {
 		completion_reward = {
 
 		}
+	}
+	focus = {
+		id = POL_prepare_for_war_with_hungary
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_claims_in_hungary
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_claims_in_hungary}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
 	}	
+	focus = {
+		id = POL_claims_in_austria
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_claims_in_hungary
+		x = 2
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_claims_in_hungary}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_demand_austrian_integration
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_claims_in_austria
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_claims_in_austria}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_look_south_to_yugo
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_demand_austrian_integration
+		x = -1
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_demand_austrian_integration}
+		prerequisite = { focus = POL_prepare_for_war_with_hungary }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_improve_yugoslavian_lands
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_look_south_to_yugo
+		x = 2
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_look_south_to_yugo}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = POL_improve_austrian_lands
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_demand_austrian_integration
+		x = 1
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_demand_austrian_integration}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_improve_hungarian_lands
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_prepare_for_war_with_hungary
+		x = -1
+		y = 2
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_prepare_for_war_with_hungary}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}			
+	focus = {
+		id = POL_reclaim_romanian_lands
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_look_south_to_yugo
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_look_south_to_yugo}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_proclaim_a_new_empire
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_reclaim_romanian_lands
+		x = -3
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_reclaim_romanian_lands}
+		prerequisite = { focus = POL_warsaw_prague_railway focus = POL_reinforce_air_raid_shelters focus = POL_czech_auto_industry }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}					
+	focus = {
+		id = POL_claims_in_czech
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_stoke_monarchism_in_austria_hungary
+		x = -2
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_stoke_monarchism_in_austria_hungary}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_claims_in_slovakia
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_stoke_monarchism_in_austria_hungary
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_stoke_monarchism_in_austria_hungary }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_demand_integration_of_czechoslovakia
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_claims_in_czech
+		x = 0
+		y = 2
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_claims_in_slovakia }
+		prerequisite = { focus = POL_claims_in_czech }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_reinforce_czech_forts
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_demand_integration_of_czechoslovakia
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_demand_integration_of_czechoslovakia }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_reinforce_air_raid_shelters
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_reinforce_czech_forts
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_reinforce_czech_forts }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = POL_czech_war_industry
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_demand_integration_of_czechoslovakia
+		x = -2
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_demand_integration_of_czechoslovakia }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_czech_auto_industry
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_czech_war_industry
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_czech_war_industry }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = POL_czech_civilian_industry
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_demand_integration_of_czechoslovakia
+		x = 2
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_demand_integration_of_czechoslovakia }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = POL_warsaw_prague_railway
+		icon = GFX_goal_POL_intersea
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_czech_civilian_industry
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_czech_civilian_industry }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+
+		}
+	}								
 	focus = {
 		id = POL_reunite_lithuania
 		icon = GFX_Goal_treaty_with_lithuania
@@ -7371,7 +7859,7 @@ focus = {
 		}
 		relative_position_id = POL_unity_with_lithuania
 		x = 1
-		y = 1
+		y = 2
 		cost = 6
         available_if_capitulated = no
 		prerequisite = { focus = POL_unity_with_lithuania }
@@ -7398,7 +7886,7 @@ focus = {
 		}
 		relative_position_id = POL_unity_with_lithuania
 		x = -1
-		y = 1
+		y = 2
 		cost = 6
         available_if_capitulated = no
 		prerequisite = { focus = POL_unity_with_lithuania }
@@ -7485,6 +7973,11 @@ focus = {
 					instant_build = yes					
 				}				
 			}
+			add_resource = {
+				type = steel
+				amount = 25
+				state = 12			
+			}			
 			190 = {
 				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
@@ -7568,6 +8061,11 @@ focus = {
 					instant_build = yes					
 				}				
 			}
+			add_resource = {
+				type = oil
+				amount = 25
+				state = 191					
+			}			
 			13 = {
 				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
@@ -7591,7 +8089,7 @@ focus = {
 		}
 		relative_position_id = POL_reunite_lithuania
 		x = 6
-		y = 1
+		y = 2
 		cost = 9
         available_if_capitulated = no
 		prerequisite = { focus = POL_reunite_lithuania }
@@ -7609,6 +8107,7 @@ focus = {
 					target = LIT 
 					transfer_troops = yes
 				}
+				add_ideas = POL_underdeveloped_lithuania
 			}
 			news_event = poland.119
 		}
@@ -7746,7 +8245,7 @@ focus = {
 		}
 		completion_reward = {
 			11 = {
-				add_extra_state_shared_building_slots = 4				
+				add_extra_state_shared_building_slots = 3				
 				add_building_construction = {
 					type = arms_factory
 					level = 3
@@ -7950,6 +8449,11 @@ focus = {
 					instant_build = yes
 				}																				
 			}
+			add_resource = {
+				type = steel
+				amount = 15
+				state = 91			
+			}			
 		}
 	}			
 	focus = {
@@ -7997,40 +8501,16 @@ focus = {
 			}															
 		}
 	}
-	focus = {
-		id = POL_fortify_Klaipeda_memel
-		icon = GFX_goal_POL_intersea
-		available = {
-			is_puppet = no
-			is_in_faction = no
-		}
-		relative_position_id = POL_kaunas_memel_palanga_railway
-		x = 0
-		y = 1
-		cost = 6
-        available_if_capitulated = no
-		prerequisite = { focus = POL_kaunas_memel_palanga_railway }
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 4
-				is_historical_focus_on = no
-				date < 1936.7.1
-			}
-		}
-		completion_reward = {
-
-		}
-	}	
+	
 	focus = {
 		id = POL_expand_palanga_shipping
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_naval_academy
 		available = {
 			is_puppet = no
 			is_in_faction = no
 		}
 		relative_position_id = POL_kaunas_memel_palanga_railway
-		x = 2
+		x = 1
 		y = 1
 		cost = 6
         available_if_capitulated = no
@@ -8044,12 +8524,18 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			189 = {
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes					
+				}				
+			}
 		}
 	}
 	focus = {
 		id = POL_expand_palanga_port
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_naval_industry
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -8069,12 +8555,19 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			189 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes					
+				}				
+			}
 		}
 	}
 	focus = {
 		id = POL_fortify_palanga_port
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_fortify_city_AA
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -8094,12 +8587,25 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			189 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 6314
+					level = 3
+					instant_build = yes					
+				}	
+				add_building_construction = {
+					type = bunker
+					province = 6314					
+					level = 2
+					instant_build = yes					
+				}							
+			}
 		}
 	}	
 	focus = {
 		id = POL_expand_memel_shipping
-		icon = GFX_goal_POL_intersea
+		icon = GFX_goal_generic_naval_academy
 		available = {
 			is_puppet = no
 			is_in_faction = no
@@ -8119,9 +8625,58 @@ focus = {
 			}
 		}
 		completion_reward = {
-
+			188 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes					
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes					
+				}				
+			}
 		}
-	}								
+	}
+	focus = {
+		id = POL_fortify_Klaipeda_memel
+		icon = GFX_goal_fortify_city_AA
+		available = {
+			is_puppet = no
+			is_in_faction = no
+		}
+		relative_position_id = POL_expand_memel_shipping
+		x = 0
+		y = 1
+		cost = 6
+        available_if_capitulated = no
+		prerequisite = { focus = POL_expand_memel_shipping }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 4
+				is_historical_focus_on = no
+				date < 1936.7.1
+			}
+		}
+		completion_reward = {
+			188 = {
+				add_building_construction = {
+					type = bunker
+					province = 3288
+					level = 2
+					instant_build = yes					
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 3288					
+					level = 2
+					instant_build = yes					
+				}				
+			}
+		}
+	}									
 	focus = {
 		id = POL_ukranian_protection_act
 		icon = GFX_focus_hol_the_foundations_of_defense

@@ -1909,8 +1909,21 @@ country = {
 		}
 	}
 	
-	POL_plc_reborn = {}
-	POL_poland_russia = {}
+	POL_plc_reborn = {
+		modifier = {
+
+		}
+	}
+	POL_poland_russia = {
+		modifier = {
+			
+		}
+	}
+	POL_underdeveloped_lithuania = {
+		modifier = {
+			
+		}
+	}
 }	
 
 political_advisor = {

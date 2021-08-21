@@ -5355,6 +5355,118 @@ portugal.30.d:0 "We just got a visit from the Portuguese foreign minister, who t
  POL_axis:0 "Join the Axis"
  POL_axis_desc:0 "DESCRIPTION"
 
+ POL_enact_minority_protections:0 "Enact Minority Protections"
+ POL_enact_minority_protections_desc:0 "DESCRIPTION"
+
+ POL_ukranian_protection_act:0 "Ukranian Protection Act"
+ POL_ukranian_protection_act_desc:0 "DESCRIPTION"
+
+ POL_belarusian_protection_act:0 "Belarusian Protection Act"
+ POL_belarusian_protection_act_desc:0 "DESCRIPTION"
+
+ POL_lithuanian_protection_act:0 "Lithuanian Protection Act"
+ POL_lithuanian_protection_act_desc:0 "DESCRIPTION"
+
+ POL_stoke_ukranian_nationalism_in_russia:0 "Stoke Nationalism in Soviet Ukraine"
+ POL_stoke_ukranian_nationalism_in_russia_desc:0 "DESCRIPTION"
+
+ POL_stoke_belarusian_nationalism_in_russia:0 "Stoke Nationalism in Soviet Belarus"
+ POL_stoke_belarusian_nationalism_in_russia_desc:0 "DESCRIPTION"
+ 
+ POL_reunite_lithuania:0 "Reunite with Lithuania"
+ POL_reunite_lithuania_desc:0 "DESCRIPTION"
+
+ POL_unity_with_lithuania:0 "Unity with Lithuania"
+ POL_unity_with_lithuania_desc:0 "DESCRIPTION"
+
+ POL_outward_expansion:0 "Outword Expansion"
+ POL_outward_expansion_desc:0 "DESCRIPTION"
+
+ POL_unity_with_latvia:0 "Unify Latvia"
+ POL_unity_with_latvia_desc:0 "DESCRIPTION"
+
+ POL_integrate_latvia:0 "Integrate Latvia"
+ POL_integrate_latvia_desc:0 "DESCRIPTION"
+
+ POL_latvian_economic_integration:0 "Latvian Economic Integration"
+ POL_latvian_economic_integration_desc:0 "DESCRIPTION"
+
+ POL_unity_with_estonia:0 "Unity with Estonia"
+ POL_unity_with_estonia_desc:0 "DESCRIPTION"
+
+ POL_integrate_estonia:0 "Integrate Estonia"
+ POL_integrate_estonia_desc:0 "DESCRIPTION"
+
+ POL_estonian_economic_integration:0 "Estonian Economic Integration"
+ POL_estonian_economic_integration_desc:0 "DESCRIPTION"
+
+ POL_prepare_for_war_in_the_east:0 "Prepare for War in the East"
+ POL_prepare_for_war_in_the_east_desc:0 "DESCRIPTION"
+
+ POL_kaunas_fortifications:0 "Fortify Kaunas"
+ POL_kaunas_fortifications_desc:0 "DESCRIPTION"
+
+ POL_wilejka_fortifications:0 "Fortify Wilejka"
+ POL_wilejka_fortifications_desc:0 "DESCRIPTION" 
+
+ POL_industrial_buildup:0 "Industrial Buildup"
+ POL_industrial_buildup_desc:0 "DESCRIPTION"
+
+ POL_the_marsh_line:0 "The Marsh Line"
+ POL_the_marsh_line_desc:0 "DESCRIPTION"
+
+ POL_destroy_the_soviets:0 "Destroy the True Enemy"
+ POL_destroy_the_soviets_desc: "DESCRIPTION"
+
+ POL_develop_lithuania:0 "Develop Lithuania"
+ POL_develop_lithuania_desc:0 "DESCRIPTION"
+
+ POL_krakow_warsaw_railway:0 "Krakow-Warsaw Railway"
+ POL_krakow_warsaw_railway_desc:0 "DESCRIPTION"
+
+ POL_kaunas_warsaw_railway:0 "Kaunas-Warsaw Railway"
+ POL_kaunas_warsaw_railway_desc:0 "DESCRIPTION"
+
+ POL_kaunas_arms_factories:0 "Develop Kaunas Arms Factories"
+ POL_kaunas_arms_factories_desc:0 "DESCRIPTION"
+
+ POL_kaunas_textile_mills:0 "Develop Kaunas Textile Mills"
+ POL_kaunas_textile_mills_desc:0 "DESCRIPTION"
+
+ POL_warsaw_civilian_industries:0 "Develop Warsaw Civilian Industries"
+ POL_warsaw_civilian_industries_desc:0 "DESCRIPTION"
+
+ POL_krakow_lwow_railway:0 "Krakow-Lwow Railway"
+ POL_krakow_lwow_railway_desc:0 "DESCRIPTION"
+
+ POL_lwow_steelworks:0 "Develop Lwow Steelworks"
+ POL_lwow_steelworks_desc:0 "DESCRIPTION"
+
+ POL_krakow_armory:0 "Develop Krakow Armory"
+ POL_krakow_armory_desc:0 "DESCRIPTION"
+
+ POL_kaunas_memel_palanga_railway:0 "Kaunas-Memel-Palanga Railway"
+ POL_kaunas_memel_palanga_railway_desc:0 "DESCRIPTION"
+
+ POL_a_new_commonwealth:0 "A Reformed Commonwealth"
+ POL_a_new_commonwealth_desc:0 "DESCRIPTION"
+
+ POL_expand_memel_shipping:0 "Expand Memel Shipping Facilities"
+ POL_expand_memel_shipping_desc:0 "DESCRIPTION"
+
+ POL_expand_palanga_shipping:0 "Expand Palanga Shipping Facilities"
+ POL_expand_palanga_shipping_desc:0 "DESCRIPTION"
+
+ POL_fortify_Klaipeda_memel:0 "Fortify the Klaipeda Port"
+ POL_fortify_Klaipeda_memel_desc:0 "DESCRIPTION"
+
+ POL_expand_palanga_port:0 "Expand Palanga Port"
+ POL_expand_palanga_port_desc:0 "DESCRIPTION"
+
+ POL_fortify_palanga_port:0 "Fortify Palanga"
+ POL_fortify_palanga_port_desc:0 "DESCRIPTION"
+
+
  miedzymorze.3.t:0 "Poland Demands Zaolzie."
  miedzymorze.3.d:0 "Poland has been demanding Zaolzie, due to its large Polish population, for a long time... But now they have sent an ultimatum - Zaolzie or war. "
  miedzymorze.3.a:0 "We are not ready for war."
@@ -8199,8 +8311,9 @@ BUL_Monarch_Speech:0 "Monarch Speech"
  BRA_us_lend_lease_desc:0 "The American government has offered to provide us with equipment for our army, we would be foolish to say no!"
  father_of_the_poor:0 "Father of the Poor"
  BRA_reduced_protest_chance:0 "Reduces chance of public unrest, less chance of protestors gathering."
-GER_tank_sharing:0 "Tank Sharing"
-GER_tank_sharing_desc:0 "To ensure our allies are prepared for the oncoming war, we must ensure all who align with Germany have access to our advance Panzer technology." 
+ GER_tank_sharing:0 "Tank Sharing"
+ GER_tank_sharing_desc:0 "To ensure our allies are prepared for the oncoming war, we must ensure all who align with Germany have access to our advance Panzer technology." 
+ 
 
 
  
