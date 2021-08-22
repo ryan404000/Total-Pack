@@ -637,7 +637,7 @@
  SWE_let_volunteers_go_desc:0 "We cannot force anyone to go to Finland and fight the Communist bastards. However all that want to go have our blessing and some 'freedom' to fight the Russian pigs."
  
  ###POL###
- POL_plans_for_war:0 "Plans for eventual wars"
+ POL_plans_for_war:0 "Plans for Eventual Wars"
  POL_plans_for_war_desc:0 "We have to plan how we will defend our country from possible invasions of our neighbours. What will we do?"
  POL_ww2plan:0 "Plan West"
  POL_ww2plan_desc:0 "We have to defend the western part of Poland, our industry is based on the steel from Silesia and factories from Danzig and Posen!"
@@ -657,6 +657,17 @@
  POL_ww2plan2_desc:0 "We have to defend the eastern part of Poland, we cannot let the soviets get any stronger!"
  POL_agriculture:0 "Agricultural or Social Reforms and Laws"
  POL_agriculture_desc:0 "Agricultural and Social laws and reforms undertaken by Poland during this period"
+ POL_integration:0 "Integration Decisions"
+ POL_integration_desc:0 "With new Austro-Hungarian lands under our control, we must begin integrating these cultures into our nation."
+ POL_load4:0 "We will unlock decisions to begin integrating conquered cultures into our nation."
+ POL_integrate_czech:0 "Integrate Czech Territories"
+ POL_integrate_slovaks:0 "Integrate Slovakia"
+ POL_integrate_austrians:0 "Integrate Austria"
+ POL_integrate_hungarians:0 "Integrate Hungary"
+ POL_integrate_slovenians:0 "Integrate Slovenia"
+ POL_integrate_romanians:0 "Integrate Romanian Territories"
+ POL_integrate_croatians:0 "Integrate Croatia"
+ POL_integrate_bosnians:0 "Integrate Bosnia-Herzegovina"
  
  GER_acceptdanzig:0 "§YDanzig§W was given to §YGermany§W"
  
