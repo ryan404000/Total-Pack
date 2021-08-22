@@ -1,0 +1,42 @@
+
+state={
+	id=39
+	name="STATE_39" # South Tyrol
+	manpower = 319000
+	#1936 pop of entire region is 669000 
+    #it seems like Trentino has a slightly higher pop historically 
+    #so divided pretty evenly overall, with Trentino have slightly higher	
+	state_category = town
+	
+	resources={
+		aluminium=20
+	}
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			6675 = {
+					bunker = 1
+
+				}
+			9630 = {
+					bunker = 1
+
+				}
+        	11615 = {
+					bunker = 1
+
+				}	
+
+		}
+		add_core_of = ITA
+		add_core_of = AUS
+		
+	}
+
+	provinces={
+		6675 9630 11615 13304
+	}
+}
