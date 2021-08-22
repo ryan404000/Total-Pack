@@ -249,15 +249,92 @@ focus_tree = {
 			#add_political_power = 150
 		}
 	}
+
+	focus = {
+		id = IRQ_industry2
+		icon = GFX_goal_IRQ_industry2
+		prerequisite = { focus = IRQ_industry5 }
+		relative_position_id = IRQ_industry5
+		x = 1
+		y = 1
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			IRQ_ind_decrease = yes
+		}
+	}
+
+	focus = {
+		id = IRQ_child2
+		icon = GFX_goal_IRQ_child
+		prerequisite = { focus = IRQ_insurance }
+		prerequisite = { focus = IRQ_industry2 }
+		relative_position_id = IRQ_industry2
+		x = -1
+		y = 1
+		cost = 9
+		available_if_capitulated = no
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			IRQ_ind_decrease = yes
+			add_stability = 0.05
+			add_political_power = 50
+			random_owned_controlled_state = {
+				prioritize = { 675 }
+				add_building_construction = {
+					instant_build = yes
+					type = industrial_complex
+					level = 3
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_1937
+		icon = GFX_goal_IRQ_37eco
+		prerequisite = { focus = IRQ_child2 }
+		relative_position_id = IRQ_child2
+		x = 0
+		y = 1
+		cost = 12.8
+		available_if_capitulated = no
+		
+		available = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			IRQ_ind_decrease = yes
+			add_stability = 0.05
+			
+			add_tech_bonus = {
+				bonus = 0.75
+				category = industry
+				uses = 3
+			}
+		}
+	}
 	
 	focus = {
 		id = IRQ_grainprotect
 		icon = GFX_goal_IRQ_grain
 		prerequisite = { focus = IRQ_1937 }
 		mutually_exclusive = { focus = IRQ_tradeeffort }
-		relative_position_id = IRQ_2year
-		x = 2
-		y = 0
+		relative_position_id = IRQ_1937
+		x = 1
+		y = 1
 		cost = 5
 		available_if_capitulated = no
 		ai_will_do = {
@@ -338,13 +415,15 @@ focus_tree = {
 		}
 	}
 	
+	
+
 	focus = {
 		id = IRQ_college
 		icon = GFX_goal_IRQ_literacy
 		prerequisite = { focus = IRQ_child2 }
-		relative_position_id = IRQ_1937
+		relative_position_id = IRQ_child2
 		x = 2
-		y = 0
+		y = 1
 		cost = 12.2
 		available_if_capitulated = no
 		ai_will_do = {
@@ -370,22 +449,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = IRQ_industry2
-		icon = GFX_goal_IRQ_industry2
-		prerequisite = { focus = IRQ_industry5 }
-		relative_position_id = IRQ_industry5
-		x = 1
-		y = 1
-		cost = 5
-		available_if_capitulated = no
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			IRQ_ind_decrease = yes
-		}
-	}
+	
 	
 	focus = {
 		id = IRQ_insurance
@@ -413,38 +477,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = IRQ_child2
-		icon = GFX_goal_IRQ_child
-		prerequisite = { focus = IRQ_insurance }
-		prerequisite = { focus = IRQ_industry2 }
-		relative_position_id = IRQ_industry2
-		x = -1
-		y = 1
-		cost = 9
-		available_if_capitulated = no
-		
-		available = {
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			IRQ_ind_decrease = yes
-			add_stability = 0.05
-			add_political_power = 50
-			random_owned_controlled_state = {
-				prioritize = { 675 }
-				add_building_construction = {
-					instant_build = yes
-					type = industrial_complex
-					level = 3
-				}
-				add_extra_state_shared_building_slots = 3
-			}
-		}
-	}
+	
 	
 	focus = {
 		id = IRQ_bank
@@ -487,32 +520,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = IRQ_1937
-		icon = GFX_goal_IRQ_37eco
-		prerequisite = { focus = IRQ_child2 }
-		relative_position_id = IRQ_child2
-		x = 0
-		y = 1
-		cost = 12.8
-		available_if_capitulated = no
-		
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			IRQ_ind_decrease = yes
-			add_stability = 0.05
-			
-			add_tech_bonus = {
-				bonus = 0.75
-				category = industry
-				uses = 3
-			}
-		}
-	}
+	
 	
 	focus = {
 		id = IRQ_infra
@@ -1142,42 +1150,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = IRQ_conquerpersian
-		icon = GFX_goal_POL_navalfund
-        prerequisite = { focus = IRQ_ships }
-		relative_position_id = IRQ_ships
-		x = 0
-		y = 1
-		cost = 11
-		available_if_capitulated = no
-		
-		available = {
-			controls_state = 656
-			has_completed_focus = IRQ_minimum
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			656 = {
-				add_building_construction = {
-					instant_build = yes
-					level = 3
-					type = dockyard
-				}
-				add_building_construction = {
-					instant_build = yes
-					level = 2
-					type = naval_base
-					province = 8085
-				}
-				add_extra_state_shared_building_slots = 3
-			}
-			remove_ideas = IRQ_nonavy
-		}
-	}
+	
 	
 	focus = {
 		id = IRQ_dockyard
@@ -1250,7 +1223,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = IRQ_ships
 		icon = GFX_goal_generic_destroyer2
@@ -1273,6 +1246,45 @@ focus_tree = {
 			navy_experience = 25
 		}
 	}
+
+	focus = {
+		id = IRQ_conquerpersian
+		icon = GFX_goal_POL_navalfund
+        prerequisite = { focus = IRQ_ships }
+		relative_position_id = IRQ_ships
+		x = 0
+		y = 1
+		cost = 11
+		available_if_capitulated = no
+		
+		available = {
+			controls_state = 656
+			has_completed_focus = IRQ_minimum
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			656 = {
+				add_building_construction = {
+					instant_build = yes
+					level = 3
+					type = dockyard
+				}
+				add_building_construction = {
+					instant_build = yes
+					level = 2
+					type = naval_base
+					province = 8085
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+			remove_ideas = IRQ_nonavy
+		}
+	}
+	
+	
 	
 	focus = {
 		id = IRQ_mosul
