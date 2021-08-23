@@ -3394,7 +3394,7 @@ OR = {
 		}
 
 		available = {
-			has_tech = excavation1
+			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 826
 			controls_state = 826
@@ -3405,6 +3405,7 @@ OR = {
 		}
 
 		visible = {
+			has_tech = excavation2			
 			owns_state = 826
 			controls_state = 826
 		}
@@ -3457,6 +3458,7 @@ OR = {
 		}
 
 		visible = {
+			has_tech = excavation3			
 			owns_state = 826
 			controls_state = 826
 		}

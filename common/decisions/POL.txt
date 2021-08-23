@@ -797,7 +797,23 @@ POL_integration = {
 
 	POL_integrate_czech = {
 		allowed = {
-			original_tag = POL
+			original_tag = POL													
+		}
+
+		cost = 50
+		highlight_state_targets = {
+			state = 9
+			state = 69
+			state = 74
+			state = 75
+			state = 72
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
 			9 = {
 				resistance < 20
 				compliance > 40
@@ -817,23 +833,7 @@ POL_integration = {
 			72 = {
 				resistance < 20
 				compliance > 40
-			}													
-		}
-
-		cost = 50
-		highlight_state_targets = {
-			state = 9
-			state = 69
-			state = 74
-			state = 75
-			state = 72
-		}
-		icon = GFX_decision_eng_blackshirt_march
-		visible = {
-			has_completed_focus = POL_proclaim_a_new_empire
-		}
-		
-		available = {
+			}			
 			owns_state = 9
 		}
 		
@@ -864,23 +864,7 @@ POL_integration = {
 
 	POL_integrate_slovaks = {
 		allowed = {
-			original_tag = POL
-			70 = {
-				resistance < 20
-				compliance > 40
-			}	
-			71 = {
-				resistance < 20
-				compliance > 40
-			}
-			73 = {
-				resistance < 20
-				compliance > 40
-			}
-			664 = {
-				resistance < 20
-				compliance > 40
-			}													
+			original_tag = POL													
 		}
 		
 		cost = 50
@@ -898,6 +882,22 @@ POL_integration = {
 		
 		available = {
 			owns_state = 70
+			70 = {
+				resistance < 20
+				compliance > 40
+			}	
+			71 = {
+				resistance < 20
+				compliance > 40
+			}
+			73 = {
+				resistance < 20
+				compliance > 40
+			}
+			664 = {
+				resistance < 20
+				compliance > 40
+			}			
 		}
 		
 		ai_will_do = {
@@ -924,7 +924,26 @@ POL_integration = {
 
 	POL_integrate_austrians = {
 		allowed = {
-			original_tag = POL
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
 			152 = {
 				resistance < 20
 				compliance > 40
@@ -948,26 +967,7 @@ POL_integration = {
 			153 = {
 				resistance < 20
 				compliance > 40
-			}																		
-		}
-		
-		cost = 50
-		
-		highlight_state_targets = {
-			state = 152
-			state = 153
-			state = 825
-			state = 826
-			state = 827
-			state = 4
-		}
-		icon = GFX_decision_eng_blackshirt_march
-		visible = {
-			has_completed_focus = POL_proclaim_a_new_empire
-		}
-		
-		available = {
-			owns_state = 70
+			}			
 		}
 		
 		ai_will_do = {
@@ -1000,7 +1000,26 @@ POL_integration = {
 
 	POL_integrate_hungarians = { ###### NEEDS TO BE DONE ########
 		allowed = {
-			original_tag = POL
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
 			152 = {
 				resistance < 20
 				compliance > 40
@@ -1024,26 +1043,7 @@ POL_integration = {
 			153 = {
 				resistance < 20
 				compliance > 40
-			}																		
-		}
-		
-		cost = 50
-		
-		highlight_state_targets = {
-			state = 152
-			state = 153
-			state = 825
-			state = 826
-			state = 827
-			state = 4
-		}
-		icon = GFX_decision_eng_blackshirt_march
-		visible = {
-			has_completed_focus = POL_proclaim_a_new_empire
-		}
-		
-		available = {
-			owns_state = 70
+			}			
 		}
 		
 		ai_will_do = {
@@ -1076,7 +1076,26 @@ POL_integration = {
 
 	POL_integrate_slovenians = { ###### NEEDS TO BE DONE ########
 		allowed = {
-			original_tag = POL
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
 			152 = {
 				resistance < 20
 				compliance > 40
@@ -1100,26 +1119,7 @@ POL_integration = {
 			153 = {
 				resistance < 20
 				compliance > 40
-			}																		
-		}
-		
-		cost = 50
-		
-		highlight_state_targets = {
-			state = 152
-			state = 153
-			state = 825
-			state = 826
-			state = 827
-			state = 4
-		}
-		icon = GFX_decision_eng_blackshirt_march
-		visible = {
-			has_completed_focus = POL_proclaim_a_new_empire
-		}
-		
-		available = {
-			owns_state = 70
+			}			
 		}
 		
 		ai_will_do = {
@@ -1152,7 +1152,26 @@ POL_integration = {
 
 	POL_integrate_romanians = { ###### NEEDS TO BE DONE ########
 		allowed = {
-			original_tag = POL
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
 			152 = {
 				resistance < 20
 				compliance > 40
@@ -1176,26 +1195,7 @@ POL_integration = {
 			153 = {
 				resistance < 20
 				compliance > 40
-			}																		
-		}
-		
-		cost = 50
-		
-		highlight_state_targets = {
-			state = 152
-			state = 153
-			state = 825
-			state = 826
-			state = 827
-			state = 4
-		}
-		icon = GFX_decision_eng_blackshirt_march
-		visible = {
-			has_completed_focus = POL_proclaim_a_new_empire
-		}
-		
-		available = {
-			owns_state = 70
+			}			
 		}
 		
 		ai_will_do = {
@@ -1228,7 +1228,26 @@ POL_integration = {
 
 	POL_integrate_croatians = { ###### NEEDS TO BE DONE ########
 		allowed = {
-			original_tag = POL
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
 			152 = {
 				resistance < 20
 				compliance > 40
@@ -1252,26 +1271,7 @@ POL_integration = {
 			153 = {
 				resistance < 20
 				compliance > 40
-			}																		
-		}
-		
-		cost = 50
-		
-		highlight_state_targets = {
-			state = 152
-			state = 153
-			state = 825
-			state = 826
-			state = 827
-			state = 4
-		}
-		icon = GFX_decision_eng_blackshirt_march
-		visible = {
-			has_completed_focus = POL_proclaim_a_new_empire
-		}
-		
-		available = {
-			owns_state = 70
+			}			
 		}
 		
 		ai_will_do = {
@@ -1304,7 +1304,26 @@ POL_integration = {
 
 	POL_integrate_bosnians = { ###### NEEDS TO BE DONE ########
 		allowed = {
-			original_tag = POL
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
 			152 = {
 				resistance < 20
 				compliance > 40
@@ -1328,26 +1347,7 @@ POL_integration = {
 			153 = {
 				resistance < 20
 				compliance > 40
-			}																		
-		}
-		
-		cost = 50
-		
-		highlight_state_targets = {
-			state = 152
-			state = 153
-			state = 825
-			state = 826
-			state = 827
-			state = 4
-		}
-		icon = GFX_decision_eng_blackshirt_march
-		visible = {
-			has_completed_focus = POL_proclaim_a_new_empire
-		}
-		
-		available = {
-			owns_state = 70
+			}			
 		}
 		
 		ai_will_do = {

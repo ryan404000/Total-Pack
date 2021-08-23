@@ -668,7 +668,10 @@
  POL_integrate_romanians:0 "Integrate Romanian Territories"
  POL_integrate_croatians:0 "Integrate Croatia"
  POL_integrate_bosnians:0 "Integrate Bosnia-Herzegovina"
- 
+ develop_austrian_tungsten_deposits_2:0 "Develop Austrian Tungsten Mines"
+ develop_austrian_tungsten_deposits_1:0 "Develop Austrian Tungsten Mines"
+
+
  GER_acceptdanzig:0 "§YDanzig§W was given to §YGermany§W"
  
  ###ROM###
