@@ -1,0 +1,35 @@
+
+state={
+	id=856
+	name="STATE_856"
+	manpower = 350000
+	#1936 pop of entire region is 669000 
+    #it seems like Trentino has a slightly higher pop historically 
+    #so divided pretty evenly overall, with Trentino have slightly higher
+	state_category = town
+	
+	resources={
+	}
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+            6631 = {
+				bunker = 1
+
+			}
+            11598 = {
+				bunker = 1
+
+			}					
+		}
+		add_core_of = ITA
+		
+	}
+
+	provinces={
+		656 6631 9598 11598
+	}
+}

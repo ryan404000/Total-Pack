@@ -2,9 +2,10 @@
 state={
 	id=158
 	name="STATE_158"
-	manpower = 3215021
+	manpower = 3418000	
+	#1936 pop: 3,418,000	
 	
-	state_category = metropolis
+	state_category = megalopolis
 	resources={
 		steel=14
 		tungsten = 14

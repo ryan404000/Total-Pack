@@ -11732,7 +11732,7 @@
 11731;171;204;67;land;false;forest;2
 11732;171;204;172;land;false;plains;1
 11733;171;207;32;land;false;hills;2
-11734;171;207;87;land;false;plains;1
+11734;171;207;87;land;false;village;1
 11735;171;210;52;land;true;hills;1
 11736;171;210;97;land;false;plains;6
 11737;172;0;72;land;false;hills;1
@@ -13244,7 +13244,7 @@
 13243;53;236;123;land;true;village;1
 13244;226;218;190;land;true;village;1
 13245;79;177;108;land;true;village;1
-13246;220;140;205;land;false;village;1
+13246;220;140;205;land;false;plains;1
 13247;36;62;68;land;false;urbanregion;1
 13248;100;112;253;land;true;urbanregion;1
 13249;202;32;74;land;true;urbanregion;1
@@ -13302,3 +13302,5 @@
 13301;6;78;143;land;false;hills;1
 13302;104;127;141;land;true;hills;1
 13303;54;241;5;land;true;hills;1
+13304;30;47;56;land;false;mountain;1
+13305;211;170;95;land;true;hills;1

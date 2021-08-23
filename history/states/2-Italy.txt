@@ -1,9 +1,10 @@
 state= {
 	id=2
 	name="STATE_2" # Latium
-	manpower = 3143687
+	manpower = 2655000
+	# 1936 pop: 2,655,000
 	
-	state_category = city
+	state_category = metropolis
 
 	history={
 		owner = ITA
