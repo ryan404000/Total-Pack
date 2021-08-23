@@ -3117,7 +3117,6 @@ focus_tree = {
 						}
 					}
 				}
-				add_state_core = 4
 			}
 			if = {
 				limit = {
@@ -3132,7 +3131,6 @@ focus_tree = {
 						}
 					}
 				}
-				add_state_core = 152
 			}
 			if = {
 				limit = {
@@ -3147,11 +3145,13 @@ focus_tree = {
 						}
 					}
 				}
-				add_state_core = 153
 			}
 				add_state_core = 826
 				add_state_core = 827
-				add_state_core = 825			
+				add_state_core = 825	
+				add_state_core = 4	
+				add_state_core = 153	
+				add_state_core = 152												
 		}
 	}
 
