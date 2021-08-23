@@ -2,8 +2,9 @@
 state={
 	id=159
 	name="STATE_159"
-	manpower = 5897704
-	state_category =  megalopolis
+	manpower = 5836000	
+	#1936 pop: 5,836,000	
+	state_category =  huge_megalopolis
 
 	history={
 		owner = ITA
