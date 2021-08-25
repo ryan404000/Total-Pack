@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_industry5
 		icon = GFX_goal_IRQ_industry
-		x = 13
+		x = 14
 		y = 0
 		cost = 7
 		available_if_capitulated = no
@@ -27,10 +27,10 @@ focus_tree = {
 				prioritize = { 291 }
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 4
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 			}
 		}
 	}
@@ -39,7 +39,7 @@ focus_tree = {
 		id = IRQ_limited
 		icon = GFX_ENG_conscription
 		mutually_exclusive = { focus = IRQ_britishsupport }
-		x = 18
+		x = 19
 		y = 0
 		cost = 5
 		available_if_capitulated = no
@@ -94,7 +94,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_army2
 		icon = GFX_goal_IRQ_question
-		x = 1
+		x = 3
 		y = 0
 		cost = 7
 		available_if_capitulated = no
@@ -118,7 +118,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_army2 }
 		mutually_exclusive = { focus = IRQ_otherdc }
 		relative_position_id = IRQ_army2
-		x = 1
+		x = -1
 		y = 1
 		cost = 5
 		available_if_capitulated = no
@@ -141,7 +141,7 @@ focus_tree = {
 		id = IRQ_britishsupport
 		icon = GFX_focus_chi_british_cooperation
 		mutually_exclusive = { focus = IRQ_limited }
-		x = 20
+		x = 21
 		y = 0
 		cost = 5
 		available_if_capitulated = no
@@ -274,7 +274,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_1937 }
 		mutually_exclusive = { focus = IRQ_grainprotect }
 		relative_position_id = IRQ_grainprotect
-		x = 1.5
+		x = 2
 		y = 0
 		cost = 5
 		available_if_capitulated = no
@@ -306,8 +306,8 @@ focus_tree = {
 	focus = {
 		id = IRQ_mobilisation
 		icon = GFX_goal_IRQ_mob
-		prerequisite = { focus = IRQ_thriving }
-		relative_position_id = IRQ_thriving
+		prerequisite = { focus = IRQ_reform }
+		relative_position_id = IRQ_reform
 		x = 0
 		y = 1
 		cost = 4.2
@@ -474,8 +474,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_minimum
 		icon = GFX_goal_IRQ_cut
-		relative_position_id = IRQ_britishsupport
-		x = 3
+		x = 24
 		y = 0
 		cost = 8
 		available_if_capitulated = no
@@ -544,7 +543,7 @@ focus_tree = {
 				add_building_construction = {
 					instant_build = yes
 					type = infrastructure
-					level = 2	
+					level = 3	
 				}
 			}
 		}
@@ -572,20 +571,20 @@ focus_tree = {
 				add_building_construction = {
 					instant_build = yes
 					type = infrastructure
-					level = 2
+					level = 3
 				}
 			}
 			675 = {
 				add_building_construction = {
 					instant_build = yes
 					type = bunker
-					level = 1
+					level = 2
 					province = 1631
 				}
 				add_building_construction = {
 					instant_build = yes
 					type = bunker
-					level = 1
+					level = 2
 					province = 12413
 				}
 			}
@@ -597,7 +596,7 @@ focus_tree = {
 		icon = GFX_goal_POL_defense
 		prerequisite = { focus = IRQ_1937 }
 		relative_position_id = IRQ_1937
-		x = -1.5
+		x = -1
 		y = 1
 		cost = 7.5
 		available_if_capitulated = no
@@ -620,8 +619,8 @@ focus_tree = {
 		icon = GFX_goal_IRQ_fundarmy
 		prerequisite = { focus = IRQ_2year }
 		prerequisite = { focus = IRQ_logistical }
-		relative_position_id = IRQ_2year
-		x = -1.5
+		relative_position_id = IRQ_logistical
+		x = 0
 		y = 1
 		cost = 6
 		available_if_capitulated = no
@@ -647,6 +646,43 @@ focus_tree = {
 					instant_build = yes
 					type = arms_factory
 					level = 3
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+		}
+	}
+
+		focus = {
+		id = IRQ_milexpand2
+		icon = GFX_goal_IRQ_fundarmy
+		prerequisite = { focus = IRQ_milexpand }
+		relative_position_id = IRQ_milexpand
+		x = 0
+		y = 1
+		cost = 6
+		available_if_capitulated = no
+		
+		available = {
+			controls_state = 291
+			controls_state = 676
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			291 = {
+				add_building_construction = {
+					instant_build = yes
+					type = arms_factory
+					level = 2
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+			676 = {
+				add_building_construction = {
+					instant_build = yes
+					type = arms_factory
+					level = 2
 				}
 				add_extra_state_shared_building_slots = 3
 			}
@@ -678,10 +714,10 @@ focus_tree = {
 	focus = {
 		id = IRQ_rallytheforces
 		icon = GFX_goal_IRQ_rally
-		prerequisite = { focus = IRQ_milexpand }
-		prerequisite = { focus = IRQ_rationing }
-		relative_position_id = IRQ_milexpand
-		x = 2
+		prerequisite = { focus = IRQ_remilitarise }
+		prerequisite = { focus = IRQ_reform }
+		relative_position_id = IRQ_remilitarise
+		x = 0
 		y = 1
 		cost = 8.2
 		available_if_capitulated = no
@@ -705,8 +741,8 @@ focus_tree = {
 		icon = GFX_goal_GER_tank
 		prerequisite = { focus = IRQ_mobilisation }
 		prerequisite = { focus = IRQ_rallytheforces }
-		relative_position_id = IRQ_rallytheforces
-		x = 1.5
+		relative_position_id = IRQ_mobilisation
+		x = 1
 		y = 1
 		cost = 10
 		available_if_capitulated = no
@@ -726,7 +762,6 @@ focus_tree = {
 		id = IRQ_fortify
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = IRQ_army2 }
-		prerequisite = { focus = IRQ_iraqunrest focus = IRQ_iraqunrest2 }
 		relative_position_id = IRQ_army2
 		x = 3
 		y = 1
@@ -761,10 +796,9 @@ focus_tree = {
 	focus = {
 		id = IRQ_desert
 		icon = GFX_focus_por_luso_tropicalism
-		prerequisite = { focus = IRQ_guerilla focus = IRQ_otherdc }
-		prerequisite = { focus = IRQ_fortify }
-		relative_position_id = IRQ_guerilla
-		x = 2
+		prerequisite = { focus = IRQ_army2 }
+		relative_position_id = IRQ_army2
+		x = 1
 		y = 1
 		cost = 5
 		available_if_capitulated = no
@@ -821,9 +855,11 @@ focus_tree = {
 	focus = {
 		id = IRQ_iraqunrest
 		icon = GFX_goal_IRQ_rebel
+		prerequisite = { focus = IRQ_legacy }
 		mutually_exclusive = { focus = IRQ_iraqunrest2 }
-		x = 5
-		y = 0
+		relative_position_id = IRQ_legacy
+		x = -1
+		y = 1
 		cost = 8.5
 		available_if_capitulated = no
 		ai_will_do = {
@@ -850,9 +886,11 @@ focus_tree = {
 	focus = {
 		id = IRQ_iraqunrest2
 		icon = GFX_goal_IRQ_contain
+	prerequisite = { focus = IRQ_legacy }
 		mutually_exclusive = { focus = IRQ_iraqunrest }
-		x = 7
-		y = 0
+		relative_position_id = IRQ_legacy
+		x = 1
+		y = 1
 		cost = 6.3
 		available_if_capitulated = no
 		ai_will_do = {
@@ -907,9 +945,8 @@ focus_tree = {
 	focus = {
 		id = IRQ_nationalize
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = IRQ_coup41 }
-		prerequisite = { focus = IRQ_desert focus = IRQ_britweapons }
-		relative_position_id = IRQ_desert
+		prerequisite = { focus = IRQ_mosul }
+		relative_position_id = IRQ_mosul
 		x = 2
 		y = 1
 		cost = 5
@@ -959,7 +996,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_army2 }
 		mutually_exclusive = { focus = IRQ_guerilla }
 		relative_position_id = IRQ_army2
-		x = -1
+		x = -3
 		y = 1
 		cost = 5
 		available_if_capitulated = no
@@ -1094,7 +1131,7 @@ focus_tree = {
 		icon = GFX_goal_military_agreement_germany
 		prerequisite = { focus = IRQ_nationalize }
 		relative_position_id = IRQ_nationalize
-		x = -1
+		x = 1
 		y = 1
 		cost = 6
 		available_if_capitulated = no
@@ -1107,9 +1144,9 @@ focus_tree = {
 				add_building_construction = {
 					instant_build = yes
 					type = arms_factory 
-					level = 2
+					level = 3
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 			}
 			add_ideas = war_economy
 		}
@@ -1120,7 +1157,7 @@ focus_tree = {
 		icon = GFX_Goal_military_reform
 		prerequisite = { focus = IRQ_nationalize }
 		relative_position_id = IRQ_nationalize
-		x = 1
+		x = -1
 		y = 1
 		cost = 6
 		available_if_capitulated = no
@@ -1280,8 +1317,8 @@ focus_tree = {
 		prerequisite = { focus = IRQ_desertexpert }
 		prerequisite = { focus = IRQ_britdiv }
 		relative_position_id = IRQ_britdiv
-		x = 1
-		y = 1
+		x = 2
+		y = 0
 		cost = 5.7
 		available_if_capitulated = no
 		ai_will_do = {
@@ -1317,9 +1354,9 @@ focus_tree = {
 	focus = {
 		id = IRQ_germansupport
 		icon = GFX_focus_chi_mission_to_germany
-		prerequisite = { focus = IRQ_remilitarise focus = IRQ_mosul }
-		relative_position_id = IRQ_remilitarise
-		x = -1
+		prerequisite = {focus = IRQ_mosul }
+		relative_position_id = IRQ_mosul
+		x = 0
 		y = 1
 		cost = 4.2
 		available_if_capitulated = no
