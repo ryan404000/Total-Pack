@@ -2,7 +2,8 @@
 state={
 	id=115
 	name="STATE_115"
-	manpower = 3836571
+	manpower = 4000000
+	#1936 pop: 4000000
 	
 	state_category = city
 	history={

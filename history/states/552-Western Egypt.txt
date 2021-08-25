@@ -13,12 +13,12 @@ state={
 		buildings = {
 			infrastructure = 0
 		}
-
+		victory_points = { 10127 1 }
 		add_core_of = EGY
 
 	}
 
 	provinces={
-		2064 7216 10869 10907 12099 12733 12816 13226 13228
+		2064 7216 10869 10907 12099 12733 12816 13226 13228 10127
 	}
 }

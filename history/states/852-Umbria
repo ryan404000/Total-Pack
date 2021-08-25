@@ -1,0 +1,25 @@
+state={
+	id=852
+	name="STATE_852"
+	manpower = 700000
+    #estimated pop: 700000 (only figures were 1931 and 1941)
+	
+	state_category = city
+
+	history={
+		owner = ITA
+		victory_points = {
+			3885 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+            steel_refinery = 1 #terni steelworks
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		3885 6926 11861 13301
+	}
+}

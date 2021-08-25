@@ -1924,6 +1924,12 @@ country = {
 			
 		}
 	}
+
+	POL_Kingdom_Poland_Austria = {
+		modifier = {
+			
+		}
+	}
 }	
 
 political_advisor = {

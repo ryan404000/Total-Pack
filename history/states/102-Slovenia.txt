@@ -14,9 +14,6 @@ state={
 			3631 = {
 				bunker = 2
 			}
-			6672 = {
-				bunker = 1
-			}
 			665 = {
 				bunker = 2
 			}

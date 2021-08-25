@@ -792,3 +792,589 @@ POL_resistance3 = {
 		
 	}
 }
+
+POL_integration = {
+
+	POL_integrate_czech = {
+		allowed = {
+			original_tag = POL													
+		}
+
+		cost = 50
+		highlight_state_targets = {
+			state = 9
+			state = 69
+			state = 74
+			state = 75
+			state = 72
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			9 = {
+				resistance < 20
+				compliance > 40
+			}	
+			69 = {
+				resistance < 20
+				compliance > 40
+			}
+			74 = {
+				resistance < 20
+				compliance > 40
+			}
+			75 = {
+				resistance < 20
+				compliance > 40
+			}
+			72 = {
+				resistance < 20
+				compliance > 40
+			}			
+			owns_state = 9
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+			9 = {
+				add_core_of = POL
+			}
+			69 = {
+				add_core_of = POL
+			}
+			74 = {
+				add_core_of = POL
+			}
+			75 = {
+				add_core_of = POL
+			}
+			72 = {
+				add_core_of = POL
+			}									
+		}	
+	}
+
+	POL_integrate_slovaks = {
+		allowed = {
+			original_tag = POL													
+		}
+		
+		cost = 50
+
+		highlight_state_targets = {
+			state = 70
+			state = 71
+			state = 73
+			state = 664
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
+			70 = {
+				resistance < 20
+				compliance > 40
+			}	
+			71 = {
+				resistance < 20
+				compliance > 40
+			}
+			73 = {
+				resistance < 20
+				compliance > 40
+			}
+			664 = {
+				resistance < 20
+				compliance > 40
+			}			
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+			70 = {
+				add_core_of = POL
+			}
+			71 = {
+				add_core_of = POL
+			}
+			73 = {
+				add_core_of = POL
+			}
+			664 = {
+				add_core_of = POL
+			}									
+		}	
+	}
+
+	POL_integrate_austrians = {
+		allowed = {
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
+			152 = {
+				resistance < 20
+				compliance > 40
+			}	
+			4 = {
+				resistance < 20
+				compliance > 40
+			}
+			827 = {
+				resistance < 20
+				compliance > 40
+			}
+			826 = {
+				resistance < 20
+				compliance > 40
+			}	
+			825 = {
+				resistance < 20
+				compliance > 40
+			}
+			153 = {
+				resistance < 20
+				compliance > 40
+			}			
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+			152 = {
+				add_core_of = POL
+			}
+			153 = {
+				add_core_of = POL
+			}
+			825 = {
+				add_core_of = POL
+			}
+			826 = {
+				add_core_of = POL
+			}
+			827 = {
+				add_core_of = POL
+			}
+			4 = {
+				add_core_of = POL
+			}															
+		}	
+	}
+
+	POL_integrate_hungarians = { ###### NEEDS TO BE DONE ########
+		allowed = {
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
+			152 = {
+				resistance < 20
+				compliance > 40
+			}	
+			4 = {
+				resistance < 20
+				compliance > 40
+			}
+			827 = {
+				resistance < 20
+				compliance > 40
+			}
+			826 = {
+				resistance < 20
+				compliance > 40
+			}	
+			825 = {
+				resistance < 20
+				compliance > 40
+			}
+			153 = {
+				resistance < 20
+				compliance > 40
+			}			
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+			152 = {
+				add_core_of = POL
+			}
+			153 = {
+				add_core_of = POL
+			}
+			825 = {
+				add_core_of = POL
+			}
+			826 = {
+				add_core_of = POL
+			}
+			827 = {
+				add_core_of = POL
+			}
+			4 = {
+				add_core_of = POL
+			}															
+		}	
+	}
+
+	POL_integrate_slovenians = { ###### NEEDS TO BE DONE ########
+		allowed = {
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
+			152 = {
+				resistance < 20
+				compliance > 40
+			}	
+			4 = {
+				resistance < 20
+				compliance > 40
+			}
+			827 = {
+				resistance < 20
+				compliance > 40
+			}
+			826 = {
+				resistance < 20
+				compliance > 40
+			}	
+			825 = {
+				resistance < 20
+				compliance > 40
+			}
+			153 = {
+				resistance < 20
+				compliance > 40
+			}			
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+			152 = {
+				add_core_of = POL
+			}
+			153 = {
+				add_core_of = POL
+			}
+			825 = {
+				add_core_of = POL
+			}
+			826 = {
+				add_core_of = POL
+			}
+			827 = {
+				add_core_of = POL
+			}
+			4 = {
+				add_core_of = POL
+			}															
+		}	
+	}
+
+	POL_integrate_romanians = { ###### NEEDS TO BE DONE ########
+		allowed = {
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
+			152 = {
+				resistance < 20
+				compliance > 40
+			}	
+			4 = {
+				resistance < 20
+				compliance > 40
+			}
+			827 = {
+				resistance < 20
+				compliance > 40
+			}
+			826 = {
+				resistance < 20
+				compliance > 40
+			}	
+			825 = {
+				resistance < 20
+				compliance > 40
+			}
+			153 = {
+				resistance < 20
+				compliance > 40
+			}			
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+			152 = {
+				add_core_of = POL
+			}
+			153 = {
+				add_core_of = POL
+			}
+			825 = {
+				add_core_of = POL
+			}
+			826 = {
+				add_core_of = POL
+			}
+			827 = {
+				add_core_of = POL
+			}
+			4 = {
+				add_core_of = POL
+			}															
+		}	
+	}
+
+	POL_integrate_croatians = { ###### NEEDS TO BE DONE ########
+		allowed = {
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
+			152 = {
+				resistance < 20
+				compliance > 40
+			}	
+			4 = {
+				resistance < 20
+				compliance > 40
+			}
+			827 = {
+				resistance < 20
+				compliance > 40
+			}
+			826 = {
+				resistance < 20
+				compliance > 40
+			}	
+			825 = {
+				resistance < 20
+				compliance > 40
+			}
+			153 = {
+				resistance < 20
+				compliance > 40
+			}			
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+			152 = {
+				add_core_of = POL
+			}
+			153 = {
+				add_core_of = POL
+			}
+			825 = {
+				add_core_of = POL
+			}
+			826 = {
+				add_core_of = POL
+			}
+			827 = {
+				add_core_of = POL
+			}
+			4 = {
+				add_core_of = POL
+			}															
+		}	
+	}
+
+	POL_integrate_bosnians = { ###### NEEDS TO BE DONE ########
+		allowed = {
+			original_tag = POL																		
+		}
+		
+		cost = 50
+		
+		highlight_state_targets = {
+			state = 152
+			state = 153
+			state = 825
+			state = 826
+			state = 827
+			state = 4
+		}
+		icon = GFX_decision_eng_blackshirt_march
+		visible = {
+			has_completed_focus = POL_proclaim_a_new_empire
+		}
+		
+		available = {
+			owns_state = 70
+			152 = {
+				resistance < 20
+				compliance > 40
+			}	
+			4 = {
+				resistance < 20
+				compliance > 40
+			}
+			827 = {
+				resistance < 20
+				compliance > 40
+			}
+			826 = {
+				resistance < 20
+				compliance > 40
+			}	
+			825 = {
+				resistance < 20
+				compliance > 40
+			}
+			153 = {
+				resistance < 20
+				compliance > 40
+			}			
+		}
+		
+		ai_will_do = {
+			factor = 200
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+			152 = {
+				add_core_of = POL
+			}
+			153 = {
+				add_core_of = POL
+			}
+			825 = {
+				add_core_of = POL
+			}
+			826 = {
+				add_core_of = POL
+			}
+			827 = {
+				add_core_of = POL
+			}
+			4 = {
+				add_core_of = POL
+			}															
+		}	
+	}
+}

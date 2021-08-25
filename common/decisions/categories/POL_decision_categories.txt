@@ -1,5 +1,5 @@
 ################
-##### SWE ######
+##### POL ######
 ################
 
 POL_plans_for_war = {
@@ -27,4 +27,16 @@ POL_resistance3 = {
 	available = {
 		has_completed_focus = POL_resist2
 	}
+}
+
+POL_integration = {
+	icon = military_operation
+	picture = gfx_POL_resistance
+ 	allowed = {
+ 		original_tag = POL
+ 	}
+	available = {
+		has_completed_focus = POL_proclaim_a_new_empire
+	}	
+
 }
