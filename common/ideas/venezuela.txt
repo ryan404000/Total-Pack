@@ -1,6 +1,22 @@
 ideas = {
 	# MILITARY
 
+	country = {
+		VEN_arbitrary_denial = {
+			allowed = {
+				original_tag = VEN
+			}
+
+			modifier = {
+				consumer_goods_factor = 100
+				stability_weekly = 0.1
+				war_support_weekly = 0.1
+				min_export = 1.0
+				disabled_ideas = 1
+			}
+		}
+
+	}
 
 	political_advisor = {
 

@@ -1,7 +1,6 @@
 ﻿capital = 307
 
 oob = "VEN_1936"
-add_opinion_modifier = { target = GER modifier = GER_left_league }
 # Starting tech
 set_technology = {
 	################# infantry ###############
@@ -30,9 +29,11 @@ set_technology = {
 }
 set_country_flag = monroe_doctrine
 
+add_ideas = {
+	VEN_arbitrary_denial
+}
 
-
-set_convoys = 15
+set_convoys = 1500
 set_politics = {
 	
 	ruling_party = fascism

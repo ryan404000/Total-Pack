@@ -1,19 +1,13 @@
 state= {
 	id=299
 	name="STATE_299"
-	manpower=2463
+	manpower=1
 	
-	state_category = enclave
+	state_category = wasteland
 	
 	history= 	{
-		owner = BOI
-		buildings = {
-			infrastructure = 2
-			12960 = {
-				naval_base = 1
-			}
-		}
-		add_claim_by = ARG
+		owner = BRA
+		add_core_of = BRA
 	}
 	provinces= { 12960 }
 }

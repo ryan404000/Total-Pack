@@ -2,16 +2,13 @@
 state={
 	id=507
 	name="STATE_507" # Magallanes
-	manpower = 68693
+	manpower = 1
 	
-	state_category = pastoral
+	state_category = wasteland
 
 	history={
-		owner = CHL
-		buildings = {
-			infrastructure = 1
-		}
-		add_core_of = CHL
+		owner = BRA
+		add_core_of = BRA
 	}
 
 	provinces={
