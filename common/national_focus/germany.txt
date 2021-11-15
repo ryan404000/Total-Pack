@@ -467,7 +467,7 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = GER_rhineland }
 		mutually_exclusive = { focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
-		x = 16
+		x = 18
 		y = 1 
 		relative_position_id = GER_rhineland
 		
@@ -2689,11 +2689,10 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
+			custom_effect_tooltip = GER_unlock_paratroopers_tt			
 			custom_effect_tooltip = available_military_high_command
-			custom_effect_tooltip = GER_unlock_paratroopers_tt
 			show_ideas_tooltip = kurt_student
 			hidden_effect = { country_event = germany.329 }
-			custom_effect_tooltip = GER_Fallschirmjaeger
 		}
 	}
 	
@@ -3944,6 +3943,8 @@ focus_tree = {
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		prerequisite = { focus = GER_soviet_treaty }
 		prerequisite = { focus = GER_german_soviet_trade_agreement }
+		mutually_exclusive = { focus = GER_prepare_to_invade_the_ussr }
+
 		available = {
 			is_puppet = no
 			has_war = no
@@ -4030,7 +4031,7 @@ focus_tree = {
 		icon = GFX_focus_chi_collaboration_with_the_japanese
 		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		
-		x = 9
+		x = 6
 		y = 1
 		relative_position_id = GER_reform_das_auswaertige_amt
 		
@@ -4235,7 +4236,7 @@ focus_tree = {
 		prerequisite = { focus = GER_military_cooperations_with_japan }
 		prerequisite = { focus = GER_stahlpakt }
 		
-		x = -5
+		x = -4
 		y = 1
 		relative_position_id = GER_military_cooperations_with_japan
 
@@ -4353,7 +4354,7 @@ focus_tree = {
 		icon = GFX_focus_chi_cooperation_with_the_nationalists
 		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		
-		x = 13
+		x = 10
 		y = 1	
 		relative_position_id = GER_reform_das_auswaertige_amt
 		
@@ -4497,10 +4498,8 @@ focus_tree = {
 	focus = {
 		id = GER_sweden_friend
 		icon = GFX_goal_swedenfication
-		prerequisite = { focus = GER_naval_secret }
 		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
-		
-		x = 1
+		x = 3
 		y = 2
 		relative_position_id = GER_naval_rearmament
 
@@ -4577,7 +4576,7 @@ focus_tree = {
 		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		mutually_exclusive = { focus = GER_secure_spain }
 		
-		x = 16
+		x = 13
 		y = 1
 		relative_position_id = GER_reform_das_auswaertige_amt
 		
@@ -4874,7 +4873,7 @@ focus_tree = {
 	focus = { 
 		id = GER_befriend_arg
 		icon = GFX_befriend_arg
-		prerequisite = { focus = GER_befriend_nationalist_spain }
+		prerequisite = { focus = GER_befriend_nationalist_spain focus = GER_secure_spain }
 		
 		x = 2
 		y = 1
@@ -4966,7 +4965,7 @@ focus_tree = {
 		prerequisite = { focus = GER_Schutzstaffel_focus }
 		mutually_exclusive = { focus = GER_reform_das_auswaertige_amt }
 		
-		x = 14
+		x = 16
 		y = 1 
 		relative_position_id = GER_rhineland 
 		
@@ -4993,7 +4992,7 @@ focus_tree = {
 		icon = GFX_Goal_Roma_Berlino
 		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		mutually_exclusive = { focus = GER_south_tyrol }
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = GER_support_das_aussenpolitische_amt_der_NSDAP
 		
@@ -5013,10 +5012,16 @@ focus_tree = {
 		}
 		
 		ai_will_do = {
-			factor = 2 
+			factor = 3 
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			GER = {
+				add_political_power = 50
+			}
+			ITA = {
+				add_political_power = 50
+			}
 		}
 	}
 	
@@ -5185,7 +5190,7 @@ focus_tree = {
 	focus = {
 		id = GER_south_tyrol
 		icon = GFX_goal_tyrol
-		prerequisite = { focus = GER_anschluss }
+		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		mutually_exclusive = { focus = GER_achse_berlin_rom }
 		
 		x = -2
@@ -5320,7 +5325,8 @@ focus_tree = {
 		id = GER_prepare_to_invade_the_ussr 
 		icon = GFX_goal_prepare_to_invade_union
 		prerequisite = { focus = GER_mol_rib_pact focus = GER_poland_friend }
-		
+		mutually_exclusive = { focus = GER_soviet_ally }
+
 		available = {
 			188 = { OR = { is_controlled_by_ROOT_or_ally = yes is_controlled_by = SOV } }
 			5 = { CONTROLLER = { OR = { tag = GER is_subject_of = GER is_in_faction_with = GER } } } 	
@@ -5343,7 +5349,7 @@ focus_tree = {
 		}
 		
 		x = -2
-		y = 6
+		y = 7
 		relative_position_id = GER_anschluss
 		
 		cost = 8.4
@@ -5457,9 +5463,9 @@ focus_tree = {
 			}
 		}
 		
-		x = -3
-		y = 7
-		relative_position_id = GER_anschluss
+		x = 0
+		y = 1
+		relative_position_id = GER_prepare_to_invade_the_ussr
 		
 		cost = 3.5
 		historical_ai = {
@@ -5936,7 +5942,7 @@ focus_tree = {
 	focus = {
 		id = GER_turkey_friend
 		icon = GFX_focus_collaboration_with_turkey
-		prerequisite = { focus = GER_anschluss }
+		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		mutually_exclusive = { focus = GER_turkey_puppet_2 }
 		
 		available = { 
@@ -6038,7 +6044,7 @@ focus_tree = {
 		focus = {
 		id = GER_turkey_puppet_2
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = GER_anschluss }
+		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		mutually_exclusive = { focus = GER_turkey_friend }
 		
 		available = {
@@ -6300,7 +6306,7 @@ focus_tree = {
 	focus = {
 		id = GER_weserubung
 		icon = GFX_attack_NOR
-		prerequisite = { focus = GER_danzig_or_war focus = GER_poland_friend }
+		prerequisite = { focus = GER_danzig_or_war }
 		mutually_exclusive = { focus = GER_denmark_and_norway_friend }
 		will_lead_to_war_with = DEN 
 		will_lead_to_war_with = NOR
@@ -6398,7 +6404,7 @@ focus_tree = {
 		will_lead_to_war_with = HOL
 		will_lead_to_war_with = LUX
 
-		x = 1
+		x = 0
 		y = 8
 		relative_position_id = GER_anschluss
 		
@@ -7013,7 +7019,7 @@ focus_tree = {
 	focus = {
 		id = GER_secure_spain
 		icon = GFX_focus_attack_spain
-		prerequisite = { focus = GER_anschluss }
+		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		mutually_exclusive = { focus = GER_befriend_nationalist_spain }
 		available = {
 			SPR = { has_civil_war = no }
@@ -7249,7 +7255,7 @@ focus_tree = {
 	focus = {
 		id = GER_german_swiss_trade_agreement
 		icon = GFX_focus_cooperation_with_Switzerland
-		prerequisite = { focus = GER_anschluss }
+		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		mutually_exclusive = { focus = GER_operation_tannenbaum }
 
 		available = { 
@@ -7292,7 +7298,7 @@ focus_tree = {
 	focus = {
 		id = GER_operation_tannenbaum
 		icon = GFX_focus_attack_switzerland
-		prerequisite = { focus = GER_anschluss }
+		prerequisite = { focus = GER_reform_das_auswaertige_amt focus = GER_support_das_aussenpolitische_amt_der_NSDAP }
 		mutually_exclusive = { focus = GER_german_swiss_trade_agreement }
 		
 		available = {
@@ -8487,7 +8493,7 @@ focus_tree = {
 	focus = {
 		id = GER_denmark_and_norway_friend
 		icon = GFX_Goal_befriend_Den_nor
-		prerequisite = { focus = GER_plan_z }
+		prerequisite = { focus = GER_plan_z focus = GER_u_boat_effort }
 		mutually_exclusive = { focus = GER_weserubung }
 
 		available = {
@@ -9098,9 +9104,9 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		
-		x = 1
-		y = 9
-		relative_position_id = GER_anschluss
+		x = 0
+		y = 1
+		relative_position_id = GER_around_maginot
 		
 		cost = 2
 		
@@ -9221,7 +9227,7 @@ focus_tree = {
 			add_tech_bonus = {
 			    name = paratrooper_bonus
 				bonus = 0.75
-				uses = 1
+				uses = 2
 				category = para_tech
 	     	}
 	    }
