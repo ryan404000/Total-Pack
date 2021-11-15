@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = IRQ_industry5
 		icon = GFX_goal_IRQ_industry
-		x = 14
+		x = 16
 		y = 0
 		cost = 7
 		available_if_capitulated = no
@@ -39,7 +39,7 @@ focus_tree = {
 		id = IRQ_limited
 		icon = GFX_ENG_conscription
 		mutually_exclusive = { focus = IRQ_britishsupport }
-		x = 19
+		x = 21
 		y = 0
 		cost = 5
 		available_if_capitulated = no
@@ -141,7 +141,7 @@ focus_tree = {
 		id = IRQ_britishsupport
 		icon = GFX_focus_chi_british_cooperation
 		mutually_exclusive = { focus = IRQ_limited }
-		x = 21
+		x = 23
 		y = 0
 		cost = 5
 		available_if_capitulated = no
@@ -507,8 +507,10 @@ focus_tree = {
 	focus = {
 		id = IRQ_minimum
 		icon = GFX_goal_IRQ_cut
-		x = 24
-		y = 0
+		prerequisite = { focus = IRQ_army2 }
+		relative_position_id = IRQ_army2
+		x = 6
+		y = 1
 		cost = 8
 		available_if_capitulated = no
 		ai_will_do = {
@@ -731,6 +733,7 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		available = {
+			date > 1940.1.1
 		}
 		
 		bypass = {
@@ -1296,7 +1299,6 @@ focus_tree = {
 		
 		available = {
 			controls_state = 656
-			has_completed_focus = IRQ_minimum
 		}
 		
 		ai_will_do = {

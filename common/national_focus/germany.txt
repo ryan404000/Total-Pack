@@ -8449,12 +8449,13 @@ focus_tree = {
 		    hidden_effect = { country_event = germany.328  }
 			effect_tooltip = {
 			custom_effect_tooltip = GER_Landungstruppen
-		add_tech_bonus = {
+			add_tech_bonus = {
 					name = amph_armor_bonus
 					bonus = 0.6
 					uses = 1
 					category = amp_armor
-		}
+				}
+			load_oob = "ger_landungstruppen_oob"	
 			}
 			
 		}
@@ -9267,7 +9268,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.05
-			add_political_power = 120
+			add_political_power = 120		
 		}
 	}	
 }
