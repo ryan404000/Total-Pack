@@ -1,23 +1,17 @@
 state={
 	id=687
 	name="STATE_687"
-	manpower = 309000
+	manpower = 1
 	
-	state_category = pastoral
+	state_category = wasteland
 	
 	resources={
-		aluminium=60 # was: 112
+		aluminium=112 # was: 112
 	}
 
 	history={
-		add_core_of = GYA
-		owner = BOI
-		buildings = {
-			infrastructure = 2
-			4982 = {
-				naval_base = 1
-			}
-		}
+		owner = VEN
+		add_core_of = VEN
 	}
 	
 	provinces={

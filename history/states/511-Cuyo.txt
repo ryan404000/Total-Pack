@@ -2,21 +2,13 @@
 state={
 	id=511
 	name="STATE_511" # Mendoza
-	manpower = 1090274
+	manpower = 1
 	
-	state_category = rural
+	state_category = wasteland
 
 	history={
-		owner = ARG
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			air_base = 1
-		}
-		add_core_of = ARG
-		victory_points = {
-			12942 1 
-		}
+		owner = BRA
+		add_core_of = BRA
 
 	}
 

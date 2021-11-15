@@ -1,20 +1,12 @@
 state={
 	id=692
 	name="STATE_692"
-	manpower=76485
-	state_category = small_island
+	manpower=1
+	state_category = wasteland
 
 	history={
-		owner = BOI
-		buildings = {
-			infrastructure = 4
-			11350 = {
-				naval_base = 1
-			}
-		}
-		victory_points = {
-			11350 1
-		}
+		owner = VEN
+		add_core_of = VEN
 	}
 	
 	provinces={

@@ -2,12 +2,12 @@
 state={
 	id=308
 	name="STATE_308"
-	manpower=	25678
-	state_category = tiny_island
+	manpower=1
+	state_category = wasteland
 
 	history={
-		owner = BOI
-		add_core_of = BAS		
+		owner = VEN
+		add_core_of = VEN	
 		buildings = {
 			infrastructure = 4
 			4450 = {
