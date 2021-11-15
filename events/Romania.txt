@@ -155,6 +155,9 @@ country_event = {
 				add_state_claim = 76
 				add_state_claim = 83
 				add_state_claim = 84
+				add_state_claim = 843
+				add_state_claim = 842
+				add_state_claim = 82
 			}
 		}
 		GER = {

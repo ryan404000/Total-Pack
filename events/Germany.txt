@@ -3538,11 +3538,15 @@ country_event = {
 		}
 		hidden_effect = {
 			country_event = { hours = 6 id = news.62 }
+			GER = {
+				add_state_core = 9
+				add_state_core = 75
+			}
 		}
 		custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
 		add_to_variable = { var = GER_mefo_bill_counter value = -5 }
 		GER_mefo_bills_level_down = yes
-	}
+	}	
 }
 
 # Hungary asked to partition Czechoslovakia

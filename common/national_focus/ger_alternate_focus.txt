@@ -1,5 +1,5 @@
 focus_tree = {
-	id = ger_alternate_focus
+	id = GER_alternate_focus
 	
 	country = {
 		factor = 0

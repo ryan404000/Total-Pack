@@ -36,6 +36,11 @@ country_event = {
 		}
 		hidden_effect = {
 			country_event = { days = 1 id = news.15 }
+			HUN = {
+				add_state_core = 76
+				add_state_core = 843
+				add_state_core = 842			
+			}			
 		}
 	}
 }
@@ -56,10 +61,19 @@ country_event = {
 			transfer_state = 83
 			transfer_state = 84
 			transfer_state = 843
-			transfer_state = 842			
+			transfer_state = 842
+			transfer_state = 82			
 		}
 		hidden_effect = {
 			country_event = { days = 1 id = news.16 }
+			HUN = {
+				add_state_core = 76
+				add_state_core = 83
+				add_state_core = 84
+				add_state_core = 843
+				add_state_core = 842	
+				add_state_core = 82		
+			}
 		}
 	}
 }
@@ -96,6 +110,9 @@ country_event = {
 		add_state_claim = 76
 		add_state_claim = 83
 		add_state_claim = 84
+		add_state_claim = 843
+		add_state_claim = 842
+		add_state_claim = 82
 		hidden_effect = {
 			country_event = { days = 1 id = news.18 }
 		}

@@ -2568,7 +2568,8 @@ focus_tree = {
 			add_state_core = 834
 			add_state_core = 835
 			add_state_core = 842
-			add_state_core = 843															
+			add_state_core = 843
+			add_state_core = 849															
 			add_state_claim = 73		
 			add_political_power = -250
 			
@@ -2906,7 +2907,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		add_ideas = HUN_spanish_intervention 
+		add_timed_idea = {
+		 	idea = HUN_spanish_intervention 
+			days = 365
+			}
 		}
 	}
 
@@ -3795,7 +3799,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			154 = {
+			845 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 2

@@ -3427,7 +3427,7 @@ OR = {
 			826 = {
 				add_resource = {
 					type = tungsten
-					amount = 42
+					amount = 30
 				}
 			}
 		}
@@ -3480,7 +3480,7 @@ OR = {
 			826 = {
 				add_resource = {
 					type = tungsten
-					amount = 48
+					amount = 42
 				}
 			}
 		}
