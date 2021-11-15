@@ -18,9 +18,10 @@ focus_tree = {
 	focus = {
 		id = GER_Goering_Plan
 		icon = GFX_focus_generic_self_management
-		
+		prerequisite = { focus = GER_follow_the_course }
+
 		x = -7
-		y = 0
+		y = 1
 		
 		cost = 6
 		available = {
@@ -298,9 +299,10 @@ focus_tree = {
 	focus = {
 		id = GER_rhineland
 		icon = GFX_Goal_rhineland2
-		
+		prerequisite = { focus = GER_follow_the_course }		
+
 		x = 12
-		y = 0
+		y = 1
 		
 		cost = 7.5
 		available = { is_puppet = no }
@@ -1367,9 +1369,10 @@ focus_tree = {
 		id = GER_naval_rearmament
 		text = GER_naval_rearmament
 		icon = GFX_Goal_kriegsmarine2
-		
+		prerequisite = { focus = GER_follow_the_course }		
+
 		x = 22
-		y = 0
+		y = 1
 		
 		cost = 5.8
 		ai_will_do = {
@@ -1882,9 +1885,10 @@ focus_tree = {
 		id = GER_air_innovation	 ## Luftwaffe
 		text = GER_air_innovation
 		icon = GFX_goal_luftwaffe
+		prerequisite = { focus = GER_follow_the_course }
 		
 		x = -20
-		y = 0
+		y = 1
 		
 		cost = 5.5
 		ai_will_do = {
@@ -2632,9 +2636,10 @@ focus_tree = {
 		id = GER_Wehrmacht
 		text = GER_Wehrmacht
 		icon = GFX_focus_ger_oppose_hitler
-		
+		prerequisite = { focus = GER_follow_the_course }		
+
 		x = 2
-		y = 0
+		y = 1
 		
 		cost = 6
 		ai_will_do = {
@@ -9126,7 +9131,8 @@ focus_tree = {
 	focus = {
 		id = GER_Schutzstaffel_focus
 		icon = GFX_goal_generic_SS_focus
-		
+		prerequisite = { focus = GER_follow_the_course }		
+
 		x = 5
 		y = 0
 		relative_position_id = GER_Wehrmacht
@@ -9220,4 +9226,42 @@ focus_tree = {
 	     	}
 	    }
 	}
+
+	focus = {
+		id = GER_oppose_hitler
+		icon = GFX_focus_ger_oppose_hitler
+		mutually_exclusive = { focus = GER_follow_the_course }
+
+		x = 0
+		y = 0 
+		cost = 1
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		completion_reward = {
+			load_focus_tree = GER_alternate_focus
+			#start_civil_war = {}
+		}
+	}
+
+	focus = {
+		id = GER_follow_the_course
+		icon = GFX_focus_ger_oppose_hitler
+		mutually_exclusive = { focus = GER_oppose_hitler }
+
+		x = -2
+		y = 0
+		cost = 1
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 120
+		}
+	}	
 }
