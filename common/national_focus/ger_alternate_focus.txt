@@ -11,8 +11,53 @@ focus_tree = {
 ##work begins here
 
 	focus = {
-		id = GER_new_development
+		id = GER_new_economic_development
 		icon = GFX_focus_generic_self_management
+
+		x = 3
+		y = 0
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_prepare_for_civil_war
+		icon = GFX_focus_generic_self_management
+
+		x = 8
+		y = 0
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+
+###############################################
+# COMMUNIST PATH                              #
+###############################################
+
+	focus = {
+		id = GER_legacy_of_november_1918
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_prepare_for_civil_war }
+		relative_position_id = GER_prepare_for_civil_war 
+		mutually_exclusive = { focus = GER_legacy_of_weimar focus = GER_legacy_of_the_kaiser }
 
 		x = 0
 		y = 1
@@ -22,21 +67,104 @@ focus_tree = {
 		
 		}
 		ai_will_do = {
-			factor = 12
+			factor = 1
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-		GER = {
-			country_event = NF_events.37
-				add_timed_idea = {
-					idea = GER_four_year_plan
-					days = 1460
-				}
-			}
-		custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = goering_e
-			show_ideas_tooltip = hjalmar_schacht
 		}
 	}
+
+###############################################
+# MONARCHIST PATH                             #
+###############################################
+
+	focus = {
+		id = GER_legacy_of_the_kaiser
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_prepare_for_civil_war }
+		relative_position_id = GER_prepare_for_civil_war 
+		mutually_exclusive = { focus = GER_legacy_of_november_1918 focus = GER_legacy_of_weimar }
+
+		x = 2
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_countryside_support
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_legacy_of_the_kaiser }
+		relative_position_id = GER_legacy_of_the_kaiser
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+###############################################
+# DEMOCRATIC PATH                             #
+###############################################
+
+	focus = {
+		id = GER_legacy_of_weimar
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_prepare_for_civil_war }
+		relative_position_id = GER_prepare_for_civil_war 
+		mutually_exclusive = { focus = GER_legacy_of_november_1918 focus = GER_legacy_of_the_kaiser }
+
+		x = -2
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_secure_weimar
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_legacy_of_weimar }
+		relative_position_id = GER_legacy_of_weimar
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}			
 
 }
