@@ -5,35 +5,14 @@ focus_tree = {
 		factor = 0
 	}
 	
-	continuous_focus_position = { x = 5 y = 1200 }
+	continuous_focus_position = { x = 5 y = 1500 }
 	default = no
-
-##work begins here
-
-	focus = {
-		id = GER_new_economic_development
-		icon = GFX_focus_generic_self_management
-
-		x = 3
-		y = 0
-		
-		cost = 6
-		available = {
-		
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-		}
-	}
 
 	focus = {
 		id = GER_prepare_for_civil_war
 		icon = GFX_focus_generic_self_management
 
-		x = 8
+		x = 2
 		y = 0
 		
 		cost = 6
@@ -45,6 +24,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_political_power = 150
 		}
 	}
 
@@ -69,8 +49,296 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.12
+			}			
+		}
+	}	
+
+	focus = {
+		id = GER_secure_wilhelmshaven
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_legacy_of_november_1918 }
+		relative_position_id = GER_legacy_of_november_1918
+		mutually_exclusive = { focus = GER_secure_bavaria }
+
+		x = 1
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}			
+		}
+	}
+
+	focus = {
+		id = GER_rally_sailors
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_secure_wilhelmshaven }
+		relative_position_id = GER_secure_wilhelmshaven
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = GER_secure_kiel
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_rally_sailors }
+		relative_position_id = GER_rally_sailors
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.08
+			}			
+		}
+	}
+
+	focus = {
+		id = GER_fortify_rostock
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_secure_kiel }
+		relative_position_id = GER_secure_kiel
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_secure_hanover
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_fortify_rostock }
+		relative_position_id = GER_fortify_rostock
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_hamburg_rearmament
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_secure_hanover }
+		relative_position_id = GER_secure_hanover
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			start_civil_war = {
+				ruling_party = communism
+				ideology = communism 
+				size = 0.55
+				capital = 58
+				states = {
+					58 61 59 56 57 829 51 
+				}
+				keep_unit_leaders = {
+					
+				}
+			}			
+		}
+	}		
+
+	focus = {
+		id = GER_secure_bavaria
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_legacy_of_november_1918 }
+		relative_position_id = GER_legacy_of_november_1918 
+		mutually_exclusive = { focus = GER_secure_wilhelmshaven }
+
+		x = -1
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}				
+		}
+	}				
+
+	focus = {
+		id = GER_augsburg_airbases
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_secure_bavaria }
+		relative_position_id = GER_secure_bavaria
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_alpine_loyalty
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_augsburg_airbases }
+		relative_position_id = GER_augsburg_airbases
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = mountaineers_for_war_tt
+		}
+	}	
+
+	focus = {
+		id = GER_secure_wurttemburg
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_alpine_loyalty }
+		relative_position_id = GER_alpine_loyalty
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}			
+		}
+	}
+
+	focus = {
+		id = GER_hills_of_oberfranken
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_secure_wurttemburg }
+		relative_position_id = GER_secure_wurttemburg
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_hold_baden
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_hills_of_oberfranken }
+		relative_position_id = GER_hills_of_oberfranken
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			start_civil_war = {
+				ruling_party = communism
+				ideology = communism 
+				size = 0.55
+				capital = 52
+				states = {
+					52 53 823 824 821 50 55 42 
+				}
+				keep_unit_leaders = {
+					
+				}
+			}		
 		}
 	}
 
@@ -85,7 +353,7 @@ focus_tree = {
 		relative_position_id = GER_prepare_for_civil_war 
 		mutually_exclusive = { focus = GER_legacy_of_november_1918 focus = GER_legacy_of_weimar }
 
-		x = 2
+		x = 4
 		y = 1
 		
 		cost = 6
@@ -95,8 +363,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.09
+			}			
 		}
 	}
 
@@ -116,10 +388,137 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 		}
 	}
+
+	focus = {
+		id = GER_secure_konigsberg
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_countryside_support }
+		relative_position_id = GER_countryside_support
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_secure_stettin
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_secure_konigsberg }
+		relative_position_id = GER_secure_konigsberg
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.06
+			}	
+		}
+
+	}
+
+	focus = {
+		id = GER_arm_ostmark
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_secure_stettin }
+		relative_position_id = GER_secure_stettin
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}	
+
+	focus = {
+		id = GER_munich_militias
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_arm_ostmark }
+		relative_position_id = GER_arm_ostmark
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.09
+			}			
+		}
+	}
+
+	focus = {
+		id = GER_rally_hanover
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_munich_militias }
+		relative_position_id = GER_munich_militias
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			start_civil_war = {
+				ruling_party = neutrality
+				ideology = neutrality 
+				size = 0.65
+				capital = 763
+				states = {
+					5 63 68 59 67 66 52 824 821 50
+				}
+				keep_unit_leaders = {
+					
+				}
+			}						
+		}
+	}
+
 ###############################################
 # DEMOCRATIC PATH                             #
 ###############################################
@@ -131,7 +530,7 @@ focus_tree = {
 		relative_position_id = GER_prepare_for_civil_war 
 		mutually_exclusive = { focus = GER_legacy_of_november_1918 focus = GER_legacy_of_the_kaiser }
 
-		x = -2
+		x = -4
 		y = 1
 		
 		cost = 6
@@ -141,8 +540,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.13
+			}
 		}
 	}
 
@@ -162,9 +565,192 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+
+		}
+	}	
+
+	focus = {
+		id = GER_secure_rheinland
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_secure_weimar }
+		relative_position_id = GER_secure_weimar
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 		}
-	}			
+	}
+
+	focus = {
+		id = GER_secure_sachsen
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_secure_rheinland }
+		relative_position_id = GER_secure_rheinland
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.07
+			}			
+		}
+	}
+
+	focus = {
+		id = GER_essen_arms_depots
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_secure_sachsen }
+		relative_position_id = GER_secure_sachsen
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}	
+
+	focus = {
+		id = GER_wilhelmshaven_naval_bases 
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_essen_arms_depots }
+		relative_position_id = GER_essen_arms_depots
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_strike_south_to_nuremburg 
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_wilhelmshaven_naval_bases }
+		relative_position_id = GER_wilhelmshaven_naval_bases
+
+		x = 0
+		y = 1
+		
+		cost = 6
+		available = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			start_civil_war = {
+				ruling_party = democratic
+				ideology = democratic 
+				size = 0.45
+				capital = 60
+				states = {
+					60 823 57 65 55 56 829 51 42
+				}
+				keep_unit_leaders = {
+
+				}
+			}	
+
+		}
+	}
+
+###############################################
+# BEGIN CIVIL WAR                             #
+###############################################
+
+	focus = {
+		id = GER_create_the_provisional_government
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = GER_rally_hanover focus = GER_hold_baden focus = GER_hamburg_rearmament focus = GER_strike_south_to_nuremburg }
+		relative_position_id = GER_hold_baden
+
+		x = 1
+		y = 1
+		
+		bypass = {
+			has_completed_focus = GER_hold_baden 
+			has_completed_focus = GER_hamburg_rearmament 
+			has_completed_focus = GER_strike_south_to_nuremburg 
+			has_completed_focus = GER_rally_hanover 
+		}
+
+		cost = 6
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}	
+
+###############################################
+# ARMY REFORMS                                #
+###############################################
+
+	focus = {
+		id = GER_the_new_armed_forces
+		icon = GFX_focus_generic_self_management
+
+		x = 12
+		y = 0
+		
+		cost = 6
+		available = {
+			has_completed_focus = GER_create_the_provisional_government
+			has_civil_war = no 
+			has_war = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			army_experience = 20
+			navy_experience = 15
+			air_experience = 10
+		}
+	}	
 
 }
