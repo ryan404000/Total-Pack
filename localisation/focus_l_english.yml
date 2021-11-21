@@ -5466,6 +5466,33 @@ portugal.30.d:0 "We just got a visit from the Portuguese foreign minister, who t
  POL_fortify_palanga_port:0 "Fortify Palanga"
  POL_fortify_palanga_port_desc:0 "DESCRIPTION"
 
+ POL_stoke_monarchism_in_austria_hungary:0 "Stoke Monarchism in Austria-Hungary"
+ POL_stoke_monarchism_in_austria_hungary_desc:0 "DESCRIPTION"
+
+ POL_claims_in_slovakia:0 "Claims in Slovakia"
+ POL_claims_in_slovakia_desc:0 "DESCRIPTION"
+
+ POL_claims_in_czech:0 "Claims in Czechoslovakia"
+ POL_claims_in_czech_desc:0 "DESCRIPTION"
+
+ POL_claims_in_hungary:0 "Claims in Hungary"
+ POL_claims_in_hungary_desc:0 "DESCRIPTION"
+
+ POL_prepare_for_war_with_hungary:0 "Prepare for War with Hungary"
+ POL_prepare_for_war_with_hungary_desc:0 "DESCRIPTION"
+
+ POL_claims_in_austria:0 "Claims in Austria"
+ POL_claims_in_austria_desc:0 "DESCRIPTION"
+
+ POL_demand_austrian_integration:0 "Demand Austrian Integration"
+ POL_demand_austrian_integration_desc:0 "DESCRIPTION"
+
+ POL_demand_integration_of_czechoslovakia:0 "Demand Czech Integration"
+ POL_demand_integration_of_czechoslovakia_desc:0 "DESCRIPTION"
+
+ POL_improve_hungarian_lands:0 "Improve Hungarian Lands"
+ POL_improve_hungarian_lands_desc:0 "DESCRIPTION"
+ 
 
  miedzymorze.3.t:0 "Poland Demands Zaolzie."
  miedzymorze.3.d:0 "Poland has been demanding Zaolzie, due to its large Polish population, for a long time... But now they have sent an ultimatum - Zaolzie or war. "
@@ -8313,8 +8340,13 @@ BUL_Monarch_Speech:0 "Monarch Speech"
  BRA_reduced_protest_chance:0 "Reduces chance of public unrest, less chance of protestors gathering."
  GER_tank_sharing:0 "Tank Sharing"
  GER_tank_sharing_desc:0 "To ensure our allies are prepared for the oncoming war, we must ensure all who align with Germany have access to our advance Panzer technology." 
- 
+ GER_follow_the_course:0 "Stay the Course"
+ GER_follow_the_course_desc:0 "We shall follow the future laid out by our great leader, Adolf Hitler."
+ GER_oppose_hitler:0 "Oppose Hitler"
+ GER_oppose_hitler_desc:0 "This path is the wrong one. We must oppose Adolf Hitler by any means necessary. Their path is not our future."
+ GER_expand_eastern_docks:0 "Expand Eastern Docks"
+ GER_expand_eastern_docks_desc:0 "The ports of the northeast of Germany must be expanded to support our goals for the future."
 
-
- 
+ GER_expand_western_docks:0 "Expand Western Docks"
+ GER_expand_western_docks_desc:0 "The ports of the northwest of Germany must be expanded to support our goals for the future."
  

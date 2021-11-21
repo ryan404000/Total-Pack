@@ -505,6 +505,9 @@ technologies = {
 		enable_equipments = {
 			light_uk_tank_equipment_0
 		}
+		enable_subunits = {
+			light_armor_brigade
+		}		
 
 		path = {
 			leads_to_tech = basic_uk_light_tank

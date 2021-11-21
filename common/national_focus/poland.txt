@@ -6026,7 +6026,7 @@ focus = {
 
 	focus = {
 		id = POL_a_german_monarch
-		icon = GFX_monarchism
+		icon = GFX_goal_pol_german_king
 		available = {
 			is_puppet = no
 			has_idea = POL_german_monarch
@@ -7547,17 +7547,17 @@ focus = {
 			}
 			add_resource = {
     			type = steel
-    			amount = 20
+    			amount = 28
 				state = 109
 			}	
 			add_resource = {
     			type = aluminium
-    			amount = 30
+    			amount = 24
 				state = 835
 			}
 			add_resource = {
     			type = chromium
-    			amount = 30
+    			amount = 32
 				state = 105
 			}								
 		}

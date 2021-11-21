@@ -7674,5 +7674,30 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_goal_generic_naval_industry"
 		texturefile = "gfx/interface/goals/generic_naval_industry.dds"
-	}									
+	}
+	SpriteType = { 
+		name = "GFX_goal_AUS_Wien"
+		texturefile = "gfx/interface/goals/AUS_Wien.png"
+	}	
+	SpriteType = { 
+		name = "GFX_goal_pol_german_king"
+		texturefile = "gfx/interface/goals/pol_german_king.png"
+	}
+	SpriteType = { 
+		name = "GFX_goal_bombs_away"
+		texturefile = "gfx/interface/goals/bombs_away.png"
+	}	
+	SpriteType = { 
+		name = "GFX_goal_break_rifle"
+		texturefile = "gfx/interface/goals/break_rifle.png"
+	}
+	SpriteType = { 
+		name = "GFX_goal_broken_red_star"
+		texturefile = "gfx/interface/goals/broken_red_star.png"
+	}	
+	SpriteType = { 
+		name = "GFX_goal_cavalry"
+		texturefile = "gfx/interface/goals/cavalry.png"
+	}		
+
 }

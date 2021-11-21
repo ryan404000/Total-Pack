@@ -1911,23 +1911,23 @@ country = {
 	
 	POL_plc_reborn = {
 		modifier = {
-
+			stability_factor = 0.10
 		}
 	}
 	POL_poland_russia = {
 		modifier = {
-			
+			stability_factor = 0.05			
 		}
 	}
 	POL_underdeveloped_lithuania = {
 		modifier = {
-			
+			stability_factor = -0.05			
 		}
 	}
 
-	POL_Kingdom_Poland_Austria = {
+	POL_kingdom_poland_austria = {
 		modifier = {
-			
+			stability_factor = 0.08			
 		}
 	}
 }	

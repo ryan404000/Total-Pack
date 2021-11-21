@@ -33,14 +33,13 @@ sub_units = {
 			light_tank_equipment = 15
 		}
 		transport = light_tank_equipment
-		manpower = 360
-		max_organisation = 10
+		manpower = 120
+		max_organisation = 2.5
 		default_morale = 0.1
-		training_time = 200
-		max_strength = 12
-		weight = 2
-		supply_consumption = 0.23
-		supply_consumption_factor = 0.05
+		training_time = 66
+		max_strength = 4
+		supply_consumption = 0.08
+		supply_consumption_factor = 0.01
 
 		#Tanks are awesome
 
