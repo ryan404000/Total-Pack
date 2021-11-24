@@ -5,16 +5,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/other_ships_checkbox.dds"
 		noOfFrames = 2
 	}
-	
-		spriteType = {
-		name = "GFX_header_prod_bg"
-		texturefile = "gfx/interface/headers/header_bg_750.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_header_bg_444"
-		texturefile = "gfx/interface/headers/header_bg_444.dds"
-	}
 
 	spriteType = {
 		name = "GFX_screen_ships_checkbox"
@@ -31,19 +21,19 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_inf_art_checkbox"
-		texturefile = "gfx/interface/inf_art_checkbox_tw.tga"
+		texturefile = "gfx/interface/inf_art_checkbox.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
 		name = "GFX_armour_checkbox"
-		texturefile = "gfx/interface/armour_checkbox_tw.tga"
+		texturefile = "gfx/interface/armour_checkbox.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
 		name = "GFX_air_checkbox"
-		texturefile = "gfx/interface/air_checkbox_tw.tga"
+		texturefile = "gfx/interface/air_checkbox.dds"
 		noOfFrames = 2
 	}
 
@@ -61,7 +51,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_reinforcing_checkbox"
-		texturefile = "gfx/interface/reinforcing_checkbox_tw.tga"
+		texturefile = "gfx/interface/reinforcing_checkbox.dds"
 		noOfFrames = 2
 	}
 	
@@ -109,7 +99,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_prod_line_target_strip"
-		textureFile = "gfx//interface//prod_line_target_strip_tw.tga"
+		textureFile = "gfx//interface//prod_line_target_strip.dds"
 		noOfFrames = 5
 	}
 
@@ -257,7 +247,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_create_variants_button"
 		textureFile = "gfx//interface//create_variants_button.dds"
-		noOfFrames = 2
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_designer_action_button_strip"
+		textureFile = "gfx/interface/equipmentdesigner/designer_action_button_strip.dds"
+		noOfFrames = 6
 	}
 
 	spriteType = {
@@ -273,19 +269,19 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_add_prod_aircraft_line"
-		textureFile = "gfx//interface//add_prod_aircraft_line_tw.tga"
+		textureFile = "gfx//interface//add_prod_aircraft_line.dds"
 		noOfFrames = 3			
 	}
 
 	spriteType = {
 		name = "GFX_add_prod_inf_art_line"
-		textureFile = "gfx//interface//add_prod_inf_art_line_tw.tga"
+		textureFile = "gfx//interface//add_prod_inf_art_line.dds"
 		noOfFrames = 3			
 	}
 
 	spriteType = {
 		name = "GFX_add_prod_armour_line"
-		textureFile = "gfx//interface//add_prod_armour_line_tw.tga"
+		textureFile = "gfx//interface//add_prod_armour_line.dds"
 		noOfFrames = 3			
 	}
 
@@ -299,18 +295,6 @@ spriteTypes = {
 		name = "GFX_toggle_naval_repair_window"
 		textureFile = "gfx//interface//naval_repair_view_button.dds"
 		noOfFrames = 3			
-	}	
-	
-	spriteType = {
-		name = "GFX_sub_tech_strip_w_bg"
-		textureFile = "gfx//interface//sub_tech_strip_w_bg.dds"
-		noOfFrames = 5			
-	}
-
-	spriteType = {
-		name = "GFX_sub_tech_strip"
-		textureFile = "gfx//interface//sub_tech_strip.dds"
-		noOfFrames = 5			
 	}
 
 	spriteType = {
@@ -368,12 +352,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_outdated_naval_equipment_overlay"
-		textureFile = "gfx//interface//outdated_naval_equipment_overlay_tw.tga"
+		textureFile = "gfx//interface//outdated_naval_equipment_overlay.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_outdated_equipment_overlay"
-		textureFile = "gfx//interface//outdated_equipment_overlay_tw.tga"
+		textureFile = "gfx//interface//outdated_equipment_overlay.dds"
 	}
 	
 	spriteType = {
@@ -392,13 +376,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_equipment_item_collapsed_wide"
+		textureFile = "gfx//interface//equipment_item_collapsed_wide.dds"
+	}
+
+	spriteType = {
 		name = "GFX_outdated_equipment_overlay_collapsed"
-		textureFile = "gfx//interface//outdated_equipment_overlay_collapsed_tw.tga"
+		textureFile = "gfx//interface//outdated_equipment_overlay_collapsed.dds"
 	}
 
 	spriteType = {
 		name = "GFX_outdated_naval_overlay_collapsed"
-		textureFile = "gfx//interface//outdated_naval_overlay_collapsed_tw.tga"
+		textureFile = "gfx//interface//outdated_naval_overlay_collapsed.dds"
 	}	
 	
 	spriteType = {
@@ -465,7 +454,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_fuel_types_icon"
-		textureFile = "gfx//interface//logistic_fuel_types_tw.tga"
+		textureFile = "gfx//interface//logistic_fuel_types.dds"
 		noOfFrames = 4
 	}
 
@@ -728,162 +717,9 @@ spriteTypes = {
 		name = "GFX_add_10"
 		textureFile = "gfx//interface//add_10.dds"
 	}
-	spriteType = {
-		name = "GFX_topbar_icons"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_icons.tga"
-		noOfFrames = 38
-	}
-	spriteType = {
-		name = "GFX_topbar_casualties"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_casualties.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_surrender_progress"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_surrender_progress.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_surrender_limit"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_surrender_limit.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_strength_ratio"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_strength_ratio.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_naval_strength_ratio"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_strength_ratio_nav.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_oil"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_oil.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_rubber"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_rubber.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_aluminium"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_aluminium.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_steel"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_steel.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_tungsten"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_tungsten.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_chromium"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_chromium.dds"
-	}
-	spriteType = {  
-		name = "GFX_topbar_ruling_party" 
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_ruling_party.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_opposition"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_opposition.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_fascism"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_fascism.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_monarchism"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_monarchism.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_neutrality"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_neutrality.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_conservatism"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_conservatism.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_liberalism"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_liberalism.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_socialism"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_socialism.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_democratic"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_democratic.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_communism"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_communism.dds"
-	}
-	spriteType = {
-		name = "GFX_total_pop"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_total_pop.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_core_pop"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_core_pop.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_mefo"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_mefo.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_army_strength"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_strength_ratio.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_divisions"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_divisions.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_battalions"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_battalions.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_special_forces"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_special_forces.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_navy_strength"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_strength_ratio_nav.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_ships"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_ships.tga"
-	} 
-	spriteType = {
-		name = "GFX_topbar_consumer"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_consumer.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_pp"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_pp.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_research"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_research.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_conscription"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_conscription.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_factories"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_factories.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_warscore"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_warscore.tga"
-	}
-	spriteType = {
-		name = "GFX_topbar_states"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_states.dds"
-	}
-	spriteType = {
-		name = "GFX_topbar_field_strength"
-		textureFile = "gfx/interface/topbar/dynamic_topbar/topbar_strength_ratio.tga"
-	}
 
+	spriteType = {
+		name = "GFX_production_prohibition_sign_icon"
+		textureFile = "gfx/interface/equipmentdesigner/production_prohibition_sign_icon.dds"
+	}
 }

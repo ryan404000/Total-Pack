@@ -54,13 +54,13 @@ spriteTypes = {
 		name = "GFX_western_european_2d_ace_m_2"
 		texturefile = "gfx/aces/western_european_ace_m_2.dds"
 	}
-	
+
 	# FEMALE #
 	spriteType = {
 		name = "GFX_western_european_2d_ace_f_0"
 		texturefile = "gfx/aces/western_european_ace_f_0.dds"
 	}
-	
+
 	##########################
 	## commonwealth_2d ##
 	##########################
@@ -78,7 +78,7 @@ spriteTypes = {
 		name = "GFX_commonwealth_2d_ace_m_2"
 		texturefile = "gfx/aces/western_european_ace_m_2.dds"
 	}
-	
+
 	# FEMALE #
 	spriteType = {
 		name = "GFX_commonwealth_2d_ace_f_0"
@@ -119,14 +119,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_asian_2d_ace_m_2"
 		texturefile = "gfx/aces/asian_ace_m_2.dds"
-	}
-	spriteType = {
-		name = "GFX_asian_2d_ace_m_3"
-		texturefile = "gfx/aces/asian_ace_m_3.dds"
-	}
-	spriteType = {
-		name = "GFX_asian_2d_ace_m_4"
-		texturefile = "gfx/aces/asian_ace_m_4.dds"
 	}
 
 	##########################
@@ -199,20 +191,6 @@ spriteTypes = {
 		name = "GFX_FIN_ace_m_2"
 		texturefile = "gfx/aces/western_european_ace_m_2.dds"
 	}
-	
-	# NOR #
-	spriteType = {
-		name = "GFX_FIN_ace_m_0"
-		texturefile = "gfx/aces/NOR_ace_Helner_Spang.dds"
-	}
-	spriteType = {
-		name = "GFX_FIN_ace_m_1"
-		texturefile = "gfx/aces/NOR_ace_Svein_Heglund.dds"
-	}
-	spriteType = {
-		name = "GFX_FIN_ace_m_2"
-		texturefile = "gfx/aces/NOR_ace_Werner_Christie.dds"
-	}
 
 	# DEN #
 	spriteType = {
@@ -245,6 +223,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_AST_ace_m_2"
 		texturefile = "gfx/aces/western_european_ace_m_2.dds"
+	}
+
+	# USA #
+	spriteType = {
+		name = "GFX_USA_ace_Amelia_Earhart"
+		texturefile = "gfx/aces/Amelia_Earhart_ace.dds"
+	}
+
+	# SOV #
+	spriteType = {
+		name = "GFX_SOV_ace_Lidiya_Litvyak"
+		texturefile = "gfx/aces/SOV_lidiya_litvyak_ace.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_ace_Yevdokiya_Bershanskaya"
+		texturefile = "gfx/aces/SOV_yevdokiya_bershanskaya_ace.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_ace_Marina_Raskova"
+		texturefile = "gfx/aces/SOV_marina_raskova_ace.dds"
 	}
 
 }

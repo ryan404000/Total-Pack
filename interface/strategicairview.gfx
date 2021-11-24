@@ -153,11 +153,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/air_base_split_btn.dds"
 	}
 
-    spriteType = {
+	spriteType = {
 		name = "GFX_air_base_copy_btn"
 		texturefile = "gfx/interface/air_base_copy_btn.dds"
 	}	
-	
+
 	spriteType = {
 		name = "GFX_air_base_select_all_btn"
 		texturefile = "gfx/interface/air_base_select_all_btn.dds"
@@ -228,13 +228,13 @@ spriteTypes = {
 		name = "GFX_wing_reinforce_btn"
 		textureFile = "gfx/interface/wing_reinforce_btn.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_wing_prio_strip"
 		textureFile = "gfx/interface/strategicair/airwing_prio_strip.dds"
 		noOfFrames = 8
 	}
-	
+
 	spriteType = {
 		name = "GFX_wing_reinforce_small_btn"
 		textureFile = "gfx/interface/wing_reinforce_small_btn.dds"
@@ -353,8 +353,14 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_strategicair_mission_types"
-		textureFile = "gfx/interface/strategicair/mission_types_tw.tga"
-		noOfFrames = 14
+		textureFile = "gfx/interface/strategicair/mission_types.dds"
+		noOfFrames = 15
+	}
+
+	spriteType = {
+		name = "GFX_strategicair_mission_categories"
+		textureFile = "gfx/interface/strategicair/grouped_mission_types.dds"
+		noOfFrames = 3
 	}
 
 	spriteType = {
@@ -417,32 +423,32 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_wing_types_enemy"
-		textureFile = "gfx/interface/strategicair/wing_types_enemy_tw.tga"
+		textureFile = "gfx/interface/strategicair/wing_types_enemy.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_attached_air_types"
-		textureFile = "gfx/interface/strategicair/attached_air_types_tw.tga"
+		textureFile = "gfx/interface/strategicair/attached_air_types.dds"
 		noOfFrames = 5
 	}
 	
 	spriteType = {
 		name = "GFX_wing_types_own"
-		textureFile = "gfx/interface/strategicair/wing_types_own_tw.tga"
+		textureFile = "gfx/interface/strategicair/wing_types_own.dds"
 		noOfFrames = 4
 	}
 
 	spriteType = {
 		name = "GFX_wing_types_map"
-		textureFile = "gfx/interface/strategicair/wing_types_map_tw.tga"
-		noOfFrames = 30
+		textureFile = "gfx/interface/strategicair/wing_types_map.dds"
+		noOfFrames = 26
 	}
 
 	spriteType = {
 		name = "GFX_damage_types_strip"
-		textureFile = "gfx/interface/strategicair/damage_types_strip_tw.tga"
-		noOfFrames = 6
+		textureFile = "gfx/interface/strategicair/damage_types_strip.dds"
+		noOfFrames = 8
 	}	
 	
 	spriteType = {
@@ -452,8 +458,8 @@ spriteTypes = {
 
 	LineChartType = {
 		name = "GFX_strategicair_linechart"
-		size = {x=224 y=150}
-		linewidth = 1
+		size = { x=380 y=150 }
+		linewidth = 1.5
 	}
 
 	textSpriteType = {
@@ -515,7 +521,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_strategicair_carrier_base"
-		texturefile = "gfx/interface/strategicair/carrier_base_tw.tgs"
+		texturefile = "gfx/interface/strategicair/carrier_base.dds"
 	}
 	
 	frameAnimatedSpriteType = {
@@ -528,6 +534,10 @@ spriteTypes = {
 		pause_on_loop = 0.0
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
-	}		
+	}
+	spriteType = {
+		name = "GFX_grouped_mission_types"
+		texturefile = "gfx/interface/strategicair/grouped_mission_types.dds"
+	}	
 	
 }

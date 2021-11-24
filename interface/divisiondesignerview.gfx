@@ -71,21 +71,10 @@ spriteTypes = {
 		name = "GFX_adjuster_desert_bg"
 		textureFile = "gfx//interface//desert_icon.dds"
 	}
-    spriteType = {
-		name = "GFX_adjuster_urbanregion_bg"
-		textureFile = "gfx//interface//urbanregion_icon.tga"
-	}
+
 	spriteType = {
 		name = "GFX_adjuster_urban_bg"
 		textureFile = "gfx//interface//urban_icon.dds"
-	}
-	spriteType = {
-		name = "GFX_adjuster_village_bg"
-		textureFile = "gfx//interface//village_icon.tga"
-	}
-	spriteType = {
-		name = "GFX_adjuster_metropoliscity_bg"
-		textureFile = "gfx//interface//metro_icon.tga"
 	}
 
 	spriteType = {
@@ -161,12 +150,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_inf_softness_icon"
-		textureFile = "gfx//interface//inf_softness_icon_tw.tga"
+		textureFile = "gfx//interface//inf_softness_icon.dds"
 	}
 
 	spriteType = {
 		name = "GFX_armor_softness_icon"
-		textureFile = "gfx//interface//armor_softness_icon_tw.tga"
+		textureFile = "gfx//interface//armor_softness_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_army_composition_icon"
+		textureFile = "gfx//interface//army_composition_icon.dds"
 	}
 
 	spriteType = {
@@ -209,7 +203,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_division_designer_bg"
-		textureFile = "gfx//interface//division_designer_bg_tw.tga"
+		textureFile = "gfx//interface//division_designer_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
 	}
 
@@ -279,13 +273,13 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_can_paradrop_icon"
-		textureFile = "gfx//interface//can_paradrop_icon_tw.tga"
+		textureFile = "gfx//interface//can_paradrop_icon.dds"
 		noOfFrames = 2
 	}
 	
 	spriteType = {
 		name = "GFX_can_paradrop_icon_small"
-		textureFile = "gfx//interface//can_paradrop_icon_small_tw.tga"
+		textureFile = "gfx//interface//can_paradrop_icon_small.dds"
 		noOfFrames = 2
 	}
 	

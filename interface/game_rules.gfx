@@ -2,7 +2,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_game_rule_allow_paratroopers"
-		texturefile = "gfx/game_rules/allow_paratroopers_tw.tga"
+		texturefile = "gfx/game_rules/allow_paratroopers.dds"
 	}
 	SpriteType = {
 		name = "GFX_boosting_party_popularity"
@@ -64,5 +64,8 @@ spriteTypes = {
 		name = "GFX_wargoals"
 		texturefile = "gfx/game_rules/wargoals.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_scorched_earth"
+		texturefile = "gfx/game_rules/scorched_earth.dds"
+	}
 }
