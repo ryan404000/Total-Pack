@@ -15,7 +15,7 @@ technologies = {
 		}
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		category_all_armor = {
@@ -107,7 +107,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -154,7 +154,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -231,7 +231,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -305,7 +305,7 @@ technologies = {
 		}
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -351,7 +351,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -394,7 +394,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -493,7 +493,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -570,7 +570,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -642,7 +642,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -683,7 +683,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -743,7 +743,7 @@ technologies = {
 		air_close_air_support_attack_factor	= 0.05
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -796,7 +796,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -847,7 +847,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -886,7 +886,7 @@ technologies = {
 		enable_tactic = tactic_tactical_withdrawal
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -929,7 +929,7 @@ technologies = {
 		enable_tactic = tactic_barrage
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1001,7 +1001,7 @@ technologies = {
 		}
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1066,7 +1066,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1117,7 +1117,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1156,7 +1156,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -1202,7 +1202,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1246,7 +1246,7 @@ technologies = {
 		}
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1298,7 +1298,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1344,7 +1344,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1381,7 +1381,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1418,7 +1418,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1455,7 +1455,7 @@ technologies = {
 		air_close_air_support_attack_factor	= 0.10
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1502,7 +1502,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1564,7 +1564,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1617,7 +1617,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1653,7 +1653,7 @@ technologies = {
 		enable_tactic = tactic_breakthrough
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -1697,7 +1697,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -1753,7 +1753,7 @@ technologies = {
 		recon_factor = 0.05
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -1807,7 +1807,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -1861,7 +1861,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -1941,7 +1941,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -1979,7 +1979,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2025,7 +2025,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2063,7 +2063,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2111,7 +2111,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2151,7 +2151,7 @@ technologies = {
 		command_power_gain_mult = 0.25
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2197,7 +2197,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2237,7 +2237,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2275,7 +2275,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2313,7 +2313,7 @@ technologies = {
 		}
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2359,7 +2359,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2429,7 +2429,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2479,7 +2479,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2558,7 +2558,7 @@ technologies = {
         }
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -2605,7 +2605,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2664,7 +2664,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2709,7 +2709,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2759,7 +2759,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2818,7 +2818,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2884,7 +2884,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2957,7 +2957,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -2999,7 +2999,7 @@ technologies = {
 		enable_tactic = tactic_backhand_blow
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -3054,7 +3054,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -3118,7 +3118,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -3168,7 +3168,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -3225,7 +3225,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -3283,7 +3283,7 @@ technologies = {
 		enable_tactic = tactic_guerrilla_tactics
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -3327,7 +3327,7 @@ technologies = {
 		
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -3365,7 +3365,7 @@ technologies = {
 		}
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -3396,7 +3396,7 @@ technologies = {
 		
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		category_light_infantry = {
@@ -3513,7 +3513,7 @@ technologies = {
 
 	 local_knowledge = {
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		mountaineers = {
@@ -3582,7 +3582,7 @@ technologies = {
 	advanced_guerilla_warfare = {
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		air_cas_present_factor = -0.05
@@ -3637,7 +3637,7 @@ technologies = {
 	partisan_army = {
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		org_loss_when_moving = -0.1
@@ -3712,7 +3712,7 @@ technologies = {
 		xor = { motti_tactics }
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		industry_air_damage_factor = -0.1
@@ -3762,7 +3762,7 @@ technologies = {
 	underground_tunnels = {
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 	
 		pocket_penalty = -0.25
@@ -3804,7 +3804,7 @@ technologies = {
 		xor = { camouflage }	
 	
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		mountaineers = {
@@ -3941,7 +3941,7 @@ technologies = {
 	hit_and_run = {
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 	
@@ -4032,7 +4032,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		doctrine = yes	
@@ -4070,7 +4070,7 @@ technologies = {
 		}
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		path = {
@@ -4103,7 +4103,7 @@ technologies = {
 	offensive_operations = {
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 		
 		xor = { night_operations }	
@@ -4169,7 +4169,7 @@ technologies = {
 	night_operations = {
 		
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 			
 		land_night_attack = 0.20
@@ -4244,7 +4244,7 @@ technologies = {
 
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	
@@ -4287,7 +4287,7 @@ technologies = {
 		enable_tactic = tactic_blitz
 
 		xp_research_type = army
-		xp_research_cost = 40
+		xp_boost_cost = 40
 		xp_research_bonus = 0.40
 
 		doctrine = yes	

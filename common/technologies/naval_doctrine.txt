@@ -34,7 +34,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		
 		doctrine = yes
@@ -96,7 +96,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		
 		doctrine = yes	
@@ -160,7 +160,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -247,7 +247,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -319,7 +319,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -375,7 +375,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -445,7 +445,7 @@ technologies = {
 		mines_planting_by_fleets_factor = 0.1
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -525,7 +525,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -592,7 +592,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -667,7 +667,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -754,7 +754,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -829,7 +829,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -884,7 +884,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -939,7 +939,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -988,7 +988,7 @@ technologies = {
 		#######
 	
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1072,7 +1072,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1137,7 +1137,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1198,7 +1198,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1270,7 +1270,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1342,7 +1342,7 @@ technologies = {
 		convoy_raiding_efficiency_factor = 0.1
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1421,7 +1421,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1503,7 +1503,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1567,7 +1567,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1625,7 +1625,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1679,7 +1679,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1725,7 +1725,7 @@ technologies = {
 		########
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1782,7 +1782,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1849,7 +1849,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1896,7 +1896,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -1945,7 +1945,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2009,7 +2009,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2080,7 +2080,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2161,7 +2161,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2234,7 +2234,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2312,7 +2312,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2392,7 +2392,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2471,7 +2471,7 @@ technologies = {
 		###########
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2551,7 +2551,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2617,7 +2617,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2684,7 +2684,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2744,7 +2744,7 @@ technologies = {
 		#######
 
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2811,7 +2811,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2894,7 +2894,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -2975,7 +2975,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
@@ -3050,7 +3050,7 @@ technologies = {
 		#####
 	
 		xp_research_type = navy
-		xp_research_cost = 50
+		xp_boost_cost = 50
 		xp_research_bonus = 0.50
 		doctrine = yes	
 		research_cost = 3
