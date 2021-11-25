@@ -43,7 +43,7 @@ RAJ_CA_HISTORICAL = {
 	for_countries = { RAJ }
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser heavy_cruiser }
+	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
 	prefix = "HMIS "							
 	fallback_name = "Heavy Cruiser %s"
@@ -119,5 +119,45 @@ RAJ_SS_HISTORICAL = {
 	
 	unique = {
 		"Catshark" "Mudskipper" "Sawfish" "Moray" "Parrotfish" "Pipefish" "Mackerel" "Manta" "Milkfish" "Eel" "Trumpetfish" "Mud Skate"
+	}
+}
+
+
+
+
+### THEME: BRITISH INDIAN REGIONS ###
+RAJ_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { RAJ }
+
+	type = ship
+
+	prefix = "HMIS "							
+	unique = {
+		"Madras" "Bombay" "Punjab" "Assam" "Bengal" "United Provinces" "Central Provinces" "Berar" "Burma" "North-West Frontier" "Baluchistan" 
+		"Coorg" "Amjer-Merwara" "Andaman Islands" "Nicobar Islands" "Bihar" "Orissa" "Panth-Piploda" "Sind" 
+	}
+}
+
+## THEME: BRITISH INDIAN CITIES ###
+RAJ_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { RAJ }
+
+	type = ship
+
+	prefix = "HMIS "							
+	unique = {
+	   "Delhi" "Bombay" "Mysore" "Karachi" "Rangoon" "Hyderabad" "Lucknow" "Ahmadabad" "Patna" "Mandalay" "Dacca" "Calcutta" 
+	   "Bhopal" "Agra" "Madras" "Cochin" "Trivandrum" "Baroda" "Pondicherry"  "Aurangabad" "Mahabubabad" "Mahbubnagar" "Osmanabad" 
+	   "Lahore" "Faisalabad" "Rawalpindi" "	Gujranwala" "Peshawar" "Multan" "Islamabad" "Quetta"  
+	   "Ahmednagar" "Shimla" "Ahmedabad" "Sultanpur" "Muzaffarnagar" "Akbarpur" "Jubbulpore" "Jajesmow" "Cawnpore" "Cuddapah" "Belgaum" "Tumkur" 
+	   "Hubli" "Shimoga" "Hospet" "Gulbarga" "Chikmagalur" "Bijapur" "Bellary" "Mangalore" "Rajahmundry" "Gurgaon" "Allahabad" 
+	   "Alleppey" "Gauhati" "Indhur" "Conjevaram" "Cannanore" "Quilon" "Quilandi" "Calicut" "Kudanthai" "Mayavaram" "Nerbudda" 
+	   "Nowgong" "Palghat" "Panjim" "Poona" "Ramnad" "Saugor" "Simla" "Tellicherry" "Tanjore" "Tuticorin" "Trichur" 
+	   "Tinthirivanam" "Trichinopoly" "Tinnevelly" "Triplicane" "Ootacamund" "Vizhupparaiyar" "Benares" "Badagara" "Vriddhachalam" 
+	   "Bejawada" "Waltair" 
 	}
 }

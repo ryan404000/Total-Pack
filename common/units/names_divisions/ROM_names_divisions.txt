@@ -291,29 +291,6 @@ ROM_ARM_01 =
 	}
 }
 
-ROM_ARM_02 = 
-{
-	name = "Armoured Regiments"
-
-	for_countries = { ROM }
-
-	can_use = { always = yes }
-
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { ROM_INF_01 }
-
-	fallback_name = "%d Blindata Regimentul"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%d Blindata Regimentul" }
-	}
-}
-
 ROM_MEC_01 = 
 {
 	name = "Mechanised Divisions"
@@ -438,29 +415,6 @@ ROM_GAR_01 =
 		49 = { "Divizia %d Paza" }
 		50 = { "Divizia %d Paza" }
 		51 = { "Divizia %d Paza" }
-	}
-}
-
-ROM_MIL_01 = 
-{
-	name = "Militia Divisions"
-
-	for_countries = { ROM }
-
-	can_use = { always = yes }
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { ROM_INF_01 }
-
-	fallback_name = "Divizia %d Militie"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "Divizie %d Militie" }
 	}
 }
 

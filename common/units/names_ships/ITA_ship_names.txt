@@ -68,7 +68,7 @@ ITA_CA_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser heavy_cruiser }
+	ship_types = { ship_hull_cruiser heavy_cruiser }
 
 	prefix = "RI " # Regio Incrociatore
 	fallback_name = "Incrociatore pesante %s"
@@ -110,14 +110,16 @@ ITA_BB_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { capital_ship ship_hull_heavy battleship battle_cruiser }
+	ship_types = { ship_hull_heavy battleship }
 
 	prefix = "RN " # Regia Nave
 	fallback_name = "Corazzata %s"
 
 	unique = {
-		"Littorio" "Vittorio Veneto" "Roma"
-		"Impero" "Italia"
+		# Current models (2 Conte di Cavour class, 3/4 Littorio class)
+		"Conte di Cavour" "Giulio Cesare" "Littorio" "Vittorio Veneto" "Roma"
+		# Canceled/Not completed/Reconstructed (2 Caio Duilio class, 1 Littorio class, 1 Italia class)
+		"Caio Duilio" "Andrea Doria" "Impero" "Italia"
 		# Fictional names start here (1 WWI Dante Alighieri class, 2 WWI Regina Elena class)
 		"Dante Alighieri" "Regina Elena" "Vittorio Emanuele"
 	}
@@ -130,7 +132,7 @@ ITA_BC_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { capital_ship ship_hull_heavy battle_cruiser }
+	ship_types = { ship_hull_heavy battle_cruiser }
 
 	prefix = "RI " # Regio Incrociatore
 	fallback_name = "Incrociatore da battaglia %s"

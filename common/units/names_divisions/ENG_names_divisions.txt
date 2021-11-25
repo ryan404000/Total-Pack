@@ -287,10 +287,10 @@ ENG_CAV_01 = {
 	ordered =
 	{
 		18 = { "%dth Hussars Division" }
-		1 = { "%dst Cavalry Division (King's Own)" }
+		1 = { "%dst Cavalry Division" }
 		2 = { "%dnd Cavalry Division" }
 		3 = { "%drd Cavalry Division" }
-		4 = { "%dth Cavalry Division (Queen's Own)" }
+		4 = { "%dth Cavalry Division" }
 		5 = { "%dth Cavalry Division" }
 		6 = { "%dth Cavalry Division" }
 		7 = { "%dth Cavalry Division" }
@@ -659,8 +659,8 @@ ENG_ARM_01 = {
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Armoured Div (Royal Hussars)" } # formed as Mobile Division
-		7 = { "%dth Armoured Div (Desert Rats)" } # AKA 'Desert Rats', formed as Mobile Division (Egypt)
+		1 = { "%dst Armoured Division" } # formed as Mobile Division
+		7 = { "%dth Armoured Division" } # AKA 'Desert Rats', formed as Mobile Division (Egypt)
 		2 = { "%dnd Armoured Division" }
 		6 = { "%dth Armoured Division" }
 		8 = { "%dth Armoured Division" }
@@ -1161,7 +1161,11 @@ ENG_COL_01 = {
 
 	for_countries = { ENG }
 
-	can_use = { always = yes }
+	can_use = {
+		NOT = {
+			has_completed_focus = ENG_decolonization
+		}
+	}
 
 	division_types = { "infantry" }
 

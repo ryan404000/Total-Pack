@@ -1,13 +1,13 @@
 equipments = {
 
 	support_equipment = {
-    	year = 1918
-		
+		year = 1918
+
 		is_archetype = yes
 		picture = archetype_support_equipment
-		is_buildable = no		
+		is_buildable = no
 		type = {
-		    infantry
+			infantry
 			motorized
 		}
 		group_by = archetype
@@ -19,17 +19,18 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 
-		build_cost_ic = 3.1
+		build_cost_ic = 4
 		resources = {
 			aluminium = 1
-			steel = 1
+			steel = 2
 		}
 	}
-	
+
 	support_equipment_1 = {
-	    year = 1918
+		year = 1918
+
 		archetype = support_equipment
-		active = yes
-		priority = 13	
+		priority = 20	
 	}
+
 }

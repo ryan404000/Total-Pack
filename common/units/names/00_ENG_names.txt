@@ -106,16 +106,11 @@
 		prefix = "HMS"
 		generic = { "Carrier" }
 		unique = {
-			"Ark Royal" "Illustrious" "Formidable" "Victorious" "Indomitable" "Implacable" "Indefatigable" "Audacious" "Irresistable" "Malta" "New Zealand" "Gibraltar" "Africa"
-			"Glorious" "Courageous" "Furious" "Eagle" "Europa" "Andromeda" "Centaur" "Albion" "Bulwark" "Elephant" "Arrogant" "Monmouth" "Polyphemus" "Malta" "New Zealand" "Gibraltar"
+			"Ark Royal" "Illustrious" "Formidable" "Victorious" "Indomitable" "Implacable" "Indefatigable" 
+			"Unicorn" "Colossus" "Glory" "Ocean" "Theseus" "Triumph" "Venerable" "Vengeance" "Warrior" "Perseus" "Pioneer" 
+			"Majestic" "Hercules" "Leviathan" "Magnificent" "Powerful" "Terrible" "Africa" "Glorious" "Courageous" "Furious" "Eagle" 
+			"Europa" "Andromeda" "Centaur" "Albion" "Bulwark" "Elephant" "Arrogant" "Monmouth" "Polyphemus" "Malta" "New Zealand" "Gibraltar"
 			
-		}
-	}
-	light_carrier = {
-		prefix = "HMS"
-		generic = { "Light Carrier" }
-		unique = {
-			"Unicorn" "Ruler" "Arbiter" "Ameer" "Atheling" "Begum" "Emperor" "Empress" "Khedive" "Nabob" "Premier" "Queen" 			"Rajah" "Ranee" "Shah" "Thane" "Colossus" "Glory" "Ocean" "Perseus" "Pioneer" "Theseus" "Triumph" "Venerable" 					"Vengeance" "Warrior" "Hercules" "Leviathan" "Magnificient" "Majestic" "Powerful" "Terrible" "Centaur" "Albion" 			"Bulwark" "Elephant" "Arrogant" "Monmouth" "Polyphemus"
 		}
 	}
 	air_wing_names_template = AIR_WING_NAME_ENG_FALLBACK
@@ -127,6 +122,24 @@
 		generic = { "Squadron FAA" }
 		generic_pattern = AIR_WING_NAME_ENG_CARRIER
 		unique = { "No. 800 Naval Air Squadron" "No. 801 Naval Air Squadron" "No. 802 Naval Air Squadron" "No. 803 Naval Air Squadron" "No. 804 Naval Air Squadron" "No. 805 Naval Air Squadron" "No. 806 Naval Air Squadron" "No. 807 Naval Air Squadron" "No. 808 Naval Air Squadron" "No. 809 Naval Air Squadron"
+		"No. 810 Naval Air Squadron" "No. 811 Naval Air Squadron" "No. 812 Naval Air Squadron" "No. 813 Naval Air Squadron" "No. 814 Naval Air Squadron" "No. 815 Naval Air Squadron" "No. 816 Naval Air Squadron" "No. 817 Naval Air Squadron" "No. 818 Naval Air Squadron" "No. 819 Naval Air Squadron"
+		"No. 820 Naval Air Squadron" "No. 821 Naval Air Squadron" "No. 822 Naval Air Squadron" "No. 823 Naval Air Squadron" "No. 824 Naval Air Squadron" "No. 825 Naval Air Squadron" "No. 826 Naval Air Squadron" "No. 827 Naval Air Squadron" "No. 828 Naval Air Squadron" "No. 829 Naval Air Squadron"
+		"No. 830 Naval Air Squadron" "No. 831 Naval Air Squadron" "No. 832 Naval Air Squadron" "No. 833 Naval Air Squadron" "No. 834 Naval Air Squadron" "No. 835 Naval Air Squadron" "No. 836 Naval Air Squadron" "No. 837 Naval Air Squadron" "No. 838 Naval Air Squadron" "No. 839 Naval Air Squadron"
+		"No. 840 Naval Air Squadron" "No. 841 Naval Air Squadron" "No. 842 Naval Air Squadron" "No. 843 Naval Air Squadron" "No. 844 Naval Air Squadron" "No. 845 Naval Air Squadron" "No. 846 Naval Air Squadron" "No. 847 Naval Air Squadron" "No. 848 Naval Air Squadron" "No. 849 Naval Air Squadron"
+		"No. 850 Naval Air Squadron" "No. 851 Naval Air Squadron" "No. 852 Naval Air Squadron" "No. 853 Naval Air Squadron" "No. 854 Naval Air Squadron" "No. 855 Naval Air Squadron" "No. 856 Naval Air Squadron" "No. 857 Naval Air Squadron" "No. 858 Naval Air Squadron" "No. 859 Naval Air Squadron"
+		"No. 860 Naval Air Squadron" "No. 861 Naval Air Squadron" "No. 862 Naval Air Squadron" "No. 863 Naval Air Squadron" "No. 864 Naval Air Squadron" "No. 865 Naval Air Squadron" "No. 866 Naval Air Squadron" "No. 867 Naval Air Squadron" "No. 868 Naval Air Squadron" "No. 869 Naval Air Squadron"
+		"No. 870 Naval Air Squadron" "No. 871 Naval Air Squadron" "No. 872 Naval Air Squadron" "No. 873 Naval Air Squadron" "No. 874 Naval Air Squadron" "No. 875 Naval Air Squadron" "No. 876 Naval Air Squadron" "No. 877 Naval Air Squadron" "No. 878 Naval Air Squadron" "No. 879 Naval Air Squadron"
+		"No. 880 Naval Air Squadron" "No. 881 Naval Air Squadron" "No. 882 Naval Air Squadron" "No. 883 Naval Air Squadron" "No. 884 Naval Air Squadron" "No. 885 Naval Air Squadron" "No. 886 Naval Air Squadron" "No. 887 Naval Air Squadron" "No. 888 Naval Air Squadron" "No. 889 Naval Air Squadron"
+		"No. 890 Naval Air Squadron" "No. 891 Naval Air Squadron" "No. 892 Naval Air Squadron" "No. 893 Naval Air Squadron" "No. 894 Naval Air Squadron" "No. 895 Naval Air Squadron" "No. 896 Naval Air Squadron" "No. 897 Naval Air Squadron" "No. 898 Naval Air Squadron" "No. 899 Naval Air Squadron"
+		}	
+	}
+
+	cv_CAS_equipment = {
+		prefix = ""
+		generic = { "Squadron FAA" }
+		generic_pattern = AIR_WING_NAME_ENG_CARRIER
+		unique = {
+		 "No. 800 Naval Air Squadron" "No. 801 Naval Air Squadron" "No. 802 Naval Air Squadron" "No. 803 Naval Air Squadron" "No. 804 Naval Air Squadron" "No. 805 Naval Air Squadron" "No. 806 Naval Air Squadron" "No. 807 Naval Air Squadron" "No. 808 Naval Air Squadron" "No. 809 Naval Air Squadron"
 		"No. 810 Naval Air Squadron" "No. 811 Naval Air Squadron" "No. 812 Naval Air Squadron" "No. 813 Naval Air Squadron" "No. 814 Naval Air Squadron" "No. 815 Naval Air Squadron" "No. 816 Naval Air Squadron" "No. 817 Naval Air Squadron" "No. 818 Naval Air Squadron" "No. 819 Naval Air Squadron"
 		"No. 820 Naval Air Squadron" "No. 821 Naval Air Squadron" "No. 822 Naval Air Squadron" "No. 823 Naval Air Squadron" "No. 824 Naval Air Squadron" "No. 825 Naval Air Squadron" "No. 826 Naval Air Squadron" "No. 827 Naval Air Squadron" "No. 828 Naval Air Squadron" "No. 829 Naval Air Squadron"
 		"No. 830 Naval Air Squadron" "No. 831 Naval Air Squadron" "No. 832 Naval Air Squadron" "No. 833 Naval Air Squadron" "No. 834 Naval Air Squadron" "No. 835 Naval Air Squadron" "No. 836 Naval Air Squadron" "No. 837 Naval Air Squadron" "No. 838 Naval Air Squadron" "No. 839 Naval Air Squadron"
@@ -156,54 +169,7 @@
 		}	
 	}
 
-	fighter_equipment = {
-		prefix = ""
-		generic = { "(Fighter)" }
-		generic_pattern = AIR_WING_NAME_ENG_GENERIC
-		unique = {
-		"No. 11 (Fighter) Wing RAF" "No. 12 (Fighter) Wing RAF" "No. 13 (Fighter) Wing RAF" "No. 14 (Fighter) Wing RAF" "No. 10 (Fighter) Wing RAF" "No. 9 (Fighter) Wing RAF" "No. 82 (Fighter) Wing RAF"
-				"No. 224 (Fighter) Wing RAF" "No. 226 (Fighter) Wing RAF" "No. 219 (Fighter) Wing RAF" "No. 209 (Fighter) Wing RAF" "No. 211 (Offensive Fighter) Wing" "No. 210 (Fighter) Wing RAF"
-		}	
-	}
-
-	CAS_equipment = {
-		prefix = ""
-		generic = { "(Army Co-operation)" }
-			generic_pattern = AIR_WING_NAME_ENG_GENERIC
-			unique = { "No. 22 (Army Co-operation) Wing"  "No. 71 (Army Co-operation) Wing"
-		}	
-	}
 	
-	light_bomber_equipment = {
-		prefix = ""
-		generic = { "(Bomber)" }
-		generic_pattern = AIR_WING_NAME_ENG_GENERIC
-		unique = {
-		"No. 2 (Bomber) Wing RAF" "No. 225 (Bomber) Wing RAF" "No. 221 (Tactical) Wing RAF" "No. 231 (Bomber) Wing RAF"
-		}
-	}
-
-	tac_bomber_equipment = {
-		prefix = ""
-		generic = { "(Bomber)" }
-		generic_pattern = AIR_WING_NAME_ENG_GENERIC
-		unique = {
-		"6th Bombardment Group, Medium" "11th Bombardment Group, Medium" "16th Bombardment Group, Medium" "22d Bombardment Group, Medium" "29th Bombardment Group, Medium" "30th Bombardment Group, Medium"
-		"43d Bombardment Group, Medium" "47th Bombardment Group, Medium" "86th Bombardment Group, Medium" "92d Bombardment Group, Medium" "96th Bombardment Group, Medium" "100th Bombardment Group, Medium"
-		"304th Bombardment Group, Medium" "308th Bombardment Group, Medium" "312th Bombardment Group, Medium" "322d Bombardment Group, Medium" "331st Bombardment Group, Medium" "333d Bombardment Group, Medium"
-		"338th Bombardment Group, Medium" "344th Bombardment Group, Medium"
-		}	
-	}
-	
-	strat_bomber_equipment = {
-		prefix = ""
-		generic = { "Bomber" }
-		generic_pattern = AIR_WING_NAME_ENG_GENERIC
-		unique = {
-		"No. 1 (Bomber) Wing RAF" "No. 4 (Bomber) Wing RAF" "No. 5 (Bomber) Wing RAF" "No. 6 (Bomber) Wing RAF" "No. 8 (Bomber) Wing RAF" "No. 205 (Heavy Bomber) Wing RAF" "No. 225 (Bomber) Wing RAF"
-				"No. 231 (Bomber) Wing RAF"
-		}	
-	}
 
 	infantry = {
 		prefix = ""
