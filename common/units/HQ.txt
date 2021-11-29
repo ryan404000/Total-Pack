@@ -45,14 +45,13 @@ sub_units = {
 
 		fuel_consumption = 0.2
 		supply_consumption = 0.1
-        casualty_trickleback = -0.03
+        casualty_trickleback = 0.01
 		initiative = 0.04
 		transport = horse_equipment
 		need = {
-			
 			HQ_equipment = 15
 			infantry_equipment = 10
-			horse_equipment = 40 #  40 cars
+			horse_equipment = 40 
 		}
 		
 		essential = {
