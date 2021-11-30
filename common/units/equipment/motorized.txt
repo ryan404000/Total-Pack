@@ -1,44 +1,55 @@
 equipments = {
 
 	motorized_equipment = {
-		year = 1936
-
 		is_archetype = yes
-		picture = archetype_motorized_equipment		
+        picture = archetype_motorized_equipment		
 		is_buildable = no
 		type = {
-			#infantry #Removing inf type 
+			infantry
 			motorized
 		}
 		group_by = archetype
 		
 		interface_category = interface_category_land
 		
-		maximum_speed = 12
-		reliability = 0.8
-		hardness = 0.2
+		maximum_speed = 6
+		reliability = 0.5
+		hardness = 0.15
 
-		breakthrough = 10
-
-		#Space taken in convoy
-		lend_lease_cost = 5
-
-		build_cost_ic = 2.5
-		resources = {
-			#oil = 1
-			rubber = 1
-			steel = 1
-		}
 		
+		#Space taken in convoy
+		lend_lease_cost = 2.5
+
+		build_cost_ic = 3.55
+		resources = {
+			#oil = 2
+			rubber = 2
+			steel = 2
+		}	
 		fuel_consumption = 1.2
-		supply_truck = yes
 	}
-
 	motorized_equipment_1 = {
-		year = 1936
-
 		archetype = motorized_equipment
-		priority = 30			
+	
+		priority = 30
+		visual_level = 1
+		
+		maximum_speed = 6.5
+		reliability = 0.63
+		#hardness = 0.2		
+	}
+	motorized_equipment_2 = {
+		archetype = motorized_equipment
+		parent = motorized_equipment_1
+		
+		priority = 30
+		visual_level = 2
+		
+		maximum_speed = 7.5
+		reliability = 0.68
+		hardness = 0.25
+
+		build_cost_ic = 4.0
 	}
 
 }
