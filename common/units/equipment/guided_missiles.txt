@@ -2,12 +2,12 @@ equipments = {
 	
 	guided_missile_equipment = {
 		year = 1936
-
+		
 		can_be_produced = {
 			NOT = {
 				has_idea = BUL_army_restrictions
 			}
-		}
+		}		
 
 		is_archetype = yes
 		is_buildable = no
@@ -34,7 +34,7 @@ equipments = {
 			tungsten = 3
 		}
 
-		fuel_consumption = 0
+		fuel_consumption = 1
 	}
 
 	guided_missile_equipment_1 = {
