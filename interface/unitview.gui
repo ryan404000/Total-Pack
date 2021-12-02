@@ -496,6 +496,7 @@ guiTypes = {
 			maxHeight = 32
 			format = center
 			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
 		}
 
 		buttonType = {
