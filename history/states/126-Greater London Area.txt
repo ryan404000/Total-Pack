@@ -27,15 +27,15 @@ state={
                 bunker = 2
 		coastal_bunker = 2
 			}
-	6103  = {
+			6103  = {
 				bunker = 6
 
 			}
-				11333  = {
+			11333  = {
 				bunker = 4
-
 			}
-			9239 { bunker = 2 }
+			9239 = { 
+				bunker = 2 }
 		}
 		add_core_of = ENG
 		1939.1.1 = {

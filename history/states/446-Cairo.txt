@@ -6,15 +6,14 @@ state=
 	
 	state_category = rural
 
-	history=
-	{
+	history= {
 		owner = EGY
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 5
 			arms_factory = 6
 			air_base = 3
-			7011 {
+			7011 = {
 				bunker = 1
 			}
 			12049 = {
@@ -24,8 +23,7 @@ state=
 				bunker = 2
 				naval_base = 4
 			}
-		}
-		
+		}	
 		victory_points = {
 			7011 10
 		}
@@ -36,9 +34,7 @@ state=
 		victory_points = {
 			4073 1
 		}
-
 		add_core_of = EGY
-
 	}
 
 	provinces={

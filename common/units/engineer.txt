@@ -22,7 +22,6 @@ sub_units = {
 			category_army
 		}
 
-	
 		combat_width = 0
 	
 		#Size Definitions
@@ -36,55 +35,62 @@ sub_units = {
 		weight = 0.1
 		supply_consumption = 0.02
 		
-		entrenchment  = 5
-
-				
-		defense = 0.1
-		breakthrough = 0.5
+		entrenchment = 4
+		defense = -0.5
+		breakthrough = -0.4
 
 		# Support nerfs to combat abilities
 		soft_attack = -0.5
+		hard_attack = -0.5
 
 		essential = {
 			support_equipment
 		}
 
 		need = {
-			infantry_equipment = 10
-			support_equipment = 30
+			infantry_equipment = 4
+			infantry_uniforms = 4
+			support_equipment = 40
+			horse_equipment = 10
 		}
 
 		can_be_parachuted = yes
+
 		forest = {
-			defence = 0.25
-			movement = 0.05
+			defence = 0.05
+			movement = 0.1
 		}
-
 		hills = {
-			defence = 0.1
+			defence = 0.05
 		}
-
 		jungle = {
-			defence = 0.25
+			defence = 0.05
+			movement = 0.15
 		}
-
 		marsh = {
-			defence = 0.25
-			movement = 0.2
+			defence = 0.05
+			movement = 0.15
 		}
-
 		fort = {
 			attack = 0.1
-			defence = 0.25
+			#defence = 0.05
 		}
-
 		river = {
-			defence = 0.25
-			movement = 0.25
+			#defence = 0.05
+			movement = 0.1
+			attack = 0.05
 		}
-
 		amphibious = {
-			attack = 0.25
+			attack = 0.1
+		}
+		village = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+		metropoliscity = {
+			attack = 0.05
 		}
 	}
 }

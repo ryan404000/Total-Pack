@@ -7,10 +7,9 @@ sub_units = {
 		priority = 998
 		ai_priority = 100
 		active = yes
-		
-		
-		
+				
 		type = {
+			infantry
 			artillery
 		}
 
@@ -113,8 +112,6 @@ sub_units = {
 		priority = 998
 		ai_priority = 100
 		active = yes
-		
-		
 		
 		type = {
 			motorized
