@@ -1,12 +1,9 @@
-
-
-
 guiTypes = {
-
+	#Create variant window
 	containerWindowType = {
 		name = "equipment_upgrade_designer_window"
 		position = { x=-150 y=-250}	
-		size = { width=545 height=416 }
+		size = { width=545 height=586 } #width=545 height=416
 		moveable = yes
 		Orientation = CENTER
 		fade_time = 500
@@ -19,8 +16,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_equipment_upgrade_designer_bg"
 		}
 		
-
-	
 		instantTextboxType = {
 			name = "equipment_variant_label"
 			position = { x = 30 y = 6 }
@@ -29,7 +24,7 @@ guiTypes = {
 			maxWidth = 250
 			maxHeight = 36
 		}
-
+	
 		iconType ={
 			name ="experience_bg"
 			spriteType = "GFX_generic_box_smallest"
@@ -57,18 +52,17 @@ guiTypes = {
 			clipping = no
 		}
 		
-
 		containerWindowType = {
 			name = "equipment_info"
-			position = { x=20 y=244}	
-			size = { width=100% height=100 }
+			position = { x=20 y=361 }	#x=20 y=244
+			size = { width=100% height=120 }
 			verticalScrollbar = "right_vertical_slider"
 
 			gridBoxType = {
 				name = "equipment_info_grid"
 				position = { x= 0 y= 0 }	
 				size = { width=100% height= 100% }
-				slotsize = { width = 258 height = 21 }
+				slotsize = { width = 258 height = 20 }
 				max_slots = { x = 2 y = 5 }
 				format = UPPER_LEFT
 			}
@@ -106,6 +100,7 @@ guiTypes = {
 		}
 	}
 	
+	# Land equipment variant
 	containerWindowType = {
 		name = "land_equipment_designer_view"
 		size = { width=100% height=100% }
@@ -115,17 +110,13 @@ guiTypes = {
 			name = "archetype"
 			position = { x = 0 y = 10 }
 			quadTextureSprite = "GFX_equipment_item_large"
-			Orientation = "CENTER"
+			orientation = "CENTER"
 			centerPosition = yes
-			frame = 1
 		}
-
-	
 		
-			
 		containerWindowType = {
 			name = "tank_armor_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 15 }
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -176,7 +167,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "tank_reliability_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 115 }
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -226,57 +217,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "tank_gun_upgrade"
-			position = { x = 409 y = 30 }
-			size = { width=100 height=60 }
-			clipping = no
-		
-			iconType = {
-				name = "Background"	
-				position = { x=18 y=32 }				
-				spriteType ="GFX_variant_entry_bg"
-			}
-			
-			instantTextboxType = {
-				name = "label"
-				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
-				maxWidth = 160
-				maxHeight = 20
-				format = centre
-			}
-			
-			iconType = {
-				name = "line03"	
-				position = { x=-107 y=44 }					
-				spriteType ="GFX_unit_details_line_topright"
-			}
-			
-			buttonType = {
-				name = "decrease_level"
-				quadTextureSprite ="GFX_naval_decrease_amount"
-				position = { x = 6 y = 30 }
-				clicksound = click_default
-			}
-			
-			instantTextboxType = {
-				name = "level"
-				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
-				maxWidth = 20
-				maxHeight = 20
-			}
-			
-			buttonType = {
-				name = "increase_level"
-				quadTextureSprite ="GFX_naval_increase_amount"
-				position = { x = 68 y = 30 }
-				clicksound = click_default
-			}
-		}
-
-		containerWindowType = {
-			name = "mech_cost_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 10 }
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -326,7 +267,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "tank_art_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 10 }
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -376,7 +317,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "tank_at_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 10 }
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -426,7 +367,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "tank_aa_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 10 }
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -476,7 +417,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "tank_engine_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 115 }
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -499,6 +440,994 @@ guiTypes = {
 				name = "line04"	
 				position = { x=-112 y=34 }					
 				spriteType ="GFX_unit_details_line_bottomright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+			containerWindowType = {
+			name = "tank_sights_upgrade"
+			position = { x = 409 y = 180 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		containerWindowType = {
+			name = "tank_radio_upgrade"
+			position = { x = 220 y = 170 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		containerWindowType = {
+			name = "tank_anti_inf_upgrade"
+			position = { x = 30 y = 180 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+	###############################################################
+	containerWindowType = {
+			name = "ac_armor_upgrade"
+			position = { x = 30 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			iconType = {
+				name = "line01"	
+				position = { x=102 y=44 }				
+				spriteType ="GFX_unit_details_line_topleft"
+				orientation = "UPPER_LEFT"
+			}	
+
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "ac_engine_upgrade"
+			position = { x = 30 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line02"	
+				position = { x=102 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomleft"
+			}	
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "ac_main_gun"
+			position = { x = 409 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line03"	
+				position = { x=-107 y=44 }				
+				spriteType ="GFX_unit_details_line_topright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "ac_four_wheel_drive"
+			position = { x = 220 y = 170 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -15 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "ac_comms_upgrade"
+			position = { x = 409 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = -10 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line03"	
+				position = { x=-107 y=35 }					
+				spriteType ="GFX_unit_details_line_bottomright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		##############################################################
+		containerWindowType = {
+			name = "AT_ammo"
+			position = { x = 30 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			iconType = {
+				name = "line01"	
+				position = { x=102 y=44 }				
+				spriteType ="GFX_unit_details_line_topleft"
+				orientation = "UPPER_LEFT"
+			}	
+
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "AA_gun_sights"
+			position = { x = 30 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line04"	
+				position = { x=102 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomleft"
+			}	
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "HE_ammo"
+			position = { x = 409 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line03"	
+				position = { x=-107 y=44 }					
+				spriteType ="GFX_unit_details_line_topright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "AT_gun_sights"
+			position = { x = 409 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line04"	
+				position = { x=-112 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		##############################################################
+		containerWindowType = {
+			name = "propellant_charge"
+			position = { x = 30 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			iconType = {
+				name = "line01"	
+				position = { x=102 y=44 }				
+				spriteType ="GFX_unit_details_line_topleft"
+				orientation = "UPPER_LEFT"
+			}	
+
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "range_finder"
+			position = { x = 30 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line02"	
+				position = { x=102 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomleft"
+			}	
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "AA_protection"
+			position = { x = 409 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line03"	
+				position = { x=-107 y=44 }					
+				spriteType ="GFX_unit_details_line_topright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		#############################################################
+		containerWindowType = {
+			name = "weapons_quality_upgrade"
+			position = { x = 30 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			iconType = {
+				name = "line01"	
+				position = { x=102 y=44 }				
+				spriteType ="GFX_unit_details_line_topleft"
+				orientation = "UPPER_LEFT"
+			}	
+
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "LMG_upgrade"
+			position = { x = 30 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line02"	
+				position = { x=102 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomleft"
+			}	
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "AT_upgrade"
+			position = { x = 409 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line03"	
+				position = { x=-107 y=44 }					
+				spriteType ="GFX_unit_details_line_topright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "heavy_weapons_upgrade"
+			position = { x = 409 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line04"	
+				position = { x=-112 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+	
+		containerWindowType = {
+			name = "defence_works_upgrade"
+			position = { x = 30 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			iconType = {
+				name = "line01"	
+				position = { x=102 y=44 }				
+				spriteType ="GFX_unit_details_line_topleft"
+				orientation = "UPPER_LEFT"
+			}	
+
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
 			}
 			
 			buttonType = {
@@ -524,11 +1453,312 @@ guiTypes = {
 			}
 		}
 		containerWindowType = {
-			name = "ac_engine_upgrade"
-			position = { x = 409 y = 100 }
+			name = "Artillery_upgrade"
+			position = { x = 30 y = 100 }
 			size = { width=100 height=60 }
 			clipping = no
 
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line02"	
+				position = { x=102 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomleft"
+			}	
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "AA_upgrade"
+			position = { x = 409 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line03"	
+				position = { x=-107 y=44 }					
+				spriteType ="GFX_unit_details_line_topright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "troop_quality_upgrade"
+			position = { x = 409 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line03"	
+				position = { x=-107 y=44 }					
+				spriteType ="GFX_unit_details_line_topright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+	
+		containerWindowType = {
+			name = "officer_quality_upgrade"
+			position = { x = 30 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			iconType = {
+				name = "line01"	
+				position = { x=102 y=44 }				
+				spriteType ="GFX_unit_details_line_topleft"
+				orientation = "UPPER_LEFT"
+			}	
+
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "close_defence_upgrade"
+			position = { x = 30 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line02"	
+				position = { x=102 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomleft"
+			}	
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "unit_mobility_upgrade"
+			position = { x = 409 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line03"	
+				position = { x=-107 y=44 }					
+				spriteType ="GFX_unit_details_line_topright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "HQ_AA_upgrade"
+			position = { x = 409 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+		
 			iconType = {
 				name = "Background"	
 				position = { x=18 y=32 }				
@@ -572,7 +1802,309 @@ guiTypes = {
 				clicksound = click_default
 			}
 		}
-	}
+	
+		containerWindowType = {
+			name = "uniform_quality_upgrade"
+			position = { x = 30 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			iconType = {
+				name = "line01"	
+				position = { x=102 y=44 }				
+				spriteType ="GFX_unit_details_line_topleft"
+				orientation = "UPPER_LEFT"
+			}	
+
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "cheap_uniforms_upgrade"
+			position = { x = 30 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line02"	
+				position = { x=102 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomleft"
+			}	
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "camo_upgrade"
+			position = { x = 409 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line03"	
+				position = { x=-107 y=44 }					
+				spriteType ="GFX_unit_details_line_topright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "weather_upgrade"
+			position = { x = 409 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+		
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line03"	
+				position = { x=-107 y=44 }					
+				spriteType ="GFX_unit_details_line_topright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "halftrack_upgrade"
+			position = { x = 30 y = 30 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			iconType = {
+				name = "line01"	
+				position = { x=102 y=44 }				
+				spriteType ="GFX_unit_details_line_topleft"
+				orientation = "UPPER_LEFT"
+			}	
+
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "armor_support_upgrade"
+			position = { x = 30 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line02"	
+				position = { x=102 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomleft"
+			}	
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+	}	
 	
 	containerWindowType = {
 		name = "air_equipment_designer_view"
@@ -585,7 +2117,6 @@ guiTypes = {
 			position = { x = 0 y = 10 }
 			Orientation = "CENTER"
 			centerPosition = yes
-			frame = 1
 		}
 
 		containerWindowType = {
@@ -638,57 +2169,7 @@ guiTypes = {
 				clicksound = click_default
 			}
 		}
-
-		containerWindowType = {
-			name = "plane_range_upgrade"
-			position = { x = 30 y = 100 }
-			size = { width=100 height=60 }
-			clipping = no
-
-			iconType = {
-				name = "Background"	
-				position = { x=18 y=32 }				
-				spriteType ="GFX_variant_entry_bg"
-			}
-			
-			instantTextboxType = {
-				name = "label"
-				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
-				maxWidth = 160
-				maxHeight = 20
-				format = centre
-			}
-			
-			iconType = {
-				name = "line02"	
-				position = { x=102 y=34 }					
-				spriteType ="GFX_unit_details_line_bottomleft"
-			}	
-			
-			buttonType = {
-				name = "decrease_level"
-				quadTextureSprite ="GFX_naval_decrease_amount"
-				position = { x = 6 y = 30 }
-				clicksound = click_default
-			}
-			
-			instantTextboxType = {
-				name = "level"
-				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
-				maxWidth = 20
-				maxHeight = 20
-			}
-			
-			buttonType = {
-				name = "increase_level"
-				quadTextureSprite ="GFX_naval_increase_amount"
-				position = { x = 68 y = 30 }
-				clicksound = click_default
-			}
-		}
-
+		
 		containerWindowType = {
 			name = "cv_plane_range_upgrade"
 			position = { x = 30 y = 100 }
@@ -738,7 +2219,55 @@ guiTypes = {
 				clicksound = click_default
 			}
 		}
-		
+		containerWindowType = {
+			name = "plane_range_upgrade"
+			position = { x = 30 y = 100 }
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line02"	
+				position = { x=102 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomleft"
+			}	
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
 		containerWindowType = {
 			name = "plane_gun_upgrade"
 			position = { x = 409 y = 30 }
@@ -788,7 +2317,7 @@ guiTypes = {
 				clicksound = click_default
 			}
 		}
-
+		
 		containerWindowType = {
 			name = "plane_armor_upgrade"
 			position = { x = 409 y = 30 }
@@ -1188,6 +2717,8 @@ guiTypes = {
 				clicksound = click_default
 			}
 		}
+		
+		
 	}
 
 	

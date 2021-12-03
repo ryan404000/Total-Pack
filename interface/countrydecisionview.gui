@@ -188,7 +188,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "value"
-			position = { x = 212 y = 3 }
+			position = { x = 200 y = 3 }
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = "33"	
@@ -201,7 +201,7 @@ guiTypes = {
 		iconType = {
 			name = "target_flag"
 			quadTextureSprite ="GFX_flag_small"
-			position = { x= 185 y = 0}
+			position = { x= 215 y = 0}
 		}	
 	}
 
@@ -581,7 +581,7 @@ guiTypes = {
 			spriteType = "GFX_decision_unknown"
 			centerposition = yes
 		}
-
+		
 		iconType = {
 			name = "target_flag"	
 			position = { x= 32 y = 17 }			

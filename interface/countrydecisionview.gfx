@@ -35,7 +35,7 @@ spriteTypes = {
 		name = "GFX_decision_item_bg_single"
 		texturefile = "gfx/interface/decisionview/decision_item_bg_single.dds"
 	}
-
+	
 	spriteType = {
 		name = "GFX_decision_AI_item_bg"
 		texturefile = "gfx/interface/decisionview/decision_AI_item_bg.dds"

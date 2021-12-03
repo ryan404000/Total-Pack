@@ -10,7 +10,7 @@ spriteTypes = {
 		textureFile = "gfx//interface//overview_top_strip.dds"
 		noOfFrames = 3		
 	}
-
+	
 	spriteType = {
 		name = "GFX_overview_top_strip_small"
 		textureFile = "gfx//interface//overview_top_strip_small.dds"
@@ -36,7 +36,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_MODIFIER_AIR_CAS_EFFICIENCY"
-		textureFile = "gfx//interface//modifiers//MODIFIER_AIR_CAS_EFFICIENCY.dds"
+		textureFile = "gfx//interface//modifiers//MODIFIER_AIR_CAS_EFFICIENCY_TW.tga"
 	}	
 	
 	spriteType = {
@@ -61,7 +61,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_MODIFIER_STRAT_BOMBING_VISIBILITY"
-		textureFile = "gfx//interface//modifiers//MODIFIER_STRAT_BOMBING_VISIBILITY.dds"
+		textureFile = "gfx//interface//modifiers//MODIFIER_STRAT_BOMBING_VISIBILITY_TW.tga"
 	}	
 	
 	spriteType = {
@@ -76,7 +76,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_MODIFIER_STRATEGIC_BOMBER_BOMBING_FACTOR"
-		textureFile = "gfx//interface//modifiers//MODIFIER_STRATEGIC_BOMBER_BOMBING_FACTOR.dds"
+		textureFile = "gfx//interface//modifiers//MODIFIER_STRATEGIC_BOMBER_BOMBING_FACTOR_TW.tga"
 	}	
 	
 	spriteType = {
@@ -86,12 +86,12 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_MODIFIER_AIR_NAV_EFFICIENCY"
-		textureFile = "gfx//interface//modifiers//MODIFIER_AIR_NAV_EFFICIENCY.dds"
+		textureFile = "gfx//interface//modifiers//MODIFIER_NAVAL_STRIKE_TARGETTING_TW.tga"
 	}	
 	
 	spriteType = {
 		name = "GFX_MODIFIER_AIR_INTERCEPT_EFFICIENCY"
-		textureFile = "gfx//interface//modifiers//MODIFIER_AIR_INTERCEPT_EFFICIENCY.dds"
+		textureFile = "gfx//interface//modifiers//MODIFIER_AIR_INTERCEPT_EFFICIENCY_TW.tga"
 	}	
 	
 	spriteType = {
@@ -116,17 +116,17 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_MODIFIER_PORT_STRIKE_ATTACK_FACTOR"
-		textureFile = "gfx//interface//modifiers//MODIFIER_PORT_STRIKE_BONUS.dds"
+		textureFile = "gfx//interface//modifiers//MODIFIER_PORT_STRIKE_BONUS_TW.tga"
 	}	
 	
 	spriteType = {
 		name = "GFX_MODIFIER_NAVAL_STRIKE_TARGETTING_FACTOR"
-		textureFile = "gfx//interface//modifiers//MODIFIER_NAVAL_STRIKE_TARGETTING.dds"
+		textureFile = "gfx//interface//modifiers//MODIFIER_NAVAL_STRIKE_TARGETTING_TW.tga"
 	}	
 	
 	spriteType = {
 		name = "GFX_CARRIER_SORTIE_EFFICIENCY_FACTOR"
-		textureFile = "gfx//interface//CARRIER_SORTIE_EFFICIENCY_FACTOR.dds"
+		textureFile = "gfx//interface//modifiers//CARRIER_SORTIE_EFFICIENCY_FACTOR.dds"
 	}	
 	
 	spriteType = {
@@ -136,7 +136,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_MODIFIER_NAVAL_INVASION_CAPACITY"
-		textureFile = "gfx//interface//modifiers//MODIFIER_NAVAL_INVASION_CAPACITY.dds"
+		textureFile = "gfx//interface//modifiers//MODIFIER_NAVAL_INVASION_CAPACITY_TW.tga"
 	}	
 	
 	spriteType = {
@@ -166,12 +166,12 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_MODIFIER_LAND_REINFORCE_RATE"
-		textureFile = "gfx//interface//modifiers//MODIFIER_LAND_REINFORCE_RATE.dds"
+		textureFile = "gfx//interface//modifiers//MODIFIER_LAND_REINFORCE_RATE_TW.tga"
 	}	
 	
 	spriteType = {
 		name = "GFX_MODIFIER_ARMY_BONUS_AIR_SUPERIORITY_FACTOR"
-		textureFile = "gfx//interface//modifiers//MODIFIER_ARMY_BONUS_AIR_SUPERIORITY_FACTOR.dds"
+		textureFile = "gfx//interface//modifiers//MODIFIER_ARMY_BONUS_AIR_SUPERIORITY_FACTOR_TW.tga"
 	}	
 	
 	spriteType = {
@@ -221,7 +221,7 @@ spriteTypes = {
 		name = "GFX_wing_type_bg"
 		textureFile = "gfx//interface//wing_type_bg.dds"
 	}	
-
+	
 	spriteType = {
 		name = "GFX_wing_type_bg_old"
 		textureFile = "gfx//interface//wing_type_bg_old.dds"
@@ -234,7 +234,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_air_overview_plane_strip"
-		textureFile = "gfx//interface//air_overview_plane_strip.dds"
+		textureFile = "gfx//interface//air_overview_plane_strip_tw.tga"
 		noOfFrames = 8
 	}
 
@@ -295,7 +295,7 @@ spriteTypes = {
 		borderSize = { x=6 y=6 }
 		tilingCenter = yes
 	}
-
+	
 	spriteType = {
 		name = "GFX_sort_60"
 		texturefile = "gfx/interface/sort_60.dds"

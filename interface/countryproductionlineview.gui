@@ -1387,8 +1387,8 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "ship_filters"
-			position = { x = 12 y = 50 }
-			size = { width = 460 height = 64 }
+			position = { x = -1 y = 50 }
+			size = { width = 490 height = 64 }
 			margin = { top = 4 left = 4 bottom = 4 right = 4 }
 			clipping = no
 
@@ -1398,24 +1398,31 @@ guiTypes = {
 				#spriteType = "GFX_tiled_window_transparent"
 			}
 
-			iconType = {
-				name = "role_icon_bg"
-				spriteType = "GFX_role_icon_bg"
-				position = { x = 396 y = 1 }
-			}
+			containerWindowType = {											
+				name = "role_icon_bg"										
+				position = { x = -4 y = 4 }									
+				size = { width = 47 height = 47 }							
+				background = {												
+					name = "Background"										
+					spriteType ="GFX_equipment_role_selector_tiled_window"	
+					position = { x=0 y=0 }									
+					#position = { x = 396 y = 1 }
+				}															
+			}																
 
 			buttonType = {
 				name = "btn_role"
-				position = { x=404 y=8 }
+				#position = { x=404 y=8 }
+				position = { x = 1 y = 9 }			
 				spriteType = "GFX_naval_equipment_role_icons"
 			}
 
 			gridBoxType = {
 				name = "ship_type_grid"
-				position = { x=0 y=0 }
-				size = { width=353 height=57 }
+				position = { x=41 y=0 }	
+				size = { width=441 height=57 }
 				slotsize = { width=88 height=27 }
-				max_slots_horizontal = 4
+				max_slots_horizontal = 5
 				format = "UPPER_LEFT"
 			}
 
@@ -1432,28 +1439,28 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 	}
-
+	
 	containerWindowType = {
 		name = "production_deployment_window"
-		position = { x=-356 y=78}
-		show_position = { x=540 y =78 }
+		position = { x=-356 y=78}	
+		show_position = { x=544 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
 		size = { width=375 height=70%% }
-
+		
 		background = {
-			name = "Background"
+			name = "Background"		
 			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
 
 		iconType = {
 			name ="header_bg"
 			spriteType = "GFX_ship_name_title_bg"
-			position = { x = 5 y = 7 }
+			position = { x = 5 y = 5 }
 
 		}
-
+		
 		instantTextboxType = {
 			name = "title"
 			position = { x = 35 y = 4 }
@@ -1467,7 +1474,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "deployments"
-			position = { x=0 y=43 }
+			position = { x=0 y=50 }
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
 			smooth_scrolling = yes
@@ -1490,7 +1497,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "close"
-			position = { x = -43 y = 9 }
+			position = { x = -50 y = 5 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -1627,7 +1634,7 @@ guiTypes = {
 		iconType = {
 			name = "creator_flag"
 			quadTextureSprite ="GFX_flag_small"
-			position = { x = 245 y = 53 }
+			position = { x = 205 y = 53 }
 		}
 
 		iconType = {
@@ -2455,8 +2462,10 @@ guiTypes = {
 		iconType = {
 			name ="equipment_role"
 			spriteType = "GFX_naval_equipment_role_icons"
-			position = { x = 10 y = 49 }
+			orientation = lower_left 
+			position = { x = 8 y = -46 }	
 			alwaystransparent = yes
+			#scale = 0.8 
 		}
 
 		iconType = {
@@ -2571,12 +2580,12 @@ guiTypes = {
 
 		positionType = {
 			name = "task_force_insignia_pos"
-			position = { x=221 y=0 }
+			position = { x=201 y=-2 }
 		}
-
+		
 		iconType = {
 			name = "deploy_icon"
-			position = { x=223 y=-2 }
+			position = { x=223 y=-2 }	
 			spriteType = "GFX_deploy_port_fleet_icons"
 			alwaystransparent = yes
 		}
@@ -2756,7 +2765,15 @@ guiTypes = {
 		#	scale = 0.5
 		#	alwaystransparent = yes
 		#}
-#
+		iconType = {										
+			name ="equipment_role"							
+			spriteType = "GFX_naval_equipment_role_icons"	
+			orientation = lower_left 						
+			position = { x = 3 y = -30 }					
+			alwaystransparent = yes							
+			scale = 0.6										
+		}
+		#
 		#iconType = {
 		#	name = "creator_flag"
 		#	quadTextureSprite ="GFX_flag_small"
@@ -2796,7 +2813,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=80 y=42 }
+			position = { x=90 y=42 }	
 			scale=0.49
 			centerposition = yes
 			alwaystransparent = yes
@@ -2889,7 +2906,7 @@ guiTypes = {
 
 		positionType = {
 			name = "task_force_insignia_pos"
-			position = { x=221 y=0 }
+			position = { x=201 y=-2 }
 		}
 
 		iconType = {
@@ -3140,7 +3157,7 @@ guiTypes = {
 
 		positionType = {
 			name = "task_force_insignia_pos"
-			position = { x=221 y=0 }
+			position = { x=201 y=-2 }
 		}
 
 		iconType = {
@@ -3795,11 +3812,20 @@ guiTypes = {
 			position = { x=3 y=36 }
 			alwaystransparent = yes
 		}
+		
+		iconType = {										
+			name ="equipment_role"							
+			spriteType = "GFX_naval_equipment_role_icons"	
+			orientation = lower_left 						
+			position = { x = 3 y = -30 }					
+			alwaystransparent = yes							
+			scale = 0.6										
+		}
 
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=80 y=42 }
+			position = { x=90 y=42 }	
 			scale=0.49
 			centerposition = yes
 			alwaystransparent = yes
@@ -3850,7 +3876,7 @@ guiTypes = {
 
 		positionType = {
 			name = "task_force_insignia_pos"
-			position = { x=221 y=0 }
+			position = { x=201 y=-2 }
 		}
 
 		iconType = {
@@ -4296,8 +4322,8 @@ guiTypes = {
 		iconType = {
 			name ="equipment_role"
 			spriteType = "GFX_naval_equipment_role_icons"
-			position = { x = 25 y = 35 }
-			scale = 0.865
+			#orientation = lower_left 
+			position = { x = 17 y = 40 }	
 			alwaystransparent = yes
 		}
 
@@ -4317,7 +4343,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "general_name"
-			position = { x = 30 y = 22 }
+			position = { x = 26 y = 22 }	
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
@@ -4355,12 +4381,12 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "naval_production_cost"
-			position = { x = 15 y = 61 }
+			position = { x = 210 y = 8 } 	
 			font = "hoi_18mbs"
 			text = "cost 9001"
 			maxWidth = 160
 			maxHeight = 30
-			format = left
+			format = right 	
 			alwaystransparent = yes
 		}
 
@@ -4504,7 +4530,7 @@ guiTypes = {
 
 		positionType = {
 			name = "task_force_insignia_pos"
-			position = { x=2 y=2 }
+			position = { x=-8 y=0  }
 		}
 
 		instantTextboxType = {
@@ -4552,8 +4578,10 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "equipment_role_icon_selection_window"
-		size = { width=340 height=51 }
-		margin = { top = 4 left = 4 bottom = 4 right = 4 }
+		position = { x = 0 y = 0 }			
+
+		size = { width=526 height=322 }	
+		#margin = { top = 8 left = 8 bottom = 8 right = 8 }	
 		clipping = no
 
 		background = {
@@ -4570,10 +4598,10 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "box"
-			position = { x = 0 y = 0 }
+			position = { x = 8 y = 8 }	
 			size = { width = 100%% height = 100%% }
-			slotsize = { width = 36 height = 36 }
-			max_slots_vertical = 1
+			slotsize = { width = 51 height = 51 }	
+			max_slots_horizontal = 10	
 			format = "UPPER_LEFT"
 		}
 	}
