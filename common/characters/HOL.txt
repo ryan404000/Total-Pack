@@ -215,12 +215,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist career_officer armor_officer politically_connected }
-			skill=4
+			traits={ brilliant_strategist career_officer politically_connected }
+			skill=3
 			attack_skill=3
-			defense_skill=4
+			defense_skill=3
 			planning_skill=3
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=-1
 		}
 		advisor={
@@ -266,8 +266,8 @@ characters={
 			skill=3
 			attack_skill=2
 			defense_skill=3
-			maneuvering_skill=3
-			coordination_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
 			legacy_id=-1
 		}
 	}
@@ -281,11 +281,11 @@ characters={
 		}
 		navy_leader={
 			traits={ bold navy_career_officer seawolf superior_tactician }
-			skill=4
-			attack_skill=5
+			skill=3
+			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
 			legacy_id=981
 		}
 		advisor={
@@ -295,7 +295,7 @@ characters={
 					original_tag = HOL
 				}
 				traits = {
-					navy_chief_commerce_raiding_3
+					navy_chief_commerce_raiding_2
 				}
 				cost = 200
 				ai_will_do = {
@@ -313,11 +313,11 @@ characters={
 		}
 		navy_leader={
 			traits={ bold naval_lineage fleet_protector }
-			skill=3
+			skill=2
 			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
 			legacy_id=-1
 		}
 		advisor={

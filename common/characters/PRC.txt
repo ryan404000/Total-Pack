@@ -1,73 +1,46 @@
 characters={
-	PRC_mao_zedong={
-		name=PRC_mao_zedong
+	PRC_zhu_de={
+		name="Zhu De"
 		portraits={
 			army={
-				large="GFX_portrait_prc_mao_zedong"
-				small="gfx/interface/ideas/idea_CHI_mao_zedong.dds"
+				small="GFX_portrait_prc_zhu_de_small"
 			}
-			civilian={
-				large="GFX_portrait_prc_mao_zedong"
-				small="gfx/interface/ideas/idea_CHI_mao_zedong.dds"
-			}
-		}
-		field_marshal={
-			traits={ trait_cautious politically_connected defensive_doctrine }
-			skill=4
-			attack_skill=2
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=4
-			legacy_id=-1
-		}
-		country_leader={
-			ideology=marxism
-			traits={ cornered_fox }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	PRC_zhu_de={
-		name=PRC_zhu_de
-		portraits={
 			army={
 				large="GFX_portrait_prc_zhu_de"
-				small="GFX_idea_PRC_zhu_de"
 			}
 		}
 		advisor={
 			slot = army_chief
 			idea_token = PRC_zhu_de
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
-				army_chief_morale_3
+				army_chief_morale_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
-		
 		corps_commander={
-			traits={ infantry_officer organizer }
-			skill=4
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=4
-			legacy_id=-1
+			traits = { organizer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+			legacy_id=1066
 		}
 	}
-
 	PRC_chen_yi={
-		name=PRC_chen_yi
+		name="Chen Yi"
 		portraits={
 			army={
+				small="GFX_portrait_prc_chen_yi_small"
+			}
+			army={
 				large="GFX_portrait_prc_chen_yi"
-				small="gfx/interface/ideas/idea_PRC_chen_yi.dds"
 			}
 		}
 		advisor={
@@ -75,115 +48,135 @@ characters={
 			idea_token = PRC_chen_yi
 			ledger = army
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
-				army_armored_2
+				army_chief_reform_2
 			}
-				cost = 100
+				
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
-
 		corps_commander={
-			traits={ infantry_officer }
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
+			traits = { trait_cautious }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+			legacy_id=1067
 		}
 	}
-
-	PRC_peng_dehuai={
-		name=PRC_peng_dehuai
+	PRC_mao_zedong={
+		name="Mao Zedong"
 		portraits={
+			civilian={
+				large="GFX_portrait_prc_mao_zedong"
+			}
+			army={
+		    	large="GFX_portrait_prc_mao_zedong"
+		    }
+		}
+		
+		country_leader={
+			desc="POLITICS_MAO_ZEDONG_DESC"
+			ideology=marxism
+			traits={ cornered_fox }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRC_peng_dehuai={
+		name="Peng Dehuai"
+		portraits={
+			army={
+				small="GFX_portrait_prc_peng_dehuai_small"
+			}
 			army={
 				large="GFX_portrait_prc_peng_dehuai"
-				small="gfx/interface/ideas/idea_PRC_peng_dehuai.dds"
 			}
 		}
 		corps_commander={
-			traits={ infantry_officer trait_mountaineer }
-			skill=4
-			attack_skill=3
-			defense_skill=5
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=-1
+			traits = { trait_mountaineer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+			legacy_id=1068
 		}
 	}
-
 	PRC_lin_biao={
-		name=PRC_lin_biao
+		name="Lin Biao"
 		portraits={
 			army={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
-				small="gfx/interface/ideas/idea_asia_generic_warlord1.dds"
+				large="gfx/leaders/PRC/linbiao.tga"
 			}
 		}
 		corps_commander={
-			traits={ infantry_officer trait_mountaineer }
-			skill=5
-			attack_skill=4
-			defense_skill=5
-			planning_skill=3
-			logistics_skill=4
-			legacy_id=-1
+			traits = { inflexible_strategist cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+			legacy_id=1065
 		}
 	}
-
-	PRC_kwong_hu={
-		name=PRC_kwong_hu
+	PRC_zuoquan={
+		name="Zuo Quan"
 		portraits={
-			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+			army={
+				large="gfx/leaders/PRC/zuoquan.tga"
 			}
 		}
-		country_leader={
-			ideology=liberalism
-			traits={ hawk }
-			expire="1948.1.1.12"
-			id=-1
+		corps_commander={
+			traits = {  media_personality trickster  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
 		}
 	}
-
-	PRC_luo_zhao={
-		name=PRC_luo_zhao
+	PRC_xuxiangqian={
+		name="Xu Xiangqian"
 		portraits={
-			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+			army={
+				large="gfx/leaders/PRC/xuxiangqian.tga"
+			}
+			army={
+				small="GFX_idea_PRC_xu_xiangqian"
 			}
 		}
-		country_leader={
-			ideology=fascism_ideology
-			traits={ financial_expert armaments_organizer }
-			expire="1956.1.1.12"
-			id=-1
-		}
-	}
-	PRC_liang_ma={
-		name=PRC_liang_ma
-		portraits={
-			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+		
+		advisor={	
+			slot = high_command
+			idea_token = PRC_xu_xiangqian
+			ledger = army
+			allowed = {
+				original_tag = CCP
+			}
+			traits = {
+				army_infantry_2
+			}
+			
+			ai_will_do = {
+				factor = 1.000
 			}
 		}
-		country_leader={
-			ideology=oligarchism
-			traits={ financial_expert }
-			expire="1949.1.1.12"
-			id=-1
+		corps_commander={
+			traits = {  career_officer bearer_of_artillery  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+			legacy_id=1069
 		}
 	}
-
-
-	### THEORISTS ###
-
-	#Claire Lee Chennault in shared file
-
+	# theorists
 	PRC_liu_bocheng={
 		name=PRC_liu_bocheng
 		portraits={
@@ -192,18 +185,20 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			
 
 			slot = theorist
 			idea_token = PRC_liu_bocheng
 			ledger = army
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 
-			traits = {
-				military_theorist
+			research_bonus = {
+				land_doctrine = 0.1
 			}
+
+			traits = { military_theorist }
 		}
 	}
 
@@ -215,13 +210,16 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			
 
 			slot = theorist
 			idea_token = PRC_hsia_tian
 			ledger = air
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
+			}
+			research_bonus = {
+				air_doctrine = 0.1
 			}
 
 			traits = {
@@ -238,13 +236,17 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			
 
 			slot = theorist
 			idea_token = PRC_zhang_wei
 			ledger = navy
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.1
 			}
 			
 			traits = {
@@ -252,7 +254,7 @@ characters={
 			}
 		}
 	}
-
+	
 	### ARMY CHIEFS ###
 
 	# Alexander von Falkenhausen in shared file
@@ -270,12 +272,12 @@ characters={
 			slot = army_chief
 			idea_token = PRC_su_yu
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				army_chief_reform_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -293,7 +295,7 @@ characters={
 			slot = army_chief
 			idea_token = PRC_otto_braun
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				army_chief_old_guard
@@ -305,7 +307,7 @@ characters={
 	}
 
 	PRC_ma_jin={
-		name=PRC_ma_jin
+		name="Ma Jin"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_5"
@@ -315,12 +317,12 @@ characters={
 			slot = army_chief
 			idea_token = PRC_ma_jin
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				army_chief_defensive_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -341,12 +343,12 @@ characters={
 			slot = navy_chief
 			idea_token = PRC_ziao_jingguang
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				navy_chief_maneuver_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -364,12 +366,12 @@ characters={
 			slot = navy_chief
 			idea_token = PRC_gao_qiu
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				navy_chief_decisive_battle_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -392,12 +394,12 @@ characters={
 			slot = air_chief
 			idea_token = PRC_fang_zeyi
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				air_chief_ground_support_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -415,12 +417,12 @@ characters={
 			slot = air_chief
 			idea_token = PRC_gao_gang
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				air_chief_safety_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -432,29 +434,6 @@ characters={
 
 	# Chen Yi up there in this file along with other Unit Leaders
 
-	PRC_xu_xiangqian={
-		name=PRC_xu_xiangqian
-		portraits={
-			army={
-				small="GFX_idea_PRC_xu_xiangqian"
-			}
-		}
-		advisor={	
-			slot = high_command
-			idea_token = PRC_xu_xiangqian
-			ledger = army
-			allowed = {
-				original_tag = PRC
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
 
 	PRC_nie_rongzhen={
 		name=PRC_nie_rongzhen
@@ -468,12 +447,12 @@ characters={
 			idea_token = PRC_nie_rongzhen
 			ledger = army
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				army_regrouping_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -492,12 +471,12 @@ characters={
 			idea_token = PRC_chen_geng
 			ledger = army
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				army_entrenchment_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -516,12 +495,12 @@ characters={
 			idea_token = PRC_ye_jianying
 			ledger = army
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				army_logistics_2
 			}
-			cost = 100
+			
 		}
 	}
 
@@ -537,12 +516,12 @@ characters={
 			idea_token = PRC_liang_shen
 			ledger = air
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				air_air_combat_training_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -550,7 +529,7 @@ characters={
 	}
 
 	PRC_deng_ye_peng={
-		name=PRC_deng_ye_peng
+		name="Deng Ye Peng"
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_1"
@@ -561,29 +540,60 @@ characters={
 			idea_token = PRC_deng_ye_peng
 			ledger = army
 			allowed = {
-				original_tag = PRC
+				original_tag = CCP
 			}
 			traits = {
 				navy_amphibious_assault_2
 			}
-			cost = 100
+			
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
 	}
 	
-
-	### POLITICAL ADVISOR ###
-
-	# Communist Revolutionary auto-generated
-
-	# Kang Sheng in shared file
-
-	# Deng Xiaoping in shared file
-
-	# Luo Ruiqing in shared file
-
+	PRC_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ war_industrialist }
+			expire="1955.1.1.12"
+			id=-1
+		}
+	}
+	PRC_peter_white={
+		name="Peter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1942.1.1.12"
+			id=-1
+		}
+	}
+	PRC_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			traits={ silent_workhorse }
+			expire="1944.1.1.12"
+			id=-1
+		}
+	}
+	
 	PRC_lin_bojiu={
 		name=PRC_lin_bojiu
 		portraits={
@@ -595,11 +605,33 @@ characters={
 			slot = political_advisor
 			idea_token = PRC_lin_bojiu
 			allowed  = {
-				original_tag  = PRC
+				original_tag  = CCP
 			}
 			traits  = {
 				armaments_organizer 
 			}
+		}
+	}
+	PRC_luo_ruiqing={
+		name=PRC_luo_ruiqing
+		portraits={
+			civilian={
+				small="GFX_idea_china_luo_ruiqing"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_luo_ruiqing
+			available = {
+				has_intelligence_agency = yes
+			}
+			
+			allowed = {
+				original_tag = CCP
+				has_dlc = "La Resistance" 
+			}
+			
+			traits = { head_of_intelligence }
 		}
 	}
 
@@ -614,7 +646,7 @@ characters={
 			slot = political_advisor
 			idea_token = PRC_zhou_enlai
 			allowed  = {
-				original_tag  = PRC
+				original_tag  = CCP
 			}
 			traits  = {
 				ideological_crusader 
@@ -633,7 +665,7 @@ characters={
 			slot = political_advisor
 			idea_token = PRC_liu_shaoqi
 			allowed  = {
-				original_tag  = PRC
+				original_tag  = CCP
 			}
 			traits  = {
 				silent_workhorse 
@@ -652,7 +684,7 @@ characters={
 			slot = political_advisor
 			idea_token = PRC_he_yuandang
 			allowed  = {
-				original_tag  = PRC
+				original_tag  = CCP
 			}
 			traits  = {
 				war_industrialist 
@@ -671,7 +703,7 @@ characters={
 			slot = political_advisor
 			idea_token = PRC_dong_biwu
 			allowed  = {
-				original_tag  = PRC
+				original_tag  = CCP
 				has_dlc = "Waking the Tiger"
 			}
 			traits  = {

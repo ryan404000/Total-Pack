@@ -122,6 +122,10 @@ technology_folders = {
 		available = {
 			NOT = {
 				has_dlc = "No Step Back"
+				original_tag = GER 
+            			original_tag = SOV 
+				original_tag = USA 
+				original_tag = ENG 
 			}
 		}
 	}
@@ -129,6 +133,12 @@ technology_folders = {
 		ledger = army
 		available = {
 			has_dlc = "No Step Back"
+            		NOT = { 
+				original_tag = GER 
+            			original_tag = SOV 
+				original_tag = USA 
+				original_tag = ENG 
+		  	}
 		}
 	}
 	artillery_folder = {
@@ -144,7 +154,7 @@ technology_folders = {
 			original_tag = MAN
 			original_tag = ENG 
 			original_tag = USA 
-		    original_tag = CAN
+			original_tag = CAN
 			original_tag = RAJ 
 			original_tag = SAF
 			original_tag = AST
@@ -233,59 +243,59 @@ technology_folders = {
 ###########
 #OLD TANKS#
 ###########
-#	soviet_folder = {
-#		ledger = army
-#        available = {
-#            original_tag = SOV
-#        }
-#    }	
-#	usa_folder = {
-#		ledger = army
-#        available = {
-#            original_tag = USA
-#        }
-#    }
-#	german_pz_folder = {
-#	    ledger = army
-#        available = {
-#            original_tag = GER
-#        }
-#    }
-#	british_folder = {
-#	    ledger = army
-#        available = {
-#		   OR = {
-#            original_tag = ENG
-#			original_tag = CAN
-#			original_tag = RAJ 
-#			original_tag = SAF
-#			original_tag = AST
-#			original_tag = NZL
-#			original_tag = EGY
-#			original_tag = YEM
-#			original_tag = MAL
-#           }
-#	   }
-#    }
-#	armour_folder = {
-#			ledger = army
-#        available = {
-#            NOT = { 
-#			original_tag = GER 
-#            original_tag = SOV 
-#			original_tag = USA 
-#			original_tag = ENG 
-#			original_tag = CAN
-#			original_tag = RAJ 
-#			original_tag = SAF
-#			original_tag = AST
-#			original_tag = NZL
-#			original_tag = EGY
-#			original_tag = YEM
-#			original_tag = MAL
-#		  }
-#        }
-#    }
+	soviet_folder = {
+		ledger = army
+        available = {
+            original_tag = SOV
+        }
+    }	
+	usa_folder = {
+		ledger = army
+        available = {
+            original_tag = USA
+        }
+    }
+	german_pz_folder = {
+	    ledger = army
+        available = {
+            original_tag = GER
+        }
+    }
+	british_folder = {
+	    ledger = army
+        available = {
+		   OR = {
+            original_tag = ENG
+			original_tag = CAN
+			original_tag = RAJ 
+			original_tag = SAF
+			original_tag = AST
+			original_tag = NZL
+			original_tag = EGY
+			original_tag = YEM
+			original_tag = MAL
+           }
+	   }
+    }
+	armour_folder = {
+			ledger = army
+        available = {
+            NOT = { 
+			original_tag = GER 
+            		original_tag = SOV 
+			original_tag = USA 
+			original_tag = ENG 
+			original_tag = CAN
+			original_tag = RAJ 
+			original_tag = SAF
+			original_tag = AST
+			original_tag = NZL
+			original_tag = EGY
+			original_tag = YEM
+			original_tag = MAL
+		  }
+        }
+    }
 
 }
 
