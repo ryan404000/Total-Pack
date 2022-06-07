@@ -1,5 +1,5 @@
 characters={
-	PHI_manuel_luis_quezón={
+	PHI_manuel_luis_quezon={
 		name="Manuel Luis Quezón"
 		portraits={
 			civilian={
@@ -14,15 +14,27 @@ characters={
 			id=-1
 		}
 	}
-	PHI_pedro_p._baguisa={
-		name="Pedro P. Baguisa"
+	PHI_manuel_roxas={
+		name="Manuel Roxas"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+				large="GFX_portrait_PHI_Manuel_Roxas"
 			}
 		}
 		country_leader={
-			desc="POLITICS_PEDRO_BAGUISA_DESC"
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PHI_pedro_p_baguisa={
+		name="Crisanto Evangelista"
+		portraits={
+			civilian={
+				large="GFX_portrait_PHI_Crisanto_Evangelista"
+			}
+		}
+		country_leader={
 			ideology=marxism
 			traits={ religously_lost }
 			expire="1965.1.1.1"
@@ -50,10 +62,10 @@ characters={
 		}
 	}
 	PHI_teodoro_jacinto={
-		name="Teodoro Jacinto"
+		name="Benigno Ramos"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+				large="GFX_portrait_PHI_Benigno_Ramos"
 			}
 		}
 		country_leader={
@@ -62,17 +74,17 @@ characters={
 			id=-1
 		}
 	}
-	PHI_jacinto_aguainaldo={
-		name="Jacinto Aguainaldo"
+	PHI_jose_laurel={
+		name="Jose Laurel"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 			}
 		}
 		country_leader={
-			ideology=oligarchism
-			traits={ capitalist }
-			expire="1947.1.1.12"
+			ideology=fascism_ideology
+			traits={ eager_collaborator }
+			expire="1952.1.1.12"
 			id=-1
 		}
 	}
@@ -81,7 +93,7 @@ characters={
 			slot = air_chief
 			idea_token = PHI_pelagio_cruz
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				traits  = {
 					air_chief_all_weather_2 
@@ -90,7 +102,7 @@ characters={
 					factor  = 1.000
 				}
 		}
-		name="PHI_pelagio_cruz"
+		name="Pelagio Cruz"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_asia_2"
@@ -102,7 +114,7 @@ characters={
 			slot = high_command
 			idea_token = PHI_jose_v_andrada
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				ledger  = navy 
 				traits  = {
@@ -112,7 +124,7 @@ characters={
 					factor  = 1.000
 				}
 		}
-		name="PHI_jose_v_andrada"
+		name="Jose Andrada"
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_1"
@@ -124,7 +136,7 @@ characters={
 			slot = army_chief
 			idea_token = PHI_leoncio_s_tan
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				traits  = {
 					army_chief_morale_2 
@@ -133,7 +145,7 @@ characters={
 					factor  = 1.000
 				}
 		}
-		name="PHI_leoncio_s_tan"
+		name="Leoncio Tan"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_2"
@@ -145,7 +157,7 @@ characters={
 			slot = theorist
 			idea_token = PHI_benito_n_ebuen
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				research_bonus  = {
 					land_doctrine  = 0.070
@@ -155,7 +167,7 @@ characters={
 					military_theorist 
 				}
 		}
-		name="PHI_benito_n_ebuen"
+		name="Benito Ebuen"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_5"
@@ -167,7 +179,7 @@ characters={
 			slot = high_command
 			idea_token = PHI_basilio_fernando
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				ledger  = air 
 				traits  = {
@@ -177,7 +189,7 @@ characters={
 					factor  = 1.000
 				}
 		}
-		name="PHI_basilio_fernando"
+		name="Basilio Fernando"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_asia_3"
@@ -185,21 +197,34 @@ characters={
 		}
 	}
 	PHI_emilio_aguinaldo={
+		name="Emilio Aguinaldo"
 		advisor={
 			slot = political_advisor
 			idea_token = PHI_emilio_aguinaldo
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				traits  = {
 					popular_figurehead 
 				}
 		}
-		name="PHI_emilio_aguinaldo"
+		
 		portraits={
+			civilian={
+				large="GFX_portrait_PHI_Emilio_Aguinaldo"
+			}
 			army={
 				small="GFX_idea_generic_political_advisor_asia_3"
 			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={
+				experienced_insurgent
+				eager_collaborator
+			}
+			expire="1965.1.1.1"
+			id=-1
 		}
 	}
 	PHI_juan_sumulong={
@@ -207,13 +232,13 @@ characters={
 			slot = political_advisor
 			idea_token = PHI_juan_sumulong
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				traits  = {
 					prince_of_terror 
 				}
 		}
-		name="PHI_juan_sumulong"
+		name="Juan Sumulong"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_asia_1"
@@ -225,17 +250,17 @@ characters={
 			slot = high_command
 			idea_token = PHI_heraclio_alano
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				ledger  = army 
 				traits  = {
-					army_armored_2 
+					army_armored_1 
 				}
 				ai_will_do  = {
 					factor  = 1.000
 				}
 		}
-		name="PHI_heraclio_alano"
+		name="Heraclio Alano"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_1"
@@ -250,17 +275,25 @@ characters={
 					factor  = 50000.000
 				}
 				allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				traits  = {
 					silent_workhorse 
 				}
 		}
-		name="PHI_sergio_osmena"
+		name="Sergio Osmena"
 		portraits={
+			civilian={
+				large="GFX_portrait_PHI_Sergio_Osmena"
+			}
 			army={
 				small="GFX_idea_generic_political_advisor_asia_2"
 			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
 		}
 	}
 	PHI_victor_h_dizon={
@@ -268,7 +301,7 @@ characters={
 			slot = theorist
 			idea_token = PHI_victor_h_dizon
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				research_bonus  = {
 					naval_doctrine  = 0.070
@@ -278,7 +311,7 @@ characters={
 					naval_theorist 
 				}
 		}
-		name="PHI_victor_h_dizon"
+		name="Victor Dizon"
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_3"
@@ -290,7 +323,7 @@ characters={
 			slot = air_chief
 			idea_token = PHI_edwin_andrews
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				traits  = {
 					air_chief_reform_2 
@@ -299,7 +332,7 @@ characters={
 					factor  = 1.000
 				}
 		}
-		name="PHI_edwin_andrews"
+		name="Edwin Andrews"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_asia_3"
@@ -311,7 +344,7 @@ characters={
 			slot = navy_chief
 			idea_token = PHI_eustacio_orobia
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				traits  = {
 					navy_chief_commerce_raiding_2 
@@ -320,7 +353,7 @@ characters={
 					factor  = 1.000
 				}
 		}
-		name="PHI_eustacio_orobia"
+		name="Eustacio Orobia"
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_3"
@@ -332,17 +365,17 @@ characters={
 			slot = high_command
 			idea_token = PHI_vicente_p_lim
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				ledger  = army 
 				traits  = {
-					army_regrouping_2 
+					army_regrouping_1 
 				}
 				ai_will_do  = {
 					factor  = 1.000
 				}
 		}
-		name="PHI_vicente_p_lim"
+		name="Vicente Lim"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_3"
@@ -354,16 +387,16 @@ characters={
 			slot = army_chief
 			idea_token = PHI_basilio_j_valdez
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				traits  = {
-					army_chief_defensive_2 
+					army_chief_defensive_1 
 				}
 				ai_will_do  = {
 					factor  = 1.000
 				}
 		}
-		name="PHI_basilio_j_valdez"
+		name="Basilio Valdez"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_4"
@@ -375,7 +408,7 @@ characters={
 			slot = navy_chief
 			idea_token = PHI_santiago_nuval
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				traits  = {
 					navy_chief_maneuver_2 
@@ -384,7 +417,7 @@ characters={
 					factor  = 1.000
 				}
 		}
-		name="PHI_santiago_nuval"
+		name="Santiago Nuval"
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_1"
@@ -396,7 +429,7 @@ characters={
 			slot = theorist
 			idea_token = PHI_ramon_a_alcaraz
 			allowed  = {
-					original_tag  = phi 
+					original_tag  = PHI 
 				}
 				research_bonus  = {
 					air_doctrine  = 0.070
@@ -406,7 +439,7 @@ characters={
 					air_warfare_theorist 
 				}
 		}
-		name="PHI_ramon_a_alcaraz"
+		name="Ramon Alcaraz"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_asia_3"

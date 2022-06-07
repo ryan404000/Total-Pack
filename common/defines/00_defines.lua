@@ -523,6 +523,8 @@ NProduction = {
 	EQUIPMENT_MODULE_REMOVE_XP_COST = 1.0,				-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
 	MIN_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.2,		-- Minimum fraction of an equipment type's base industry capacity cost to use when converting a naval equipment, such as through ship refitting.
 	MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.2,	-- Minimum fraction of an equipment type's base strategic resource cost to use when converting a naval equipment, such as through ship refitting.
+	MIN_LAND_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0,		-- Minimum fraction of a land equipment's strategic resource cost that any conversion will cost.
+	MIN_LAND_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.2,		-- Fraction of the chassis industry cost which is always included in the conversion cost.
 	SHIP_REFIT_MAX_PROGRESS_TO_CANCEL = 0.0,			-- Maximum refitting progress % that we still allow to cancel wihtout having to scuttle the ship.
 	SHIP_REFIT_DAMAGE_TO_PROGRESS_FACTOR = 0.5,			-- When a ship is being damaged (for example port strike) while refitting, the damage is transferred to the production line progress instead. This variable is used to balance it.
 },
@@ -2228,6 +2230,8 @@ NAI = {
 	AREA_DEFENSE_BASE_IMPORTANCE = 30,                  -- Area defense order base importance value (used for determining order of troop selections)
 	AREA_DEFENSE_CIVIL_WAR_IMPORTANCE = 30,             -- Area defense order importance value when a country is in a civil war as target or revolter.
 	AREA_DEFENSE_IMPORTANCE_FACTOR = 1.0,               -- used to balance defensive area importance vs other fronts
+	PRODUCTION_WAIT_TO_FINISH_IF_EXPENSIVE = 0.09,      -- If produced item is expensive (producing less than one/week), wait to finish item if progress is above this
+	PRODUCTION_WAIT_TO_FINISH_IF_CHEAP = 0.75,          -- If produced item is cheap (producing more than one/week), wait to finish item if progress is above this
 
 	COMBINED_ARMS_LEVEL = 1,							-- 0 = Never, 1 = Infantry/Artillery, 2 = Go wild
 	MAX_DISTANCE_NAVAL_INVASION = 200.0,				-- AI is extremely unwilling to plan naval invasions above this naval distance limit.
@@ -2394,6 +2398,8 @@ NAI = {
 	ORDER_ASSIGNMENT_DISTANCE_FACTOR = 100.0,                    -- When the AI assigns units to orders, how much should distance be taken into account?
 	REVISITED_PROV_BOOST_FACTOR = 4,                            -- When the AI picks units for a front, it prioritises units already nearby.
 	UNIT_ASSIGNMENT_STATS_IMPORTANCE = 3.0,                     -- Stats score for units are multiplied by this when the AI is deciding which front they should be assigned to
+
+	MANPOWER_RATIO_CAREFULNESS_THRESHOLD = 0.05,                -- if manpower ratio (available/used-by-army) is less than this, start being more careful with plan execution (i.e. don't throw your men into the meat grinder if you're running out of manpower)
 
 	ASSIGN_FRONT_TERRAIN_ATTACK_FACTOR = 3.0,                   -- Importance of unit's terrain adjusted attack stat when assigning to a front
 	ASSIGN_FRONT_TERRAIN_DEFENSE_FACTOR = 1.0,                  -- Importance of unit's terrain adjusted defense stat when assigning to a front
@@ -2662,6 +2668,11 @@ NAI = {
 	NAVAL_INVADED_AREA_PRIO_DURATION = 90,								-- after successful invasion, AI will prio the enemy area for this number of days
 	NAVAL_INVADED_AREA_PRIO_MULT = 1.2,									-- fronts that belongs to recent invasions gets more prio
 	MIN_NUM_CONQUERED_PROVINCES_TO_DEPRIO_NAVAL_INVADED_FRONTS = 20,	-- if you conquer this amount of provinces after a naval invasion, it will lose its prio status and will act as a regular front
+
+	FAILED_INVASION_AVOID_DURATION = 135,                   -- after a failed invasion, AI will down-prioritize invading the same area again for this number of days
+	FAILED_INVASION_AREA_PRIO_FACTOR = 0.5,                 -- for every failed invasion on an area, factor that area's invasion prio with this value
+	FAILED_INVASION_PORT_PRIO_FACTOR = 0.66,                -- for every failed invasion on a target port (province), factor the chance that we try to invade that same port again (relative to other ports)
+
 
 	BUILDING_TARGETS_BUILDING_PRIORITIES = {				-- buildings in order of pirority when considering building targets strategies. First has the greatest priority, omitted has the lowest. NOTE: not all buildings are supported by building targets strategies.
 		'industrial_complex',

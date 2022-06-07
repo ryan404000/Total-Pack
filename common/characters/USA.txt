@@ -21,15 +21,16 @@ characters={
 		}
 		portraits={
 			army={
-				small="GFX_idea_generic_air_europe_3"
+				small="GFX_portrait_USA_charles_lindbergh_small"
 			}
 			civilian={
-				large="gfx/leaders/USA/Portrait_USA_Arthur_C_Townley.tga"
+				large="GFX_portrait_USA_Charles_Lindbergh"
 			}
 		}
 		country_leader={
 			desc="POLITICS_CHARLES_LINDBERGH_DESC"
-			ideology=moderatism
+			ideology=centrism #For future change descriptions ideology
+			traits={ naive_appeaser }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -58,7 +59,8 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-			ideology=fascism_ideology
+			ideology=rexism
+			traits={ orthodox_rabblerouser }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -91,12 +93,13 @@ characters={
 				small="GFX_idea_earl_browder"
 			}
 			civilian={
-				large="gfx/leaders/USA/portrait_USA_earl_browder.dds"
+				large="GFX_portrait_USA_Earl_Browder"
 			}
 		}
 		country_leader={
 			desc="POLITICS_EARL_BROWDER_DESC"
 			ideology=marxism
+			traits={ council_communist }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -229,7 +232,6 @@ characters={
 			defense_skill=2
 			planning_skill=4
 			logistics_skill=4
-			legacy_id=602
 		}
 	}
 	USA_geoffrey_keyes={
@@ -343,7 +345,6 @@ characters={
 			defense_skill=2
 			planning_skill=3
 			logistics_skill=1
-			legacy_id=57
 		}
 	}
 	USA_walter_krueger={
@@ -480,6 +481,21 @@ characters={
 			planning_skill=1
 			logistics_skill=2
 			legacy_id=-1
+		}
+		
+		advisor={
+			slot = theorist
+			idea_token = leonard_gerow
+			allowed  = {
+					original_tag  = USA
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+				ledger  = army 
+				traits  = {
+					siege_expert 
+				}
 		}
 	}
 	USA_edward_brooks={
@@ -651,7 +667,6 @@ characters={
 			defense_skill=1
 			planning_skill=1
 			logistics_skill=1
-			legacy_id=601
 		}
 	}
 	USA_oscar_griswold={
@@ -694,6 +709,23 @@ characters={
 			legacy_id=-1
 		}
 	}
+	USA_james_gavin={
+		name="James Gavin"
+		portraits={
+			army={
+				large="gfx/leaders/USA/james_gavin.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 	USA_chester_w_nimitz={
 		name="Chester W. Nimitz"
 		advisor={
@@ -725,9 +757,8 @@ characters={
 			skill=5
 			attack_skill=3
 			defense_skill=3
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=98521
+			maneuvering_skill=5
+			coordination_skill=5
 		}
 	}
 	USA_frank_jack_fletcher={
@@ -766,8 +797,8 @@ characters={
 			skill=3
 			attack_skill=2
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=3
 			legacy_id=-1
 		}
 	}
@@ -807,8 +838,8 @@ characters={
 			skill=4
 			attack_skill=4
 			defense_skill=3
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=3
 			legacy_id=-1
 		}
 	}
@@ -827,8 +858,8 @@ characters={
 			skill=2
 			attack_skill=2
 			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -854,7 +885,7 @@ characters={
 		}
 		portraits={
 			army={
-				small=""
+				small="GFX_idea_marc_mitscher"
 			}
 			navy={
 				small="GFX_idea_marc_mitscher"
@@ -868,11 +899,45 @@ characters={
 			skill=3
 			attack_skill=1
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=3
 			legacy_id=-1
 		}
 	}
+	
+	USA_Randolph_Lucas={
+		name="Randolph Lucas"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			}
+		}
+	}
+	USA_Bernard_Barnes={
+		name="Bernard Barnes"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_12.dds"
+			}
+		}
+	}
+	USA_Ed_Aguilar={
+		name="Ed Aguilar"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_11.dds"
+			}
+		}
+	}
+	USA_Piers_Allen={
+		name="Piers Allen"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_13.dds"
+			}
+		}
+	}
+	
 	USA_jesse_b_oldendorf={
 		name="Jesse B. Oldendorf"
 		portraits={
@@ -888,8 +953,8 @@ characters={
 			skill=3
 			attack_skill=2
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=3
 			legacy_id=-1
 		}
 	}
@@ -908,8 +973,8 @@ characters={
 			skill=2
 			attack_skill=1
 			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=3
 			legacy_id=-1
 		}
 	}
@@ -1419,8 +1484,21 @@ characters={
 		}
 		name="william_halsey"
 		portraits={
+		    navy={
+				large="gfx/leaders/USA/Portrait_USA_William_Halsey_Jr.dds"
+				small="gfx/interface/ideas/idea_USA_william_halsey_jr.dds"
+			}
 			army={
 				small="GFX_idea_william_halsey"
+				large="gfx/leaders/USA/Portrait_USA_William_Halsey_Jr.dds"
+			}
+		}
+	}
+	USA_arleigh={
+		name="Arleigh Burke"
+		portraits={
+			army={
+				large="gfx/leaders/USA/Portrait_USA_Arleigh_Burke.dds"
 			}
 		}
 	}
@@ -1496,28 +1574,6 @@ characters={
 			}
 		}
 	}
-	USA_11={
-		advisor={
-			slot = theorist
-			idea_token = USA_11
-			allowed  = {
-					original_tag  = USA
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-				ledger  = army 
-				traits  = {
-					siege_expert 
-				}
-		}
-		name="USA_11"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_5"
-			}
-		}
-	}
 	USA_henry_stimson={
 		advisor={
 			slot = political_advisor
@@ -1542,7 +1598,7 @@ characters={
 	USA_2={
 		advisor={
 			slot = theorist
-			idea_token = USA_2
+			idea_token = maximilian_kline
 			allowed  = {
 					original_tag  = USA
 				}
@@ -1558,7 +1614,7 @@ characters={
 					grand_battle_plan_expert 
 				}
 		}
-		name="USA_2"
+		name="Maximilian Kline"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_4"
@@ -1594,7 +1650,7 @@ characters={
 	USA_1={
 		advisor={
 			slot = theorist
-			idea_token = USA_1
+			idea_token = christopher_ward
 			allowed  = {
 					original_tag  = USA
 				}
@@ -1607,7 +1663,7 @@ characters={
 					USAcarpet_bomber 
 				}
 		}
-		name="USA_1"
+		name="Christopher Ward"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_5"
@@ -1658,6 +1714,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_ernest_king"
+				large="gfx/leaders/USA/Portrait_USA_Earnest_King.dds"
 			}
 		}
 	}

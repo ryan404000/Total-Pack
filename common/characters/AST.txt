@@ -127,11 +127,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trickster commando }
+			traits={ trickster commando naval_invader }
 			skill=2
 			attack_skill=2
 			defense_skill=2
-			planning_skill=2
+			planning_skill=1
 			logistics_skill=2
 			legacy_id=-1
 		}
@@ -272,8 +272,8 @@ characters={
 			skill=4
 			attack_skill=3
 			defense_skill=3
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=4
 			legacy_id=-1
 		}
 	}
@@ -292,8 +292,8 @@ characters={
 			skill=3
 			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -394,6 +394,7 @@ characters={
 		}
 	}
 	AST_john_forster={
+	    name="John Forster"
 		advisor={
 			slot = high_command
 			idea_token = john_forster

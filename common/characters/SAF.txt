@@ -18,6 +18,7 @@ characters={
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_louis_weichardt
 			traits  = { fascist_demagogue }
 			ai_will_do  = {
 				factor  = 0
@@ -58,24 +59,12 @@ characters={
 			logistics_skill=1
 			legacy_id=1003
 		}
-		advisor={
-			allowed = {
-				original_tag = SAF
-				
-			}
-			slot = army_chief
-			traits  = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}	
-		}
 	}
 	SAF_james_dalgleish={
 		name="James Dalgleish"
 		portraits={
 			army={
-				small=""
+				small="GFX_idea_generic_army_europe_3"
 			}
 			army={
 				large="gfx/leaders/SAF/Portrait_Europe_Generic_navy_new_5.tga"
@@ -87,7 +76,7 @@ characters={
 			attack_skill=2
 			defense_skill=1
 			maneuvering_skill=1
-			coordination_skill=1
+			coordination_skill=2
 			legacy_id=1013
 		}
 		advisor={
@@ -103,7 +92,7 @@ characters={
 			}	
 		}
 	}
-	SAF_j._b._m._hertzog={
+	SAF_j_b_m_hertzog={
 		name="J. B. M. Hertzog"
 		portraits={
 			civilian={
@@ -127,21 +116,6 @@ characters={
 		country_leader={
 			desc="POLITICS_MOSES_KOTANE_DESC"
 			ideology=marxism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	SAF_d._f._malan={
-		name="D. F. Malan"
-		portraits={
-			civilian={
-				large="gfx/leaders/SAF/Portrait_South_Africa_Daniel_Malan.dds"
-			}
-		}
-		country_leader={
-			desc="POLITICS_DF_MALAN_DESC"
-			ideology=centrism
-			traits={ headstrong }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -188,23 +162,37 @@ characters={
 
 		
 	}
-	SAF_william_evered_poole={
-		name="William Evered Poole"
+	
+	SAF_Lucas_Majozi={
+		name="Lucas Majozi"
 		portraits={
 			army={
-				small=""
-			}
-			army={
-				large="gfx/leaders/SAF/Portrait_SAF_Evered_Poole.tga"
+				large="gfx/leaders/SAF/Portrait_SAF_Lucas_Majozi.tga"
 			}
 		}
-		corps_commander={
-			skill=2
-			attack_skill=3
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
+	}
+	SAF_Job_Masekoi={
+		name="Job Maseko"
+		portraits={
+			army={
+				large="gfx/leaders/SAF/Portrait_SAF_Job_Maseko.tga"
+			}
+		}
+	}
+	SAF_Potlako_Leballo={
+		name="Potlako Leballo"
+		portraits={
+			army={
+				large="gfx/leaders/SAF/Portrait_Africa_Generic_land_new_3.tga"
+			}
+		}
+	}
+	SAF_Petrus_Dlamini={
+		name="Petrus Dlamini"
+		portraits={
+			army={
+				large="gfx/leaders/SAF/Portrait_Africa_Generic_land_new_2.tgaa"
+			}
 		}
 	}
 	SAF_daniel_hermanus_pienaar={
@@ -245,26 +233,6 @@ characters={
 			planning_skill=2
 			logistics_skill=3
 			legacy_id=1006
-		}
-	}
-	SAF_isaac_pierre_de_villiers={
-		name="Isaac Pierre de Villiers"
-		portraits={
-			army={
-				small=""
-			}
-			army={
-				large="gfx/leaders/SAF/Portrait_SAF_Isaac_de_Villiers.tga"
-			}
-		}
-		corps_commander={
-			traits={ infantry_officer }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=1007
 		}
 	}
 	SAF_nick_bierman={
@@ -350,6 +318,9 @@ characters={
 	SAF_guy_hallifax={
 		name="Guy Hallifax"
 		portraits={
+		    navy={
+				small="GFX_SAF_guy_halifax_small"
+			}
 			army={
 				small="GFX_SAF_guy_halifax_small"
 			}
@@ -362,8 +333,8 @@ characters={
 			skill=2
 			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
 			legacy_id=1012
 		}
 		advisor={
@@ -402,7 +373,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/SAF/Portrait_Europe_Generic_navy_new_1.tga"
+				large="gfx/leaders/Europe/portrait_europe_generic_navy_5.tga"
 			}
 		}
 		navy_leader={
@@ -411,7 +382,7 @@ characters={
 			attack_skill=1
 			defense_skill=1
 			maneuvering_skill=1
-			coordination_skill=1
+			coordination_skill=2
 			legacy_id=1015
 		}
 	}
@@ -428,6 +399,10 @@ characters={
 		advisor={
 			slot = political_advisor
 			traits  = { democratic_reformer }
+			idea_token = SAF_abram_fischer
+			allowed = {
+			original_tag = SAF
+			}
 			ai_will_do  = {
 				factor  = 0
 			}
@@ -457,7 +432,11 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
+			idea_token = SAF_abram_fischer
 			traits  = { communist_revolutionary }
+			allowed = {
+			original_tag = SAF
+			}
 			ai_will_do  = {
 				factor  = 0
 			}
@@ -491,6 +470,7 @@ characters={
 				original_tag = SAF
 				
 			}
+			idea_token = SAF_nicolaas_havenga
 			slot = political_advisor
 			traits  = { financial_expert }
 			ai_will_do = {
@@ -517,13 +497,26 @@ characters={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_1"
 			}
+			civilian={
+				large="gfx/leaders/SAF/Portrait_South_Africa_Daniel_Malan.dds"
+			}
 		}
+
+		country_leader={
+			desc="POLITICS_DF_MALAN_DESC"
+			ideology=centrism
+			traits={ headstrong }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		
 		advisor={
 			allowed = {
 				original_tag = SAF
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_d_f_malan
 			traits  = { backroom_backstabber_2 }
 			ai_will_do = {
 				factor = 0
@@ -552,6 +545,7 @@ characters={
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_e_g_jansen
 			traits  = { silent_workhorse }
 			ai_will_do = {
 				factor = 1
@@ -584,6 +578,7 @@ characters={
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_e_g_jansen
 			traits  = { prince_of_terror }
 			available = {
 				has_completed_focus = SAF_support_ossewabrandwag		  
@@ -603,6 +598,7 @@ characters={
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_jan_hendrik_hofmeyr
 			traits  = { social_reformer_2 }
 			available = {
 				NOT = { has_completed_focus = SAF_split_in_the_party }	
@@ -628,7 +624,9 @@ characters={
 				original_tag = SAF
 				
 			}
+			
 			slot = political_advisor
+			idea_token = SAF_richard_stuttaford
 			traits  = { financial_expert }
 			available = {
 				NOT = { has_completed_focus = SAF_split_in_the_party }
@@ -648,6 +646,7 @@ characters={
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_oswald_pirow
 			traits  = { war_industrialist }
 			available = {
 				OR = {
@@ -679,6 +678,7 @@ characters={
 				original_tag = SAF
 				
 			}
+			idea_token = SAF_ernest_oppenheimer
 			slot = political_advisor
 			traits  = { captain_of_industry }
 			ai_will_do = {
@@ -700,6 +700,7 @@ characters={
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_josiah_tshangana_gumede
 			traits  = { colonial_communist }
 			available = {
 				has_completed_focus = SAF_the_revolution	
@@ -719,6 +720,7 @@ characters={
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_thabo_edwin_mofutsanyana
 			traits  = { council_communist }
 			available = {
 				has_completed_focus = SAF_the_revolution
@@ -739,6 +741,7 @@ characters={
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_james_mitchell_baker
 			traits  = { quartermaster_general }
 			ai_will_do = {
 				factor = 1
@@ -759,6 +762,7 @@ characters={
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_pixley_ka_isaka_seme
 			traits  = { popular_figurehead }
 			
 			available = {
@@ -779,6 +783,7 @@ characters={
 				
 			}
 			slot = political_advisor
+			idea_token = SAF_zacharias_richard_mahabane
 			traits  = { political_dancer }
 			
 			available = {
@@ -814,6 +819,7 @@ characters={
 				
 			}
 			slot = army_chief
+			idea_token = SAF_andries_brink1
 			traits  = { army_chief_morale_3 }
 			
 			ai_will_do = {
@@ -826,6 +832,7 @@ characters={
 				
 			}
 			slot = theorist
+			idea_token = SAF_andries_brink2
 			ledger = army
 			traits  = { military_theorist }
 			
@@ -850,6 +857,7 @@ characters={
 				
 			}
 			slot = army_chief
+			idea_token = SAF_pierre_van_ryneveld_21
 			traits  = { army_chief_organizational_1 }
 			ai_will_do = {
 				factor = 1
@@ -861,6 +869,7 @@ characters={
 				
 			}
 			slot = air_chief
+			idea_token = SAF_pierre_van_ryneveld_22
 			traits  = { air_chief_reform_2 }
 			
 			ai_will_do = {
@@ -881,6 +890,7 @@ characters={
 				
 			}
 			slot = air_chief
+			idea_token = SAF_hector_daniel
 			traits  = { air_chief_night_operations_2 }
 			
 			ai_will_do = {
@@ -901,6 +911,7 @@ characters={
 				
 			}
 			slot = air_chief
+			idea_token = SAF_john_holthouse
 			traits  = { air_chief_safety_2 }
 			
 			ai_will_do = {
@@ -921,6 +932,7 @@ characters={
 				
 			}
 			slot = air_chief
+			idea_token = SAF_christoffel_venter
 			traits  = { air_chief_ground_support_2 }
 			
 			ai_will_do = {
@@ -934,6 +946,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_europe_3"
+				large="gfx/leaders/SAF/Portrait_Europe_Generic_navy_new_2.tga"
 			}
 		}
 		advisor={
@@ -942,6 +955,7 @@ characters={
 				
 			}
 			slot = navy_chief
+			idea_token = SAF_frederick_dean
 			traits  = { navy_chief_commerce_raiding_1 }
 			
 			ai_will_do = {
@@ -955,18 +969,34 @@ characters={
 			army={
 				small="GFX_idea_generic_army_europe_5"
 			}
+			army={
+				large="gfx/leaders/SAF/Portrait_SAF_Isaac_de_Villiers.tga"
+			}
 		}
 		advisor={
 			allowed = {
 				original_tag = SAF
 				
 			}
+			
 			slot = high_command
+			idea_token = SAF_pierre_de_villiers
+			ledger = army
 			traits  = { army_infantry_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}	
+		}
+
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=1007
 		}
 	}
 	#SAF_robert_palmer = {
@@ -1000,6 +1030,7 @@ characters={
 				
 			}
 			slot = high_command
+			idea_token = SAF_c_de_weenburg_du_toit
 			ledger = army
 			traits  = { army_artillery_2 }
 			
@@ -1021,6 +1052,7 @@ characters={
 				
 			}
 			slot = high_command
+			idea_token = SAF_alexander_orenstein
 			ledger = army
 			traits  = { army_logistics_3 }
 			
@@ -1035,6 +1067,9 @@ characters={
 			army={
 				small="GFX_idea_generic_army_europe_3"
 			}
+			army={
+				large="gfx/leaders/SAF/Portrait_SAF_Evered_Poole.tga"
+			}
 		}
 		advisor={
 			allowed = {
@@ -1042,12 +1077,24 @@ characters={
 				
 			}
 			slot = high_command
+			idea_token = SAF_william_poole
 			ledger = army
 			traits  = { army_armored_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}	
+		}
+		
+
+		corps_commander={
+			skill=2
+			traits={ armor_officer }
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
 		}
 	}
 	SAF_adolf_malan={
@@ -1063,6 +1110,7 @@ characters={
 				
 			}
 			slot = high_command
+			idea_token = SAF_adolf_malan
 			ledger = air
 			traits  = { air_air_combat_training_3 }
 			
@@ -1084,6 +1132,7 @@ characters={
 				
 			}
 			slot = high_command
+			idea_token = SAF_jimmy_durrant
 			ledger = air
 			traits  = { air_tactical_bombing_2 }
 			
@@ -1105,6 +1154,7 @@ characters={
 				
 			}
 			slot = high_command
+			idea_token = SAF_harold_wilmott
 			ledger = air
 			traits  = { air_naval_strike_2 }
 			
@@ -1125,7 +1175,9 @@ characters={
 				original_tag = SAF
 				
 			}
+			
 			slot = high_command
+			idea_token = SAF_pieter_de_waal
 			ledger = navy
 			traits  = { navy_amphibious_assault_2 }
 			
@@ -1147,8 +1199,9 @@ characters={
 				
 			}
 			slot = theorist
+			idea_token = SAF_kenneth_van_der_spuy
 			ledger = air
-			traits  = { navy_amphibious_assault_2 }
+			traits  = { air_chief_ground_support_2 }
 			
 			ai_will_do = {
 				factor = 1

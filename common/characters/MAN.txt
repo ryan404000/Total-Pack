@@ -37,14 +37,54 @@ characters={
 			id=-1
 		}
 	}
+	MAN_zhao_shangzhi={
+		name=MAN_zhao_shangzhi
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ national_integralist }
+			expire="1956.1.1.12"
+			id=-1
+		}
+	}
+	MAN_changlin_linge={
+		name=MAN_changlin_linge
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=anti_revisionism
+			traits={ silent_workhorse }
+			expire="1941.1.1.12"
+			id=-1
+		}
+	}
 	MAN_zhang_haipeng={
 		name="Zhang Haipeng"
 		portraits={
 			army={
-				small="GFX_portrait_man_zhang_haipeng_small"
+				small="gfx/interface/ideas/idea_zhang_haipeng.dds"
 			}
 			army={
 				large="GFX_portrait_man_zhang_haipeng"
+			}
+		}
+		advisor={	
+			slot = army_chief
+			idea_token = zhang_haipeng
+			allowed = {
+				original_tag = MAN
+			}
+			traits = { army_chief_maneuver_1 }
+			
+			ai_will_do = {
+				factor = 1.000
 			}
 		}
 		corps_commander={
@@ -60,7 +100,7 @@ characters={
 		name="Aisin Gioro Xiqia"
 		portraits={
 			army={
-				small="GFX_portrait_man_aisin_gioro_xiqia_small"
+				small="gfx/interface/ideas/idea_aisin_gorio_xiqia.dds"
 			}
 			army={
 				large="GFX_portrait_man_aisin_gioro_xiqia"
@@ -76,11 +116,11 @@ characters={
 			legacy_id=-1
 		}
 	}
-	MAN_yoshiko_kawashima={
+	MAN_yoshiko_kawashima={ ## todo: unlock by focus
 		name="Yoshiko Kawashima"
 		portraits={
 			army={
-				small="GFX_portrait_man_yoshiko_kawashima_small"
+				small="gfx/interface/ideas/idea_yoshiko_kawashima.dds"
 			}
 			army={
 				large="GFX_portrait_man_yoshiko_kawashima"
@@ -100,7 +140,7 @@ characters={
 		name="Yu Zhishan"
 		portraits={
 			army={
-				small=""
+				small="gfx/interface/ideas/idea_yu_zhishan.dds"
 			}
 			army={
 				large="gfx/leaders/MAN/Portrait_Manchukuo_Yu_Zhishan.dds"
@@ -114,6 +154,20 @@ characters={
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
+		}
+		advisor={	
+			slot = army_chief
+			idea_token = yu_zhishan
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_chief_morale_1
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 	MAN_ji_xing={
@@ -222,6 +276,454 @@ characters={
 			traits={ retired_officer }
 			expire="1952.1.1.12"
 			id=-1
+		}
+	}
+	
+	### THEORISTS ###
+
+	# Claire Lee Chennault is in shared file
+
+	MAN_hung_zhehuang={
+		name=MAN_hung_zhehuang
+		portraits={
+			army={
+				small="GFX_idea_generic_army_asia_1"
+			}
+		}
+		advisor={
+			
+			slot = theorist
+			idea_token = MAN_hung_zhehuang
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}
+	}
+	
+	MCK_itagaki_seishiro={
+		name=MCK_itagaki_seishiro
+		portraits={
+			army={
+				small="GFX_idea_generic_army_asia_2"
+			}
+		}
+		advisor={
+			
+			slot = theorist
+			idea_token = MCK_itagaki_seishiro
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				has_completed_focus = MCK_kantogun_advisor
+				NOT = {
+					has_country_flag = MCK_assassinated
+				}
+				is_puppet_of = JAP
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.1
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}
+	}
+
+	MAN_xian_yuan={
+		name=MAN_xian_yuan
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_asia_1"
+			}
+		}
+		advisor={
+				
+			slot = theorist
+			idea_token = MAN_xian_yuan
+			ledger = navy
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+
+	MAN_deng_linge={
+		name=MAN_deng_linge
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_2"
+			}
+		}
+		advisor={
+			
+			slot = theorist
+			idea_token = MAN_deng_linge
+			ledger = air
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+
+
+	### ARMY CHIEFS ###
+	
+	MAN_yukio_kasahara={
+		name=MCK_yukio_kasahara
+		portraits={
+			army={
+				small="GFX_idea_generic_army_asia_3"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MCK_yukio_kasahara
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				NOT = {
+					has_country_flag = MCK_assassinated
+				}
+				is_puppet_of = JAP
+			}
+			traits = { army_chief_reform_3 }
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	MAN_guan_xingde={
+		name=MAN_guan_xingde
+		portraits={
+			army={
+				small="GFX_idea_generic_army_asia_4"
+			}
+		}
+		advisor={	
+			slot = army_chief
+			idea_token = MAN_guan_xingde
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	### NAVY CHIEFS ###
+
+	MAN_yin_zuoqian={
+		name="Yin Zuoqian"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_asia_3"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = MAN_yin_zuoqian
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				navy_chief_decisive_battle_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MAN_seiichi_ito={
+		name=seiichi_ito
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_seiichi_ito.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = seiichi_ito
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				navy_chief_reform_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+
+	### AIR CHIEFS ###
+
+	# Claire Lee Chennault is in shared file
+
+	MAN_nakajima_kesago={
+		name=MAN_nakajima_kesago
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_3"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = MAN_nakajima_kesago
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				has_completed_focus = MCK_manchukuo_imperial_air_force
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	MAN_yujiro_noguchi={
+		name=yujiro_noguchi
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_5"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = yujiro_noguchi
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				has_completed_focus = MCK_manchukuo_imperial_air_force
+			}
+			traits = {
+				air_chief_night_operations_1
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+
+	### MILITARY HIGH COMMAND ###
+
+	MAN_yonimitsu_kasahara={
+		name=MAN_yonimitsu_kasahara
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_masahiko_amakasu.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = MAN_yonimitsu_kasahara
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_regrouping_2
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	MAN_kyoiji_tomonaga={
+		name=MAN_kyoiji_tomonaga
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_asia_generic_land_3.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = MAN_kyoiji_tomonaga
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_cavalry_2
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	MAN_hesehn_tiemei={
+		name=MAN_hesehn_tiemei
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_asia_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = MAN_hesehn_tiemei
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_logistics_2
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	MAN_rensuke_isogai={
+		name=rensuke_isogai
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_asia_generic_land_2.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = rensuke_isogai
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = { army_entrenchment_1 }
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	MAN_6={
+		advisor={
+			slot = high_command
+			idea_token = MAN_6
+			allowed  = {
+					original_tag  = MAN
+				}
+				available  = {
+					has_completed_focus  = MCK_kantogun_advisor
+				}
+				ledger  = army 
+				traits  = {
+					mountain_specialist_2 
+				}
+				ai_will_do  = {
+					factor  = 0
+				}
+		}
+		name="Fujino Hotaru"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_asia_generic_land_4.dds"
+			}
+		}
+	}
+	
+	MAN_heitaro_kimura={
+		name=MCK_heitaro_kimura
+		portraits={
+			army={
+				small="gfx/interface/ideas/ministers/idea_mineichi_koga.tga"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = MCK_heitaro_kimura
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	MAN_masahiko_amakasu={
+		name=masahiko_amakasu
+		portraits={
+			civilian={
+				small="masahiko_amakasu.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = masahiko_amakasu
+			ledger = civilian
+			allowed = {
+				original_tag = MAN
+			}
+			ai_will_do = {
+				factor = 50000
+			}	
+
+			traits = { silent_workhorse }
+		}
+	}
+	
+	MAN_zang_shiyi={
+		name=MCK_zang_shiyi
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/idea_zhang_yanqing.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MCK_zang_shiyi
+			ledger = civilian
+			allowed = {
+				original_tag = MAN
+			}
+			ai_will_do = {
+				factor = 1
+			}	
+
+			traits = { popular_figurehead }
 		}
 	}
 }

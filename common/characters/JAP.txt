@@ -235,7 +235,7 @@ characters={
 					original_tag  = JAP
 				}
 				available  = {
-					has_completed_focus  = JAP_war_minister 
+					has_completed_focus  = JAP_chief_general
 				}
 				ledger  = army 
 				traits  = {
@@ -407,6 +407,7 @@ characters={
 			}
 		}
 		corps_commander={
+		    traits={naval_invader}
 			skill=3
 			attack_skill=2
 			defense_skill=2
@@ -745,8 +746,8 @@ characters={
 			skill=5
 			attack_skill=5
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=6
 			legacy_id=-1
 		}
 	}
@@ -765,8 +766,8 @@ characters={
 			skill=4
 			attack_skill=4
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=4
+			coordination_skill=3
 			legacy_id=-1
 		}
 	}
@@ -786,7 +787,7 @@ characters={
 			attack_skill=2
 			defense_skill=2
 			maneuvering_skill=1
-			coordination_skill=1
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -806,7 +807,7 @@ characters={
 			attack_skill=2
 			defense_skill=1
 			maneuvering_skill=1
-			coordination_skill=1
+			coordination_skill=3
 			legacy_id=-1
 		}
 	}
@@ -825,8 +826,8 @@ characters={
 			skill=3
 			attack_skill=4
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -845,8 +846,8 @@ characters={
 			skill=3
 			attack_skill=3
 			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=3
 			legacy_id=-1
 		}
 	}
@@ -885,8 +886,8 @@ characters={
 			skill=3
 			attack_skill=5
 			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -905,8 +906,8 @@ characters={
 			skill=5
 			attack_skill=5
 			defense_skill=3
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=4
 			legacy_id=-1
 		}
 	}
@@ -926,7 +927,7 @@ characters={
 			attack_skill=2
 			defense_skill=2
 			maneuvering_skill=1
-			coordination_skill=1
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -945,7 +946,7 @@ characters={
 			skill=2
 			attack_skill=3
 			defense_skill=1
-			maneuvering_skill=1
+			maneuvering_skill=2
 			coordination_skill=1
 			legacy_id=-1
 		}
@@ -985,8 +986,8 @@ characters={
 			skill=2
 			attack_skill=1
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -1249,7 +1250,7 @@ characters={
 	JAP_1={
 		advisor={
 			slot = theorist
-			idea_token = JAP_1
+			idea_token = kajiwara_toshiyuki
 			allowed  = {
 					original_tag  = JAP
 				}
@@ -1261,7 +1262,7 @@ characters={
 					siege_expert 
 				}
 		}
-		name="JAP_1"
+		name="Kajiwara Toshiyuki"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_2"
@@ -1276,7 +1277,7 @@ characters={
 					original_tag  = JAP
 				}
 				available  = {
-					has_completed_focus  = JAP_chief_general 
+					has_completed_focus  = JAP_inspector_general
 				}
 				traits  = {
 					army_chief_offensive_2 
@@ -1334,7 +1335,7 @@ characters={
 		name="PM_hideki_tojo"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_asia_2"
+				small="GFX_idea_hideki_tojo"
 			}
 		}
 	}
@@ -1401,6 +1402,9 @@ characters={
 			idea_token = ichizo_kobayashi
 			allowed  = {
 					original_tag  = JAP
+				}
+				available = {
+				      has_completed_focus = JAP_war_minister
 				}
 				traits  = {
 					war_industrialist 

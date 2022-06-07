@@ -372,7 +372,7 @@ arrowType = {
 	body_uv_scale = 0.4								#matters if texture is not taking the entire space (gfx) vertically
 	mask_inner = { 0.0 1.0 0.0 } 					#green, no need to edit, use colour from gfx, numbers are in rgb % value
 	mask_outer = { 1.0 0.0 0.0 }					#red, no need to edit, use colour from gfx, numbers are in rgb % value
-	body_width = { 20.5 6 }							#line-size: first value start, second value end
+	body_width = { 8 6 }							#line-size: first value start, second value end #SVA
 	width_scale_max = 44.0							#unused
 	width_scale = 1.0								#unused
 	head_length = 19.5								#arrowhead lenght
@@ -411,9 +411,9 @@ arrowType = {
 	mask_inner = { 0.0 1.0 0.0 }
 	mask_outer = { 1.0 0.0 0.0 }
 	body_width = { 1.1 1.1 }
-	width_scale_max = 60.0
-	width_scale = 1.0
-	texture_loop = 2
+	width_scale_max = 44.0 #SVA
+	width_scale = 1.0	
+	texture_loop = 2 
 	text_size = 1
 	text_offset = 0
 	global_scale_min_size = 0.2
@@ -492,16 +492,16 @@ arrowType = {
 	body_uv_scale = 1
 	mask_inner = { 0.0 1.0 0.0 }
 	mask_outer = { 1.0 0.0 0.0 }
-	body_width = { 18.5 13.2 }
-	width_scale_max = 52.0
-	width_scale = 15.0
-	head_length = 30
+	body_width = { 20.0 10.0 } #SVA
+	width_scale_max = 44.0	 #SVA					
+	width_scale = 1.0	 #SVA							
+	head_length = 19.5 #SVA
 	fade_in = 0.2
 	fade_out = 0
 	text_size = 1
 	text_offset = 5
-	global_scale_min_size = 0.2
-	global_scale_max_points = 50 # Arrow will reach it's normal size after X points
+	global_scale_min_size = 0.1 #SVA
+	global_scale_max_points = 40 # Arrow will reach it's normal size after X points #SVA
 	texture_anim_speed = 0.17
 }
 
@@ -700,10 +700,10 @@ arrowType = {
 	name = "root"
 	technique = "MapArrowNoHead"
 	texture_masks = {
-		"gfx/maparrows/stripe_mask.dds"
+		"gfx/maparrows/x.dds"
 	}
 	texture_patterns = {
-		"gfx/maparrows/stripe_pattern.dds"
+		"gfx/maparrows/x.dds"
 	}
 	body_uv_scale = 1
 	mask_inner = { 0.0 1.0 0.0 }
@@ -1039,9 +1039,9 @@ arrowType = {
 	mask_inner = { 0.0 1.0 0.0 }
 	mask_outer = { 1.0 0.0 0.0 }
 	body_width = { 1.1 1.0 }
-	width_scale_max = 60.0
-	width_scale = 0.5
-	texture_loop = 2
+	width_scale_max = 30.0 #SVA
+	width_scale = 0.5	
+	texture_loop = 2 
 	text_size = 1
 	text_offset = 0
 	global_scale_min_size = 0.2
@@ -1071,20 +1071,20 @@ arrowType = {
 		"gfx/maparrows/ag_default_pattern.dds"
 		"gfx/maparrows/ag_default_pattern.dds"
 	}
-	body_uv_scale = 1
-	mask_inner = { 0.0 1.0 0.0 }
-	mask_outer = { 1.0 0.0 0.0 }
-	body_width = { 12.5 3.2 }
-	width_scale_max = 62.0
-	width_scale = 55.0
-	head_length = 10
-	fade_in = 0.2
-	fade_out = 0
-	text_size = 1
-	text_offset = 5
-	global_scale_min_size = 0.5
-	global_scale_max_points = 50 # Arrow will reach it's normal size after X points
-	texture_anim_speed = 0.17
+	body_uv_scale = 0.4								#matters if texture is not taking the entire space (gfx) vertically	 #SVA
+	mask_inner = { 0.0 1.0 0.0 } 					#green, no need to edit, use colour from gfx, numbers are in rgb % value #SVA
+	mask_outer = { 1.0 0.0 0.0 }					#red, no need to edit, use colour from gfx, numbers are in rgb % value #SVA
+	body_width = { 8 6 }							#line-size: first value start, second value end #SVA
+	width_scale_max = 44.0							#unused #SVA
+	width_scale = 1.0								#unused #SVA
+	head_length = 19.5								#arrowhead lenght #SVA
+	fade_in = 0.2									#fade in from root, in % #SVA
+	fade_out = 0									#fade out from end, in % #SVA
+	text_size = 1									#Text size, in abstract units #SVA
+	text_offset = 5									#Offset of text from head, in abstract units #SVA
+	global_scale_min_size = 0.1						#no need to edit, multiplyer of body_width depending on how long the arrow is #SVA
+	global_scale_max_points = 40 					#Arrow will reach it's normal size after X control points (the arrow is long enough) #SVA
+	texture_anim_speed = 0.1 #SVA
 }
 
 arrowType = {

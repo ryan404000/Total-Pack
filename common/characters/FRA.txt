@@ -7,7 +7,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POLITICS_ÉDOUARD_DALADIER_DESC"
 			ideology=socialism
 			traits={ stout_defender }
 			expire="1965.1.1.1"
@@ -22,7 +21,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POLITICS_ÉDOUARD_DALADIER_DESC"
 			ideology=liberalism
 			traits={ stout_defender }
 			expire="1965.1.1.1"
@@ -44,7 +42,7 @@ characters={
 					}
 					not  = {
 						has_country_leader  = {
-							name = FRA_philippe_petain
+							character  = FRA_philippe_petain
 							ruling_only  = yes 
 						}
 					}
@@ -93,12 +91,6 @@ characters={
 			civilian={
 				large="gfx/leaders/FRA/Portrait_France_Philippe_Petain.dds"
 			}
-		}
-		country_leader={
-			desc="POLITICS_PHILIPPE_PÉTAIN_DESC"
-			ideology=fascism_ideology
-			expire="1965.1.1.1"
-			id=-1
 		}
 	}
 	FRA_jean_de_lattre_de_tassigny={
@@ -472,14 +464,6 @@ characters={
 			}
 		}
 	}
-	FRA_Jean_Decoux={
-		name="Jean Decoux"
-		portraits={
-			navy={
-				large="gfx/leaders/FRA/Portrait_France_Generic_navy_2.dds"
-			}
-		}
-	}
 	
 	FRA_gastonhenri_billotte={
 		name="Gaston-Henri Billotte"
@@ -556,8 +540,8 @@ characters={
 			skill=3
 			attack_skill=2
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=3
 			legacy_id=102
 		}
 	}
@@ -576,8 +560,8 @@ characters={
 			skill=3
 			attack_skill=2
 			defense_skill=3
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
 			legacy_id=109
 		}
 	}
@@ -596,8 +580,8 @@ characters={
 			skill=2
 			attack_skill=1
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -616,8 +600,8 @@ characters={
 			skill=2
 			attack_skill=2
 			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -653,25 +637,25 @@ characters={
 			traits={ aviation_enthusiast naval_lineage }
 			skill=1
 			attack_skill=1
-			defense_skill=1
+			defense_skill=2
 			maneuvering_skill=1
 			coordination_skill=1
 			legacy_id=110
 		}
 	}
-	FRA_jules_courbet={
-		name="Jules Courbet"
-		portraits={
-			civilian={
-				large="GFX_portrait_europe_generic_6"
-			}
-		}
-		country_leader={
-			ideology=oligarchism
-			expire="1953.1.1.12"
-			id=-1
-		}
-	}
+	# FRA_jules_courbet={
+		# name="Jules Courbet"
+		# portraits={
+			# civilian={
+				# large="GFX_portrait_europe_generic_6"
+			# }
+		# }
+		# country_leader={
+			# ideology=oligarchism
+			# expire="1953.1.1.12"
+			# id=-1
+		# }
+	# }
 	FRA_paul_reynaud={
 		advisor={
 			slot = political_advisor
@@ -693,7 +677,10 @@ characters={
 		name="FRA_paul_reynaud"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_3"
+				small="GFX_idea_FRA_paul_reynaud"
+			}
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Paul_Reynaud.dds"
 			}
 		}
 	}
@@ -777,9 +764,21 @@ characters={
 		}
 		name="charles_maurras"
 		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Charles_Maurras.dds"
+			}
 			army={
 				small="GFX_idea_generic_political_advisor_europe_3"
 			}
+		}
+		country_leader={
+			ideology=oligarchism
+			traits={
+				national_integralist
+				staunch_monarchist
+			}
+			expire="1965.1.1.1"
+			id=-1
 		}
 	}
 	FRA_philippe_fequant={
@@ -902,8 +901,9 @@ characters={
 		}
 		name="jean_decoux"
 		portraits={
-			army={
-				small="GFX_idea_jean_decoux"
+			navy={
+			    small="GFX_idea_jean_decoux"
+				large="gfx/leaders/FRA/Portrait_France_Generic_navy_2.dds"
 			}
 		}
 	}
@@ -1012,6 +1012,9 @@ characters={
 			army={
 				small="GFX_idea_leon_blum"
 			}
+			civilian = {
+				large="gfx/leaders/FRA/portrait_fra_leon_blum.dds"
+			}
 		}
 	}
 	FRA_marcel_gensoul={
@@ -1056,7 +1059,7 @@ characters={
 		name="FRA_felix_gouin"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_3"
+				small="GFX_idea_FRA_felix_gouin"
 			}
 		}
 	}
@@ -1261,7 +1264,7 @@ characters={
 	FRA_2={
 		advisor={
 			slot = theorist
-			idea_token = FRA_2
+			idea_token = Regis_Dupont
 			allowed  = {
 					original_tag  = FRA
 				}
@@ -1270,7 +1273,7 @@ characters={
 					victory_through_airpower 
 				}
 		}
-		name="FRA_2"
+		name="Régis Dupont"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_europe_3"
@@ -1407,7 +1410,7 @@ characters={
 		name="FRA_charles_tillon"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_3"
+				small="GFX_idea_FRA_charles_tillon"
 			}
 		}
 	}
@@ -1576,6 +1579,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_emile_muselier"
+				large="gfx/leaders/FRA/Portrait_France_Emile_Muselier.dds"
 			}
 		}
 	}

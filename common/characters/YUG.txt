@@ -33,6 +33,9 @@ characters={
 		country_leader={
 			desc="POLITICS_JOSIP_BROZ_TITO_DESC"
 			ideology=leninism
+			traits={
+				resistance_artist
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -75,6 +78,26 @@ characters={
 		country_leader={
 			desc="POLITICS_MILAN_GROL_DESC"
 			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	YUG_peter_ii={
+		name=YUG_peter_ii
+		portraits={
+			civilian={
+				large="GFX_portrait_yugoslavia_peter_ii_young"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ underage_monarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ underage_monarch }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -272,7 +295,7 @@ characters={
 			attack_skill=2
 			defense_skill=2
 			maneuvering_skill=1
-			coordination_skill=1
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -292,7 +315,7 @@ characters={
 			attack_skill=1
 			defense_skill=1
 			maneuvering_skill=1
-			coordination_skill=1
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -311,7 +334,7 @@ characters={
 			skill=1
 			attack_skill=2
 			defense_skill=1
-			maneuvering_skill=1
+			maneuvering_skill=2
 			coordination_skill=1
 			legacy_id=-1
 		}

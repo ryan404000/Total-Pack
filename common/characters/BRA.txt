@@ -40,7 +40,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	BRA_getúlio_vargas={
+	BRA_getulio_vargas={
 		name="Getúlio Vargas"
 		portraits={
 			civilian={
@@ -55,7 +55,7 @@ characters={
 			id=-1
 		}
 	}
-	BRA_plínio_salgado={
+	BRA_plinio_salgado={
 		name="Plínio Salgado"
 		portraits={
 			civilian={
@@ -70,7 +70,7 @@ characters={
 			id=-1
 		}
 	}
-	BRA_luís_carlos_prestes={
+	BRA_luis_carlos_prestes={
 		name="Luís Carlos Prestes"
 		portraits={
 			civilian={
@@ -105,7 +105,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/BRA/Portrait_Brazil_isidoro.dds"
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 			}
 		}
 		field_marshal={
@@ -145,7 +145,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/BRA/Portrait_Brazil_adalberto.dds"
+				large="gfx/leaders/BRA/Portrait_Brazil_Carlos_Prestes.dds"
 			}
 		}
 		corps_commander={
@@ -165,7 +165,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/BRA/Portrait_Brazil_canrobert.dds"
+				large="gfx/leaders/BRA/Portrait_Brazil_Generic_1.dds"
 			}
 		}
 		corps_commander={
@@ -178,14 +178,14 @@ characters={
 			legacy_id=-1
 		}
 	}
-	BRA_francisco_josé_da_silva_júnior={
+	BRA_francisco_jose_da_silva_junior={
 		name="Francisco José da Silva Júnior"
 		portraits={
 			army={
 				small=""
 			}
 			army={
-				large="gfx/leaders/BRA/Portrait_Brazil_francisco.dds"
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 			}
 		}
 		corps_commander={
@@ -198,14 +198,14 @@ characters={
 			legacy_id=-1
 		}
 	}
-	BRA_euclides_zenóbio_da_costa={
+	BRA_euclides_zenobio_da_costa={
 		name="Euclides Zenóbio da Costa"
 		portraits={
 			army={
 				small=""
 			}
 			army={
-				large="gfx/leaders/BRA/Portrait_Brazil_zenobio.dds"
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 			}
 		}
 		corps_commander={
@@ -218,14 +218,14 @@ characters={
 			legacy_id=-1
 		}
 	}
-	BRA_pedro_aurélio_de_góis_monteiro={
+	BRA_pedro_aurelio_de_gois={
 		name="Pedro Aurélio de Góis Monteiro"
 		portraits={
 			army={
 				small=""
 			}
 			army={
-				large="gfx/leaders/BRA/Portrait_Brazil_gois.dds"
+				large="gfx/leaders/Europe/portrait_europe_generic_land_18.dds"
 			}
 		}
 		corps_commander={
@@ -245,7 +245,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/BRA/Portrait_Brazil_miguel.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_More_Generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -274,7 +274,7 @@ characters={
 			attack_skill=1
 			defense_skill=2
 			maneuvering_skill=1
-			coordination_skill=1
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}

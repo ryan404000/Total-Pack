@@ -159,7 +159,7 @@ characters={
 		name="Claude Auchinleck"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_ENG_claude_auchinleck.dds"
+				small="gfx/interface/ideas/idea_claude_auchinleck.dds"
 			}
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Claude_Auchinleck.dds"
@@ -346,7 +346,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = harold_alexander
 			ledger = army
@@ -695,6 +695,26 @@ characters={
 			legacy_id=-1
 		}
 	}
+	ENG_edmond_schreiber={
+		name="Edmond Schreiber"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Edmond_Schreiber.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 	ENG_herbert_lumsden={
 		name="Herbert Lumsden"
 		portraits={
@@ -749,8 +769,8 @@ characters={
 			skill=5
 			attack_skill=4
 			defense_skill=3
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=4
+			coordination_skill=5
 			legacy_id=983
 		}
 	}
@@ -786,8 +806,8 @@ characters={
 			skill=3
 			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
 			legacy_id=984
 		}
 	}
@@ -819,8 +839,8 @@ characters={
 			skill=5
 			attack_skill=5
 			defense_skill=4
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=3
 			legacy_id=985
 		}
 	}
@@ -839,8 +859,8 @@ characters={
 			skill=4
 			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=4
+			coordination_skill=4
 			legacy_id=986
 		}
 	}
@@ -859,8 +879,8 @@ characters={
 			skill=4
 			attack_skill=3
 			defense_skill=3
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=5
 			legacy_id=987
 		}
 	}
@@ -883,7 +903,7 @@ characters={
 			traits = {
 				navy_chief_decisive_battle_1
 			}
-			cost =  100
+			cost =  150
 			ai_will_do = {
 				factor = 0
 			}
@@ -893,8 +913,8 @@ characters={
 			skill=3
 			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
 			legacy_id=-1
 		}
 	}
@@ -913,8 +933,8 @@ characters={
 			skill=3
 			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
 			legacy_id=988
 		}
 	}
@@ -947,8 +967,8 @@ characters={
 			skill=3
 			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=3
 			legacy_id=-1
 		}
 	}
@@ -956,9 +976,7 @@ characters={
 		name="Percy Noble"
 		portraits={
 			army={
-				small=""
-			}
-			army={
+				small="gfx/interface/ideas/ENG_percy_noble.tga"
 				large="gfx/leaders/ENG/Portrait_Britain_Noble.dds"
 			}
 		}
@@ -986,7 +1004,7 @@ characters={
 			traits={ fleet_protector }
 			skill=1
 			attack_skill=1
-			defense_skill=1
+			defense_skill=2
 			maneuvering_skill=1
 			coordination_skill=1
 			legacy_id=-1
@@ -1007,8 +1025,8 @@ characters={
 			skill=4
 			attack_skill=2
 			defense_skill=4
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=4
+			coordination_skill=3
 			legacy_id=989
 		}
 	}
@@ -1027,8 +1045,8 @@ characters={
 			skill=3
 			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=2
+			coordination_skill=3
 			legacy_id=990
 		}
 	}
@@ -1047,8 +1065,8 @@ characters={
 			skill=3
 			attack_skill=3
 			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
 			legacy_id=991
 		}
 	}
@@ -1068,7 +1086,7 @@ characters={
 			attack_skill=3
 			defense_skill=1
 			maneuvering_skill=1
-			coordination_skill=1
+			coordination_skill=2
 			legacy_id=992
 		}
 	}
@@ -1273,10 +1291,13 @@ characters={
 	}
 
 	ENG_louis_mountbatten={ #This guy is duplicated in RAJ
-		name=ENG_louis_mountbatten
+		name="Louis Mountbatten"
 		portraits={
 			army={
 				small="GFX_idea_louis_mountbatten"
+			}
+			army={
+				large="gfx/leaders/ENG/louis_mountbatten.dds"
 			}
 		}
 		advisor={
@@ -1295,6 +1316,30 @@ characters={
 					NOT = { has_completed_focus = ENG_war_cabinet }
 				}
 			}
+		}
+		navy_leader={
+			traits={ naval_liason }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=4
+			coordination_skill=2
+		}
+	}
+	ENG_arthur_palliser={ 
+		name="Arthur Palliser"
+		portraits={
+			army={
+				large="gfx/leaders/ENG/arthur_palliser.dds"
+			}
+		}
+		navy_leader={
+			traits={ gunnery_expert }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
 		}
 	}
 
@@ -1318,7 +1363,7 @@ characters={
 			traits = {
 				army_commando_3
 			}
-			cost = 200
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1339,7 +1384,7 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
-			cost = 75
+			cost = 150
 			traits = { army_artillery_1 }
 			
 			ai_will_do = {
@@ -1358,6 +1403,10 @@ characters={
 		advisor={
 			slot = theorist
 			idea_token = calvin_green
+			
+			allowed = {
+				original_tag = ENG
+			}
 			available = {
 			has_completed_focus = ENG_doc_base_strike
 			}
@@ -1378,6 +1427,9 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_tom_phillips"
+			}
+			army={
+				large="gfx//leaders//ENG//Portrait_Britain_Tom_Phillips.dds"
 			}
 		}
 		advisor={
