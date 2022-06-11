@@ -2,10 +2,8 @@
 # for each country, generate one instance of the characters
 every_possible_country = {
 	limit = {
-		OR = {
 			is_literally_china = yes
-			tag = MAN
-		}
+			NOT = { original_tag = MAN }
 		has_dlc = "Waking the Tiger"
 	}
 	
@@ -19,26 +17,39 @@ every_possible_country = {
 			}
 		}
 		advisor = {
-			slot = army_chief
-			available = {
-				has_completed_focus = CHI_give_falkenhausen_citizenship
-				NOT = { has_global_flag = falkenhausen_recalled }
+			slot = theorist
+			available = { 
+				OR = {
+					has_idea = german_advisors
+					is_in_faction_with = GER
+					hidden_trigger = { NOT = { has_country_flag = falkenhausen2 } } 
+				}
 			}
-			traits = { army_chief_offensive_2 }
-			ai_will_do = {
-				factor = 2
+			allowed  = {
+				OR = {
+					original_tag = CHI
+					is_chinese_warlord = yes 
+				}
+				has_dlc = "La Resistance"
+				
 			}
-			cost = 50
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			  ledger = army
+
+			traits = { german_training }
+			cost = 150
 		}
-		corps_commander = {
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-			traits = { infantry_officer }
-			visible = { has_completed_focus = CHI_give_falkenhausen_citizenship }
-		}
+		#corps_commander = {
+		#	skill = 3
+		#	attack_skill = 2
+		#	defense_skill = 2
+		#	planning_skill = 3
+		#	logistics_skill = 3
+		#	traits = { infantry_officer }
+		#	visible = { has_completed_focus = CHI_give_falkenhausen_citizenship }
+		#}
 	}
 	
 	generate_character = {
@@ -49,7 +60,7 @@ every_possible_country = {
 		}
 		advisor = {
 			slot = air_chief
-			cost = 25
+			cost = 75
 			available = {
 				has_completed_focus = CHI_hire_chennault
 				NOT = { 
@@ -65,13 +76,16 @@ every_possible_country = {
 		advisor = {
 			slot = theorist
 			ledger = air
-			cost = 25
+			cost = 75
 			available = {
 				has_completed_focus = CHI_hire_chennault
 				NOT = { 
 					has_idea = CHI_claire_lee_chennault_air_chief
 				}
 				NOT = { has_war_with = USA }
+			}
+			research_bonus = {
+				air_doctrine = 0.1
 			}
 			traits = { air_warfare_theorist }
 		}
@@ -86,11 +100,11 @@ every_possible_country = {
 		advisor={
 			slot = political_advisor
 			available  = {
-				has_completed_focus  = PRC_military_intelligence_department 
+				has_completed_focus  = PRC_suppress_counterrevolutionaries
 			}
 			allowed  = {
 				OR = {
-					original_tag  = PRC
+					original_tag  = CCP
 					is_chinese_warlord = yes 
 				}
 			}
@@ -149,7 +163,6 @@ every_possible_country = {
 					is_chinese_warlord = yes 
 				}
 				has_dlc = "La Resistance"
-				NOT = { original_tag = MAN }
 			}
 			traits  = {
 				head_of_intelligence 
@@ -173,11 +186,10 @@ every_possible_country = {
 			}
 			allowed  = {
 				OR = {
-					original_tag = PRC
+					original_tag = CCP
 					is_chinese_warlord = yes
 				}
 				has_dlc = "La Resistance"
-				NOT = { original_tag = MAN }
 			}
 			traits  = {
 				head_of_intelligence 
@@ -193,6 +205,7 @@ every_possible_country = {
 		}
 		advisor={
 			slot = political_advisor
+			idea_token = CHI_t_v_soong
 			available  = {
 				has_completed_focus  = CHI_financial_policy 
 			}
@@ -221,7 +234,7 @@ every_possible_country = {
 			}
 			allowed  = {
 				OR = {
-					original_tag  = PRC
+					original_tag  = CCP
 					is_chinese_warlord = yes 
 				}
 				has_dlc = "Waking the Tiger"

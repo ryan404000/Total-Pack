@@ -35,9 +35,15 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_onmap_unit_counter_overlay"
+		name = "GFX_onmap_unit_counter_overlay_air"
 		texturefile = "gfx/interface/onmap_unit_counter_overlay.dds"
 		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_onmap_unit_counter_overlay"
+		texturefile = "gfx/interface/onmap_unit_counter_overlay_tw.tga"
+		alwaystransparent = yes	
 	}
 
 	frameAnimatedSpriteType = {
@@ -51,18 +57,36 @@ spriteTypes = {
 		play_on_show = yes
 		pause_on_loop = 0.0
 	}	
+
+    spriteType = {
+		name = "GFX_onmap_unit_wide_counter"
+		noOfFrames = 3
+		texturefile = "gfx/interface/onmap_unit_crisp_counter.tga"
+	}
 	
 
 	spriteType = {
 		name = "GFX_onmap_unit_counter_half_selected"
-		texturefile = "gfx/interface/onmap_unit_counter_half_selected.dds"
+		texturefile = "gfx/interface/onmap_unit_counter_half_selected_tw.tga"
 		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_onmap_unit_counter_selected"
-		texturefile = "gfx/interface/onmap_unit_counter_selected.dds"
+		texturefile = "gfx/interface/onmap_unit_counter_selected_tw.tga"
 		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_onmap_air_counter_selected"
+		texturefile = "gfx/interface/onmap_air_counter_selected.dds"
+		alwaystransparent = yes
+	}
+
+    spriteType = {
+		name = "GFX_onmap_air_counter"
+		noOfFrames = 3
+		texturefile = "gfx/interface/onmap_air_counter.dds"
 	}
 	
 	spriteType = {
@@ -111,7 +135,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_onmap_mission_unit_counter_types"
-		texturefile = "gfx/interface/onmap_mission_unit_counter_types.dds"
+		texturefile = "gfx/interface/mapicons/onmap_mission_unit_counter_types_tw.tga"
 		noOfFrames = 10
 	}
 
@@ -122,52 +146,52 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ship_activity_engaged"
-		texturefile = "gfx/interface/naviesview/ship_activity_engaged.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_engaged_tw.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ship_activity_holding"
-		texturefile = "gfx/interface/naviesview/ship_activity_holding.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_holding_tw.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ship_activity_intercepting"
-		texturefile = "gfx/interface/naviesview/ship_activity_intercepting.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_intercepting_tw.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ship_activity_merging"
-		texturefile = "gfx/interface/naviesview/ship_activity_merging.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_merging_tw.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ship_activity_mission_convoy_escort"
-		texturefile = "gfx/interface/naviesview/ship_activity_mission_convoy_escort.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_mission_convoy_escorttw.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ship_activity_mission_convoy_raiding"
-		texturefile = "gfx/interface/naviesview/ship_activity_mission_convoy_raiding.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_mission_convoy_raidingtw.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ship_activity_mission_mine_laying"
-		texturefile = "gfx/interface/naviesview/ship_activity_mission_mine_laying.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_mission_mine_layingtw.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ship_activity_mission_mine_sweeping"
-		texturefile = "gfx/interface/naviesview/ship_activity_mission_mine_sweeping.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_mission_mine_sweepingtw.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ship_activity_mission_naval_invasion_support"
-		texturefile = "gfx/interface/naviesview/ship_activity_mission_naval_invasion_support.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_mission_naval_invasion_support_tw.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ship_activity_mission_patrol"
-		texturefile = "gfx/interface/naviesview/ship_activity_mission_patrol.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_mission_patroltw.tga"
 	}
 
 	spriteType = {
@@ -177,7 +201,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ship_activity_mission_strike_force"
-		texturefile = "gfx/interface/naviesview/ship_activity_mission_strike_force.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_mission_strike_force_tw.tga"
 	}
 
 	spriteType = {
@@ -192,7 +216,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ship_activity_moving"
-		texturefile = "gfx/interface/naviesview/ship_activity_moving.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_moving_tw.tga"
 	}
 
 	spriteType = {
@@ -202,7 +226,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ship_activity_moving_to_retrofit"
-		texturefile = "gfx/interface/naviesview/ship_activity_moving_to_retrofit.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_moving_to_retrofit_tw.tga"
 	}
 
 	spriteType = {
@@ -222,7 +246,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ship_activity_retrofitting"
-		texturefile = "gfx/interface/naviesview/ship_activity_retrofitting.dds"
+		texturefile = "gfx/interface/naviesview/ship_activity_retrofitting_tw.tga"
 	}
 
 	spriteType = {
@@ -327,6 +351,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/mapicons/mapicon_bar_str_sprite.dds"
 		dx_offset = { x=0.5 y=-0.5 }
 	}
+	spriteType = {
+		name = "GFX_mapicon_unit_bar_org_land"
+		texturefile = "gfx/interface/mapicons/mapicon_bar_org_land_sprite.dds"
+		dx_offset = { x=0.5 y=-0.5 }
+	}
+	spriteType = {
+		name = "GFX_mapicon_unit_bar_str_land"
+		texturefile = "gfx/interface/mapicons/mapicon_bar_str_land_sprite.dds"
+		dx_offset = { x=0.5 y=-0.5 }
+	}
+	spriteType = {
+		name = "GFX_mapicon_bar_str_sprite_naval"
+		texturefile = "gfx/interface/mapicons/mapicon_bar_str_sprite_naval.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_mapicon_bar_org_sprite_naval"
+		texturefile = "gfx/interface/mapicons/mapicon_bar_org_sprite_naval.dds"
+		alwaystransparent = yes
+	}
 	#progressbartype = {
 	#	name = "GFX_mapicon_unit_bar_str"
 	#	color = { 0.0 0.5 0.0 }
@@ -394,17 +438,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/mapicons/mapicon_building_navalbase.dds"
 		noOfFrames = 10
 	}
+	
+	spriteType = {
+		name = "GFX_mapicon_land_combat_bombardment_overlay"
+		texturefile = "gfx/interface/mapicons/mapicon_land_combat_bombardment_overlay.dds"
+	}	
 
 	spriteType = {
 		name = "GFX_mapicon_land_combat_frame"
 		texturefile = "gfx/interface/mapicons/mapicon_land_combat_frame.dds"
 		noOfFrames = 2
 	}	
-
-	spriteType = {
-		name = "GFX_mapicon_land_combat_bombardment_overlay"
-		texturefile = "gfx/interface/mapicons/mapicon_land_combat_bombardment_overlay.dds"
-	}		
 	
 	spriteType = {
 		name = "GFX_mapicon_land_combat"
@@ -491,7 +535,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_mapicon_naval_mission_strike_force"
-		texturefile = "gfx/interface/mapicons/mapicon_naval_mission_strike_force.dds"
+		texturefile = "gfx/interface/mapicons/mapicon_naval_mission_strike_force_tw.tga"
 		noOfFrames = 2
 	}
 	spriteType = {
@@ -501,12 +545,12 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_mapicon_naval_mission_mines_planting"
-		texturefile = "gfx/interface/mapicons/mapicon_naval_mission_mines_planting.dds"
+		texturefile = "gfx/interface/mapicons/mapicon_naval_mission_mines_plantingtw.tga"
 		noOfFrames = 2
 	}
 	spriteType = {
 		name = "GFX_mapicon_naval_mission_mines_sweeping"
-		texturefile = "gfx/interface/mapicons/mapicon_naval_mission_mines_sweeping.dds"
+		texturefile = "gfx/interface/mapicons/mapicon_naval_mission_mines_sweepingtw.tga"
 		noOfFrames = 2
 	}
 	spriteType = {
@@ -578,7 +622,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_mapicon_air_supply_active"
-		texturefile = "gfx/interface/mapicons/mapicon_supply_airdrop.dds"
+		texturefile = "gfx/interface/mapicons/mapicon_supply_airdrop_tw.tga"
 	}
 		
 
@@ -811,4 +855,5 @@ spriteType = {
 		texturefile = "gfx/interface/mapicons/on_map_supply_values_bg.dds"
 		noOfFrames = 1
 	}
+	
 }
